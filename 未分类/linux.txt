@@ -1,10 +1,10 @@
-locate可以指定路径搜索，更新数据库
+locate鍙互鎸囧畾璺緞鎼滅储锛屾洿鏂版暟鎹簱
 updatedb -U /opt/gcf -o /opt/gcf/locate.db
 locate -d /opt/gcf/locate.db Main.java
 
-自动输入密码 sshpass
+鑷姩杈撳叆瀵嗙爜 sshpass
 yum install -y sshpass
 sshpass -p 'test1234' ssh -o StrictHostKeyChecking=no test@127.0.0.1 ls
 
-sshpass与expect结合，自动输入密码并切换到root执行命令
+sshpass涓巈xpect缁撳悎锛岃嚜鍔ㄨ緭鍏ュ瘑鐮佸苟鍒囨崲鍒皉oot鎵ц鍛戒护
 expect -c 'spawn sshpass -p test1234 ssh -o  StrictHostKeyChecking=no test@127.0.0.1 "su - root -c id"; expect "assword:"; send "test\r"; interact'

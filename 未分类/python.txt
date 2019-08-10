@@ -1,5 +1,5 @@
 ===
-virtualenv安装使用
+virtualenv瀹夎浣跨敤
 pip install virtualenv
 mkdir env1
 virtualenv env1

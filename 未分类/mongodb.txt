@@ -1,47 +1,47 @@
 ===
-°²×°£º
-¹ÙÍøÏÂÔØµØÖ·£º
+å®‰è£…ï¼š
+å®˜ç½‘ä¸‹è½½åœ°å€ï¼š
 https://www.mongodb.com/download-center/community
 
 https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.9.tgz
 
-½âÑ¹²¢Æô¶¯
+è§£å‹å¹¶å¯åŠ¨
 tar xzf mongodb-linux-x86_64-4.0.9.tgz
 cd mongodb-linux-x86_64-4.0.9/bin
 mkdir -p /data/db
 ./mongod
 
-Æô¶¯Ê±¼àÌıËùÓĞµÄ¶Ë¿Ú
+å¯åŠ¨æ—¶ç›‘å¬æ‰€æœ‰çš„ç«¯å£
 ./mongod --bind_ip_all
 
-¿Í»§¶ËÁ¬½Ó
+å®¢æˆ·ç«¯è¿æ¥
 cd mongodb-linux-x86_64-4.0.9/bin
 ./mongo
 
-²åÈëÒ»¸ödoc
+æ’å…¥ä¸€ä¸ªdoc
 db.mycol.insert({name:"gcf", id:123})
 
-²éÑ¯ËùÓĞµÄĞÅÏ¢
+æŸ¥è¯¢æ‰€æœ‰çš„ä¿¡æ¯
 db.mycol.find().pretty()
 
-ÇĞ»»Êı¾İ¿â£¨Èç¹û²»´æÔÚ´´½¨£©
+åˆ‡æ¢æ•°æ®åº“ï¼ˆå¦‚æœä¸å­˜åœ¨åˆ›å»ºï¼‰
 use runoob
 
-ÏÔÊ¾µ±Ç°Êı¾İ¿â
+æ˜¾ç¤ºå½“å‰æ•°æ®åº“
 db
 
-²é¿´ËùÓĞµÄÊı¾İ¿â£¨´´½¨µÄÊı¾İ¿âĞèÒªinsertºó²ÅÄÜ²éµ½£©
+æŸ¥çœ‹æ‰€æœ‰çš„æ•°æ®åº“ï¼ˆåˆ›å»ºçš„æ•°æ®åº“éœ€è¦insertåæ‰èƒ½æŸ¥åˆ°ï¼‰
 show dbs
 
-ÊäÈëdb.ºó°´tab¿ÉÁªÏë³öËùÓĞÖ§³ÖµÄÃüÁî£¨ÆäËû²Ù×÷Ò²¿ÉÒÔtab£©
+è¾“å…¥db.åæŒ‰tabå¯è”æƒ³å‡ºæ‰€æœ‰æ”¯æŒçš„å‘½ä»¤ï¼ˆå…¶ä»–æ“ä½œä¹Ÿå¯ä»¥tabï¼‰
 
-restheartÊ¹ÓÃ£º
-Æô¶¯restheart
+restheartä½¿ç”¨ï¼š
+å¯åŠ¨restheart
 java -jar -server restheart.jar  etc/restheart.yml
-£¨restheart.ymlÎÄ¼şµÄÄÚÈİ´Óhttps://github.com/SoftInstigate/restheart/blob/master/etc/test/restheart.yml¸´ÖÆ¹ıÀ´£©
+ï¼ˆrestheart.ymlæ–‡ä»¶çš„å†…å®¹ä»https://github.com/SoftInstigate/restheart/blob/master/etc/test/restheart.ymlå¤åˆ¶è¿‡æ¥ï¼‰
 
 
-´´½¨Êı¾İ¿âºÍcollection
+åˆ›å»ºæ•°æ®åº“å’Œcollection
 curl -X PUT  http://localhost:8080/db/coll
-²åÈëÒ»ÌõÊı¾İ
+æ’å…¥ä¸€æ¡æ•°æ®
 curl -X POST -H "Content-Type: application/json" -d '{"name":"gechengfeng3", "id":123}'  http://localhost:8080/db/coll

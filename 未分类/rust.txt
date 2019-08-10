@@ -1,14 +1,14 @@
-Rust°²×°£º
+Rustå®‰è£…ï¼š
 curl -sSf https://static.rust-lang.org/rustup.sh | sh
-°Ñ$HOME/.cargo/bin¼ÓÈëPATH»·¾³±äÁ¿
+æŠŠ$HOME/.cargo/binåŠ å…¥PATHç¯å¢ƒå˜é‡
 
-¾µÏñ
+é•œåƒ
 https://lug.ustc.edu.cn/wiki/mirrors/help/rust-crates
 $HOME/.cargo/config
 [registry]
 index = "http://mirrors.ustc.edu.cn/crates.io-index"
 
-0.13.0ÒÔÉÏ°æ±¾
+0.13.0ä»¥ä¸Šç‰ˆæœ¬
 [source.crates-io]
 registry = "https://github.com/rust-lang/crates.io-index"
 replace-with = 'ustc'

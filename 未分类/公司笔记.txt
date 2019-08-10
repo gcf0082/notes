@@ -1,65 +1,65 @@
-nm -o *ÏÔÊ¾ÎÄ¼şÃû
+nm -o *æ˜¾ç¤ºæ–‡ä»¶å
 cat /proc/cpuinfo
 grep MemTotal /proc/meminfo
 grep MemFree /proc/meminfo 
-chkconfig --list ÁĞËùÓĞ·şÎñ
-rpm -qa Èí¼ş°ü
-lsof -i :31007 ¶Ë¿ÚÕ¼ÓÃ
-Èç¹ûÎÄ¼ş±»ÎóÉ¾£¬µ«ÊÇ½ø³Ì»¹ÔÚ´ò¿ª£¬¿ÉÒÔÍ¨¹ı/proc/pid/fdÏÂÃæ»Ö¸´£¬½áºÏlsof¿ÉÒÔ²é¿´¶ÔÓ¦µÄ¾ä±úºÅ
+chkconfig --list åˆ—æ‰€æœ‰æœåŠ¡
+rpm -qa è½¯ä»¶åŒ…
+lsof -i :31007 ç«¯å£å ç”¨
+å¦‚æœæ–‡ä»¶è¢«è¯¯åˆ ï¼Œä½†æ˜¯è¿›ç¨‹è¿˜åœ¨æ‰“å¼€ï¼Œå¯ä»¥é€šè¿‡/proc/pid/fdä¸‹é¢æ¢å¤ï¼Œç»“åˆlsofå¯ä»¥æŸ¥çœ‹å¯¹åº”çš„å¥æŸ„å·
 lsof +D /opt/xxx
-notepad ³¤°´altÔÙ°´Êı×Ö£¬¿ÉÒÔÊäÈë²»¿É¼û×Ö·û
+notepad é•¿æŒ‰altå†æŒ‰æ•°å­—ï¼Œå¯ä»¥è¾“å…¥ä¸å¯è§å­—ç¬¦
 uniq
-gprofº¯Êıµ÷ÓÃ¹ØÏµ
+gprofå‡½æ•°è°ƒç”¨å…³ç³»
 touch -t 08050102 dstamp
 find . -newer dstamp -print
-tar xvf gcf.tar gcf/aa.txt ½âÑ¹Ò»¸öÎÄ¼ş
-tar -cvf gcf.tar gcf/*.cpp Ñ¹ËõcppÎÄ¼ş
-dd if=/dev/zero of=hello.txt bs=100M count=1 100M¿ÕÎÄ¼ş
-zgrep ËÑË÷tar.gzÎÄ±¾
-ÏÔÊ¾ÎÄ¼şÇ°Îå¸ö×Ö·û
+tar xvf gcf.tar gcf/aa.txt è§£å‹ä¸€ä¸ªæ–‡ä»¶
+tar -cvf gcf.tar gcf/*.cpp å‹ç¼©cppæ–‡ä»¶
+dd if=/dev/zero of=hello.txt bs=100M count=1 100Mç©ºæ–‡ä»¶
+zgrep æœç´¢tar.gzæ–‡æœ¬
+æ˜¾ç¤ºæ–‡ä»¶å‰äº”ä¸ªå­—ç¬¦
 head -c 5 /etc/passwd
 
-ÏÔÊ¾ÎÄ¼şºóÎå¸ö×Ö·û
+æ˜¾ç¤ºæ–‡ä»¶åäº”ä¸ªå­—ç¬¦
 tail -c 5 /etc/passwd
 
-´ÓÎÄ¼şµÚ40ĞĞ¿ªÊ¼ÏÔÊ¾
+ä»æ–‡ä»¶ç¬¬40è¡Œå¼€å§‹æ˜¾ç¤º
 tail -n +40 /etc/passwd
 
-ÍùÎÄ¼ş×·¼Ó¶àĞĞ
+å¾€æ–‡ä»¶è¿½åŠ å¤šè¡Œ
 cat >> /tmp/file.txt << "EOF"
 line1
 line2
 EOF
 
 
-µ÷ÊÔ²¿·Ö½Å±¾
+è°ƒè¯•éƒ¨åˆ†è„šæœ¬
 set -x
 ...
 set +x
 
-²Î¿¼/etc/bash_completion.dÄ¿Â¼ÏÂµÄ½Å±¾£¬¿É×Ô¶¨Òå×Ô¼ºµÄÃüÁî²¹Æë
+å‚è€ƒ/etc/bash_completion.dç›®å½•ä¸‹çš„è„šæœ¬ï¼Œå¯è‡ªå®šä¹‰è‡ªå·±çš„å‘½ä»¤è¡¥é½
 http://kodango.com/bash-competion-programming
 
 ls */*/apps
 vimdiff
-mount -t cifs -o username=g00000 //10.66.90.53/kkkkk /mnt/gcf ¹ÒÔØwindows¹²Ïí
+mount -t cifs -o username=g00000 //10.66.90.53/kkkkk /mnt/gcf æŒ‚è½½windowså…±äº«
 cat /etc/SuSE-release
-xmlwf file.xml ¼ì²éxmlÎÄ¼ş
+xmlwf file.xml æ£€æŸ¥xmlæ–‡ä»¶
 pstree -pa 2442
-cmd="mycmd";command $cmd»òÕßexec -c
-diff -q -r /opt/oss /opt/oss_bak ±È½ÏÄ¿Â¼²îÒì
+cmd="mycmd";command $cmdæˆ–è€…exec -c
+diff -q -r /opt/oss /opt/oss_bak æ¯”è¾ƒç›®å½•å·®å¼‚
 xtail 
 swatch 
-chattrºÍlsattr ÎÄ¼şiÊôĞÔ
-ĞÂ½¨Ò»¸öswap·ÖÇø
+chattrå’Œlsattr æ–‡ä»¶iå±æ€§
+æ–°å»ºä¸€ä¸ªswapåˆ†åŒº
 dd if=/dev/zero of=/home/swap-fs bs=1M count=512
 mkswap /home/swap-fs
 swapon /home/swap-fs
-³¤Ê±¼äÊ¹ÓÃĞ´Èë/etc/fstabÎÄ¼ş£¬ÄÚÈİ
+é•¿æ—¶é—´ä½¿ç”¨å†™å…¥/etc/fstabæ–‡ä»¶ï¼Œå†…å®¹
 /home/swap-fs swap swap defaults 0 0
 
 
-²âÊÔÊÇ·ñÊÇÎÄ±¾ÎÄ¼ş/opt/gcf/bin/testtxt
+æµ‹è¯•æ˜¯å¦æ˜¯æ–‡æœ¬æ–‡ä»¶/opt/gcf/bin/testtxt
 #!/bin/bash
 FILE_PATH=$1
 str=`head -c 10 "$FILE_PATH"|grep --color -o '[[:print:]]'|wc -l`
@@ -70,13 +70,13 @@ fi
 xz -d ***.tar.xz
 ps axjf
 sshfs
-¹ıÂËÖØ¸´µÄÃüÁî
+è¿‡æ»¤é‡å¤çš„å‘½ä»¤
 extrace -d |grep -v /opt/gcf/temp |sh my.sh
-my.shµÄÄÚÈİÎª£º
+my.shçš„å†…å®¹ä¸ºï¼š
 #!/bin/sh
 if [ $# -gt 0 ];then
 exec 0<$1;
-#ÅĞ¶ÏÊÇ·ñ´«Èë²ÎÊı£ºÎÄ¼şÃû£¬Èç¹û´«Èë£¬½«¸ÃÎÄ¼ş°ó¶¨µ½±ê×¼ÊäÈë
+#åˆ¤æ–­æ˜¯å¦ä¼ å…¥å‚æ•°ï¼šæ–‡ä»¶åï¼Œå¦‚æœä¼ å…¥ï¼Œå°†è¯¥æ–‡ä»¶ç»‘å®šåˆ°æ ‡å‡†è¾“å…¥
 fi
 while read line
 do
@@ -98,24 +98,24 @@ else
   echo "$line" > /opt/gcf/temp/extrace_tmp2.txt
 fi
 done<&0;
-#Í¨¹ı±ê×¼ÊäÈëÑ­»·¶ÁÈ¡ÄÚÈİ
+#é€šè¿‡æ ‡å‡†è¾“å…¥å¾ªç¯è¯»å–å†…å®¹
 exec 0&-;
-#½â³ı±ê×¼ÊäÈë°ó¶¨
+#è§£é™¤æ ‡å‡†è¾“å…¥ç»‘å®š
 
 
-ÒÔK£¬Mµ¥Î»ÏÔÊ¾ÎÄ¼ş´óĞ¡
+ä»¥Kï¼ŒMå•ä½æ˜¾ç¤ºæ–‡ä»¶å¤§å°
 ls -hl
 
-lsÖ»ÏÔÊ¾Ä¿Â¼ĞÅÏ¢£¬²»ÏÔÊ¾Ä¿Â¼ÏÂµÄÎÄ¼ş
+lsåªæ˜¾ç¤ºç›®å½•ä¿¡æ¯ï¼Œä¸æ˜¾ç¤ºç›®å½•ä¸‹çš„æ–‡ä»¶
 ls -dl
 
-echo²»´ø»»ĞĞµÄ·½·¨
+echoä¸å¸¦æ¢è¡Œçš„æ–¹æ³•
 echo -e "xxx\c"
-»òÕß
+æˆ–è€…
 echo -n "xxx"
 
 echo "ABCddd"|tr A-Z a-z
-ÉèÖÃ»ñÈ¡È«¾Ö±äÁ¿
+è®¾ç½®è·å–å…¨å±€å˜é‡
 org.zaproxy.zap.extension.script.ScriptVars.setGlobalVar("gcf", "xx2");
 org.zaproxy.zap.extension.script.ScriptVars.getGlobalVar
 
@@ -133,44 +133,44 @@ msg3 = new HttpMessage(uri);
 helper.getHttpSender().sendAndReceive(msg3, false);
 }
 
-Stand alone½Å±¾ĞèÒªÊÖ¹¤µã»÷Run°´Å¥
+Stand aloneè„šæœ¬éœ€è¦æ‰‹å·¥ç‚¹å‡»RunæŒ‰é’®
 
-¿ÉÒÔ¿½±´Ö»¼ôÌù°å
+å¯ä»¥æ‹·è´åªå‰ªè´´æ¿
 string += "'"+msg.getRequestHeader().getURI().toString()+"'";
 selected = new java.awt.datatransfer.StringSelection(string);
 clipboard = java.awt.Toolkit.getDefaultToolkit().getSystemClipboard();
 clipboard.setContents(selected,null);
 
-ÊµÏÖÁËTab½Ó¿Ú¾ÍÓĞÀàËÆ¶ÏµãÒ»ÑùµÄÒ³Ç©
+å®ç°äº†Tabæ¥å£å°±æœ‰ç±»ä¼¼æ–­ç‚¹ä¸€æ ·çš„é¡µç­¾
 public class BreakPanel extends AbstractPanel implements Tab
 
-´ò¿ªurl
+æ‰“å¼€url
 org.zaproxy.zap.utils.DesktopUtils.openUrlInBrowser(
 "http://www.cvedetails.com/google-search-results.php?q=" + encodeURIComponent(header) + 
 "&sa=Search");
 }
 
-½Å±¾µ¯¿ò·½·¨
+è„šæœ¬å¼¹æ¡†æ–¹æ³•
 org.parosproxy.paros.view.View.getSingleton().showMessageDialog("xxx")
 
-Output¿òÌí¼ÓÄÚÈİ
+Outputæ¡†æ·»åŠ å†…å®¹
 org.parosproxy.paros.view.View.getSingleton().getOutputPanel().append(contents)
 
-²å¼şÃû×Ö¸ñÊ½ÒªÇó£¬Àı×Ó£º
+æ’ä»¶åå­—æ ¼å¼è¦æ±‚ï¼Œä¾‹å­ï¼š
 simple-release-1.zap
 
-zapµ×²ã·¢ËÍÇëÇóµÄº¯Êı
+zapåº•å±‚å‘é€è¯·æ±‚çš„å‡½æ•°
 org.parosproxy.paros.network.HttpSender.runMethod(HttpMessage, boolean)
 
 
-proxy·¢ËÍÇëÇó»Øµ÷½Ó¿Ú
+proxyå‘é€è¯·æ±‚å›è°ƒæ¥å£
 org.parosproxy.paros.core.proxy.ConnectRequestProxyListener.receivedConnectRequest
 
 
-zap×Ô´øµÄ²å¼şÔÚ
-org.zaproxy.zap.extension °üÏÂºÍpluginÄ¿Â¼ÏÂ
+zapè‡ªå¸¦çš„æ’ä»¶åœ¨
+org.zaproxy.zap.extension åŒ…ä¸‹å’Œpluginç›®å½•ä¸‹
 
-Í¨¹ıÈçÏÂ½Ó¿Ú¿É»ñÈ¡Ö¸¶¨µÄ²å¼şÊµÀı
+é€šè¿‡å¦‚ä¸‹æ¥å£å¯è·å–æŒ‡å®šçš„æ’ä»¶å®ä¾‹
 org.parosproxy.paros.control.Control.getSingleton().getExtensionLoader().getExtension("ExtensionHistory")
 
 org.zaproxy.zap.ZAP.main
@@ -186,67 +186,67 @@ readelf -s /bin/ls|grep __stack_chk_fail
 readelf -s /bin/ls|grep GNU_STACK|grep GWE
 
 jdb
-´òÓ¡ÇëÇóÍ·
+æ‰“å°è¯·æ±‚å¤´
 print request.getHeaderNames().this$0._names
 
-jdb´òÓ¡ËùÓĞµÄÍ·
+jdbæ‰“å°æ‰€æœ‰çš„å¤´
 print context.getHttpServletRequest().request.request.facade.request.getHeaderNames().headers
 print context.getHttpServletRequest().getHeaderNames().val$buffers.val$c
 
-ÓëÃÜÂëÏà¹ØµÄ¶Ô»°¿ò
+ä¸å¯†ç ç›¸å…³çš„å¯¹è¯æ¡†
 find ./ -name "*.html" -o -name "*.jsp" -o -name "*.usl"|xargs grep "type=\"password\""
 
-»ñÈ¡ÎÄ¼şÀàĞÍ
+è·å–æ–‡ä»¶ç±»å‹
 find -type f|awk -F/ '{print $NF}'|awk -F. '{print $NF}'|sort -u
 
-ËÑË÷ÎÄ¼şºó°´´óĞ¡ÅÅĞò
+æœç´¢æ–‡ä»¶åæŒ‰å¤§å°æ’åº
 find -name "*.as"|xargs -i ls -l {}|sort +4n
 
-¹ıÂËËùÓĞµÄÇëÇó²ÎÊı£¬ÒÑ½«Ê±¼äÆÁ±Î
+è¿‡æ»¤æ‰€æœ‰çš„è¯·æ±‚å‚æ•°ï¼Œå·²å°†æ—¶é—´å±è”½
 tail -f ./netmatrix/Bus/nginx/access_er.log|sed 's/_=[0-9]\{13\}//g'|grep -v isActived|awk -F? '{print $2}'|grep -v "HTTP/1.1"|grep -v "^ "|awk -F"\"" '{print $1}'|grep -v "^ "
 
-×Ô¶¯Ôö¼ÓÆô¶¯²ÎÊı
+è‡ªåŠ¨å¢åŠ å¯åŠ¨å‚æ•°
 find /opt/oss/ -name start.sh|xargs sed -i '/JVM_OPT=\"\$AGENT_ARG\"/a. /opt/gcf/netmatris/byteman/profile #added by gechengfeng'
 
-»ñÈ¡³ÌĞò¿ÉÄÜ´¦ÀíµÄºó×ºÃû
+è·å–ç¨‹åºå¯èƒ½å¤„ç†çš„åç¼€å
 find ../icto_just/ -name "*.java"|xargs grep -P --color -h '"\.([a-z]{3}|html|docx|xlsx)"'
 
-¹ıÂËÖØ¸´µÄÊı×Ö£¬±ÈÈçpid
+è¿‡æ»¤é‡å¤çš„æ•°å­—ï¼Œæ¯”å¦‚pid
 cat /opt/gcf/temp/exec.txt|awk -F% '{print $2}'|sed 's/[0-9]/0/g'|sort -u|more
 
-ËÑË÷ËùÓĞ´¦ÀíÎÄ¼şºó×ºÃûµÄµØ·½£º
+æœç´¢æ‰€æœ‰å¤„ç†æ–‡ä»¶åç¼€åçš„åœ°æ–¹ï¼š
 find -name "*.java"|xargs grep -P -o '\"\.[a-z]{2,4}\"'
 
-ËÑË÷¹¤ºÅÃüÁî
+æœç´¢å·¥å·å‘½ä»¤
 oss find code *.js,*.jsp,*.html|xargs grep '[a-z][0-9]\{8\}'|cut -c-200 > /opt/gcf/temp.txt
 oss find code *.js,*.jsp|xargs grep '[a-z]\{4,20\} [0-9]\{5,8\}' >> /opt/gcf/temp.txt
 
-Ìæ»»xshellÖĞµÄip
+æ›¿æ¢xshellä¸­çš„ip
 perl -p -i -e 's/(?<=Host=10.145.212.)\d{2,3}/78/g' 77.xsh
 
-È«ÅÌËÑË÷ÏµÍ³ÓĞs±êÖ¾µÄÎÄ¼ş£¨ÆÕÍ¨ÓÃ»§¿ÉÒÔÒÔrootÈ¨ÏŞÖ´ĞĞµÄÃüÁî£©
+å…¨ç›˜æœç´¢ç³»ç»Ÿæœ‰sæ ‡å¿—çš„æ–‡ä»¶ï¼ˆæ™®é€šç”¨æˆ·å¯ä»¥ä»¥rootæƒé™æ‰§è¡Œçš„å‘½ä»¤ï¼‰
 find / -perm -4000 -type f
 
-×Ô¶¯¸ñÊ½»¯javascriptÎÄ¼ş
+è‡ªåŠ¨æ ¼å¼åŒ–javascriptæ–‡ä»¶
 node node_modules/js-beautify/js/bin/js-beautify.js -r /opt/gcf/temp/fileupload.js
 https://www.npmjs.com/package/js-beautify
 
-·´±àÒëpython
+åç¼–è¯‘python
 uncompyle2 -o ./ --py /opt/gcf/temp/MaintainRedis.pyc
 
-É¾³ıÖØ¸´ÎÄ¼ş
+åˆ é™¤é‡å¤æ–‡ä»¶
 fdupes -r -n -I -d ./
 
-fatrace--¼à¿ØÎÄ¼şÊÇ±»ÄÇ¸ö½ø³Ì´ò¿ªµÄ£¨Ã²ËÆµÍ°æ±¾²»ÄÜÓÃ£©
+fatrace--ç›‘æ§æ–‡ä»¶æ˜¯è¢«é‚£ä¸ªè¿›ç¨‹æ‰“å¼€çš„ï¼ˆè²Œä¼¼ä½ç‰ˆæœ¬ä¸èƒ½ç”¨ï¼‰
 https://launchpad.net/fatrace/+download
 
-Ñ¹ËõÎÄ¼şÂ·¾¶´ø../../
+å‹ç¼©æ–‡ä»¶è·¯å¾„å¸¦../../
 tar --absolute-names -cvf gcf.tar "/tmp/GaussInstallTmp/../../etc/shadow_gcf"
 
-ËÑË÷µ÷ÓÃdoGetµÄ´úÂë
+æœç´¢è°ƒç”¨doGetçš„ä»£ç 
 find -name "*.java"|xargs grep -P '^[\s]*doGet\('
 
-ÀûÓÃtcpdump×¥°üsqlÓï¾ä
+åˆ©ç”¨tcpdumpæŠ“åŒ…sqlè¯­å¥
 #!/bin/bash
 #this script used montor mysql network traffic.echo sql
 tcpdump -i eth0 -s 0 -l -w - dst port 3306 | strings | perl -e '
@@ -260,14 +260,14 @@ while(<>) { chomp; next if /^[^ ]+[ ]*$/;
  }
 }'
 
-²éÕÒÁĞ±í°üº¬usernameµÄ±í
+æŸ¥æ‰¾åˆ—è¡¨åŒ…å«usernameçš„è¡¨
 SELECT table_name FROM information_schema.columns WHERE column_name = 'username';
 SELECT table_name FROM information_schema.columns WHERE column_name = 'password';
 
- chrome.exe --remote-debugging-port=9222 --user-data-dir=remote-profile¡£Ô¶³Ì»á»°±ØĞëÊ¹ÓÃ²»Í¬µÄ Chrome ÊµÀı£¬ËùÒÔÔËĞĞÊ±Òª¼Ó --user-data-dir ²ÎÊı¡£
+ chrome.exe --remote-debugging-port=9222 --user-data-dir=remote-profileã€‚è¿œç¨‹ä¼šè¯å¿…é¡»ä½¿ç”¨ä¸åŒçš„ Chrome å®ä¾‹ï¼Œæ‰€ä»¥è¿è¡Œæ—¶è¦åŠ  --user-data-dir å‚æ•°ã€‚
 
-¶Ë¿Ú×ª·¢£¨¿ÉwindowsÊ¹ÓÃ£©
+ç«¯å£è½¬å‘ï¼ˆå¯windowsä½¿ç”¨ï¼‰
 socat tcp-listen:5656,fork tcp:localhost:1337
 
-socat windows°æ±¾
+socat windowsç‰ˆæœ¬
 https://github.com/StudioEtrange/socat-windows

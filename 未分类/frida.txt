@@ -1,6 +1,6 @@
-安装
+瀹夎
 pip install frida-tools
 pip install frida
 
-跟踪函数调用
+璺熻釜鍑芥暟璋冪敤
 frida-trace -i "recv*" -i "read*" *twitter*

@@ -1,11 +1,11 @@
 curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://gcf0082.m.daocloud.io
 
-Á¬½ÓÁ½¸öÈİÆ÷Ê¹ËüÃÇÖ±½ÓµÄÍøÂç»¥Í¨
+è¿æ¥ä¸¤ä¸ªå®¹å™¨ä½¿å®ƒä»¬ç›´æ¥çš„ç½‘ç»œäº’é€š
 docker run -d --name node --link selenium_hub:hub selenium/node-chrome-debug
 
 
-½«ÈİÆ÷ÖĞµÄĞŞ¸Ä£¬¹¹Ôì³ÉĞÂµÄÈİÆ÷
+å°†å®¹å™¨ä¸­çš„ä¿®æ”¹ï¼Œæ„é€ æˆæ–°çš„å®¹å™¨
 docker commit -m "my add someting" -a "new" 0b2616b0e5a8 ouruser/sinatra:v2
 
-²é¿´ËùÓĞµÄÈİÆ÷£¬°üÀ¨ÒÑ¾­Í£Ö¹µÄ
+æŸ¥çœ‹æ‰€æœ‰çš„å®¹å™¨ï¼ŒåŒ…æ‹¬å·²ç»åœæ­¢çš„
 docker ps -a

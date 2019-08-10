@@ -1,15 +1,15 @@
-ÃüÁîĞĞ
+å‘½ä»¤è¡Œ
 code --help
 
-Ìø×ªµ½Ö¸¶¨ÎÄ¼şÖ¸¶¨ĞĞ
+è·³è½¬åˆ°æŒ‡å®šæ–‡ä»¶æŒ‡å®šè¡Œ
 -g --goto <file:line[:character]>
 
 
-centos 7.xÏÂ£¬°²×°vscode
+centos 7.xä¸‹ï¼Œå®‰è£…vscode
 https://blog.csdn.net/zdhsoft/article/details/73457259
 
-VSCode²å¼ş¿ª·¢¼±ËÙÈëÃÅ
+VSCodeæ’ä»¶å¼€å‘æ€¥é€Ÿå…¥é—¨
 https://juejin.im/entry/5b50509d5188251967307780
 
-Ö´ĞĞyo code±¨´íµÄ½â¾ö°ì·¨ (chmod -R 777 /root/.config)
+æ‰§è¡Œyo codeæŠ¥é”™çš„è§£å†³åŠæ³• (chmod -R 777 /root/.config)
 https://github.com/keystonejs/keystone/issues/1566

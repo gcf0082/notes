@@ -1,8 +1,8 @@
-ÏÂÔØ½âÑ¹£¨¹ÙÍøÏÂÔØµØÖ·£ºhttps://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation.html£©
+ä¸‹è½½è§£å‹ï¼ˆå®˜ç½‘ä¸‹è½½åœ°å€ï¼šhttps://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation.htmlï¼‰
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.2.0-linux-x86_64.tar.gz
 tar xzvf filebeat-7.2.0-linux-x86_64.tar.gz
 
-×¢ÒâÄ¬ÈÏµÄfilebeat.ymlÎÄ¼şÖĞµÄÊäÈëÂ·¾¶¼à¿ØÊÇ½ûÓÃµÄ
+æ³¨æ„é»˜è®¤çš„filebeat.ymlæ–‡ä»¶ä¸­çš„è¾“å…¥è·¯å¾„ç›‘æ§æ˜¯ç¦ç”¨çš„
 - type: log
 
   # Change to true to enable this input configuration.
@@ -13,24 +13,24 @@ tar xzvf filebeat-7.2.0-linux-x86_64.tar.gz
     - /var/log/*.log
     #- c:\programdata\elasticsearch\logs\*
 
-ÅäÖÃ¼à¿ØÊäÈëµÄÀı×Ó£º£¨½«ÊäÈëÊä³öµ½¿ØÖÆÌ¨£©
+é…ç½®ç›‘æ§è¾“å…¥çš„ä¾‹å­ï¼šï¼ˆå°†è¾“å…¥è¾“å‡ºåˆ°æ§åˆ¶å°ï¼‰
 filebeat.inputs:
 - type: stdin
 output.console:
   pretty: true
 
-È»ºóÔËĞĞ¼´¿É£º
+ç„¶åè¿è¡Œå³å¯ï¼š
 tail -F /root/gcf/temp/logs/gcf.log |./filebeat
 
 
-¹Ù·½²Î¿¼£º
+å®˜æ–¹å‚è€ƒï¼š
 https://www.elastic.co/guide/en/beats/filebeat/current/index.html
 
-»¹ÓĞ¸÷ÖÖÆäËûµÄbeats
+è¿˜æœ‰å„ç§å…¶ä»–çš„beats
 https://www.elastic.co/cn/products/beats
 
-ÉçÇø»¹ÓĞ¸ü¶àµÄbeats
+ç¤¾åŒºè¿˜æœ‰æ›´å¤šçš„beats
 https://www.elastic.co/guide/en/beats/libbeat/current/community-beats.html
 
-¸÷ÖÖbeatsµÄÔ´Âë
+å„ç§beatsçš„æºç 
 https://github.com/elastic/beats

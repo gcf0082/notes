@@ -1,21 +1,21 @@
-Ê¹ÓÃÃÜÂëµÇÂ¼Ä¬ÈÏ±¨ÈçÏÂ´íÎó
+ä½¿ç”¨å¯†ç ç™»å½•é»˜è®¤æŠ¥å¦‚ä¸‹é”™è¯¯
 root@kali:~# ansible webserver -m raw -a "date"
 192.168.227.131 | FAILED | rc=-1 >>
 to use the 'ssh' connection type with passwords, you must install the sshpass program
 
-µÄ½â¾ö°ì·¨£º´ÓÍøÕ¾ÉÏÏÂÔØ´úÂë£¬http://sourceforge.net/projects/sshpass/
+çš„è§£å†³åŠæ³•ï¼šä»ç½‘ç«™ä¸Šä¸‹è½½ä»£ç ï¼Œhttp://sourceforge.net/projects/sshpass/
 	
 tar -zxvf sshpass-1.05.tar.gz
 cd sshpass-1.05
 ./configure
 make && make install
 
-ÏÈ´´½¨/etc/ansibleÄ¿Â¼
+å…ˆåˆ›å»º/etc/ansibleç›®å½•
 mkdir -p /etc/ansible
 
-´´½¨/etc/ansible/hostsÎÄ¼ş
+åˆ›å»º/etc/ansible/hostsæ–‡ä»¶
 [test]
 192.168.227.131 ansible_ssh_user=root ansible_ssh_host=192.168.227.131 ansible_ssh_pass="test"
 
-Ö´ĞĞÃüÁî
+æ‰§è¡Œå‘½ä»¤
 ansible test -m raw -a "date"

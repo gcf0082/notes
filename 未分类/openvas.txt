@@ -1,14 +1,14 @@
-Æô¶¯
+å¯åŠ¨
 docker run -d -p 443:443 --name openvas mikesplain/openvas
 
-µÇÂ¼±¨ÈçÏÂ´íÎóµÄ½â¾ö·½·¨£º
+ç™»å½•æŠ¥å¦‚ä¸‹é”™è¯¯çš„è§£å†³æ–¹æ³•ï¼š
 /etc/default/openvas-gsa
 ALLOW_HEADER_HOST=192.168.0.101
-È»ºóÖØÆôgsa
+ç„¶åé‡å¯gsa
 /etc/init.d/openvas-gsa restart
 
-´íÎó£º
+é”™è¯¯ï¼š
 The request contained an unknown or invalid Host header. If you are trying to access GSA via its hostname or a proxy, make sure GSA is set up to allow it.
 
-²å¼şÂ·¾¶£º
+æ’ä»¶è·¯å¾„ï¼š
 /var/lib/openvas/plugins/

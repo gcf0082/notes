@@ -1,2 +1,2 @@
-windows jdb远程调试参数
-jdb -connect com.sun.jdi.SocketAttach:hostname=localhost，port=8700
+windows jdb杩滅▼璋冭瘯鍙傛暟
+jdb -connect com.sun.jdi.SocketAttach:hostname=localhost锛宲ort=8700

@@ -7,5 +7,5 @@ Soot started on Mon May 27 02:15:13 CST 2019
 Soot finished on Mon May 27 02:15:40 CST 2019
 Soot has run for 0 min. 26 sec.
 
-命令行启动参数参考：
+鍛戒护琛屽惎鍔ㄥ弬鏁板弬鑰冿細
 https://www.sable.mcgill.ca/soot/tutorial/usage/

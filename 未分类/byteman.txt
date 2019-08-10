@@ -1,27 +1,27 @@
-bytemanÄÜ×öÊ²Ã´£º
-¸ú×Ùº¯Êý½øÈë£¬ÍË³ö
-º¯ÊýÖ¸¶¨ÐÐ
-º¯ÊýÖÐ±äÁ¿£¬²ÎÊýµÄ¶ÁÐ´¿ªÊ¼ºÍ½áÊøµÄ¸ú×Ù£¨¿ÉÖ¸¶¨´ÎÊý£©
-µ÷ÓÃÆäËûº¯Êý¿ªÊ¼ºÍ½áÊøµÄ¸ú×Ù
-Í¬²½ËøµÄ½øÈëÍË³ö
-Òì³£Å×³ö
+bytemanèƒ½åšä»€ä¹ˆï¼š
+è·Ÿè¸ªå‡½æ•°è¿›å…¥ï¼Œé€€å‡º
+å‡½æ•°æŒ‡å®šè¡Œ
+å‡½æ•°ä¸­å˜é‡ï¼Œå‚æ•°çš„è¯»å†™å¼€å§‹å’Œç»“æŸçš„è·Ÿè¸ªï¼ˆå¯æŒ‡å®šæ¬¡æ•°ï¼‰
+è°ƒç”¨å…¶ä»–å‡½æ•°å¼€å§‹å’Œç»“æŸçš„è·Ÿè¸ª
+åŒæ­¥é”çš„è¿›å…¥é€€å‡º
+å¼‚å¸¸æŠ›å‡º
 
 
 
-¸ú×Ù½Ó¿Ú£º
+è·Ÿè¸ªæŽ¥å£ï¼š
 INTERFACE com.arjuna.wst11.messaging.engines.Engine
 
-¸ú×Ù¸¸Àà£º
+è·Ÿè¸ªçˆ¶ç±»ï¼š
 CLASS ^java.lang.Object
 
-$!  AT EXITµÄ·µ»ØÖµ£¬ÒÔ¼°AFTER INVOKEµÄ·µ»ØÖµ
-$^  AT THROWµÄÒì³£±äÁ¿
+$!  AT EXITçš„è¿”å›žå€¼ï¼Œä»¥åŠAFTER INVOKEçš„è¿”å›žå€¼
+$^  AT THROWçš„å¼‚å¸¸å˜é‡
 
-$#  º¯ÊýµÄ²ÎÊý¸öÊý
-$1  ²ÎÊýµÚÒ»¸ö²ÎÊý
-$this º¯ÊýµÄthisÖ¸Õë£¬staticº¯ÊýÎªnull
-$@  Ö»ÔÚAT INVOKEÓÐÐ§£¬±íÊ¾º¯Êý²ÎÊýÊý×é
-$CLASS  ±»¸ú×Ùº¯ÊýµÄÀàÃû
-$METHOD  ±»¸ú×Ùº¯ÊýµÄ·½·¨Ãû
+$#  å‡½æ•°çš„å‚æ•°ä¸ªæ•°
+$1  å‚æ•°ç¬¬ä¸€ä¸ªå‚æ•°
+$this å‡½æ•°çš„thisæŒ‡é’ˆï¼Œstaticå‡½æ•°ä¸ºnull
+$@  åªåœ¨AT INVOKEæœ‰æ•ˆï¼Œè¡¨ç¤ºå‡½æ•°å‚æ•°æ•°ç»„
+$CLASS  è¢«è·Ÿè¸ªå‡½æ•°çš„ç±»å
+$METHOD  è¢«è·Ÿè¸ªå‡½æ•°çš„æ–¹æ³•å
 
 java -classpath ./myheler.jar -javaagent:$BYTEMAN_HOME/lib/byteman.jar=script:$BYTEMAN_HOME/my/my.btm,boot:$BYTEMAN_HOME/lib/byteman.jar com.gcf.byteman.helper.Main

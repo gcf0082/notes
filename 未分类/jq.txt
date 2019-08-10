@@ -1,7 +1,7 @@
-±È½ÏÏêÏ¸µÄ²ÎÊı½éÉÜ
+æ¯”è¾ƒè¯¦ç»†çš„å‚æ•°ä»‹ç»
 https://www.freebsd.org/cgi/man.cgi?query=jq&sektion=1
 
-¼òµ¥µÄÊ¹ÓÃjq·Ö¸ôÊı¾İ×ª»»³Éjson
+ç®€å•çš„ä½¿ç”¨jqåˆ†éš”æ•°æ®è½¬æ¢æˆjson
 [root@bogon jq]# cat myps.txt 
 root 123 /bin/java
 gcf 456 /bin/pwd
@@ -23,7 +23,7 @@ map(split(" "))| .[] |
   "pid": "456"
 }
 
-ÁíÍâÒ»¸öÖĞÃ²ËÆ·Ö¸ô¸ü¼òµ¥µÄ·½·¨
+å¦å¤–ä¸€ä¸ªä¸­è²Œä¼¼åˆ†éš”æ›´ç®€å•çš„æ–¹æ³•
 [root@test-dhcp ~]# cat test.json 
 liuxin,30,male
 jiaweiqiang,29,femal

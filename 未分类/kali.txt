@@ -1,4 +1,4 @@
-¸üĞÂexploit-dbÊı¾İ¿â£¨±£Ö¤searchsploitÃüÁîËÑË÷µ½ÊÇ×îĞÂµÄ£©
+æ›´æ–°exploit-dbæ•°æ®åº“ï¼ˆä¿è¯searchsploitå‘½ä»¤æœç´¢åˆ°æ˜¯æœ€æ–°çš„ï¼‰
 echo "Updating The Exploit-DB"
 cd /usr/share/exploitdb/
 wget http://www.exploit-db.com/archive.tar.bz2

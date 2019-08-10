@@ -1,15 +1,15 @@
-°²×°Ö¸µ¼
+å®‰è£…æŒ‡å¯¼
 https://reactnative.cn/docs/getting-started.html
 
-°²×°¹ı³ÌÎŞ·¨ÏÂÔØgradle-5.4.1-all.zipµÄ½â¾ö°ì·¨£º
-ÔÚ±¾µØÓÃpython -m SimpleHTTPServer´î½¨Ò»¸ö·şÎñ
-È»ºóĞŞ¸ÄÎÄ¼ş£ºF:\gcf\react_native\AwesomeProject2\android\gradle\wrapper\gradle-wrapper.properties
+å®‰è£…è¿‡ç¨‹æ— æ³•ä¸‹è½½gradle-5.4.1-all.zipçš„è§£å†³åŠæ³•ï¼š
+åœ¨æœ¬åœ°ç”¨python -m SimpleHTTPServeræ­å»ºä¸€ä¸ªæœåŠ¡
+ç„¶åä¿®æ”¹æ–‡ä»¶ï¼šF:\gcf\react_native\AwesomeProject2\android\gradle\wrapper\gradle-wrapper.properties
 distributionUrl=http\://127.0.0.1:8000/gradle-5.4.1-all.zip
 
 
-±ğÈË»ıÀÛµÄ¿Óµã
+åˆ«äººç§¯ç´¯çš„å‘ç‚¹
 https://www.jianshu.com/p/841a00ca71b6
 
-»ªÎªÊÖ»úÕæ»úÎŞ·¨°²×°adbÇı¶¯£º
-È¥https://consumer.huawei.com/cn/support/hisuite/ÏÂÔØ»ªÎªÊÖ»úÖúÊÖ
+åä¸ºæ‰‹æœºçœŸæœºæ— æ³•å®‰è£…adbé©±åŠ¨ï¼š
+å»https://consumer.huawei.com/cn/support/hisuite/ä¸‹è½½åä¸ºæ‰‹æœºåŠ©æ‰‹
 

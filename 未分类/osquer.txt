@@ -1,16 +1,16 @@
-¹ÙÍøÏÂÔØ°²×°°ü½âÑ¹¼´¿ÉÊ¹ÓÃ
+å®˜ç½‘ä¸‹è½½å®‰è£…åŒ…è§£å‹å³å¯ä½¿ç”¨
 https://osquery.io/
 
 tar xzf osquery-3.3.2_1.linux_x86_64.tar.gz
 ./usr/bin/osqueryi
 select * from users;
 
-²é¿´°ïÖú
+æŸ¥çœ‹å¸®åŠ©
 .help
 
-²é¿´ÏµÍ³±í
+æŸ¥çœ‹ç³»ç»Ÿè¡¨
 .table
 
-Êä³öÊÇjson¸ñÊ½
+è¾“å‡ºæ˜¯jsonæ ¼å¼
 osqueryi --json
 
