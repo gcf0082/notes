@@ -3,6 +3,6 @@ npm install -g electron
 
 https://www.jianshu.com/p/d005213283e3
 
-ElectronÊ¹ÓÃ¿ìËÙÈëÃÅ
+Electronä½¿ç”¨å¿«é€Ÿå…¥é—¨
 https://baijiahao.baidu.com/s?id=1622258269985547290&wfr=spider&for=pc
 
