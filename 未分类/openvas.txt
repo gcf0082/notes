@@ -1,0 +1,14 @@
+启动
+docker run -d -p 443:443 --name openvas mikesplain/openvas
+
+登录报如下错误的解决方法：
+/etc/default/openvas-gsa
+ALLOW_HEADER_HOST=192.168.0.101
+然后重启gsa
+/etc/init.d/openvas-gsa restart
+
+错误：
+The request contained an unknown or invalid Host header. If you are trying to access GSA via its hostname or a proxy, make sure GSA is set up to allow it.
+
+插件路径：
+/var/lib/openvas/plugins/

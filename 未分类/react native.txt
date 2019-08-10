@@ -1,0 +1,15 @@
+安装指导
+https://reactnative.cn/docs/getting-started.html
+
+安装过程无法下载gradle-5.4.1-all.zip的解决办法：
+在本地用python -m SimpleHTTPServer搭建一个服务
+然后修改文件：F:\gcf\react_native\AwesomeProject2\android\gradle\wrapper\gradle-wrapper.properties
+distributionUrl=http\://127.0.0.1:8000/gradle-5.4.1-all.zip
+
+
+别人积累的坑点
+https://www.jianshu.com/p/841a00ca71b6
+
+华为手机真机无法安装adb驱动：
+去https://consumer.huawei.com/cn/support/hisuite/下载华为手机助手
+

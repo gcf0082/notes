@@ -1,0 +1,54 @@
+比较详细的参数介绍
+https://www.freebsd.org/cgi/man.cgi?query=jq&sektion=1
+
+简单的使用jq分隔数据转换成json
+[root@bogon jq]# cat myps.txt 
+root 123 /bin/java
+gcf 456 /bin/pwd
+[root@bogon jq]# cat ps.jq
+split("\n") | 
+map(split(" "))| .[] |
+{
+"user": .[0],
+"pid": .[1]
+}
+
+[root@bogon jq]# jq -R -f ps.jq myps.txt 
+{
+  "user": "root",
+  "pid": "123"
+}
+{
+  "user": "gcf",
+  "pid": "456"
+}
+
+另外一个中貌似分隔更简单的方法
+[root@test-dhcp ~]# cat test.json 
+liuxin,30,male
+jiaweiqiang,29,femal
+[root@test-dhcp ~]# jq -R 'split(",")|{"name":.[0],"age":.[1],"sex":.[2]}' ./test.json 
+{
+  "name": "liuxin",
+  "age": "30",
+  "sex": "male"
+}
+{
+  "name": "jiaweiqiang",
+  "age": "29",
+  "sex": "femal"
+}
+[root@test-dhcp ~]# cat test.json 
+{
+  "name": "liuxin",
+  "age": "30",
+  "sex": "male"
+}
+{
+  "name": "jiaweiqiang",
+  "age": "29",
+  "sex": "femal"
+}
+[root@test-dhcp ~]# cat test.json |jq . -c
+{"name":"liuxin","age":"30","sex":"male"}
+{"name":"jiaweiqiang","age":"29","sex":"femal"}

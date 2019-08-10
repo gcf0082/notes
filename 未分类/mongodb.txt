@@ -1,0 +1,47 @@
+===
+安装：
+官网下载地址：
+https://www.mongodb.com/download-center/community
+
+https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.9.tgz
+
+解压并启动
+tar xzf mongodb-linux-x86_64-4.0.9.tgz
+cd mongodb-linux-x86_64-4.0.9/bin
+mkdir -p /data/db
+./mongod
+
+启动时监听所有的端口
+./mongod --bind_ip_all
+
+客户端连接
+cd mongodb-linux-x86_64-4.0.9/bin
+./mongo
+
+插入一个doc
+db.mycol.insert({name:"gcf", id:123})
+
+查询所有的信息
+db.mycol.find().pretty()
+
+切换数据库（如果不存在创建）
+use runoob
+
+显示当前数据库
+db
+
+查看所有的数据库（创建的数据库需要insert后才能查到）
+show dbs
+
+输入db.后按tab可联想出所有支持的命令（其他操作也可以tab）
+
+restheart使用：
+启动restheart
+java -jar -server restheart.jar  etc/restheart.yml
+（restheart.yml文件的内容从https://github.com/SoftInstigate/restheart/blob/master/etc/test/restheart.yml复制过来）
+
+
+创建数据库和collection
+curl -X PUT  http://localhost:8080/db/coll
+插入一条数据
+curl -X POST -H "Content-Type: application/json" -d '{"name":"gechengfeng3", "id":123}'  http://localhost:8080/db/coll

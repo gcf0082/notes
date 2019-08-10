@@ -1,0 +1,21 @@
+使用密码登录默认报如下错误
+root@kali:~# ansible webserver -m raw -a "date"
+192.168.227.131 | FAILED | rc=-1 >>
+to use the 'ssh' connection type with passwords, you must install the sshpass program
+
+的解决办法：从网站上下载代码，http://sourceforge.net/projects/sshpass/
+	
+tar -zxvf sshpass-1.05.tar.gz
+cd sshpass-1.05
+./configure
+make && make install
+
+先创建/etc/ansible目录
+mkdir -p /etc/ansible
+
+创建/etc/ansible/hosts文件
+[test]
+192.168.227.131 ansible_ssh_user=root ansible_ssh_host=192.168.227.131 ansible_ssh_pass="test"
+
+执行命令
+ansible test -m raw -a "date"

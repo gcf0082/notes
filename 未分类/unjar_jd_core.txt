@@ -1,0 +1,65 @@
+ #!/bin/bash
+
+DIR=$1
+NEW_DIR_BASE=$2
+JD_CORE=/opt/gcf/tool/jd-core/run.sh
+CMD_JAR=/opt/gcf/tool/jdk/jdk1.8.0_60/bin/jar
+
+
+war_files=`find $DIR -type f|grep "\.war$"`
+
+for war_file in $war_files
+do
+unzip -q -o "$war_file" -d "${war_file}.dir"
+done
+
+classes_dirs=`find $1 -type d|grep "classes$"`
+
+for classes_dir in $classes_dirs
+do
+jar -cf $classes_dir.jar $classes_dir
+$JD_CORE "$classes_dir.jar" "$NEW_DIR_BASE" 
+mkdir -p "$NEW_DIR_BASE/$classes_dir"
+unzip -q -o -d "$NEW_DIR_BASE" "$classes_dir.jar" -x "*.class"
+rm -rf "$classes_dir.jar"
+done
+
+
+ALL_JAR_FILES=`find $DIR ! -type d -name "*.jar"|grep -v jre`
+
+FILE_MD5_TMP=/tmp/files_md5_tmp.txt
+LOG_ERR=/tmp/unjar_error.log
+echo "">$FILE_MD5_TMP
+
+for JAR_FILE in $ALL_JAR_FILES
+do
+echo "$JAR_FILE"|grep "/oss/lib/" > /dev/null
+if [ $? -eq 0 ]; then
+find $DIR -name dependencies.list|xargs grep `basename $JAR_FILE` > /dev/null
+if [ $? -ne 0 ]; then
+continue;
+fi
+fi
+
+MD5=`md5sum "${JAR_FILE}" | awk '{print $1}'`
+grep $MD5 $FILE_MD5_TMP > /dev/null
+ret=$?
+if [ $ret -eq 0 ] ; then
+echo "alread handle $JAR_FILE" >> $LOG_ERR
+continue 
+fi
+echo $MD5 >>$FILE_MD5_TMP 
+DIR_JAR=`dirname $JAR_FILE`
+NEW_DIR="${NEW_DIR_BASE}/${DIR_JAR}"
+mkdir -p $NEW_DIR
+FILE_NAME=`basename $JAR_FILE`
+echo $JAR_FILE
+$JD_CORE "$JAR_FILE" "$NEW_DIR/$FILE_NAME" 2>&1 > /dev/null
+unzip -q -o -d "$NEW_DIR/$FILE_NAME" "$JAR_FILE" -x "*.class" > /dev/null
+done
+
+
+for war_file in $war_files
+do
+rm -rf "${war_file}.dir"
+done

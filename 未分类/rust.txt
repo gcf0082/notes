@@ -1,0 +1,16 @@
+Rust安装：
+curl -sSf https://static.rust-lang.org/rustup.sh | sh
+把$HOME/.cargo/bin加入PATH环境变量
+
+镜像
+https://lug.ustc.edu.cn/wiki/mirrors/help/rust-crates
+$HOME/.cargo/config
+[registry]
+index = "http://mirrors.ustc.edu.cn/crates.io-index"
+
+0.13.0以上版本
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+replace-with = 'ustc'
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"

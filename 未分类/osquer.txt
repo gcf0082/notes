@@ -1,0 +1,16 @@
+官网下载安装包解压即可使用
+https://osquery.io/
+
+tar xzf osquery-3.3.2_1.linux_x86_64.tar.gz
+./usr/bin/osqueryi
+select * from users;
+
+查看帮助
+.help
+
+查看系统表
+.table
+
+输出是json格式
+osqueryi --json
+

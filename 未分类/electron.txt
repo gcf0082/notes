@@ -1,0 +1,8 @@
+set ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron
+npm install -g electron
+
+https://www.jianshu.com/p/d005213283e3
+
+Electron使用快速入门
+https://baijiahao.baidu.com/s?id=1622258269985547290&wfr=spider&for=pc
+

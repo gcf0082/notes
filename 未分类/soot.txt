@@ -1,0 +1,11 @@
+java -cp soot-2.5.0.jar soot.Main --help
+
+D:\code\3rd\soot-tutorial> java -cp ./sootclasses-trunk-jar-with-dependencies.jar;. CallGraphExample -soot-class-path ./ -pp
+Soot started on Mon May 27 02:15:13 CST 2019
+<testers.CallGraphs: void doStuff()> may call <testers.A: void <init>()>
+<testers.CallGraphs: void doStuff()> may call <testers.A: void foo()>
+Soot finished on Mon May 27 02:15:40 CST 2019
+Soot has run for 0 min. 26 sec.
+
+命令行启动参数参考：
+https://www.sable.mcgill.ca/soot/tutorial/usage/

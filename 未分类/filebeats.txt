@@ -1,0 +1,36 @@
+下载解压（官网下载地址：https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation.html）
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.2.0-linux-x86_64.tar.gz
+tar xzvf filebeat-7.2.0-linux-x86_64.tar.gz
+
+注意默认的filebeat.yml文件中的输入路径监控是禁用的
+- type: log
+
+  # Change to true to enable this input configuration.
+  enabled: false
+
+  # Paths that should be crawled and fetched. Glob based paths.
+  paths:
+    - /var/log/*.log
+    #- c:\programdata\elasticsearch\logs\*
+
+配置监控输入的例子：（将输入输出到控制台）
+filebeat.inputs:
+- type: stdin
+output.console:
+  pretty: true
+
+然后运行即可：
+tail -F /root/gcf/temp/logs/gcf.log |./filebeat
+
+
+官方参考：
+https://www.elastic.co/guide/en/beats/filebeat/current/index.html
+
+还有各种其他的beats
+https://www.elastic.co/cn/products/beats
+
+社区还有更多的beats
+https://www.elastic.co/guide/en/beats/libbeat/current/community-beats.html
+
+各种beats的源码
+https://github.com/elastic/beats

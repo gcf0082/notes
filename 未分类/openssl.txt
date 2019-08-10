@@ -1,0 +1,14 @@
+创建证书
+openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes
+
+ 双向认证测试：(最简单的)
+ openssl genrsa 1024 > server.key
+ openssl req -new -key server.key > server.csr
+ openssl x509 -in server.csr -out server.crt -req -signkey server.key -days 365
+ 
+ openssl genrsa 1024 > client.key
+ openssl req -new -key client.key >client.csr
+ openssl s_client -connect 127.0.0.1:10000 -key client.key  -cert client.crt
+ 
+ openssl s_server -key server.key -cert server.crt  -accept 10000 -Verify xxx
+ openssl s_client -connect 127.0.0.1:10000 -key client.key  -cert client.crt

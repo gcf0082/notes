@@ -1,0 +1,1 @@
+curl https://raw.githubusercontent.com/EtherDream/jsproxy/0.1.0/i.sh | bash

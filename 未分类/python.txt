@@ -1,0 +1,7 @@
+===
+virtualenv安装使用
+pip install virtualenv
+mkdir env1
+virtualenv env1
+
+

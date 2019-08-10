@@ -1,0 +1,3 @@
+socatתssl
+https://stackoverflow.com/questions/46050238/socat-how-to-listen-on-non-ssl-tcp-and-forward-to-ssl-tcp-endpoint
+$ socat TCP-LISTEN:51000,fork,reuseaddr OPENSSL:remotehost:51000,cafile=certificate.pem,verify=0

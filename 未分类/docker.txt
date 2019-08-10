@@ -1,0 +1,11 @@
+curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://gcf0082.m.daocloud.io
+
+连接两个容器使它们直接的网络互通
+docker run -d --name node --link selenium_hub:hub selenium/node-chrome-debug
+
+
+将容器中的修改，构造成新的容器
+docker commit -m "my add someting" -a "new" 0b2616b0e5a8 ouruser/sinatra:v2
+
+查看所有的容器，包括已经停止的
+docker ps -a

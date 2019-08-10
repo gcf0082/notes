@@ -1,0 +1,6 @@
+安装
+pip install frida-tools
+pip install frida
+
+跟踪函数调用
+frida-trace -i "recv*" -i "read*" *twitter*
