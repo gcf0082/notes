@@ -46,4 +46,3 @@ rpm -e –allmatches PACKAGE_NAME    #删除所有跟PACKAGE_NAME匹配的所有
 
 rpm2cpio xxx.rpm | cpio -div 
 
-test
