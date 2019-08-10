@@ -1,0 +1,720 @@
+备用技术
+nanomsg library
+https://github.com/nanomsg/nanomsg
+
+linux 极简统计分析工具 datamash 必看教程
+https://mp.weixin.qq.com/s/0-xGn3sI0XkDpPgmb1qTOQ
+
+RestBird 功能齐备，简单易用的API工具生态集(类似postman，但是免费)
+https://cn.restbird.org
+
+企业开源镜像:
+网易：http://mirrors.163.com/? （大概是?2009 年上线）
+搜狐：http://mirrors.sohu.com/ （2011 年）
+阿里：https://opsx.alibaba.com/mirror （2018 年）
+华为：https://mirrors.huaweicloud.com/ （2018 年）
+腾讯：https://mirrors.cloud.tencent.com/ （2019 年）
+
+CockroachDB，目标是打造一个开源、可伸缩、跨地域复制且兼容事务的 ACID 特性的分布式数据库，它不仅能实现全局（多数据中心）的一致性，而且保证了数据库极强的生存能力
+
+
+在线编译器
+包含前后端（php、java、c等）都可以在线运行测试
+https://rextester.com/
+https://www.onlinegdb.com/
+https://c.runoob.com/
+
+！！ https://wandbox.org/ 是一个提供在线编译的网站,针对C/C++来说,提供了许多编译器版本供选择,也可以在该网站上测试一些新特性
+
+腾讯云软件源
+?http://mirrors.cloud.tencent.com/
+
+QUIC 是基于 UDP 协议，它在两个端点之间创建连接，且支持多路复用。在设计之初 QUIC 希望能够提供等同于 SSL/TLS 层级的安全保障的同时，减少数据传输及创建连接时的延迟时间，双向控制带宽，从而达到更快速的体验。HTTP3.0基于QUIC
+
+sphinx  全文搜索引擎
+http://sphinxsearch.com/
+
+Jupyter notebook?是一种 Web 应用，它能让用户将说明文本、数学方程、代码和可视化内容全部组合到一个易于共享的文档中，非常方便研究和教学。在原始的 Python shell 与 IPython 中，可视化在单独的窗口中进行，而文字资料以及各种函数和类脚本包含在独立的文档中。但是，notebook 能将这一切集中到一处，让用户一目了然。特别适合做数据处理，其用途可以包括数据清理和探索、可视化、机器学习和大数据分析。
+
+c实现的多子串搜索工具
+https://sourceforge.net/projects/multifast/
+
+jekyll  构建静态网站与github pages配合使用
+
+https://github.com/eclipse-vertx/vert.x
+
+jinja2 模板引擎(python)
+
+ripgrep底层使用的rust正则扫描规则
+https://github.com/rust-lang/regex
+
+获取北京时间api
+http://quan.suning.com/getSysTime.do
+
+CodeQuery 是一个用来搜索 C/C++、Java 源码的索引工具。基于 cscope 和 ctags 构建，使用 cqmakedb 工具来生成 CodeQuery 数据库文件，然后通过 GUI 工具进行查看。
+
+源码分析：静态分析 C 程序函数调用关系图
+http://tinylab.org/callgraph-draw-the-calltree-of-c-functions/
+
+cflow 生成C语言流程图的工具
+http://www.gnu.org/software/cflow/
+
+akka 并发，分布式开发软件
+
+tree-sitter 可用于多种语言的语法树分析，相关的:
+https://github.com/tree-sitter/tree-sitter-bash
+https://github.com/mvdan/sh
+
+Python命令行格式化工具
+https://github.com/python/black
+
+semantic 是一个用于解析、分析和对比不同语言源代码的 Haskell 库和命令行工具，目前支持 JavaScript、TypeScript、Python、Ruby 和 Go 语言。根据 GitHub Semantic Code 团队成员 patrick thomson 的 twitter 评论，未来该库可能会增加对 C 语言的支持。
+https://github.com/github/semantic
+
+
+ui-libraries
+https://github.com/jefflombard/ui-libraries
+该仓库收集前端各种 UI 组件库的名单，现在有20个左右，主要的组件库都包括在内了。
+
+恶意软件分析工具
+https://github.com/rshipp/awesome-malware-analysis
+
+界面原型设计工具Mockplus，Axure
+
+findteflow.io  运行时获取调用关系
+
+wamp
+一个收集 WebAssembly 软件包的网站，相当于 WebAssembly 模块的 NPM。它还提供一个命令行工具，可以在命令行运行这些软件包。
+
+libraries.io 收集一些仓库的库，可以用来搜索
+
+类fzf工具，好像更强大
+https://github.com/peco/peco
+
+QEMU
+
+cscope开源的C/C++代码浏览工具(有vim插件)
+
+各种dockerfile汇总
+https://github.com/jessfraz/dockerfiles
+
+github趋势
+https://github-trending.com/
+
+Yocto 构建自定义嵌入式Linux发行版
+
+百度开源的图数据库 HugeGraph
+
+公司的Secdive
+
+z3(求解方程，ctf用得也很多)
+https://pypi.org/project/z3-solver/4.5.1.0/#files
+
+Ponce：一键即可实现符号执行（IDA插件）
+
+Angr：一个具有动态符号执行和静态分析的二进制分析工具
+
+dyninst是一个二进制动态插桩分析工具，在程序分析、缺陷检测方面有很大用处。
+
+https://github.com/javaparser/javaparser
+
+通过修改hosts文件翻墙
+https://github.com/googlehosts/hosts
+
+jarchitect 破解版下载
+http://1.download.minixiazai.com/pc/jarchitect2018.1.0poj.rar
+http://hkcn.jb51.net:81/201904/tools/JArchitect_2019_jb51.rar
+
+jarchitect所有规则描述
+https://www.ndepend.com/default-rules/NDepend-Rules-Explorer.html?ruleid=ND1000#!
+
+java覆盖率工具 cobertura
+
+lldb调试器 
+
+linux内存搜索工具
+https://github.com/rek7/mXtract
+
+NirSoft
+
+dnGrep是一款功能强大的文件内容查找工具，可以准确快速的进行内容的查找，用户可以相关的查询条件，支持文本文件、word文档、pdf文件，另外还具备搜索、替换功能。
+https://github.com/dnGrep/dnGrep
+
+前端处理json的过滤框架
+https://github.com/jiren/filter.js
+
+2019 Best Intrusion Detection Systems (10+ IDS Tools Reviewed)
+https://www.comparitech.com/net-admin/network-intrusion-detection-tools/
+
+各种api在线文档
+https://devdocs.io/
+
+Eclipse JDT
+
+AspectJ使用介绍
+https://www.codercto.com/a/21613.html
+
+aspectjweaver
+
+rr is a lightweight tool for recording, replaying and debugging execution of applications (trees of processes and threads). Debugging extends gdb with very efficient reverse-execution, which in combination with standard gdb/x86 features like hardware data watchpoints, makes debugging much more fun.
+
+https://github.com/mozilla/rr
+
+！！DynamoRIO是一种流行的动态二进制插桩平台，能够实时跟踪二进制程序的动态执行过程，在动态分析领域具有广泛的应用。
+
+drmemory
+
+Bcov
+
+kcov收集C运行时覆盖率信息还能检查shell覆盖率
+https://github.com/SimonKagstrom/kcov
+
+！！python的profile工具
+https://github.com/benfred/py-spy
+
+给某个程序伪造的时间
+https://github.com/wolfcw/libfaketime
+
+sudo使用LD_PRELOAD的方法
+https://touhidshaikh.com/blog/?p=827
+
+ctf工具集，有docker
+https://github.com/zardus/ctf-tools
+
+systemd  创建linux服务
+
+phosphor与WebTaint类似，不过他们可能都是修改系统类，可以参考后改成运行时修改系统类
+https://github.com/gmu-swe/phosphor
+
+可以参考这个项目做java动态污点分析
+https://github.com/fredrikkadolfsson/WebTaint
+
+！！！靶机，很多java的
+https://github.com/OWASP/Benchmark
+
+本项目收集了许多很棒的设计工具，诸如动画工具、AR、字体工具、渐变工具、代码工具等等
+https://github.com/LisaDziuba/Awesome-Design-Tool
+
+etcd基于http的key-vale系统,适用于服务发现
+
+整理所有可以被提权利用的命令
+https://gtfobins.github.io/
+
+bash静态检查工具
+https://github.com/koalaman/shellcheck
+
+https://github.com/Microsoft/pyright
+
+微软开源的基于浏览器的代码编辑器
+Monaco Editor
+
+webIDE  (有docker)
+https://github.com/Coding/WebIDE
+
+包含各种语言的语言服务器
+https://langserver.org/
+
+Uber 正式开源其分布式跟踪系统 Jaeger
+
+linux userspace
+
+ida的python接口在二进制的应用
+
+httpie http客户端工具，跟curl差不多，比curl友好些
+https://github.com/jakubroztocil/httpie
+
+模拟执行Andorid arm平台的native库
+https://github.com/zhkl0228/emulator
+
+后门生成工具
+https://github.com/secretsquirrel/the-backdoor-factory
+
+PLASMA提供颜色高亮更可读的反编译工具
+https://github.com/plasma-disassembler/plasma
+
+Capstone 强大的跨平台反编译框架
+https://github.com/aquynh/capstone
+
+图形数据库janusgraph (可作为neo4j的替代)，同类的还有HugeGraph
+
+java性能监控(可以参考它的javaagent)
+https://github.com/apache/skywalking
+
+Alpine 是一个极度瘦身的 Linux 发行版，只有 5MB 左右，主要用于制作 Docker 镜像文件。
+
+chrom插件英雄榜(中文)
+https://zhaoolee.github.io/ChromeAppHeroes/
+
+程序员在 GitHub 上都分享过哪些技术路线图？
+https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457915158&idx=1&sn=9a8b6b54215bfb9661e53758e3ef464e&chksm=8cb6aafcbbc123ea781ea882b924f42502e44b84fa9316f35e779160f34ed8632c1bbb33e030&xtrack=1&scene=0&subscene=131&clicktime=1555601308&ascene=7&devicetype=android-28&version=2700033c&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAEwAGAJ2GHgAjlx4AXpkeAMmZHgDTmR4A3JkeAAAA&lang=zh_CN&pass_ticket=uOBsJkmo9T4qzVTJJ5CP%2F%2Fg4N3FBj4fvBCWqA0NU4fg%3D&wx_header=1
+
+可配置灵活的方便直接加载jar，然后反射调用方法
+https://github.com/kamranzafar/JCL
+
+轻量解决jar包冲突的问题
+https://github.com/alipay/sofa-ark
+
+前端训练营frontend-bootcamp
+https://github.com/Microsoft/frontend-bootcamp
+
+可以简易的使用protobuf
+https://github.com/jhunters/jprotobuf
+
+方便地使用反射，还可以运行时执行java代码(类似的jxpath使用xpath使用反射)
+https://github.com/jOOQ/jOOR
+
+jni instument
+https://github.com/ElephantTracksProject/et2-java
+
+开源的日志文件浏览器lnav
+https://github.com/tstack/lnav
+
+特性开关框架FF4J ,Togglz
+
+内容好像比awesome java更好
+https://github.com/Vedenin/useful-java-links
+
+packr：将JAR、资源和JVM打包成Windows、Linux和Mac OS X本地发布文件。
+https://github.com/libgdx/packr
+
+
+内存文件系统(java)
+https://github.com/google/jimfs
+
+字节码编辑工具
+https://github.com/Col-E/Recaf
+
+MobSF是Mobile Security Framework的缩写，是一个移动端应用安全问题检出的框架和工具，它适用于Android/iOS/Windows，能够执行动态和静态的恶意软件的分析和检测。支持Android和iOS以及Windows移动应用，无论是二进制方式还是压缩的源代码都可以进行检测。MobSF将数据保持在本地环境之中，所以可以不必担心应用和相关的数据被送至云端。另外，对于ssl链接/简单的加密方式/硬编码的密件信息等MobSF也进行了重点地关注。
+https://github.com/MobSF/Mobile-Security-Framework-MobSF
+
+！！让管道的输出变成交互式的另外一个命令的输入
+https://github.com/mooz/percol
+
+Java 开发者需要知道的20个库
+https://javarevisited.blogspot.com/2018/01/top-20-libraries-and-apis-for-java-programmers.html
+
+运行时通过反射方便获取类及依赖等信息
+https://github.com/ronmamo/reflections
+
+https://github.com/pmd/pmd
+
+!! Procyon?is a suite of Java metaprogramming tools focused on code generation and analysis. It includes the following libraries:
+Core Framework
+Reflection Framework
+Expressions Framework
+Compiler Toolset (Experimental)
+Java Decompiler
+
+diffy
+
+elasticsearch的告警框架
+https://github.com/yelp/elastalert
+
+https://github.com/cmderdev/cmder
+
+syncthing
+多台电脑之间自动同步文件夹的工具，可以在命令行作为服务运行，也提供图形界面。
+
+
+区块链知识库
+https://github.com/slowmist/Knowledge-Base
+
+cloud9跟code-server类似的web代码编辑调试
+https://github.com/ajaxorg/ace
+
+在内存中编译java代码
+https://github.com/trung/InMemoryJavaCompiler
+
+Manticore：符号执行
+http://pwn4.fun/2017/06/01/Manticore%EF%BC%9A%E7%AC%A6%E5%8F%B7%E6%89%A7%E8%A1%8C/
+
+静态代码分析工具
+pfff
+https://github.com/facebook/pfff
+
+文件监控，基于inotify
+https://github.com/facebook/watchman
+
+facebook在github上的所有开源项目
+
+https://github.com/k4m4/terminals-are-sexy
+
+Material Design，中文名：材料设计语言，是由Google推出的全新的设计语言，谷歌表示，这种设计语言旨在为手机、平板电脑、台式机和“其他平台”提供更一致、更广泛的“外观和感觉”。
+
+google开源C/C++ 沙箱api
+https://github.com/google/sandboxed-api
+
+libseccomp 是一个常用的 Linux kernel syscall filter 库，常被用来做沙箱保护。
+
+以非常友好的方式显示git history
+https://github.com/pomber/git-history
+
+！！web代码编辑器基础库CodeMirror，可以用来做代码展示
+
+方便地安装ruby
+https://github.com/postmodern/ruby-install
+
+c++开发库有 folly boost
+
+覆盖率展示框架
+https://github.com/colszowka/simplecov
+
+Polymer
+
+编程语言速查
+https://github.com/LeCoupa/awesome-cheatsheets
+
+中文版编程语言速查
+https://github.com/skywind3000/awesome-cheatsheets
+
+每个操作系统syscall系统调用列表，以及每个参数对应的理解
+https://w3challs.com/syscalls/
+
+网络数据包捕获函数库Libpcap安装与使用（非常强大）
+http://www.cnblogs.com/coder2012/archive/2013/04/13/3012390.html
+
+逆向工程
+https://github.com/wtsxDev/reverse-engineering
+
+
+Sh00t是一个高可定制的渗透测试管理工具，它强调让测试人员手动进行安全测试，并让你专注于执行安全测试任务的本身。此外，Sh00t还为我们提供了测试用例的待办事项清单，以及可以使用自定义的漏洞报告模板来生成漏洞报告。
+
+归档网上看的的url
+https://github.com/pirate/ArchiveBox
+
+ini格式c解析库
+https://github.com/ndevilla/iniparser
+
+一些老外个人技术博客
+https://github.com/jkup/awesome-personal-blogs
+
+firefox临时文件上传下载服务，最多存1G
+https://send.firefox.com/
+还提供命令行方式
+https://github.com/timvisee/ffsend
+
+https://github.com/algorithm-visualizer/algorithm-visualizer
+一个直观的算法可视化工具，你可以自由选择自己想学习的算法，每个算法它都清晰描绘了其原理和运作过程。
+
+radare2
+Use r2dec - a plugin to radare that can produce a pseudo-C output
+Use radeco - a radare decompiler tool based on radeco-lib.
+Use r2snowman - radare2 plugin which integrates the snowman decompiler.
+
+libcurl
+
+rainbow?
+体积小、易于使用、支持各种编程语言的语法高亮插件。该项目原理是通过正则过滤关键字，然后进行高亮
+
+一些中文技术书
+https://github.com/yuyichao/cs-doc
+
+Chameleon原理首发：其它跨多端统一框架都是假的？
+https://github.com/didi/chameleon
+
+
+一个配置好的 Vim 开发环境，用作编程 IDE
+https://github.com/SpaceVim/SpaceVim
+
+be-a-professional-programmer
+成为专业程序员路上用到的各种优秀资料、神器及框架
+http://tools.stanzhai.site/
+
+Jsonnet
+Google 开源的一门配置语言，用于改善 JSON 暴露出来的一些问题，简而言之，Jsonnet 是一个增强版的 JSON 数据格式，能帮助开发者简化不少工作，可以体验一下。在线地址：http://jsonnet.org
+
+fastsocket
+
+GitHunt
+一个开源的 Chrome 插件，把你 Chrome 的 Tab 页转为 GitHub 开源项目的推荐页，我是这个插件的重度用户，装了好几年，从来没卸载过，自认为是开发者必装浏览器插件之一 
+https://github.com/kamranahmedse/githunt
+
+LevelDB
+
+RocksDB
+
+使用chroot和supermin5创建安全隔离的环境
+https://blog.csdn.net/kongxx/article/details/80589712
+
+研究sandbox在安全测试的运用
+
+文件系统沙盒
+https://github.com/adtac/fssb
+
+scrcpy 是一个在电脑上显示和控制 Android 设备的命令行工具，适用于 GNU/Linux、Windows 和 Mac OS，且无需 root 。
+https://github.com/Genymobile/scrcpy
+
+shell实现模拟版docker
+https://github.com/p8952/bocker
+
+将redis服务嵌入到应用中
+https://github.com/kstyrc/embedded-redis
+
+windows 指定samba端口
+https://dog.xmu.edu.cn/2017/05/19/windows-network-neighborhood.html
+
+LLVM Clang
+
+Deno 是“一个可在浏览器外执行 JavaScript 和 TypeScript 代码的程序”根据其作者 Ryan Dahl（ Node.js 之父）的说法，这是一个尝试解决部分 Node.js 原有问题的、可靠的 TypeScript 运行时。
+
+首个国人主导Apache顶级开源项目Kylin 实现万亿数据亚秒查询
+
+值得推荐的C/C++框架和库 (真的很强大)
+https://blog.csdn.net/xiaoxiaoyeyaya/article/details/42541419
+
+https://github.com/sharkdp/hexyl
+
+Livegrep
+
+
+NSQ：分布式的实时消息平台
+https://nsq.io/overview/quick_start.html
+
+Kettle是一款国外开源的ETL工具，纯java编写，可以在Windows、Linux、Unix上运行，数据抽取高效稳定。
+https://github.com/pentaho/pentaho-kettle
+
+https://github.com/pawl/awesome-etl
+
+【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。 -
+https://github.com/Snailclimb/JavaGuide
+
+Alibaba 团队开源的一个快速、简单避免 OOM 的 Java 处理 Excel 工具
+https://github.com/alibaba/easyexcel
+
+https://github.com/pypa/pipenv
+
+gRPC
+
+https://github.com/MaximAbramchuck/awesome-interview-questions
+
+
+https://github.com/kahun/awesome-sysadmin
+
+
+编程应该上的网站
+https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+
+vimium和Surfingkeys – 像 VIM 一样使用 Chrome
+
+dejaVu  dejaVu:基于 React 的 Elasticsearch 数据浏览器
+
+
+node-draftlog 创建可更新日志行到终端
+
+chalk - 终端字符串美化
+
+Nativefier - 一个能够将任意Web页面制作成一个桌面应用的工具
+
+js的交互式命令提示
+https://github.com/terkelg/prompts
+
+Nexe将nodejs程序编译成单独的可执行程序
+https://github.com/nexe/nexe
+
+很多tail输出有颜色的方案https://unix.stackexchange.com/questions/8414/how-to-have-tail-f-show-colored-output
+
+很多安全相关汇总
+https://github.com/trimstray/the-book-of-secret-knowledge
+
+！！常用shell功能列表片段
+https://github.com/dylanaraps/pure-bash-bible
+
+图形化显示lsof的结果
+https://github.com/zevv/lsofgraph
+
+TARS  腾讯的微服务框架
+
+OpenResty? 是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。
+https://github.com/openresty/
+
+键盘映射及宏定位luamacros
+
+fastcgi
+
+Windows库注入
+https://github.com/stephenfewer/ReflectiveDLLInjection
+
+riemann：一个分布式的监控系统。可以接收各种event上报，然后通过强大的脚本和插件，展示曲线，柱状，饼图等来对系统进行监控。
+
+一个功能强大而对人类友好的 Nginx 扩展程序
+https://github.com/alexazhou/VeryNginx
+
+ngxtop
+https://github.com/lebinh/ngxtop
+解析 nginx 访问日志并格式化输出有用的信息，可以用来实时了解你的服务器正在发生的情况
+
+https://github.com/staticfile/static
+这个项目是一个仓库，它尽可能全面收录优秀的开源库，并免费为之提供 CDN 加速服务，使之有更好的访问速度和稳定的环境。同时，它也提供开源库源接入的入口，让所有人都可以提交开源库，包括 JavaScript、CSS、image 和 swf 等静态文件。
+
+Go示例代码
+https://gobyexample.com
+
+certbot
+https://github.com/certbot/certbot
+免费的自动启用和部署 HTTPS 的工具，让你的网站开启 HTTPS 变得简单快捷。在部署教程页面选择服务器的操作系统和 Web 服务器，之后根据给出的步骤一步步的执行命令就行了
+
+proxy_pool
+基于 Python 的自建代理 IP 池服务，通过网络爬虫抓取互联网上免费的代理 IP，本地校验、剔除失效的代理IP，从而实现高可用的代理 IP 池。最后使用 Flask 搭建提供代理 IP 服务，包括代理池刷新、无效代理删除、代理获取等。该项目设计文档详细、模块结构简明易懂，同时适合爬虫新手更好的学习爬虫技术?
+
+parrot-mocker-web
+小巧的 mock 服务器，配合 Chrome 插件可以轻松地拦截或 mock 页面上的 xhr/jsonp/fetch 请求。不需要侵入页面本身代码，让前端同学在后端接口没有 ready 或者难以模拟数据的时候，继续开心地开发玩耍?
+https://github.com/chinesedfan/parrot-mocker-web
+
+facker 用于生成假数据的库，支持多种语言，你值得拥有
+https://github.com/joke2k/faker
+
+Go 语言最受欢迎的 Web 框架之一，具有：高性能、便于扩展、轻量的特点
+https://github.com/labstack/echo
+
+第三方 API 集合，包含：国内、国外、官方、非官方
+https://github.com/TonnyL/Awesome_APIs
+
+通用SQL命令行客户端。支持以下所有数据库和协议（支持多种数据库）
+https://github.com/xo/usql
+
+shell-functools
+把函数式的编程带入 shell，从而让很多事情变得简单。通过 Python 的高阶函数和内置模块 os.path 与命令的管道结合，达到了强大、高效的功效。相比于单纯的命令实现更加的直观和容易理解
+
+系统设计入门
+https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md
+
+30个极大提高开发效率的Visual Studio Code插件
+https://www.jianshu.com/p/d1bc06c87e50
+
+前端资源周刊
+https://github.com/ihtml5/50weekly
+
+可以搭建自己的代码片段管理
+https://github.com/snibox/snibox
+
+数据可视化的开源方案: Superset vs Redash vs Metabase (一)
+http://www.cnblogs.com/felixzh/p/9094694.html
+
+D3 的全称是（Data-Driven Documents），该库提供了各种简单易用的函数，大大简化了 JavaScript 操作数据的难度。该库的使用是数据可视化必须掌握的技术
+
+一个 WebAssembly 的在线 IDE，支持 C / C ++ / Rust 程序在线编译成 WASM
+https://webassembly.studio
+
+dive 分析docker镜像文件
+
+使用 CodeMirror 打造属于自己的在线代码编辑器
+
+像看电影一样看Python程序运行：Livepython
+
+svgeditor
+
+
+ShareLaTeX网站
+
+Google 推出 Node 应用 Web 渲染界面 Carlo
+https://www.oschina.net/news/102043/google-opensource-carlo
+
+使用 ndb 调试你的 Node.js 项目
+https://imnerd.org/debug-with-ndb.html
+
+好用的 Puppeteer 辅助工具 Puppeteer Recorder
+https://segmentfault.com/a/1190000016073329
+
+Google开源的项目列表
+https://github.com/GoogleChromeLabs?tab=repositories
+
+使用注解让java代码更简单Lombok（编译时生成真实代码）
+
+使用 Pandas 处理 CSV 文件
+https://jalammar.github.io/gentle-visual-intro-to-data-analysis-python-pandas/
+
+前端代码高亮库highlight.js（可能高亮语法多一点）
+
+！！ mark.js高亮关键字
+
+jsoup：Java HTML 解析器
+
+guava  google的开原java库，类似Apache Commons
+
+MathJax可以方便的在浏览器中显示数学公式，不需要使用图片
+
+收集各种淘气字符串(异常串)，可用于做各种异常参数测试
+https://github.com/minimaxir/big-list-of-naughty-strings
+
+通过训练生成文本
+textgenrnn  
+
+Electron 通过js写出跨平台的应用
+
+tampermonkey   猴油扩展客户端
+
+百度网盘cli支持linux,windows
+https://github.com/iikira/BaiduPCS-Go
+
+用于HTTP请求和响应记录的可扩展开源库。
+https://github.com/zalando/logbook
+
+比较文本不同的库
+https://github.com/dnaumenko/java-diff-utils
+
+Flutter
+
+SIEM
+安全信息和事件的管理系统
+
+OpenResty
+是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。
+
+Bro网络安全监控
+
+fail2ban
+
+Logwatch
+
+大数据分析
+Druid
+http://druid.io
+
+JWT
+
+ Pennywise  透明悬浮显示任意东西在应用之上
+https://github.com/kamranahmedse/pennywise
+
+Yacc,Lex,Bison语法分析器，可以写成自己的编程语言 
+
+gef  gdb增强
+https://github.com/hugsy/gef
+
+前端页面设计工具
+https://hadron.app
+
+终端文件管理nnn
+https://github.com/jarun/nnn
+
+GraphQuery 是一门易于使用的查询语言，它内置了 Xpath/CSS/Regex/JSONpath 选择器和文本处理功能。解析html/xml
+
+
+Julia Julia 是一个面向科学计算的高性能动态高级程序设计语言
+
+https://paiza.cloud  在线前端开发虚拟环境
+youqiantu@163.com
+gcf1981
+
+Let's encrypt  免费ssl证书
+
+snibox开源的代码片段管理的服务，可用于自己搭建代码片段服务器
+
+替代transfer.sh网站
+https://pastebin.com/
+
+提供https://pastebin.com/上传下载的命令接口
+https://github.com/kyoto-shift/prime
+
+?GraphQL
+
+FastScan
+https://github.com/pyloque/fastscan
+苦于没有找到一个比较合适的敏感词过滤库，所以我自己花了点时间撸了一个。 它基于广为人知的 ahocorasick 字符串匹配算法，使用原生的 js 实现，浏览器和服务端都可以使用。?
+
+
+drupal  cmf框架
+
+Joomla  cms
+
+wordpress
+
