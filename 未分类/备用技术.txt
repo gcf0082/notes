@@ -1,157 +1,157 @@
-±¸ÓÃ¼¼Êõ
+å¤‡ç”¨æŠ€æœ¯
 nanomsg library
 https://github.com/nanomsg/nanomsg
 
-linux ¼«¼òÍ³¼Æ·ÖÎö¹¤¾ß datamash ±Ø¿´½Ì³Ì
+linux æç®€ç»Ÿè®¡åˆ†æå·¥å…· datamash å¿…çœ‹æ•™ç¨‹
 https://mp.weixin.qq.com/s/0-xGn3sI0XkDpPgmb1qTOQ
 
-RestBird ¹¦ÄÜÆë±¸£¬¼òµ¥Ò×ÓÃµÄAPI¹¤¾ßÉúÌ¬¼¯(ÀàËÆpostman£¬µ«ÊÇÃâ·Ñ)
+RestBird åŠŸèƒ½é½å¤‡ï¼Œç®€å•æ˜“ç”¨çš„APIå·¥å…·ç”Ÿæ€é›†(ç±»ä¼¼postmanï¼Œä½†æ˜¯å…è´¹)
 https://cn.restbird.org
 
-ÆóÒµ¿ªÔ´¾µÏñ:
-ÍøÒ×£ºhttp://mirrors.163.com/? £¨´ó¸ÅÊÇ?2009 ÄêÉÏÏß£©
-ËÑºü£ºhttp://mirrors.sohu.com/ £¨2011 Äê£©
-°¢Àï£ºhttps://opsx.alibaba.com/mirror £¨2018 Äê£©
-»ªÎª£ºhttps://mirrors.huaweicloud.com/ £¨2018 Äê£©
-ÌÚÑ¶£ºhttps://mirrors.cloud.tencent.com/ £¨2019 Äê£©
+ä¼ä¸šå¼€æºé•œåƒ:
+ç½‘æ˜“ï¼šhttp://mirrors.163.com/? ï¼ˆå¤§æ¦‚æ˜¯?2009 å¹´ä¸Šçº¿ï¼‰
+æœç‹ï¼šhttp://mirrors.sohu.com/ ï¼ˆ2011 å¹´ï¼‰
+é˜¿é‡Œï¼šhttps://opsx.alibaba.com/mirror ï¼ˆ2018 å¹´ï¼‰
+åä¸ºï¼šhttps://mirrors.huaweicloud.com/ ï¼ˆ2018 å¹´ï¼‰
+è…¾è®¯ï¼šhttps://mirrors.cloud.tencent.com/ ï¼ˆ2019 å¹´ï¼‰
 
-CockroachDB£¬Ä¿±êÊÇ´òÔìÒ»¸ö¿ªÔ´¡¢¿ÉÉìËõ¡¢¿çµØÓò¸´ÖÆÇÒ¼æÈİÊÂÎñµÄ ACID ÌØĞÔµÄ·Ö²¼Ê½Êı¾İ¿â£¬Ëü²»½öÄÜÊµÏÖÈ«¾Ö£¨¶àÊı¾İÖĞĞÄ£©µÄÒ»ÖÂĞÔ£¬¶øÇÒ±£Ö¤ÁËÊı¾İ¿â¼«Ç¿µÄÉú´æÄÜÁ¦
+CockroachDBï¼Œç›®æ ‡æ˜¯æ‰“é€ ä¸€ä¸ªå¼€æºã€å¯ä¼¸ç¼©ã€è·¨åœ°åŸŸå¤åˆ¶ä¸”å…¼å®¹äº‹åŠ¡çš„ ACID ç‰¹æ€§çš„åˆ†å¸ƒå¼æ•°æ®åº“ï¼Œå®ƒä¸ä»…èƒ½å®ç°å…¨å±€ï¼ˆå¤šæ•°æ®ä¸­å¿ƒï¼‰çš„ä¸€è‡´æ€§ï¼Œè€Œä¸”ä¿è¯äº†æ•°æ®åº“æå¼ºçš„ç”Ÿå­˜èƒ½åŠ›
 
 
-ÔÚÏß±àÒëÆ÷
-°üº¬Ç°ºó¶Ë£¨php¡¢java¡¢cµÈ£©¶¼¿ÉÒÔÔÚÏßÔËĞĞ²âÊÔ
+åœ¨çº¿ç¼–è¯‘å™¨
+åŒ…å«å‰åç«¯ï¼ˆphpã€javaã€cç­‰ï¼‰éƒ½å¯ä»¥åœ¨çº¿è¿è¡Œæµ‹è¯•
 https://rextester.com/
 https://www.onlinegdb.com/
 https://c.runoob.com/
 
-£¡£¡ https://wandbox.org/ ÊÇÒ»¸öÌá¹©ÔÚÏß±àÒëµÄÍøÕ¾,Õë¶ÔC/C++À´Ëµ,Ìá¹©ÁËĞí¶à±àÒëÆ÷°æ±¾¹©Ñ¡Ôñ,Ò²¿ÉÒÔÔÚ¸ÃÍøÕ¾ÉÏ²âÊÔÒ»Ğ©ĞÂÌØĞÔ
+ï¼ï¼ https://wandbox.org/ æ˜¯ä¸€ä¸ªæä¾›åœ¨çº¿ç¼–è¯‘çš„ç½‘ç«™,é’ˆå¯¹C/C++æ¥è¯´,æä¾›äº†è®¸å¤šç¼–è¯‘å™¨ç‰ˆæœ¬ä¾›é€‰æ‹©,ä¹Ÿå¯ä»¥åœ¨è¯¥ç½‘ç«™ä¸Šæµ‹è¯•ä¸€äº›æ–°ç‰¹æ€§
 
-ÌÚÑ¶ÔÆÈí¼şÔ´
+è…¾è®¯äº‘è½¯ä»¶æº
 ?http://mirrors.cloud.tencent.com/
 
-QUIC ÊÇ»ùÓÚ UDP Ğ­Òé£¬ËüÔÚÁ½¸ö¶ËµãÖ®¼ä´´½¨Á¬½Ó£¬ÇÒÖ§³Ö¶àÂ·¸´ÓÃ¡£ÔÚÉè¼ÆÖ®³õ QUIC Ï£ÍûÄÜ¹»Ìá¹©µÈÍ¬ÓÚ SSL/TLS ²ã¼¶µÄ°²È«±£ÕÏµÄÍ¬Ê±£¬¼õÉÙÊı¾İ´«Êä¼°´´½¨Á¬½ÓÊ±µÄÑÓ³ÙÊ±¼ä£¬Ë«Ïò¿ØÖÆ´ø¿í£¬´Ó¶ø´ïµ½¸ü¿ìËÙµÄÌåÑé¡£HTTP3.0»ùÓÚQUIC
+QUIC æ˜¯åŸºäº UDP åè®®ï¼Œå®ƒåœ¨ä¸¤ä¸ªç«¯ç‚¹ä¹‹é—´åˆ›å»ºè¿æ¥ï¼Œä¸”æ”¯æŒå¤šè·¯å¤ç”¨ã€‚åœ¨è®¾è®¡ä¹‹åˆ QUIC å¸Œæœ›èƒ½å¤Ÿæä¾›ç­‰åŒäº SSL/TLS å±‚çº§çš„å®‰å…¨ä¿éšœçš„åŒæ—¶ï¼Œå‡å°‘æ•°æ®ä¼ è¾“åŠåˆ›å»ºè¿æ¥æ—¶çš„å»¶è¿Ÿæ—¶é—´ï¼ŒåŒå‘æ§åˆ¶å¸¦å®½ï¼Œä»è€Œè¾¾åˆ°æ›´å¿«é€Ÿçš„ä½“éªŒã€‚HTTP3.0åŸºäºQUIC
 
-sphinx  È«ÎÄËÑË÷ÒıÇæ
+sphinx  å…¨æ–‡æœç´¢å¼•æ“
 http://sphinxsearch.com/
 
-Jupyter notebook?ÊÇÒ»ÖÖ Web Ó¦ÓÃ£¬ËüÄÜÈÃÓÃ»§½«ËµÃ÷ÎÄ±¾¡¢ÊıÑ§·½³Ì¡¢´úÂëºÍ¿ÉÊÓ»¯ÄÚÈİÈ«²¿×éºÏµ½Ò»¸öÒ×ÓÚ¹²ÏíµÄÎÄµµÖĞ£¬·Ç³£·½±ãÑĞ¾¿ºÍ½ÌÑ§¡£ÔÚÔ­Ê¼µÄ Python shell Óë IPython ÖĞ£¬¿ÉÊÓ»¯ÔÚµ¥¶ÀµÄ´°¿ÚÖĞ½øĞĞ£¬¶øÎÄ×Ö×ÊÁÏÒÔ¼°¸÷ÖÖº¯ÊıºÍÀà½Å±¾°üº¬ÔÚ¶ÀÁ¢µÄÎÄµµÖĞ¡£µ«ÊÇ£¬notebook ÄÜ½«ÕâÒ»ÇĞ¼¯ÖĞµ½Ò»´¦£¬ÈÃÓÃ»§Ò»Ä¿ÁËÈ»¡£ÌØ±ğÊÊºÏ×öÊı¾İ´¦Àí£¬ÆäÓÃÍ¾¿ÉÒÔ°üÀ¨Êı¾İÇåÀíºÍÌ½Ë÷¡¢¿ÉÊÓ»¯¡¢»úÆ÷Ñ§Ï°ºÍ´óÊı¾İ·ÖÎö¡£
+Jupyter notebook?æ˜¯ä¸€ç§ Web åº”ç”¨ï¼Œå®ƒèƒ½è®©ç”¨æˆ·å°†è¯´æ˜æ–‡æœ¬ã€æ•°å­¦æ–¹ç¨‹ã€ä»£ç å’Œå¯è§†åŒ–å†…å®¹å…¨éƒ¨ç»„åˆåˆ°ä¸€ä¸ªæ˜“äºå…±äº«çš„æ–‡æ¡£ä¸­ï¼Œéå¸¸æ–¹ä¾¿ç ”ç©¶å’Œæ•™å­¦ã€‚åœ¨åŸå§‹çš„ Python shell ä¸ IPython ä¸­ï¼Œå¯è§†åŒ–åœ¨å•ç‹¬çš„çª—å£ä¸­è¿›è¡Œï¼Œè€Œæ–‡å­—èµ„æ–™ä»¥åŠå„ç§å‡½æ•°å’Œç±»è„šæœ¬åŒ…å«åœ¨ç‹¬ç«‹çš„æ–‡æ¡£ä¸­ã€‚ä½†æ˜¯ï¼Œnotebook èƒ½å°†è¿™ä¸€åˆ‡é›†ä¸­åˆ°ä¸€å¤„ï¼Œè®©ç”¨æˆ·ä¸€ç›®äº†ç„¶ã€‚ç‰¹åˆ«é€‚åˆåšæ•°æ®å¤„ç†ï¼Œå…¶ç”¨é€”å¯ä»¥åŒ…æ‹¬æ•°æ®æ¸…ç†å’Œæ¢ç´¢ã€å¯è§†åŒ–ã€æœºå™¨å­¦ä¹ å’Œå¤§æ•°æ®åˆ†æã€‚
 
-cÊµÏÖµÄ¶à×Ó´®ËÑË÷¹¤¾ß
+cå®ç°çš„å¤šå­ä¸²æœç´¢å·¥å…·
 https://sourceforge.net/projects/multifast/
 
-jekyll  ¹¹½¨¾²Ì¬ÍøÕ¾Óëgithub pagesÅäºÏÊ¹ÓÃ
+jekyll  æ„å»ºé™æ€ç½‘ç«™ä¸github pagesé…åˆä½¿ç”¨
 
 https://github.com/eclipse-vertx/vert.x
 
-jinja2 Ä£°åÒıÇæ(python)
+jinja2 æ¨¡æ¿å¼•æ“(python)
 
-ripgrepµ×²ãÊ¹ÓÃµÄrustÕıÔòÉ¨Ãè¹æÔò
+ripgrepåº•å±‚ä½¿ç”¨çš„rustæ­£åˆ™æ‰«æè§„åˆ™
 https://github.com/rust-lang/regex
 
-»ñÈ¡±±¾©Ê±¼äapi
+è·å–åŒ—äº¬æ—¶é—´api
 http://quan.suning.com/getSysTime.do
 
-CodeQuery ÊÇÒ»¸öÓÃÀ´ËÑË÷ C/C++¡¢Java Ô´ÂëµÄË÷Òı¹¤¾ß¡£»ùÓÚ cscope ºÍ ctags ¹¹½¨£¬Ê¹ÓÃ cqmakedb ¹¤¾ßÀ´Éú³É CodeQuery Êı¾İ¿âÎÄ¼ş£¬È»ºóÍ¨¹ı GUI ¹¤¾ß½øĞĞ²é¿´¡£
+CodeQuery æ˜¯ä¸€ä¸ªç”¨æ¥æœç´¢ C/C++ã€Java æºç çš„ç´¢å¼•å·¥å…·ã€‚åŸºäº cscope å’Œ ctags æ„å»ºï¼Œä½¿ç”¨ cqmakedb å·¥å…·æ¥ç”Ÿæˆ CodeQuery æ•°æ®åº“æ–‡ä»¶ï¼Œç„¶åé€šè¿‡ GUI å·¥å…·è¿›è¡ŒæŸ¥çœ‹ã€‚
 
-Ô´Âë·ÖÎö£º¾²Ì¬·ÖÎö C ³ÌĞòº¯Êıµ÷ÓÃ¹ØÏµÍ¼
+æºç åˆ†æï¼šé™æ€åˆ†æ C ç¨‹åºå‡½æ•°è°ƒç”¨å…³ç³»å›¾
 http://tinylab.org/callgraph-draw-the-calltree-of-c-functions/
 
-cflow Éú³ÉCÓïÑÔÁ÷³ÌÍ¼µÄ¹¤¾ß
+cflow ç”ŸæˆCè¯­è¨€æµç¨‹å›¾çš„å·¥å…·
 http://www.gnu.org/software/cflow/
 
-akka ²¢·¢£¬·Ö²¼Ê½¿ª·¢Èí¼ş
+akka å¹¶å‘ï¼Œåˆ†å¸ƒå¼å¼€å‘è½¯ä»¶
 
-tree-sitter ¿ÉÓÃÓÚ¶àÖÖÓïÑÔµÄÓï·¨Ê÷·ÖÎö£¬Ïà¹ØµÄ:
+tree-sitter å¯ç”¨äºå¤šç§è¯­è¨€çš„è¯­æ³•æ ‘åˆ†æï¼Œç›¸å…³çš„:
 https://github.com/tree-sitter/tree-sitter-bash
 https://github.com/mvdan/sh
 
-PythonÃüÁîĞĞ¸ñÊ½»¯¹¤¾ß
+Pythonå‘½ä»¤è¡Œæ ¼å¼åŒ–å·¥å…·
 https://github.com/python/black
 
-semantic ÊÇÒ»¸öÓÃÓÚ½âÎö¡¢·ÖÎöºÍ¶Ô±È²»Í¬ÓïÑÔÔ´´úÂëµÄ Haskell ¿âºÍÃüÁîĞĞ¹¤¾ß£¬Ä¿Ç°Ö§³Ö JavaScript¡¢TypeScript¡¢Python¡¢Ruby ºÍ Go ÓïÑÔ¡£¸ù¾İ GitHub Semantic Code ÍÅ¶Ó³ÉÔ± patrick thomson µÄ twitter ÆÀÂÛ£¬Î´À´¸Ã¿â¿ÉÄÜ»áÔö¼Ó¶Ô C ÓïÑÔµÄÖ§³Ö¡£
+semantic æ˜¯ä¸€ä¸ªç”¨äºè§£æã€åˆ†æå’Œå¯¹æ¯”ä¸åŒè¯­è¨€æºä»£ç çš„ Haskell åº“å’Œå‘½ä»¤è¡Œå·¥å…·ï¼Œç›®å‰æ”¯æŒ JavaScriptã€TypeScriptã€Pythonã€Ruby å’Œ Go è¯­è¨€ã€‚æ ¹æ® GitHub Semantic Code å›¢é˜Ÿæˆå‘˜ patrick thomson çš„ twitter è¯„è®ºï¼Œæœªæ¥è¯¥åº“å¯èƒ½ä¼šå¢åŠ å¯¹ C è¯­è¨€çš„æ”¯æŒã€‚
 https://github.com/github/semantic
 
 
 ui-libraries
 https://github.com/jefflombard/ui-libraries
-¸Ã²Ö¿âÊÕ¼¯Ç°¶Ë¸÷ÖÖ UI ×é¼ş¿âµÄÃûµ¥£¬ÏÖÔÚÓĞ20¸ö×óÓÒ£¬Ö÷ÒªµÄ×é¼ş¿â¶¼°üÀ¨ÔÚÄÚÁË¡£
+è¯¥ä»“åº“æ”¶é›†å‰ç«¯å„ç§ UI ç»„ä»¶åº“çš„åå•ï¼Œç°åœ¨æœ‰20ä¸ªå·¦å³ï¼Œä¸»è¦çš„ç»„ä»¶åº“éƒ½åŒ…æ‹¬åœ¨å†…äº†ã€‚
 
-¶ñÒâÈí¼ş·ÖÎö¹¤¾ß
+æ¶æ„è½¯ä»¶åˆ†æå·¥å…·
 https://github.com/rshipp/awesome-malware-analysis
 
-½çÃæÔ­ĞÍÉè¼Æ¹¤¾ßMockplus£¬Axure
+ç•Œé¢åŸå‹è®¾è®¡å·¥å…·Mockplusï¼ŒAxure
 
-findteflow.io  ÔËĞĞÊ±»ñÈ¡µ÷ÓÃ¹ØÏµ
+findteflow.io  è¿è¡Œæ—¶è·å–è°ƒç”¨å…³ç³»
 
 wamp
-Ò»¸öÊÕ¼¯ WebAssembly Èí¼ş°üµÄÍøÕ¾£¬Ïàµ±ÓÚ WebAssembly Ä£¿éµÄ NPM¡£Ëü»¹Ìá¹©Ò»¸öÃüÁîĞĞ¹¤¾ß£¬¿ÉÒÔÔÚÃüÁîĞĞÔËĞĞÕâĞ©Èí¼ş°ü¡£
+ä¸€ä¸ªæ”¶é›† WebAssembly è½¯ä»¶åŒ…çš„ç½‘ç«™ï¼Œç›¸å½“äº WebAssembly æ¨¡å—çš„ NPMã€‚å®ƒè¿˜æä¾›ä¸€ä¸ªå‘½ä»¤è¡Œå·¥å…·ï¼Œå¯ä»¥åœ¨å‘½ä»¤è¡Œè¿è¡Œè¿™äº›è½¯ä»¶åŒ…ã€‚
 
-libraries.io ÊÕ¼¯Ò»Ğ©²Ö¿âµÄ¿â£¬¿ÉÒÔÓÃÀ´ËÑË÷
+libraries.io æ”¶é›†ä¸€äº›ä»“åº“çš„åº“ï¼Œå¯ä»¥ç”¨æ¥æœç´¢
 
-Ààfzf¹¤¾ß£¬ºÃÏñ¸üÇ¿´ó
+ç±»fzfå·¥å…·ï¼Œå¥½åƒæ›´å¼ºå¤§
 https://github.com/peco/peco
 
 QEMU
 
-cscope¿ªÔ´µÄC/C++´úÂëä¯ÀÀ¹¤¾ß(ÓĞvim²å¼ş)
+cscopeå¼€æºçš„C/C++ä»£ç æµè§ˆå·¥å…·(æœ‰vimæ’ä»¶)
 
-¸÷ÖÖdockerfile»ã×Ü
+å„ç§dockerfileæ±‡æ€»
 https://github.com/jessfraz/dockerfiles
 
-githubÇ÷ÊÆ
+githubè¶‹åŠ¿
 https://github-trending.com/
 
-Yocto ¹¹½¨×Ô¶¨ÒåÇ¶ÈëÊ½Linux·¢ĞĞ°æ
+Yocto æ„å»ºè‡ªå®šä¹‰åµŒå…¥å¼Linuxå‘è¡Œç‰ˆ
 
-°Ù¶È¿ªÔ´µÄÍ¼Êı¾İ¿â HugeGraph
+ç™¾åº¦å¼€æºçš„å›¾æ•°æ®åº“ HugeGraph
 
-¹«Ë¾µÄSecdive
+å…¬å¸çš„Secdive
 
-z3(Çó½â·½³Ì£¬ctfÓÃµÃÒ²ºÜ¶à)
+z3(æ±‚è§£æ–¹ç¨‹ï¼Œctfç”¨å¾—ä¹Ÿå¾ˆå¤š)
 https://pypi.org/project/z3-solver/4.5.1.0/#files
 
-Ponce£ºÒ»¼ü¼´¿ÉÊµÏÖ·ûºÅÖ´ĞĞ£¨IDA²å¼ş£©
+Ponceï¼šä¸€é”®å³å¯å®ç°ç¬¦å·æ‰§è¡Œï¼ˆIDAæ’ä»¶ï¼‰
 
-Angr£ºÒ»¸ö¾ßÓĞ¶¯Ì¬·ûºÅÖ´ĞĞºÍ¾²Ì¬·ÖÎöµÄ¶ş½øÖÆ·ÖÎö¹¤¾ß
+Angrï¼šä¸€ä¸ªå…·æœ‰åŠ¨æ€ç¬¦å·æ‰§è¡Œå’Œé™æ€åˆ†æçš„äºŒè¿›åˆ¶åˆ†æå·¥å…·
 
-dyninstÊÇÒ»¸ö¶ş½øÖÆ¶¯Ì¬²å×®·ÖÎö¹¤¾ß£¬ÔÚ³ÌĞò·ÖÎö¡¢È±Ïİ¼ì²â·½ÃæÓĞºÜ´óÓÃ´¦¡£
+dyninstæ˜¯ä¸€ä¸ªäºŒè¿›åˆ¶åŠ¨æ€æ’æ¡©åˆ†æå·¥å…·ï¼Œåœ¨ç¨‹åºåˆ†æã€ç¼ºé™·æ£€æµ‹æ–¹é¢æœ‰å¾ˆå¤§ç”¨å¤„ã€‚
 
 https://github.com/javaparser/javaparser
 
-Í¨¹ıĞŞ¸ÄhostsÎÄ¼ş·­Ç½
+é€šè¿‡ä¿®æ”¹hostsæ–‡ä»¶ç¿»å¢™
 https://github.com/googlehosts/hosts
 
-jarchitect ÆÆ½â°æÏÂÔØ
+jarchitect ç ´è§£ç‰ˆä¸‹è½½
 http://1.download.minixiazai.com/pc/jarchitect2018.1.0poj.rar
 http://hkcn.jb51.net:81/201904/tools/JArchitect_2019_jb51.rar
 
-jarchitectËùÓĞ¹æÔòÃèÊö
+jarchitectæ‰€æœ‰è§„åˆ™æè¿°
 https://www.ndepend.com/default-rules/NDepend-Rules-Explorer.html?ruleid=ND1000#!
 
-java¸²¸ÇÂÊ¹¤¾ß cobertura
+javaè¦†ç›–ç‡å·¥å…· cobertura
 
-lldbµ÷ÊÔÆ÷ 
+lldbè°ƒè¯•å™¨ 
 
-linuxÄÚ´æËÑË÷¹¤¾ß
+linuxå†…å­˜æœç´¢å·¥å…·
 https://github.com/rek7/mXtract
 
 NirSoft
 
-dnGrepÊÇÒ»¿î¹¦ÄÜÇ¿´óµÄÎÄ¼şÄÚÈİ²éÕÒ¹¤¾ß£¬¿ÉÒÔ×¼È·¿ìËÙµÄ½øĞĞÄÚÈİµÄ²éÕÒ£¬ÓÃ»§¿ÉÒÔÏà¹ØµÄ²éÑ¯Ìõ¼ş£¬Ö§³ÖÎÄ±¾ÎÄ¼ş¡¢wordÎÄµµ¡¢pdfÎÄ¼ş£¬ÁíÍâ»¹¾ß±¸ËÑË÷¡¢Ìæ»»¹¦ÄÜ¡£
+dnGrepæ˜¯ä¸€æ¬¾åŠŸèƒ½å¼ºå¤§çš„æ–‡ä»¶å†…å®¹æŸ¥æ‰¾å·¥å…·ï¼Œå¯ä»¥å‡†ç¡®å¿«é€Ÿçš„è¿›è¡Œå†…å®¹çš„æŸ¥æ‰¾ï¼Œç”¨æˆ·å¯ä»¥ç›¸å…³çš„æŸ¥è¯¢æ¡ä»¶ï¼Œæ”¯æŒæ–‡æœ¬æ–‡ä»¶ã€wordæ–‡æ¡£ã€pdfæ–‡ä»¶ï¼Œå¦å¤–è¿˜å…·å¤‡æœç´¢ã€æ›¿æ¢åŠŸèƒ½ã€‚
 https://github.com/dnGrep/dnGrep
 
-Ç°¶Ë´¦ÀíjsonµÄ¹ıÂË¿ò¼Ü
+å‰ç«¯å¤„ç†jsonçš„è¿‡æ»¤æ¡†æ¶
 https://github.com/jiren/filter.js
 
 2019 Best Intrusion Detection Systems (10+ IDS Tools Reviewed)
 https://www.comparitech.com/net-admin/network-intrusion-detection-tools/
 
-¸÷ÖÖapiÔÚÏßÎÄµµ
+å„ç§apiåœ¨çº¿æ–‡æ¡£
 https://devdocs.io/
 
 Eclipse JDT
 
-AspectJÊ¹ÓÃ½éÉÜ
+AspectJä½¿ç”¨ä»‹ç»
 https://www.codercto.com/a/21613.html
 
 aspectjweaver
@@ -160,140 +160,140 @@ rr is a lightweight tool for recording, replaying and debugging execution of app
 
 https://github.com/mozilla/rr
 
-£¡£¡DynamoRIOÊÇÒ»ÖÖÁ÷ĞĞµÄ¶¯Ì¬¶ş½øÖÆ²å×®Æ½Ì¨£¬ÄÜ¹»ÊµÊ±¸ú×Ù¶ş½øÖÆ³ÌĞòµÄ¶¯Ì¬Ö´ĞĞ¹ı³Ì£¬ÔÚ¶¯Ì¬·ÖÎöÁìÓò¾ßÓĞ¹ã·ºµÄÓ¦ÓÃ¡£
+ï¼ï¼DynamoRIOæ˜¯ä¸€ç§æµè¡Œçš„åŠ¨æ€äºŒè¿›åˆ¶æ’æ¡©å¹³å°ï¼Œèƒ½å¤Ÿå®æ—¶è·Ÿè¸ªäºŒè¿›åˆ¶ç¨‹åºçš„åŠ¨æ€æ‰§è¡Œè¿‡ç¨‹ï¼Œåœ¨åŠ¨æ€åˆ†æé¢†åŸŸå…·æœ‰å¹¿æ³›çš„åº”ç”¨ã€‚
 
 drmemory
 
 Bcov
 
-kcovÊÕ¼¯CÔËĞĞÊ±¸²¸ÇÂÊĞÅÏ¢»¹ÄÜ¼ì²éshell¸²¸ÇÂÊ
+kcovæ”¶é›†Cè¿è¡Œæ—¶è¦†ç›–ç‡ä¿¡æ¯è¿˜èƒ½æ£€æŸ¥shellè¦†ç›–ç‡
 https://github.com/SimonKagstrom/kcov
 
-£¡£¡pythonµÄprofile¹¤¾ß
+ï¼ï¼pythonçš„profileå·¥å…·
 https://github.com/benfred/py-spy
 
-¸øÄ³¸ö³ÌĞòÎ±ÔìµÄÊ±¼ä
+ç»™æŸä¸ªç¨‹åºä¼ªé€ çš„æ—¶é—´
 https://github.com/wolfcw/libfaketime
 
-sudoÊ¹ÓÃLD_PRELOADµÄ·½·¨
+sudoä½¿ç”¨LD_PRELOADçš„æ–¹æ³•
 https://touhidshaikh.com/blog/?p=827
 
-ctf¹¤¾ß¼¯£¬ÓĞdocker
+ctfå·¥å…·é›†ï¼Œæœ‰docker
 https://github.com/zardus/ctf-tools
 
-systemd  ´´½¨linux·şÎñ
+systemd  åˆ›å»ºlinuxæœåŠ¡
 
-phosphorÓëWebTaintÀàËÆ£¬²»¹ıËûÃÇ¿ÉÄÜ¶¼ÊÇĞŞ¸ÄÏµÍ³Àà£¬¿ÉÒÔ²Î¿¼ºó¸Ä³ÉÔËĞĞÊ±ĞŞ¸ÄÏµÍ³Àà
+phosphorä¸WebTaintç±»ä¼¼ï¼Œä¸è¿‡ä»–ä»¬å¯èƒ½éƒ½æ˜¯ä¿®æ”¹ç³»ç»Ÿç±»ï¼Œå¯ä»¥å‚è€ƒåæ”¹æˆè¿è¡Œæ—¶ä¿®æ”¹ç³»ç»Ÿç±»
 https://github.com/gmu-swe/phosphor
 
-¿ÉÒÔ²Î¿¼Õâ¸öÏîÄ¿×öjava¶¯Ì¬ÎÛµã·ÖÎö
+å¯ä»¥å‚è€ƒè¿™ä¸ªé¡¹ç›®åšjavaåŠ¨æ€æ±¡ç‚¹åˆ†æ
 https://github.com/fredrikkadolfsson/WebTaint
 
-£¡£¡£¡°Ğ»ú£¬ºÜ¶àjavaµÄ
+ï¼ï¼ï¼é¶æœºï¼Œå¾ˆå¤šjavaçš„
 https://github.com/OWASP/Benchmark
 
-±¾ÏîÄ¿ÊÕ¼¯ÁËĞí¶àºÜ°ôµÄÉè¼Æ¹¤¾ß£¬ÖîÈç¶¯»­¹¤¾ß¡¢AR¡¢×ÖÌå¹¤¾ß¡¢½¥±ä¹¤¾ß¡¢´úÂë¹¤¾ßµÈµÈ
+æœ¬é¡¹ç›®æ”¶é›†äº†è®¸å¤šå¾ˆæ£’çš„è®¾è®¡å·¥å…·ï¼Œè¯¸å¦‚åŠ¨ç”»å·¥å…·ã€ARã€å­—ä½“å·¥å…·ã€æ¸å˜å·¥å…·ã€ä»£ç å·¥å…·ç­‰ç­‰
 https://github.com/LisaDziuba/Awesome-Design-Tool
 
-etcd»ùÓÚhttpµÄkey-valeÏµÍ³,ÊÊÓÃÓÚ·şÎñ·¢ÏÖ
+etcdåŸºäºhttpçš„key-valeç³»ç»Ÿ,é€‚ç”¨äºæœåŠ¡å‘ç°
 
-ÕûÀíËùÓĞ¿ÉÒÔ±»ÌáÈ¨ÀûÓÃµÄÃüÁî
+æ•´ç†æ‰€æœ‰å¯ä»¥è¢«ææƒåˆ©ç”¨çš„å‘½ä»¤
 https://gtfobins.github.io/
 
-bash¾²Ì¬¼ì²é¹¤¾ß
+bashé™æ€æ£€æŸ¥å·¥å…·
 https://github.com/koalaman/shellcheck
 
 https://github.com/Microsoft/pyright
 
-Î¢Èí¿ªÔ´µÄ»ùÓÚä¯ÀÀÆ÷µÄ´úÂë±à¼­Æ÷
+å¾®è½¯å¼€æºçš„åŸºäºæµè§ˆå™¨çš„ä»£ç ç¼–è¾‘å™¨
 Monaco Editor
 
-webIDE  (ÓĞdocker)
+webIDE  (æœ‰docker)
 https://github.com/Coding/WebIDE
 
-°üº¬¸÷ÖÖÓïÑÔµÄÓïÑÔ·şÎñÆ÷
+åŒ…å«å„ç§è¯­è¨€çš„è¯­è¨€æœåŠ¡å™¨
 https://langserver.org/
 
-Uber ÕıÊ½¿ªÔ´Æä·Ö²¼Ê½¸ú×ÙÏµÍ³ Jaeger
+Uber æ­£å¼å¼€æºå…¶åˆ†å¸ƒå¼è·Ÿè¸ªç³»ç»Ÿ Jaeger
 
 linux userspace
 
-idaµÄpython½Ó¿ÚÔÚ¶ş½øÖÆµÄÓ¦ÓÃ
+idaçš„pythonæ¥å£åœ¨äºŒè¿›åˆ¶çš„åº”ç”¨
 
-httpie http¿Í»§¶Ë¹¤¾ß£¬¸úcurl²î²»¶à£¬±ÈcurlÓÑºÃĞ©
+httpie httpå®¢æˆ·ç«¯å·¥å…·ï¼Œè·Ÿcurlå·®ä¸å¤šï¼Œæ¯”curlå‹å¥½äº›
 https://github.com/jakubroztocil/httpie
 
-Ä£ÄâÖ´ĞĞAndorid armÆ½Ì¨µÄnative¿â
+æ¨¡æ‹Ÿæ‰§è¡ŒAndorid armå¹³å°çš„nativeåº“
 https://github.com/zhkl0228/emulator
 
-ºóÃÅÉú³É¹¤¾ß
+åé—¨ç”Ÿæˆå·¥å…·
 https://github.com/secretsquirrel/the-backdoor-factory
 
-PLASMAÌá¹©ÑÕÉ«¸ßÁÁ¸ü¿É¶ÁµÄ·´±àÒë¹¤¾ß
+PLASMAæä¾›é¢œè‰²é«˜äº®æ›´å¯è¯»çš„åç¼–è¯‘å·¥å…·
 https://github.com/plasma-disassembler/plasma
 
-Capstone Ç¿´óµÄ¿çÆ½Ì¨·´±àÒë¿ò¼Ü
+Capstone å¼ºå¤§çš„è·¨å¹³å°åç¼–è¯‘æ¡†æ¶
 https://github.com/aquynh/capstone
 
-Í¼ĞÎÊı¾İ¿âjanusgraph (¿É×÷Îªneo4jµÄÌæ´ú)£¬Í¬ÀàµÄ»¹ÓĞHugeGraph
+å›¾å½¢æ•°æ®åº“janusgraph (å¯ä½œä¸ºneo4jçš„æ›¿ä»£)ï¼ŒåŒç±»çš„è¿˜æœ‰HugeGraph
 
-javaĞÔÄÜ¼à¿Ø(¿ÉÒÔ²Î¿¼ËüµÄjavaagent)
+javaæ€§èƒ½ç›‘æ§(å¯ä»¥å‚è€ƒå®ƒçš„javaagent)
 https://github.com/apache/skywalking
 
-Alpine ÊÇÒ»¸ö¼«¶ÈÊİÉíµÄ Linux ·¢ĞĞ°æ£¬Ö»ÓĞ 5MB ×óÓÒ£¬Ö÷ÒªÓÃÓÚÖÆ×÷ Docker ¾µÏñÎÄ¼ş¡£
+Alpine æ˜¯ä¸€ä¸ªæåº¦ç˜¦èº«çš„ Linux å‘è¡Œç‰ˆï¼Œåªæœ‰ 5MB å·¦å³ï¼Œä¸»è¦ç”¨äºåˆ¶ä½œ Docker é•œåƒæ–‡ä»¶ã€‚
 
-chrom²å¼şÓ¢ĞÛ°ñ(ÖĞÎÄ)
+chromæ’ä»¶è‹±é›„æ¦œ(ä¸­æ–‡)
 https://zhaoolee.github.io/ChromeAppHeroes/
 
-³ÌĞòÔ±ÔÚ GitHub ÉÏ¶¼·ÖÏí¹ıÄÄĞ©¼¼ÊõÂ·ÏßÍ¼£¿
+ç¨‹åºå‘˜åœ¨ GitHub ä¸Šéƒ½åˆ†äº«è¿‡å“ªäº›æŠ€æœ¯è·¯çº¿å›¾ï¼Ÿ
 https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457915158&idx=1&sn=9a8b6b54215bfb9661e53758e3ef464e&chksm=8cb6aafcbbc123ea781ea882b924f42502e44b84fa9316f35e779160f34ed8632c1bbb33e030&xtrack=1&scene=0&subscene=131&clicktime=1555601308&ascene=7&devicetype=android-28&version=2700033c&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAEwAGAJ2GHgAjlx4AXpkeAMmZHgDTmR4A3JkeAAAA&lang=zh_CN&pass_ticket=uOBsJkmo9T4qzVTJJ5CP%2F%2Fg4N3FBj4fvBCWqA0NU4fg%3D&wx_header=1
 
-¿ÉÅäÖÃÁé»îµÄ·½±ãÖ±½Ó¼ÓÔØjar£¬È»ºó·´Éäµ÷ÓÃ·½·¨
+å¯é…ç½®çµæ´»çš„æ–¹ä¾¿ç›´æ¥åŠ è½½jarï¼Œç„¶ååå°„è°ƒç”¨æ–¹æ³•
 https://github.com/kamranzafar/JCL
 
-ÇáÁ¿½â¾öjar°ü³åÍ»µÄÎÊÌâ
+è½»é‡è§£å†³jaråŒ…å†²çªçš„é—®é¢˜
 https://github.com/alipay/sofa-ark
 
-Ç°¶ËÑµÁ·Óªfrontend-bootcamp
+å‰ç«¯è®­ç»ƒè¥frontend-bootcamp
 https://github.com/Microsoft/frontend-bootcamp
 
-¿ÉÒÔ¼òÒ×µÄÊ¹ÓÃprotobuf
+å¯ä»¥ç®€æ˜“çš„ä½¿ç”¨protobuf
 https://github.com/jhunters/jprotobuf
 
-·½±ãµØÊ¹ÓÃ·´Éä£¬»¹¿ÉÒÔÔËĞĞÊ±Ö´ĞĞjava´úÂë(ÀàËÆµÄjxpathÊ¹ÓÃxpathÊ¹ÓÃ·´Éä)
+æ–¹ä¾¿åœ°ä½¿ç”¨åå°„ï¼Œè¿˜å¯ä»¥è¿è¡Œæ—¶æ‰§è¡Œjavaä»£ç (ç±»ä¼¼çš„jxpathä½¿ç”¨xpathä½¿ç”¨åå°„)
 https://github.com/jOOQ/jOOR
 
 jni instument
 https://github.com/ElephantTracksProject/et2-java
 
-¿ªÔ´µÄÈÕÖ¾ÎÄ¼şä¯ÀÀÆ÷lnav
+å¼€æºçš„æ—¥å¿—æ–‡ä»¶æµè§ˆå™¨lnav
 https://github.com/tstack/lnav
 
-ÌØĞÔ¿ª¹Ø¿ò¼ÜFF4J ,Togglz
+ç‰¹æ€§å¼€å…³æ¡†æ¶FF4J ,Togglz
 
-ÄÚÈİºÃÏñ±Èawesome java¸üºÃ
+å†…å®¹å¥½åƒæ¯”awesome javaæ›´å¥½
 https://github.com/Vedenin/useful-java-links
 
-packr£º½«JAR¡¢×ÊÔ´ºÍJVM´ò°ü³ÉWindows¡¢LinuxºÍMac OS X±¾µØ·¢²¼ÎÄ¼ş¡£
+packrï¼šå°†JARã€èµ„æºå’ŒJVMæ‰“åŒ…æˆWindowsã€Linuxå’ŒMac OS Xæœ¬åœ°å‘å¸ƒæ–‡ä»¶ã€‚
 https://github.com/libgdx/packr
 
 
-ÄÚ´æÎÄ¼şÏµÍ³(java)
+å†…å­˜æ–‡ä»¶ç³»ç»Ÿ(java)
 https://github.com/google/jimfs
 
-×Ö½ÚÂë±à¼­¹¤¾ß
+å­—èŠ‚ç ç¼–è¾‘å·¥å…·
 https://github.com/Col-E/Recaf
 
-MobSFÊÇMobile Security FrameworkµÄËõĞ´£¬ÊÇÒ»¸öÒÆ¶¯¶ËÓ¦ÓÃ°²È«ÎÊÌâ¼ì³öµÄ¿ò¼ÜºÍ¹¤¾ß£¬ËüÊÊÓÃÓÚAndroid/iOS/Windows£¬ÄÜ¹»Ö´ĞĞ¶¯Ì¬ºÍ¾²Ì¬µÄ¶ñÒâÈí¼şµÄ·ÖÎöºÍ¼ì²â¡£Ö§³ÖAndroidºÍiOSÒÔ¼°WindowsÒÆ¶¯Ó¦ÓÃ£¬ÎŞÂÛÊÇ¶ş½øÖÆ·½Ê½»¹ÊÇÑ¹ËõµÄÔ´´úÂë¶¼¿ÉÒÔ½øĞĞ¼ì²â¡£MobSF½«Êı¾İ±£³ÖÔÚ±¾µØ»·¾³Ö®ÖĞ£¬ËùÒÔ¿ÉÒÔ²»±Øµ£ĞÄÓ¦ÓÃºÍÏà¹ØµÄÊı¾İ±»ËÍÖÁÔÆ¶Ë¡£ÁíÍâ£¬¶ÔÓÚsslÁ´½Ó/¼òµ¥µÄ¼ÓÃÜ·½Ê½/Ó²±àÂëµÄÃÜ¼şĞÅÏ¢µÈMobSFÒ²½øĞĞÁËÖØµãµØ¹Ø×¢¡£
+MobSFæ˜¯Mobile Security Frameworkçš„ç¼©å†™ï¼Œæ˜¯ä¸€ä¸ªç§»åŠ¨ç«¯åº”ç”¨å®‰å…¨é—®é¢˜æ£€å‡ºçš„æ¡†æ¶å’Œå·¥å…·ï¼Œå®ƒé€‚ç”¨äºAndroid/iOS/Windowsï¼Œèƒ½å¤Ÿæ‰§è¡ŒåŠ¨æ€å’Œé™æ€çš„æ¶æ„è½¯ä»¶çš„åˆ†æå’Œæ£€æµ‹ã€‚æ”¯æŒAndroidå’ŒiOSä»¥åŠWindowsç§»åŠ¨åº”ç”¨ï¼Œæ— è®ºæ˜¯äºŒè¿›åˆ¶æ–¹å¼è¿˜æ˜¯å‹ç¼©çš„æºä»£ç éƒ½å¯ä»¥è¿›è¡Œæ£€æµ‹ã€‚MobSFå°†æ•°æ®ä¿æŒåœ¨æœ¬åœ°ç¯å¢ƒä¹‹ä¸­ï¼Œæ‰€ä»¥å¯ä»¥ä¸å¿…æ‹…å¿ƒåº”ç”¨å’Œç›¸å…³çš„æ•°æ®è¢«é€è‡³äº‘ç«¯ã€‚å¦å¤–ï¼Œå¯¹äºsslé“¾æ¥/ç®€å•çš„åŠ å¯†æ–¹å¼/ç¡¬ç¼–ç çš„å¯†ä»¶ä¿¡æ¯ç­‰MobSFä¹Ÿè¿›è¡Œäº†é‡ç‚¹åœ°å…³æ³¨ã€‚
 https://github.com/MobSF/Mobile-Security-Framework-MobSF
 
-£¡£¡ÈÃ¹ÜµÀµÄÊä³ö±ä³É½»»¥Ê½µÄÁíÍâÒ»¸öÃüÁîµÄÊäÈë
+ï¼ï¼è®©ç®¡é“çš„è¾“å‡ºå˜æˆäº¤äº’å¼çš„å¦å¤–ä¸€ä¸ªå‘½ä»¤çš„è¾“å…¥
 https://github.com/mooz/percol
 
-Java ¿ª·¢ÕßĞèÒªÖªµÀµÄ20¸ö¿â
+Java å¼€å‘è€…éœ€è¦çŸ¥é“çš„20ä¸ªåº“
 https://javarevisited.blogspot.com/2018/01/top-20-libraries-and-apis-for-java-programmers.html
 
-ÔËĞĞÊ±Í¨¹ı·´Éä·½±ã»ñÈ¡Àà¼°ÒÀÀµµÈĞÅÏ¢
+è¿è¡Œæ—¶é€šè¿‡åå°„æ–¹ä¾¿è·å–ç±»åŠä¾èµ–ç­‰ä¿¡æ¯
 https://github.com/ronmamo/reflections
 
 https://github.com/pmd/pmd
@@ -307,94 +307,94 @@ Java Decompiler
 
 diffy
 
-elasticsearchµÄ¸æ¾¯¿ò¼Ü
+elasticsearchçš„å‘Šè­¦æ¡†æ¶
 https://github.com/yelp/elastalert
 
 https://github.com/cmderdev/cmder
 
 syncthing
-¶àÌ¨µçÄÔÖ®¼ä×Ô¶¯Í¬²½ÎÄ¼ş¼ĞµÄ¹¤¾ß£¬¿ÉÒÔÔÚÃüÁîĞĞ×÷Îª·şÎñÔËĞĞ£¬Ò²Ìá¹©Í¼ĞÎ½çÃæ¡£
+å¤šå°ç”µè„‘ä¹‹é—´è‡ªåŠ¨åŒæ­¥æ–‡ä»¶å¤¹çš„å·¥å…·ï¼Œå¯ä»¥åœ¨å‘½ä»¤è¡Œä½œä¸ºæœåŠ¡è¿è¡Œï¼Œä¹Ÿæä¾›å›¾å½¢ç•Œé¢ã€‚
 
 
-Çø¿éÁ´ÖªÊ¶¿â
+åŒºå—é“¾çŸ¥è¯†åº“
 https://github.com/slowmist/Knowledge-Base
 
-cloud9¸úcode-serverÀàËÆµÄweb´úÂë±à¼­µ÷ÊÔ
+cloud9è·Ÿcode-serverç±»ä¼¼çš„webä»£ç ç¼–è¾‘è°ƒè¯•
 https://github.com/ajaxorg/ace
 
-ÔÚÄÚ´æÖĞ±àÒëjava´úÂë
+åœ¨å†…å­˜ä¸­ç¼–è¯‘javaä»£ç 
 https://github.com/trung/InMemoryJavaCompiler
 
-Manticore£º·ûºÅÖ´ĞĞ
+Manticoreï¼šç¬¦å·æ‰§è¡Œ
 http://pwn4.fun/2017/06/01/Manticore%EF%BC%9A%E7%AC%A6%E5%8F%B7%E6%89%A7%E8%A1%8C/
 
-¾²Ì¬´úÂë·ÖÎö¹¤¾ß
+é™æ€ä»£ç åˆ†æå·¥å…·
 pfff
 https://github.com/facebook/pfff
 
-ÎÄ¼ş¼à¿Ø£¬»ùÓÚinotify
+æ–‡ä»¶ç›‘æ§ï¼ŒåŸºäºinotify
 https://github.com/facebook/watchman
 
-facebookÔÚgithubÉÏµÄËùÓĞ¿ªÔ´ÏîÄ¿
+facebookåœ¨githubä¸Šçš„æ‰€æœ‰å¼€æºé¡¹ç›®
 
 https://github.com/k4m4/terminals-are-sexy
 
-Material Design£¬ÖĞÎÄÃû£º²ÄÁÏÉè¼ÆÓïÑÔ£¬ÊÇÓÉGoogleÍÆ³öµÄÈ«ĞÂµÄÉè¼ÆÓïÑÔ£¬¹È¸è±íÊ¾£¬ÕâÖÖÉè¼ÆÓïÑÔÖ¼ÔÚÎªÊÖ»ú¡¢Æ½°åµçÄÔ¡¢Ì¨Ê½»úºÍ¡°ÆäËûÆ½Ì¨¡±Ìá¹©¸üÒ»ÖÂ¡¢¸ü¹ã·ºµÄ¡°Íâ¹ÛºÍ¸Ğ¾õ¡±¡£
+Material Designï¼Œä¸­æ–‡åï¼šææ–™è®¾è®¡è¯­è¨€ï¼Œæ˜¯ç”±Googleæ¨å‡ºçš„å…¨æ–°çš„è®¾è®¡è¯­è¨€ï¼Œè°·æ­Œè¡¨ç¤ºï¼Œè¿™ç§è®¾è®¡è¯­è¨€æ—¨åœ¨ä¸ºæ‰‹æœºã€å¹³æ¿ç”µè„‘ã€å°å¼æœºå’Œâ€œå…¶ä»–å¹³å°â€æä¾›æ›´ä¸€è‡´ã€æ›´å¹¿æ³›çš„â€œå¤–è§‚å’Œæ„Ÿè§‰â€ã€‚
 
-google¿ªÔ´C/C++ É³Ïäapi
+googleå¼€æºC/C++ æ²™ç®±api
 https://github.com/google/sandboxed-api
 
-libseccomp ÊÇÒ»¸ö³£ÓÃµÄ Linux kernel syscall filter ¿â£¬³£±»ÓÃÀ´×öÉ³Ïä±£»¤¡£
+libseccomp æ˜¯ä¸€ä¸ªå¸¸ç”¨çš„ Linux kernel syscall filter åº“ï¼Œå¸¸è¢«ç”¨æ¥åšæ²™ç®±ä¿æŠ¤ã€‚
 
-ÒÔ·Ç³£ÓÑºÃµÄ·½Ê½ÏÔÊ¾git history
+ä»¥éå¸¸å‹å¥½çš„æ–¹å¼æ˜¾ç¤ºgit history
 https://github.com/pomber/git-history
 
-£¡£¡web´úÂë±à¼­Æ÷»ù´¡¿âCodeMirror£¬¿ÉÒÔÓÃÀ´×ö´úÂëÕ¹Ê¾
+ï¼ï¼webä»£ç ç¼–è¾‘å™¨åŸºç¡€åº“CodeMirrorï¼Œå¯ä»¥ç”¨æ¥åšä»£ç å±•ç¤º
 
-·½±ãµØ°²×°ruby
+æ–¹ä¾¿åœ°å®‰è£…ruby
 https://github.com/postmodern/ruby-install
 
-c++¿ª·¢¿âÓĞ folly boost
+c++å¼€å‘åº“æœ‰ folly boost
 
-¸²¸ÇÂÊÕ¹Ê¾¿ò¼Ü
+è¦†ç›–ç‡å±•ç¤ºæ¡†æ¶
 https://github.com/colszowka/simplecov
 
 Polymer
 
-±à³ÌÓïÑÔËÙ²é
+ç¼–ç¨‹è¯­è¨€é€ŸæŸ¥
 https://github.com/LeCoupa/awesome-cheatsheets
 
-ÖĞÎÄ°æ±à³ÌÓïÑÔËÙ²é
+ä¸­æ–‡ç‰ˆç¼–ç¨‹è¯­è¨€é€ŸæŸ¥
 https://github.com/skywind3000/awesome-cheatsheets
 
-Ã¿¸ö²Ù×÷ÏµÍ³syscallÏµÍ³µ÷ÓÃÁĞ±í£¬ÒÔ¼°Ã¿¸ö²ÎÊı¶ÔÓ¦µÄÀí½â
+æ¯ä¸ªæ“ä½œç³»ç»Ÿsyscallç³»ç»Ÿè°ƒç”¨åˆ—è¡¨ï¼Œä»¥åŠæ¯ä¸ªå‚æ•°å¯¹åº”çš„ç†è§£
 https://w3challs.com/syscalls/
 
-ÍøÂçÊı¾İ°ü²¶»ñº¯Êı¿âLibpcap°²×°ÓëÊ¹ÓÃ£¨·Ç³£Ç¿´ó£©
+ç½‘ç»œæ•°æ®åŒ…æ•è·å‡½æ•°åº“Libpcapå®‰è£…ä¸ä½¿ç”¨ï¼ˆéå¸¸å¼ºå¤§ï¼‰
 http://www.cnblogs.com/coder2012/archive/2013/04/13/3012390.html
 
-ÄæÏò¹¤³Ì
+é€†å‘å·¥ç¨‹
 https://github.com/wtsxDev/reverse-engineering
 
 
-Sh00tÊÇÒ»¸ö¸ß¿É¶¨ÖÆµÄÉøÍ¸²âÊÔ¹ÜÀí¹¤¾ß£¬ËüÇ¿µ÷ÈÃ²âÊÔÈËÔ±ÊÖ¶¯½øĞĞ°²È«²âÊÔ£¬²¢ÈÃÄã×¨×¢ÓÚÖ´ĞĞ°²È«²âÊÔÈÎÎñµÄ±¾Éí¡£´ËÍâ£¬Sh00t»¹ÎªÎÒÃÇÌá¹©ÁË²âÊÔÓÃÀıµÄ´ı°ìÊÂÏîÇåµ¥£¬ÒÔ¼°¿ÉÒÔÊ¹ÓÃ×Ô¶¨ÒåµÄÂ©¶´±¨¸æÄ£°åÀ´Éú³ÉÂ©¶´±¨¸æ¡£
+Sh00tæ˜¯ä¸€ä¸ªé«˜å¯å®šåˆ¶çš„æ¸—é€æµ‹è¯•ç®¡ç†å·¥å…·ï¼Œå®ƒå¼ºè°ƒè®©æµ‹è¯•äººå‘˜æ‰‹åŠ¨è¿›è¡Œå®‰å…¨æµ‹è¯•ï¼Œå¹¶è®©ä½ ä¸“æ³¨äºæ‰§è¡Œå®‰å…¨æµ‹è¯•ä»»åŠ¡çš„æœ¬èº«ã€‚æ­¤å¤–ï¼ŒSh00tè¿˜ä¸ºæˆ‘ä»¬æä¾›äº†æµ‹è¯•ç”¨ä¾‹çš„å¾…åŠäº‹é¡¹æ¸…å•ï¼Œä»¥åŠå¯ä»¥ä½¿ç”¨è‡ªå®šä¹‰çš„æ¼æ´æŠ¥å‘Šæ¨¡æ¿æ¥ç”Ÿæˆæ¼æ´æŠ¥å‘Šã€‚
 
-¹éµµÍøÉÏ¿´µÄµÄurl
+å½’æ¡£ç½‘ä¸Šçœ‹çš„çš„url
 https://github.com/pirate/ArchiveBox
 
-ini¸ñÊ½c½âÎö¿â
+iniæ ¼å¼cè§£æåº“
 https://github.com/ndevilla/iniparser
 
-Ò»Ğ©ÀÏÍâ¸öÈË¼¼Êõ²©¿Í
+ä¸€äº›è€å¤–ä¸ªäººæŠ€æœ¯åšå®¢
 https://github.com/jkup/awesome-personal-blogs
 
-firefoxÁÙÊ±ÎÄ¼şÉÏ´«ÏÂÔØ·şÎñ£¬×î¶à´æ1G
+firefoxä¸´æ—¶æ–‡ä»¶ä¸Šä¼ ä¸‹è½½æœåŠ¡ï¼Œæœ€å¤šå­˜1G
 https://send.firefox.com/
-»¹Ìá¹©ÃüÁîĞĞ·½Ê½
+è¿˜æä¾›å‘½ä»¤è¡Œæ–¹å¼
 https://github.com/timvisee/ffsend
 
 https://github.com/algorithm-visualizer/algorithm-visualizer
-Ò»¸öÖ±¹ÛµÄËã·¨¿ÉÊÓ»¯¹¤¾ß£¬Äã¿ÉÒÔ×ÔÓÉÑ¡Ôñ×Ô¼ºÏëÑ§Ï°µÄËã·¨£¬Ã¿¸öËã·¨Ëü¶¼ÇåÎúÃè»æÁËÆäÔ­ÀíºÍÔË×÷¹ı³Ì¡£
+ä¸€ä¸ªç›´è§‚çš„ç®—æ³•å¯è§†åŒ–å·¥å…·ï¼Œä½ å¯ä»¥è‡ªç”±é€‰æ‹©è‡ªå·±æƒ³å­¦ä¹ çš„ç®—æ³•ï¼Œæ¯ä¸ªç®—æ³•å®ƒéƒ½æ¸…æ™°æç»˜äº†å…¶åŸç†å’Œè¿ä½œè¿‡ç¨‹ã€‚
 
 radare2
 Use r2dec - a plugin to radare that can produce a pseudo-C output
@@ -404,62 +404,62 @@ Use r2snowman - radare2 plugin which integrates the snowman decompiler.
 libcurl
 
 rainbow?
-Ìå»ıĞ¡¡¢Ò×ÓÚÊ¹ÓÃ¡¢Ö§³Ö¸÷ÖÖ±à³ÌÓïÑÔµÄÓï·¨¸ßÁÁ²å¼ş¡£¸ÃÏîÄ¿Ô­ÀíÊÇÍ¨¹ıÕıÔò¹ıÂË¹Ø¼ü×Ö£¬È»ºó½øĞĞ¸ßÁÁ
+ä½“ç§¯å°ã€æ˜“äºä½¿ç”¨ã€æ”¯æŒå„ç§ç¼–ç¨‹è¯­è¨€çš„è¯­æ³•é«˜äº®æ’ä»¶ã€‚è¯¥é¡¹ç›®åŸç†æ˜¯é€šè¿‡æ­£åˆ™è¿‡æ»¤å…³é”®å­—ï¼Œç„¶åè¿›è¡Œé«˜äº®
 
-Ò»Ğ©ÖĞÎÄ¼¼ÊõÊé
+ä¸€äº›ä¸­æ–‡æŠ€æœ¯ä¹¦
 https://github.com/yuyichao/cs-doc
 
-ChameleonÔ­ÀíÊ×·¢£ºÆäËü¿ç¶à¶ËÍ³Ò»¿ò¼Ü¶¼ÊÇ¼ÙµÄ£¿
+ChameleonåŸç†é¦–å‘ï¼šå…¶å®ƒè·¨å¤šç«¯ç»Ÿä¸€æ¡†æ¶éƒ½æ˜¯å‡çš„ï¼Ÿ
 https://github.com/didi/chameleon
 
 
-Ò»¸öÅäÖÃºÃµÄ Vim ¿ª·¢»·¾³£¬ÓÃ×÷±à³Ì IDE
+ä¸€ä¸ªé…ç½®å¥½çš„ Vim å¼€å‘ç¯å¢ƒï¼Œç”¨ä½œç¼–ç¨‹ IDE
 https://github.com/SpaceVim/SpaceVim
 
 be-a-professional-programmer
-³ÉÎª×¨Òµ³ÌĞòÔ±Â·ÉÏÓÃµ½µÄ¸÷ÖÖÓÅĞã×ÊÁÏ¡¢ÉñÆ÷¼°¿ò¼Ü
+æˆä¸ºä¸“ä¸šç¨‹åºå‘˜è·¯ä¸Šç”¨åˆ°çš„å„ç§ä¼˜ç§€èµ„æ–™ã€ç¥å™¨åŠæ¡†æ¶
 http://tools.stanzhai.site/
 
 Jsonnet
-Google ¿ªÔ´µÄÒ»ÃÅÅäÖÃÓïÑÔ£¬ÓÃÓÚ¸ÄÉÆ JSON ±©Â¶³öÀ´µÄÒ»Ğ©ÎÊÌâ£¬¼ò¶øÑÔÖ®£¬Jsonnet ÊÇÒ»¸öÔöÇ¿°æµÄ JSON Êı¾İ¸ñÊ½£¬ÄÜ°ïÖú¿ª·¢Õß¼ò»¯²»ÉÙ¹¤×÷£¬¿ÉÒÔÌåÑéÒ»ÏÂ¡£ÔÚÏßµØÖ·£ºhttp://jsonnet.org
+Google å¼€æºçš„ä¸€é—¨é…ç½®è¯­è¨€ï¼Œç”¨äºæ”¹å–„ JSON æš´éœ²å‡ºæ¥çš„ä¸€äº›é—®é¢˜ï¼Œç®€è€Œè¨€ä¹‹ï¼ŒJsonnet æ˜¯ä¸€ä¸ªå¢å¼ºç‰ˆçš„ JSON æ•°æ®æ ¼å¼ï¼Œèƒ½å¸®åŠ©å¼€å‘è€…ç®€åŒ–ä¸å°‘å·¥ä½œï¼Œå¯ä»¥ä½“éªŒä¸€ä¸‹ã€‚åœ¨çº¿åœ°å€ï¼šhttp://jsonnet.org
 
 fastsocket
 
 GitHunt
-Ò»¸ö¿ªÔ´µÄ Chrome ²å¼ş£¬°ÑÄã Chrome µÄ Tab Ò³×ªÎª GitHub ¿ªÔ´ÏîÄ¿µÄÍÆ¼öÒ³£¬ÎÒÊÇÕâ¸ö²å¼şµÄÖØ¶ÈÓÃ»§£¬×°ÁËºÃ¼¸Äê£¬´ÓÀ´Ã»Ğ¶ÔØ¹ı£¬×ÔÈÏÎªÊÇ¿ª·¢Õß±Ø×°ä¯ÀÀÆ÷²å¼şÖ®Ò» 
+ä¸€ä¸ªå¼€æºçš„ Chrome æ’ä»¶ï¼ŒæŠŠä½  Chrome çš„ Tab é¡µè½¬ä¸º GitHub å¼€æºé¡¹ç›®çš„æ¨èé¡µï¼Œæˆ‘æ˜¯è¿™ä¸ªæ’ä»¶çš„é‡åº¦ç”¨æˆ·ï¼Œè£…äº†å¥½å‡ å¹´ï¼Œä»æ¥æ²¡å¸è½½è¿‡ï¼Œè‡ªè®¤ä¸ºæ˜¯å¼€å‘è€…å¿…è£…æµè§ˆå™¨æ’ä»¶ä¹‹ä¸€ 
 https://github.com/kamranahmedse/githunt
 
 LevelDB
 
 RocksDB
 
-Ê¹ÓÃchrootºÍsupermin5´´½¨°²È«¸ôÀëµÄ»·¾³
+ä½¿ç”¨chrootå’Œsupermin5åˆ›å»ºå®‰å…¨éš”ç¦»çš„ç¯å¢ƒ
 https://blog.csdn.net/kongxx/article/details/80589712
 
-ÑĞ¾¿sandboxÔÚ°²È«²âÊÔµÄÔËÓÃ
+ç ”ç©¶sandboxåœ¨å®‰å…¨æµ‹è¯•çš„è¿ç”¨
 
-ÎÄ¼şÏµÍ³É³ºĞ
+æ–‡ä»¶ç³»ç»Ÿæ²™ç›’
 https://github.com/adtac/fssb
 
-scrcpy ÊÇÒ»¸öÔÚµçÄÔÉÏÏÔÊ¾ºÍ¿ØÖÆ Android Éè±¸µÄÃüÁîĞĞ¹¤¾ß£¬ÊÊÓÃÓÚ GNU/Linux¡¢Windows ºÍ Mac OS£¬ÇÒÎŞĞè root ¡£
+scrcpy æ˜¯ä¸€ä¸ªåœ¨ç”µè„‘ä¸Šæ˜¾ç¤ºå’Œæ§åˆ¶ Android è®¾å¤‡çš„å‘½ä»¤è¡Œå·¥å…·ï¼Œé€‚ç”¨äº GNU/Linuxã€Windows å’Œ Mac OSï¼Œä¸”æ— éœ€ root ã€‚
 https://github.com/Genymobile/scrcpy
 
-shellÊµÏÖÄ£Äâ°ædocker
+shellå®ç°æ¨¡æ‹Ÿç‰ˆdocker
 https://github.com/p8952/bocker
 
-½«redis·şÎñÇ¶Èëµ½Ó¦ÓÃÖĞ
+å°†redisæœåŠ¡åµŒå…¥åˆ°åº”ç”¨ä¸­
 https://github.com/kstyrc/embedded-redis
 
-windows Ö¸¶¨samba¶Ë¿Ú
+windows æŒ‡å®šsambaç«¯å£
 https://dog.xmu.edu.cn/2017/05/19/windows-network-neighborhood.html
 
 LLVM Clang
 
-Deno ÊÇ¡°Ò»¸ö¿ÉÔÚä¯ÀÀÆ÷ÍâÖ´ĞĞ JavaScript ºÍ TypeScript ´úÂëµÄ³ÌĞò¡±¸ù¾İÆä×÷Õß Ryan Dahl£¨ Node.js Ö®¸¸£©µÄËµ·¨£¬ÕâÊÇÒ»¸ö³¢ÊÔ½â¾ö²¿·Ö Node.js Ô­ÓĞÎÊÌâµÄ¡¢¿É¿¿µÄ TypeScript ÔËĞĞÊ±¡£
+Deno æ˜¯â€œä¸€ä¸ªå¯åœ¨æµè§ˆå™¨å¤–æ‰§è¡Œ JavaScript å’Œ TypeScript ä»£ç çš„ç¨‹åºâ€æ ¹æ®å…¶ä½œè€… Ryan Dahlï¼ˆ Node.js ä¹‹çˆ¶ï¼‰çš„è¯´æ³•ï¼Œè¿™æ˜¯ä¸€ä¸ªå°è¯•è§£å†³éƒ¨åˆ† Node.js åŸæœ‰é—®é¢˜çš„ã€å¯é çš„ TypeScript è¿è¡Œæ—¶ã€‚
 
-Ê×¸ö¹úÈËÖ÷µ¼Apache¶¥¼¶¿ªÔ´ÏîÄ¿Kylin ÊµÏÖÍòÒÚÊı¾İÑÇÃë²éÑ¯
+é¦–ä¸ªå›½äººä¸»å¯¼Apacheé¡¶çº§å¼€æºé¡¹ç›®Kylin å®ç°ä¸‡äº¿æ•°æ®äºšç§’æŸ¥è¯¢
 
-ÖµµÃÍÆ¼öµÄC/C++¿ò¼ÜºÍ¿â (ÕæµÄºÜÇ¿´ó)
+å€¼å¾—æ¨èçš„C/C++æ¡†æ¶å’Œåº“ (çœŸçš„å¾ˆå¼ºå¤§)
 https://blog.csdn.net/xiaoxiaoyeyaya/article/details/42541419
 
 https://github.com/sharkdp/hexyl
@@ -467,18 +467,18 @@ https://github.com/sharkdp/hexyl
 Livegrep
 
 
-NSQ£º·Ö²¼Ê½µÄÊµÊ±ÏûÏ¢Æ½Ì¨
+NSQï¼šåˆ†å¸ƒå¼çš„å®æ—¶æ¶ˆæ¯å¹³å°
 https://nsq.io/overview/quick_start.html
 
-KettleÊÇÒ»¿î¹úÍâ¿ªÔ´µÄETL¹¤¾ß£¬´¿java±àĞ´£¬¿ÉÒÔÔÚWindows¡¢Linux¡¢UnixÉÏÔËĞĞ£¬Êı¾İ³éÈ¡¸ßĞ§ÎÈ¶¨¡£
+Kettleæ˜¯ä¸€æ¬¾å›½å¤–å¼€æºçš„ETLå·¥å…·ï¼Œçº¯javaç¼–å†™ï¼Œå¯ä»¥åœ¨Windowsã€Linuxã€Unixä¸Šè¿è¡Œï¼Œæ•°æ®æŠ½å–é«˜æ•ˆç¨³å®šã€‚
 https://github.com/pentaho/pentaho-kettle
 
 https://github.com/pawl/awesome-etl
 
-¡¾JavaÑ§Ï°+ÃæÊÔÖ¸ÄÏ¡¿ Ò»·İº­¸Ç´ó²¿·ÖJava³ÌĞòÔ±ËùĞèÒªÕÆÎÕµÄºËĞÄÖªÊ¶¡£ -
+ã€Javaå­¦ä¹ +é¢è¯•æŒ‡å—ã€‘ ä¸€ä»½æ¶µç›–å¤§éƒ¨åˆ†Javaç¨‹åºå‘˜æ‰€éœ€è¦æŒæ¡çš„æ ¸å¿ƒçŸ¥è¯†ã€‚ -
 https://github.com/Snailclimb/JavaGuide
 
-Alibaba ÍÅ¶Ó¿ªÔ´µÄÒ»¸ö¿ìËÙ¡¢¼òµ¥±ÜÃâ OOM µÄ Java ´¦Àí Excel ¹¤¾ß
+Alibaba å›¢é˜Ÿå¼€æºçš„ä¸€ä¸ªå¿«é€Ÿã€ç®€å•é¿å… OOM çš„ Java å¤„ç† Excel å·¥å…·
 https://github.com/alibaba/easyexcel
 
 https://github.com/pypa/pipenv
@@ -491,228 +491,228 @@ https://github.com/MaximAbramchuck/awesome-interview-questions
 https://github.com/kahun/awesome-sysadmin
 
 
-±à³ÌÓ¦¸ÃÉÏµÄÍøÕ¾
+ç¼–ç¨‹åº”è¯¥ä¸Šçš„ç½‘ç«™
 https://github.com/sdmg15/Best-websites-a-programmer-should-visit
 
-vimiumºÍSurfingkeys ¨C Ïñ VIM Ò»ÑùÊ¹ÓÃ Chrome
+vimiumå’ŒSurfingkeys â€“ åƒ VIM ä¸€æ ·ä½¿ç”¨ Chrome
 
-dejaVu  dejaVu:»ùÓÚ React µÄ Elasticsearch Êı¾İä¯ÀÀÆ÷
+dejaVu  dejaVu:åŸºäº React çš„ Elasticsearch æ•°æ®æµè§ˆå™¨
 
 
-node-draftlog ´´½¨¿É¸üĞÂÈÕÖ¾ĞĞµ½ÖÕ¶Ë
+node-draftlog åˆ›å»ºå¯æ›´æ–°æ—¥å¿—è¡Œåˆ°ç»ˆç«¯
 
-chalk - ÖÕ¶Ë×Ö·û´®ÃÀ»¯
+chalk - ç»ˆç«¯å­—ç¬¦ä¸²ç¾åŒ–
 
-Nativefier - Ò»¸öÄÜ¹»½«ÈÎÒâWebÒ³ÃæÖÆ×÷³ÉÒ»¸ö×ÀÃæÓ¦ÓÃµÄ¹¤¾ß
+Nativefier - ä¸€ä¸ªèƒ½å¤Ÿå°†ä»»æ„Webé¡µé¢åˆ¶ä½œæˆä¸€ä¸ªæ¡Œé¢åº”ç”¨çš„å·¥å…·
 
-jsµÄ½»»¥Ê½ÃüÁîÌáÊ¾
+jsçš„äº¤äº’å¼å‘½ä»¤æç¤º
 https://github.com/terkelg/prompts
 
-Nexe½«nodejs³ÌĞò±àÒë³Éµ¥¶ÀµÄ¿ÉÖ´ĞĞ³ÌĞò
+Nexeå°†nodejsç¨‹åºç¼–è¯‘æˆå•ç‹¬çš„å¯æ‰§è¡Œç¨‹åº
 https://github.com/nexe/nexe
 
-ºÜ¶àtailÊä³öÓĞÑÕÉ«µÄ·½°¸https://unix.stackexchange.com/questions/8414/how-to-have-tail-f-show-colored-output
+å¾ˆå¤štailè¾“å‡ºæœ‰é¢œè‰²çš„æ–¹æ¡ˆhttps://unix.stackexchange.com/questions/8414/how-to-have-tail-f-show-colored-output
 
-ºÜ¶à°²È«Ïà¹Ø»ã×Ü
+å¾ˆå¤šå®‰å…¨ç›¸å…³æ±‡æ€»
 https://github.com/trimstray/the-book-of-secret-knowledge
 
-£¡£¡³£ÓÃshell¹¦ÄÜÁĞ±íÆ¬¶Î
+ï¼ï¼å¸¸ç”¨shellåŠŸèƒ½åˆ—è¡¨ç‰‡æ®µ
 https://github.com/dylanaraps/pure-bash-bible
 
-Í¼ĞÎ»¯ÏÔÊ¾lsofµÄ½á¹û
+å›¾å½¢åŒ–æ˜¾ç¤ºlsofçš„ç»“æœ
 https://github.com/zevv/lsofgraph
 
-TARS  ÌÚÑ¶µÄÎ¢·şÎñ¿ò¼Ü
+TARS  è…¾è®¯çš„å¾®æœåŠ¡æ¡†æ¶
 
-OpenResty? ÊÇÒ»¸ö»ùÓÚ Nginx Óë Lua µÄ¸ßĞÔÄÜ Web Æ½Ì¨£¬ÆäÄÚ²¿¼¯³ÉÁË´óÁ¿¾«Á¼µÄ Lua ¿â¡¢µÚÈı·½Ä£¿éÒÔ¼°´ó¶àÊıµÄÒÀÀµÏî¡£ÓÃÓÚ·½±ãµØ´î½¨ÄÜ¹»´¦Àí³¬¸ß²¢·¢¡¢À©Õ¹ĞÔ¼«¸ßµÄ¶¯Ì¬ Web Ó¦ÓÃ¡¢Web ·şÎñºÍ¶¯Ì¬Íø¹Ø¡£
+OpenResty? æ˜¯ä¸€ä¸ªåŸºäº Nginx ä¸ Lua çš„é«˜æ€§èƒ½ Web å¹³å°ï¼Œå…¶å†…éƒ¨é›†æˆäº†å¤§é‡ç²¾è‰¯çš„ Lua åº“ã€ç¬¬ä¸‰æ–¹æ¨¡å—ä»¥åŠå¤§å¤šæ•°çš„ä¾èµ–é¡¹ã€‚ç”¨äºæ–¹ä¾¿åœ°æ­å»ºèƒ½å¤Ÿå¤„ç†è¶…é«˜å¹¶å‘ã€æ‰©å±•æ€§æé«˜çš„åŠ¨æ€ Web åº”ç”¨ã€Web æœåŠ¡å’ŒåŠ¨æ€ç½‘å…³ã€‚
 https://github.com/openresty/
 
-¼üÅÌÓ³Éä¼°ºê¶¨Î»luamacros
+é”®ç›˜æ˜ å°„åŠå®å®šä½luamacros
 
 fastcgi
 
-Windows¿â×¢Èë
+Windowsåº“æ³¨å…¥
 https://github.com/stephenfewer/ReflectiveDLLInjection
 
-riemann£ºÒ»¸ö·Ö²¼Ê½µÄ¼à¿ØÏµÍ³¡£¿ÉÒÔ½ÓÊÕ¸÷ÖÖeventÉÏ±¨£¬È»ºóÍ¨¹ıÇ¿´óµÄ½Å±¾ºÍ²å¼ş£¬Õ¹Ê¾ÇúÏß£¬Öù×´£¬±ıÍ¼µÈÀ´¶ÔÏµÍ³½øĞĞ¼à¿Ø¡£
+riemannï¼šä¸€ä¸ªåˆ†å¸ƒå¼çš„ç›‘æ§ç³»ç»Ÿã€‚å¯ä»¥æ¥æ”¶å„ç§eventä¸ŠæŠ¥ï¼Œç„¶åé€šè¿‡å¼ºå¤§çš„è„šæœ¬å’Œæ’ä»¶ï¼Œå±•ç¤ºæ›²çº¿ï¼ŒæŸ±çŠ¶ï¼Œé¥¼å›¾ç­‰æ¥å¯¹ç³»ç»Ÿè¿›è¡Œç›‘æ§ã€‚
 
-Ò»¸ö¹¦ÄÜÇ¿´ó¶ø¶ÔÈËÀàÓÑºÃµÄ Nginx À©Õ¹³ÌĞò
+ä¸€ä¸ªåŠŸèƒ½å¼ºå¤§è€Œå¯¹äººç±»å‹å¥½çš„ Nginx æ‰©å±•ç¨‹åº
 https://github.com/alexazhou/VeryNginx
 
 ngxtop
 https://github.com/lebinh/ngxtop
-½âÎö nginx ·ÃÎÊÈÕÖ¾²¢¸ñÊ½»¯Êä³öÓĞÓÃµÄĞÅÏ¢£¬¿ÉÒÔÓÃÀ´ÊµÊ±ÁË½âÄãµÄ·şÎñÆ÷ÕıÔÚ·¢ÉúµÄÇé¿ö
+è§£æ nginx è®¿é—®æ—¥å¿—å¹¶æ ¼å¼åŒ–è¾“å‡ºæœ‰ç”¨çš„ä¿¡æ¯ï¼Œå¯ä»¥ç”¨æ¥å®æ—¶äº†è§£ä½ çš„æœåŠ¡å™¨æ­£åœ¨å‘ç”Ÿçš„æƒ…å†µ
 
 https://github.com/staticfile/static
-Õâ¸öÏîÄ¿ÊÇÒ»¸ö²Ö¿â£¬Ëü¾¡¿ÉÄÜÈ«ÃæÊÕÂ¼ÓÅĞãµÄ¿ªÔ´¿â£¬²¢Ãâ·ÑÎªÖ®Ìá¹© CDN ¼ÓËÙ·şÎñ£¬Ê¹Ö®ÓĞ¸üºÃµÄ·ÃÎÊËÙ¶ÈºÍÎÈ¶¨µÄ»·¾³¡£Í¬Ê±£¬ËüÒ²Ìá¹©¿ªÔ´¿âÔ´½ÓÈëµÄÈë¿Ú£¬ÈÃËùÓĞÈË¶¼¿ÉÒÔÌá½»¿ªÔ´¿â£¬°üÀ¨ JavaScript¡¢CSS¡¢image ºÍ swf µÈ¾²Ì¬ÎÄ¼ş¡£
+è¿™ä¸ªé¡¹ç›®æ˜¯ä¸€ä¸ªä»“åº“ï¼Œå®ƒå°½å¯èƒ½å…¨é¢æ”¶å½•ä¼˜ç§€çš„å¼€æºåº“ï¼Œå¹¶å…è´¹ä¸ºä¹‹æä¾› CDN åŠ é€ŸæœåŠ¡ï¼Œä½¿ä¹‹æœ‰æ›´å¥½çš„è®¿é—®é€Ÿåº¦å’Œç¨³å®šçš„ç¯å¢ƒã€‚åŒæ—¶ï¼Œå®ƒä¹Ÿæä¾›å¼€æºåº“æºæ¥å…¥çš„å…¥å£ï¼Œè®©æ‰€æœ‰äººéƒ½å¯ä»¥æäº¤å¼€æºåº“ï¼ŒåŒ…æ‹¬ JavaScriptã€CSSã€image å’Œ swf ç­‰é™æ€æ–‡ä»¶ã€‚
 
-GoÊ¾Àı´úÂë
+Goç¤ºä¾‹ä»£ç 
 https://gobyexample.com
 
 certbot
 https://github.com/certbot/certbot
-Ãâ·ÑµÄ×Ô¶¯ÆôÓÃºÍ²¿Êğ HTTPS µÄ¹¤¾ß£¬ÈÃÄãµÄÍøÕ¾¿ªÆô HTTPS ±äµÃ¼òµ¥¿ì½İ¡£ÔÚ²¿Êğ½Ì³ÌÒ³ÃæÑ¡Ôñ·şÎñÆ÷µÄ²Ù×÷ÏµÍ³ºÍ Web ·şÎñÆ÷£¬Ö®ºó¸ù¾İ¸ø³öµÄ²½ÖèÒ»²½²½µÄÖ´ĞĞÃüÁî¾ÍĞĞÁË
+å…è´¹çš„è‡ªåŠ¨å¯ç”¨å’Œéƒ¨ç½² HTTPS çš„å·¥å…·ï¼Œè®©ä½ çš„ç½‘ç«™å¼€å¯ HTTPS å˜å¾—ç®€å•å¿«æ·ã€‚åœ¨éƒ¨ç½²æ•™ç¨‹é¡µé¢é€‰æ‹©æœåŠ¡å™¨çš„æ“ä½œç³»ç»Ÿå’Œ Web æœåŠ¡å™¨ï¼Œä¹‹åæ ¹æ®ç»™å‡ºçš„æ­¥éª¤ä¸€æ­¥æ­¥çš„æ‰§è¡Œå‘½ä»¤å°±è¡Œäº†
 
 proxy_pool
-»ùÓÚ Python µÄ×Ô½¨´úÀí IP ³Ø·şÎñ£¬Í¨¹ıÍøÂçÅÀ³æ×¥È¡»¥ÁªÍøÉÏÃâ·ÑµÄ´úÀí IP£¬±¾µØĞ£Ñé¡¢ÌŞ³ıÊ§Ğ§µÄ´úÀíIP£¬´Ó¶øÊµÏÖ¸ß¿ÉÓÃµÄ´úÀí IP ³Ø¡£×îºóÊ¹ÓÃ Flask ´î½¨Ìá¹©´úÀí IP ·şÎñ£¬°üÀ¨´úÀí³ØË¢ĞÂ¡¢ÎŞĞ§´úÀíÉ¾³ı¡¢´úÀí»ñÈ¡µÈ¡£¸ÃÏîÄ¿Éè¼ÆÎÄµµÏêÏ¸¡¢Ä£¿é½á¹¹¼òÃ÷Ò×¶®£¬Í¬Ê±ÊÊºÏÅÀ³æĞÂÊÖ¸üºÃµÄÑ§Ï°ÅÀ³æ¼¼Êõ?
+åŸºäº Python çš„è‡ªå»ºä»£ç† IP æ± æœåŠ¡ï¼Œé€šè¿‡ç½‘ç»œçˆ¬è™«æŠ“å–äº’è”ç½‘ä¸Šå…è´¹çš„ä»£ç† IPï¼Œæœ¬åœ°æ ¡éªŒã€å‰”é™¤å¤±æ•ˆçš„ä»£ç†IPï¼Œä»è€Œå®ç°é«˜å¯ç”¨çš„ä»£ç† IP æ± ã€‚æœ€åä½¿ç”¨ Flask æ­å»ºæä¾›ä»£ç† IP æœåŠ¡ï¼ŒåŒ…æ‹¬ä»£ç†æ± åˆ·æ–°ã€æ— æ•ˆä»£ç†åˆ é™¤ã€ä»£ç†è·å–ç­‰ã€‚è¯¥é¡¹ç›®è®¾è®¡æ–‡æ¡£è¯¦ç»†ã€æ¨¡å—ç»“æ„ç®€æ˜æ˜“æ‡‚ï¼ŒåŒæ—¶é€‚åˆçˆ¬è™«æ–°æ‰‹æ›´å¥½çš„å­¦ä¹ çˆ¬è™«æŠ€æœ¯?
 
 parrot-mocker-web
-Ğ¡ÇÉµÄ mock ·şÎñÆ÷£¬ÅäºÏ Chrome ²å¼ş¿ÉÒÔÇáËÉµØÀ¹½Ø»ò mock Ò³ÃæÉÏµÄ xhr/jsonp/fetch ÇëÇó¡£²»ĞèÒªÇÖÈëÒ³Ãæ±¾Éí´úÂë£¬ÈÃÇ°¶ËÍ¬Ñ§ÔÚºó¶Ë½Ó¿ÚÃ»ÓĞ ready »òÕßÄÑÒÔÄ£ÄâÊı¾İµÄÊ±ºò£¬¼ÌĞø¿ªĞÄµØ¿ª·¢ÍæË£?
+å°å·§çš„ mock æœåŠ¡å™¨ï¼Œé…åˆ Chrome æ’ä»¶å¯ä»¥è½»æ¾åœ°æ‹¦æˆªæˆ– mock é¡µé¢ä¸Šçš„ xhr/jsonp/fetch è¯·æ±‚ã€‚ä¸éœ€è¦ä¾µå…¥é¡µé¢æœ¬èº«ä»£ç ï¼Œè®©å‰ç«¯åŒå­¦åœ¨åç«¯æ¥å£æ²¡æœ‰ ready æˆ–è€…éš¾ä»¥æ¨¡æ‹Ÿæ•°æ®çš„æ—¶å€™ï¼Œç»§ç»­å¼€å¿ƒåœ°å¼€å‘ç©è€?
 https://github.com/chinesedfan/parrot-mocker-web
 
-facker ÓÃÓÚÉú³É¼ÙÊı¾İµÄ¿â£¬Ö§³Ö¶àÖÖÓïÑÔ£¬ÄãÖµµÃÓµÓĞ
+facker ç”¨äºç”Ÿæˆå‡æ•°æ®çš„åº“ï¼Œæ”¯æŒå¤šç§è¯­è¨€ï¼Œä½ å€¼å¾—æ‹¥æœ‰
 https://github.com/joke2k/faker
 
-Go ÓïÑÔ×îÊÜ»¶Ó­µÄ Web ¿ò¼ÜÖ®Ò»£¬¾ßÓĞ£º¸ßĞÔÄÜ¡¢±ãÓÚÀ©Õ¹¡¢ÇáÁ¿µÄÌØµã
+Go è¯­è¨€æœ€å—æ¬¢è¿çš„ Web æ¡†æ¶ä¹‹ä¸€ï¼Œå…·æœ‰ï¼šé«˜æ€§èƒ½ã€ä¾¿äºæ‰©å±•ã€è½»é‡çš„ç‰¹ç‚¹
 https://github.com/labstack/echo
 
-µÚÈı·½ API ¼¯ºÏ£¬°üº¬£º¹úÄÚ¡¢¹úÍâ¡¢¹Ù·½¡¢·Ç¹Ù·½
+ç¬¬ä¸‰æ–¹ API é›†åˆï¼ŒåŒ…å«ï¼šå›½å†…ã€å›½å¤–ã€å®˜æ–¹ã€éå®˜æ–¹
 https://github.com/TonnyL/Awesome_APIs
 
-Í¨ÓÃSQLÃüÁîĞĞ¿Í»§¶Ë¡£Ö§³ÖÒÔÏÂËùÓĞÊı¾İ¿âºÍĞ­Òé£¨Ö§³Ö¶àÖÖÊı¾İ¿â£©
+é€šç”¨SQLå‘½ä»¤è¡Œå®¢æˆ·ç«¯ã€‚æ”¯æŒä»¥ä¸‹æ‰€æœ‰æ•°æ®åº“å’Œåè®®ï¼ˆæ”¯æŒå¤šç§æ•°æ®åº“ï¼‰
 https://github.com/xo/usql
 
 shell-functools
-°Ñº¯ÊıÊ½µÄ±à³Ì´øÈë shell£¬´Ó¶øÈÃºÜ¶àÊÂÇé±äµÃ¼òµ¥¡£Í¨¹ı Python µÄ¸ß½×º¯ÊıºÍÄÚÖÃÄ£¿é os.path ÓëÃüÁîµÄ¹ÜµÀ½áºÏ£¬´ïµ½ÁËÇ¿´ó¡¢¸ßĞ§µÄ¹¦Ğ§¡£Ïà±ÈÓÚµ¥´¿µÄÃüÁîÊµÏÖ¸ü¼ÓµÄÖ±¹ÛºÍÈİÒ×Àí½â
+æŠŠå‡½æ•°å¼çš„ç¼–ç¨‹å¸¦å…¥ shellï¼Œä»è€Œè®©å¾ˆå¤šäº‹æƒ…å˜å¾—ç®€å•ã€‚é€šè¿‡ Python çš„é«˜é˜¶å‡½æ•°å’Œå†…ç½®æ¨¡å— os.path ä¸å‘½ä»¤çš„ç®¡é“ç»“åˆï¼Œè¾¾åˆ°äº†å¼ºå¤§ã€é«˜æ•ˆçš„åŠŸæ•ˆã€‚ç›¸æ¯”äºå•çº¯çš„å‘½ä»¤å®ç°æ›´åŠ çš„ç›´è§‚å’Œå®¹æ˜“ç†è§£
 
-ÏµÍ³Éè¼ÆÈëÃÅ
+ç³»ç»Ÿè®¾è®¡å…¥é—¨
 https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md
 
-30¸ö¼«´óÌá¸ß¿ª·¢Ğ§ÂÊµÄVisual Studio Code²å¼ş
+30ä¸ªæå¤§æé«˜å¼€å‘æ•ˆç‡çš„Visual Studio Codeæ’ä»¶
 https://www.jianshu.com/p/d1bc06c87e50
 
-Ç°¶Ë×ÊÔ´ÖÜ¿¯
+å‰ç«¯èµ„æºå‘¨åˆŠ
 https://github.com/ihtml5/50weekly
 
-¿ÉÒÔ´î½¨×Ô¼ºµÄ´úÂëÆ¬¶Î¹ÜÀí
+å¯ä»¥æ­å»ºè‡ªå·±çš„ä»£ç ç‰‡æ®µç®¡ç†
 https://github.com/snibox/snibox
 
-Êı¾İ¿ÉÊÓ»¯µÄ¿ªÔ´·½°¸: Superset vs Redash vs Metabase (Ò»)
+æ•°æ®å¯è§†åŒ–çš„å¼€æºæ–¹æ¡ˆ: Superset vs Redash vs Metabase (ä¸€)
 http://www.cnblogs.com/felixzh/p/9094694.html
 
-D3 µÄÈ«³ÆÊÇ£¨Data-Driven Documents£©£¬¸Ã¿âÌá¹©ÁË¸÷ÖÖ¼òµ¥Ò×ÓÃµÄº¯Êı£¬´ó´ó¼ò»¯ÁË JavaScript ²Ù×÷Êı¾İµÄÄÑ¶È¡£¸Ã¿âµÄÊ¹ÓÃÊÇÊı¾İ¿ÉÊÓ»¯±ØĞëÕÆÎÕµÄ¼¼Êõ
+D3 çš„å…¨ç§°æ˜¯ï¼ˆData-Driven Documentsï¼‰ï¼Œè¯¥åº“æä¾›äº†å„ç§ç®€å•æ˜“ç”¨çš„å‡½æ•°ï¼Œå¤§å¤§ç®€åŒ–äº† JavaScript æ“ä½œæ•°æ®çš„éš¾åº¦ã€‚è¯¥åº“çš„ä½¿ç”¨æ˜¯æ•°æ®å¯è§†åŒ–å¿…é¡»æŒæ¡çš„æŠ€æœ¯
 
-Ò»¸ö WebAssembly µÄÔÚÏß IDE£¬Ö§³Ö C / C ++ / Rust ³ÌĞòÔÚÏß±àÒë³É WASM
+ä¸€ä¸ª WebAssembly çš„åœ¨çº¿ IDEï¼Œæ”¯æŒ C / C ++ / Rust ç¨‹åºåœ¨çº¿ç¼–è¯‘æˆ WASM
 https://webassembly.studio
 
-dive ·ÖÎödocker¾µÏñÎÄ¼ş
+dive åˆ†ædockeré•œåƒæ–‡ä»¶
 
-Ê¹ÓÃ CodeMirror ´òÔìÊôÓÚ×Ô¼ºµÄÔÚÏß´úÂë±à¼­Æ÷
+ä½¿ç”¨ CodeMirror æ‰“é€ å±äºè‡ªå·±çš„åœ¨çº¿ä»£ç ç¼–è¾‘å™¨
 
-Ïñ¿´µçÓ°Ò»Ñù¿´Python³ÌĞòÔËĞĞ£ºLivepython
+åƒçœ‹ç”µå½±ä¸€æ ·çœ‹Pythonç¨‹åºè¿è¡Œï¼šLivepython
 
 svgeditor
 
 
-ShareLaTeXÍøÕ¾
+ShareLaTeXç½‘ç«™
 
-Google ÍÆ³ö Node Ó¦ÓÃ Web äÖÈ¾½çÃæ Carlo
+Google æ¨å‡º Node åº”ç”¨ Web æ¸²æŸ“ç•Œé¢ Carlo
 https://www.oschina.net/news/102043/google-opensource-carlo
 
-Ê¹ÓÃ ndb µ÷ÊÔÄãµÄ Node.js ÏîÄ¿
+ä½¿ç”¨ ndb è°ƒè¯•ä½ çš„ Node.js é¡¹ç›®
 https://imnerd.org/debug-with-ndb.html
 
-ºÃÓÃµÄ Puppeteer ¸¨Öú¹¤¾ß Puppeteer Recorder
+å¥½ç”¨çš„ Puppeteer è¾…åŠ©å·¥å…· Puppeteer Recorder
 https://segmentfault.com/a/1190000016073329
 
-Google¿ªÔ´µÄÏîÄ¿ÁĞ±í
+Googleå¼€æºçš„é¡¹ç›®åˆ—è¡¨
 https://github.com/GoogleChromeLabs?tab=repositories
 
-Ê¹ÓÃ×¢½âÈÃjava´úÂë¸ü¼òµ¥Lombok£¨±àÒëÊ±Éú³ÉÕæÊµ´úÂë£©
+ä½¿ç”¨æ³¨è§£è®©javaä»£ç æ›´ç®€å•Lombokï¼ˆç¼–è¯‘æ—¶ç”ŸæˆçœŸå®ä»£ç ï¼‰
 
-Ê¹ÓÃ Pandas ´¦Àí CSV ÎÄ¼ş
+ä½¿ç”¨ Pandas å¤„ç† CSV æ–‡ä»¶
 https://jalammar.github.io/gentle-visual-intro-to-data-analysis-python-pandas/
 
-Ç°¶Ë´úÂë¸ßÁÁ¿âhighlight.js£¨¿ÉÄÜ¸ßÁÁÓï·¨¶àÒ»µã£©
+å‰ç«¯ä»£ç é«˜äº®åº“highlight.jsï¼ˆå¯èƒ½é«˜äº®è¯­æ³•å¤šä¸€ç‚¹ï¼‰
 
-£¡£¡ mark.js¸ßÁÁ¹Ø¼ü×Ö
+ï¼ï¼ mark.jsé«˜äº®å…³é”®å­—
 
-jsoup£ºJava HTML ½âÎöÆ÷
+jsoupï¼šJava HTML è§£æå™¨
 
-guava  googleµÄ¿ªÔ­java¿â£¬ÀàËÆApache Commons
+guava  googleçš„å¼€åŸjavaåº“ï¼Œç±»ä¼¼Apache Commons
 
-MathJax¿ÉÒÔ·½±ãµÄÔÚä¯ÀÀÆ÷ÖĞÏÔÊ¾ÊıÑ§¹«Ê½£¬²»ĞèÒªÊ¹ÓÃÍ¼Æ¬
+MathJaxå¯ä»¥æ–¹ä¾¿çš„åœ¨æµè§ˆå™¨ä¸­æ˜¾ç¤ºæ•°å­¦å…¬å¼ï¼Œä¸éœ€è¦ä½¿ç”¨å›¾ç‰‡
 
-ÊÕ¼¯¸÷ÖÖÌÔÆø×Ö·û´®(Òì³£´®)£¬¿ÉÓÃÓÚ×ö¸÷ÖÖÒì³£²ÎÊı²âÊÔ
+æ”¶é›†å„ç§æ·˜æ°”å­—ç¬¦ä¸²(å¼‚å¸¸ä¸²)ï¼Œå¯ç”¨äºåšå„ç§å¼‚å¸¸å‚æ•°æµ‹è¯•
 https://github.com/minimaxir/big-list-of-naughty-strings
 
-Í¨¹ıÑµÁ·Éú³ÉÎÄ±¾
+é€šè¿‡è®­ç»ƒç”Ÿæˆæ–‡æœ¬
 textgenrnn  
 
-Electron Í¨¹ıjsĞ´³ö¿çÆ½Ì¨µÄÓ¦ÓÃ
+Electron é€šè¿‡jså†™å‡ºè·¨å¹³å°çš„åº”ç”¨
 
-tampermonkey   ºïÓÍÀ©Õ¹¿Í»§¶Ë
+tampermonkey   çŒ´æ²¹æ‰©å±•å®¢æˆ·ç«¯
 
-°Ù¶ÈÍøÅÌcliÖ§³Ölinux,windows
+ç™¾åº¦ç½‘ç›˜cliæ”¯æŒlinux,windows
 https://github.com/iikira/BaiduPCS-Go
 
-ÓÃÓÚHTTPÇëÇóºÍÏìÓ¦¼ÇÂ¼µÄ¿ÉÀ©Õ¹¿ªÔ´¿â¡£
+ç”¨äºHTTPè¯·æ±‚å’Œå“åº”è®°å½•çš„å¯æ‰©å±•å¼€æºåº“ã€‚
 https://github.com/zalando/logbook
 
-±È½ÏÎÄ±¾²»Í¬µÄ¿â
+æ¯”è¾ƒæ–‡æœ¬ä¸åŒçš„åº“
 https://github.com/dnaumenko/java-diff-utils
 
 Flutter
 
 SIEM
-°²È«ĞÅÏ¢ºÍÊÂ¼şµÄ¹ÜÀíÏµÍ³
+å®‰å…¨ä¿¡æ¯å’Œäº‹ä»¶çš„ç®¡ç†ç³»ç»Ÿ
 
 OpenResty
-ÊÇÒ»¸ö»ùÓÚ Nginx Óë Lua µÄ¸ßĞÔÄÜ Web Æ½Ì¨£¬ÆäÄÚ²¿¼¯³ÉÁË´óÁ¿¾«Á¼µÄ Lua ¿â¡¢µÚÈı·½Ä£¿éÒÔ¼°´ó¶àÊıµÄÒÀÀµÏî¡£ÓÃÓÚ·½±ãµØ´î½¨ÄÜ¹»´¦Àí³¬¸ß²¢·¢¡¢À©Õ¹ĞÔ¼«¸ßµÄ¶¯Ì¬ Web Ó¦ÓÃ¡¢Web ·şÎñºÍ¶¯Ì¬Íø¹Ø¡£
+æ˜¯ä¸€ä¸ªåŸºäº Nginx ä¸ Lua çš„é«˜æ€§èƒ½ Web å¹³å°ï¼Œå…¶å†…éƒ¨é›†æˆäº†å¤§é‡ç²¾è‰¯çš„ Lua åº“ã€ç¬¬ä¸‰æ–¹æ¨¡å—ä»¥åŠå¤§å¤šæ•°çš„ä¾èµ–é¡¹ã€‚ç”¨äºæ–¹ä¾¿åœ°æ­å»ºèƒ½å¤Ÿå¤„ç†è¶…é«˜å¹¶å‘ã€æ‰©å±•æ€§æé«˜çš„åŠ¨æ€ Web åº”ç”¨ã€Web æœåŠ¡å’ŒåŠ¨æ€ç½‘å…³ã€‚
 
-BroÍøÂç°²È«¼à¿Ø
+Broç½‘ç»œå®‰å…¨ç›‘æ§
 
 fail2ban
 
 Logwatch
 
-´óÊı¾İ·ÖÎö
+å¤§æ•°æ®åˆ†æ
 Druid
 http://druid.io
 
 JWT
 
- Pennywise  Í¸Ã÷Ğü¸¡ÏÔÊ¾ÈÎÒâ¶«Î÷ÔÚÓ¦ÓÃÖ®ÉÏ
+ Pennywise  é€æ˜æ‚¬æµ®æ˜¾ç¤ºä»»æ„ä¸œè¥¿åœ¨åº”ç”¨ä¹‹ä¸Š
 https://github.com/kamranahmedse/pennywise
 
-Yacc,Lex,BisonÓï·¨·ÖÎöÆ÷£¬¿ÉÒÔĞ´³É×Ô¼ºµÄ±à³ÌÓïÑÔ 
+Yacc,Lex,Bisonè¯­æ³•åˆ†æå™¨ï¼Œå¯ä»¥å†™æˆè‡ªå·±çš„ç¼–ç¨‹è¯­è¨€ 
 
-gef  gdbÔöÇ¿
+gef  gdbå¢å¼º
 https://github.com/hugsy/gef
 
-Ç°¶ËÒ³ÃæÉè¼Æ¹¤¾ß
+å‰ç«¯é¡µé¢è®¾è®¡å·¥å…·
 https://hadron.app
 
-ÖÕ¶ËÎÄ¼ş¹ÜÀínnn
+ç»ˆç«¯æ–‡ä»¶ç®¡ç†nnn
 https://github.com/jarun/nnn
 
-GraphQuery ÊÇÒ»ÃÅÒ×ÓÚÊ¹ÓÃµÄ²éÑ¯ÓïÑÔ£¬ËüÄÚÖÃÁË Xpath/CSS/Regex/JSONpath Ñ¡ÔñÆ÷ºÍÎÄ±¾´¦Àí¹¦ÄÜ¡£½âÎöhtml/xml
+GraphQuery æ˜¯ä¸€é—¨æ˜“äºä½¿ç”¨çš„æŸ¥è¯¢è¯­è¨€ï¼Œå®ƒå†…ç½®äº† Xpath/CSS/Regex/JSONpath é€‰æ‹©å™¨å’Œæ–‡æœ¬å¤„ç†åŠŸèƒ½ã€‚è§£æhtml/xml
 
 
-Julia Julia ÊÇÒ»¸öÃæÏò¿ÆÑ§¼ÆËãµÄ¸ßĞÔÄÜ¶¯Ì¬¸ß¼¶³ÌĞòÉè¼ÆÓïÑÔ
+Julia Julia æ˜¯ä¸€ä¸ªé¢å‘ç§‘å­¦è®¡ç®—çš„é«˜æ€§èƒ½åŠ¨æ€é«˜çº§ç¨‹åºè®¾è®¡è¯­è¨€
 
-https://paiza.cloud  ÔÚÏßÇ°¶Ë¿ª·¢ĞéÄâ»·¾³
+https://paiza.cloud  åœ¨çº¿å‰ç«¯å¼€å‘è™šæ‹Ÿç¯å¢ƒ
 youqiantu@163.com
 gcf1981
 
-Let's encrypt  Ãâ·ÑsslÖ¤Êé
+Let's encrypt  å…è´¹sslè¯ä¹¦
 
-snibox¿ªÔ´µÄ´úÂëÆ¬¶Î¹ÜÀíµÄ·şÎñ£¬¿ÉÓÃÓÚ×Ô¼º´î½¨´úÂëÆ¬¶Î·şÎñÆ÷
+sniboxå¼€æºçš„ä»£ç ç‰‡æ®µç®¡ç†çš„æœåŠ¡ï¼Œå¯ç”¨äºè‡ªå·±æ­å»ºä»£ç ç‰‡æ®µæœåŠ¡å™¨
 
-Ìæ´útransfer.shÍøÕ¾
+æ›¿ä»£transfer.shç½‘ç«™
 https://pastebin.com/
 
-Ìá¹©https://pastebin.com/ÉÏ´«ÏÂÔØµÄÃüÁî½Ó¿Ú
+æä¾›https://pastebin.com/ä¸Šä¼ ä¸‹è½½çš„å‘½ä»¤æ¥å£
 https://github.com/kyoto-shift/prime
 
 ?GraphQL
 
 FastScan
 https://github.com/pyloque/fastscan
-¿àÓÚÃ»ÓĞÕÒµ½Ò»¸ö±È½ÏºÏÊÊµÄÃô¸Ğ´Ê¹ıÂË¿â£¬ËùÒÔÎÒ×Ô¼º»¨ÁËµãÊ±¼äß£ÁËÒ»¸ö¡£ Ëü»ùÓÚ¹ãÎªÈËÖªµÄ ahocorasick ×Ö·û´®Æ¥ÅäËã·¨£¬Ê¹ÓÃÔ­ÉúµÄ js ÊµÏÖ£¬ä¯ÀÀÆ÷ºÍ·şÎñ¶Ë¶¼¿ÉÒÔÊ¹ÓÃ¡£?
+è‹¦äºæ²¡æœ‰æ‰¾åˆ°ä¸€ä¸ªæ¯”è¾ƒåˆé€‚çš„æ•æ„Ÿè¯è¿‡æ»¤åº“ï¼Œæ‰€ä»¥æˆ‘è‡ªå·±èŠ±äº†ç‚¹æ—¶é—´æ’¸äº†ä¸€ä¸ªã€‚ å®ƒåŸºäºå¹¿ä¸ºäººçŸ¥çš„ ahocorasick å­—ç¬¦ä¸²åŒ¹é…ç®—æ³•ï¼Œä½¿ç”¨åŸç”Ÿçš„ js å®ç°ï¼Œæµè§ˆå™¨å’ŒæœåŠ¡ç«¯éƒ½å¯ä»¥ä½¿ç”¨ã€‚?
 
 
-drupal  cmf¿ò¼Ü
+drupal  cmfæ¡†æ¶
 
 Joomla  cms
 
