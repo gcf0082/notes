@@ -34,7 +34,7 @@ rpm -ql coreutils-8.22-23.el7.x86_64
 
 rpm -qi coreutils
 
-删除软件包
+删除软件包 
 
 rpm -e PACKAGE_NAME
 
@@ -44,4 +44,4 @@ rpm -e –allmatches PACKAGE_NAME    #删除所有跟PACKAGE_NAME匹配的所有
 
 解压rpm包到当前目录
 
-rpm2cpio xxx.rpm | cpio -div
+rpm2cpio xxx.rpm | cpio -div 
