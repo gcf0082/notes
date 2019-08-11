@@ -1,3 +1,13 @@
+bin/kibana-plugin install <package name or URL>
+bin/kibana-plugin install x-pack
+ bin/kibana-plugin install https://artifacts.elastic.co/downloads/packs/x-pack/x-pack-7.3.0.zip
+bin/kibana-plugin install file:///some/local/path/my-plugin.zip -d path/to/directoryun
+bin/kibana-plugin remove x-pack
+bin/kibana --<plugin ID>.enabled=false
+
+kibana插件开发指导helloworld中文教程
+https://kibana.gitbook.io/kibana-plugin-development-tutorial/kuai-su-ru-men/hello-world
+
 kibana插件官方指导
 https://www.elastic.co/guide/en/kibana/current/kibana-plugins.html
 
