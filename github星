@@ -1,0 +1,1850 @@
+A curated list of command line apps
+https://github.com/agarrharr/awesome-cli-apps
+
+Design patterns written in different programming languages
+https://github.com/ZoranPandovski/design-patterns
+
+Some benchmarks of different languages
+https://github.com/kostya/benchmarks
+
+This repository is for beginners to start learning JavaScript from Scratch(js学习示例代码)
+https://github.com/Swap76/Learn-JavaScript
+
+Node.js login, registration and access control using Express and Passport
+https://github.com/bradtraversy/node_passport_login
+
+Implementation of ImageView for Android that supports zooming, by various touch gestures.
+https://github.com/chrisbanes/PhotoView
+
+A collection of C++ HTTP libraries including an easy to use HTTP server.
+https://github.com/facebook/proxygen
+
+pix2code: Generating Code from a Graphical User Interface Screenshot
+https://github.com/tonybeltramelli/pix2code
+
+The Uber Go Style Guide . Uber Go 语言编码规范中文版
+https://github.com/xxjwxc/uber_go_guide_cn
+
+Trace for debug lua
+https://github.com/cloudwu/lua-trace
+
+A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
+https://github.com/chubin/awesome-console-services
+
+Chinese Translation for Machine Learning Infographics
+https://github.com/Avik-Jain/100-Days-of-ML-Code-Chinese-Version
+
+输入SQL，输出索引优化建议
+https://github.com/Meituan-Dianping/SQLAdvisor
+
+！ The CLI for your next Chrome Extension
+https://github.com/dutiyesh/chrome-extension-cli
+
+QML在线在线电子书https://github.com/cwc1987/QmlBook-In-Chinese
+
+一个纯bash实现外部命令的脚本集合（中文版）【翻译自pure-bash-bible仓库】
+https://github.com/A-BenMao/pure-bash-bible-zh_CN
+
+前 Google 工程师出品，最佳开发工具大全！
+https://github.com/jhuangtw-dev/xg2xg
+
+An instance of your terminal in your browser
+https://github.com/hericlesme/cast-sh
+
+！TBOX是一个用c语言实现的跨平台开发库。
+https://github.com/tboox/tbox
+
+Golang标准库。对于程序员而言，标准库与语言本身同样重要，它好比一个百宝箱，能为各种常见的任务提供完美的解决方案。以示例驱动的方式讲解Golang的标准库。
+https://github.com/polaris1119/The-Golang-Standard-Library-by-Example
+
+Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js
+https://github.com/websockets/ws
+
+！Delve is a debugger for the Go programming language.(go语言调试工具)
+https://github.com/go-delve/delve
+
+并发递归搜索和替换工具(rust)
+https://github.com/dalance/amber
+
+Termion is a pure Rust, bindless library for low-level handling, manipulating and reading information about terminals. This provides a full-featured alternative to Termbox
+https://github.com/redox-os/termion
+
+！String validation
+https://github.com/validatorjs/validator.js
+
+MinIO Client is a replacement for ls, cp, mkdir, diff and rsync commands for filesystems and object storage.
+https://github.com/minio/mc
+
+文件监控，基于inotify
+https://github.com/facebook/watchman
+
+Learn Flexbox in 30 days with 30 code tidbits
+https://github.com/samanthaming/Flexbox30
+
+A curated list of awesome places to learn and/or practice algorithms.
+https://github.com/tayllan/awesome-algorithms
+
+An extensive list of cool open source projects written in С, C++, Clojure, Lisp, Elixir, Erlang, Elm, Golang, Haskell, JavaScript, Lua, OCaml, Python, R, Ruby, Rust, Scala etc.
+https://github.com/lk-geimfari/awesomo
+
+！ A curated list of delightful VS Code packages and resources
+https://github.com/viatsko/awesome-vscode
+
+Create and share beautiful images of your source code
+https://github.com/carbon-app/carbon
+
+VNC client using HTML5 (WebSockets, Canvas)
+https://github.com/novnc/noVNC
+
+Free Templates for AWS CloudFormation
+https://github.com/getActivity/AndroidProject
+
+KernelThreadSanitizer, a fast data race detector for the Linux kernel 
+https://github.com/google/ktsan
+
+一个模拟的 SSH 服务器。很多攻击者都是 SSH 登录，你可以把这个软件在22端口启动，真正的 SSH 服务器放在另一个端口。黑客以为攻入了服务器，其实进入的是一个虚拟系统，然后会把他们的行为全部记录下来。
+https://github.com/cowrie/cowrie
+
+FSearch is a fast file search utility, inspired by Everything Search Engine. It's written in C and based on GTK+3.
+https://github.com/cboxdoerfer/fsearch
+
+Practical functional Javascript 
+https://github.com/ramda/ramda
+
+Meteor, the JavaScript App Platform
+https://github.com/meteor/meteor
+
+! Fast regular expression grep for source code with incremental index updates
+https://github.com/zeux/qgrep
+
+Linux file search, instant results as you type(linux版的everthing),使用sqlite fts5
+https://github.com/DoTheEvo/ANGRYsearch
+
+A network resilient, persistent full-text search library for the browser and Node.js
+https://github.com/fergiemcdowall/search-index
+
+可替代elasticsearch的搜索引擎
+https://github.com/valeriansaliou/sonic
+
+nodejs流中文介绍
+https://github.com/jabez128/stream-handbook/blob/master/README.md
+
+！nodejs大神
+https://github.com/substack
+
+！Walk a directory tree in node.js(递归搜索目录下的文件，对每个文件可以单独处理)
+https://github.com/substack/node-findit
+
+！Node.js module to list all files in a directory or any subdirectories.
+https://github.com/jergason/recursive-readdir
+
+! Get the line number of one or more matches in a file(搜索文本获取匹配的行号)
+https://github.com/tandrewnichols/linenumber
+
+Find files with SQL-like queries
+https://github.com/jhspetersson/fselect
+
+streaming JSON.parse and stringify(以流的方式处理超大json数据)
+https://github.com/dominictarr/JSONStream
+
+！sane aims to be fast, small, and reliable filesystem watcher. No bells and whistles, just change events.
+https://github.com/amasad/sane
+
+Very low overhead Node.js logger, inspired by Bunyan.
+https://github.com/pinojs/pino
+
+cheerio：可以用来从网页中以css选择器方式取得数据。其实可以理解为是Node.js版本的JQuery.
+https://github.com/cheeriojs/cheerio
+
+Cross-browser QRCode generator for javascript
+https://github.com/davidshimjs/qrcodejs 
+
+Autosize is a small, stand-alone script to automatically adjust textarea height to fit text(自动调节文本组件大小适应文字)
+https://github.com/jackmoore/autosize
+
+blessed-contrib 是使用 Node.js 构建终端应用界面的库
+https://github.com/yaronn/blessed-contrib
+
+AutoHotkey - macro-creation and automation-oriented scripting utility for Windows
+https://github.com/Lexikos/AutoHotkey_L
+
+Tampermonkey is the most popular userscript manager, with over 10 million users. It's available for Chrome, Microsoft Edge, Safari, Opera Next, and Firefox.
+https://github.com/Tampermonkey/tampermonkey
+
+Windows process injection methods
+https://github.com/odzhan/injection
+
+React in patterns 中文版
+https://github.com/SangKa/react-in-patterns-cn
+
+查看github stars的变化情况
+https://github.com/caarlos0/starcharts
+
+API samples for the Universal Windows Platform
+https://github.com/microsoft/Windows-universal-samples
+
+A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
+https://github.com/android/architecture-samples
+
+PWA库
+https://developers.google.com/web/tools/workbox/
+
+色情图片离线识别，基于TensorFlow实现。识别只需200ms,可断网测试，成功率99%，调用只要一行代码，从雅虎的开源项目open_nsfw移植，tflite（6M）为训练好的模型（已量化），该模型文件可用于iOS、java、C++等平台，Python使用生成的tfLite文件检测图片的速度远远小于实用原模型
+https://github.com/devzwy/open_nsfw_android
+
+微信机器人 / 可能是最优雅的微信个人号 API
+https://github.com/youfou/wxpy
+
+Programmable completion functions for bash
+https://github.com/scop/bash-completion
+
+Telegraf是一个用Golang写的开源数据收集Agent，基于插件驱动。本身提供的输入和输出插件非常丰富，当然有需求也可以自行编写（需要重新编译）。Telegraf是influxdata公司的时间序列平台TICK技术栈中的“T”，主要用于收集时间序列型数据，比如服务器CPU指标、内存指标、各种IoT设备产生的数据等等。后面抽空会介绍TICK栈中的其他技术及其应用。
+https://github.com/influxdata/telegraf
+
+比Hadoop快至少10倍的物联网大数据平台(国产)
+https://github.com/taosdata/TDengine
+
+ClickHouse 是一个开源的面向联机分析处理(OLAP, On-Line Analytical Processing) 的列式存储数据库管理系统。
+https://github.com/ClickHouse/ClickHouse
+
+Gooey是一个将python命令行转换为界面行的程序包
+https://github.com/chriskiehl/Gooey
+
+https://github.com/notify-rs/notify
+Cross-platform filesystem notification library for Rust. (Looking for maintainers) 
+
+Query CSVs using SQL
+https://github.com/jolmg/cq
+
+A progressive Node.js framework for building efficient and scalable server-side applications.
+https://github.com/nestjs/nest
+
+强大的动画库
+https://github.com/Popmotion/popmotion/tree/master/packages/react-pose
+
+SweetAlert2用于替代浏览器默认的弹出对话框，它提供各种参数和方法，支持嵌入图片，背景，HTML标签等，并提供5种内置的情景类，功能非常强大。
+https://github.com/sweetalert2/sweetalert2
+
+Day.js 2KB immutable date library alternative to Moment.js with the same modern API -
+https://github.com/iamkun/dayjs
+
+ tiny & fast lib for react native image viewer pan and zoom
+https://github.com/ascoders/react-native-image-viewer
+
+README文件语法解读，即Github Flavored Markdown语法介绍
+https://github.com/guodongxiaren/README
+
+GUI for Elasticsearch Queries
+https://github.com/appbaseio/mirage
+
+Awesome Hacking Tools
+https://github.com/m4ll0k/Awesome-Hacking-Tools
+
+Simplified and community-driven man pages
+https://github.com/tldr-pages/tldr
+
+A comprehensive list of new ES features, including ES2015 (ES6), ES2016 (ES7), ES2017 (ES8), ES2018 (ES9), ES2019 (ES10)
+https://github.com/daumann/ECMAScript-new-features-list
+
+Curated tutorial and resource links I've collected on React, Redux, ES6, and more
+https://github.com/markerikson/react-redux-links
+
+各种常见布局CSS实现,知名网站布局分析,相关阅读推荐
+https://github.com/Sweet-KK/css-layout
+
+A simple, lightweight JavaScript API for handling browser cookies
+https://github.com/js-cookie/js-cookie
+
+Host single page apps with GitHub Pages
+https://github.com/rafrex/spa-github-pages
+
+The first declarative React Native router
+https://github.com/aksonov/react-native-router-flux
+
+js python css react php代码片段学习
+https://github.com/30-seconds?tab=repositories
+
+A curated collection of useful Python snippets that you can understand in 30 seconds or less.
+https://github.com/30-seconds/30-seconds-of-python
+
+Stop saying "you forgot to …" in code review
+https://github.com/danger/danger-js
+
+https://github.com/HackerNews/API
+https://github.com/HackerNews/API
+
+Rust bindings to Windows API 
+https://github.com/retep998/winapi-rs
+
+ fullstack tutorial 2019，后台技术栈/架构师之路/全栈开发社区
+https://github.com/frank-lam/fullstack-tutorial
+
+Code for Head First Design Patterns book (2014)
+https://github.com/bethrobson/Head-First-Design-Patterns
+
+The simple, stupid rules engine for Java 
+https://github.com/j-easy/easy-rules
+
+a browser detector
+https://github.com/lancedikson/bowser
+
+Import and export tools for elasticsearch
+https://github.com/taskrabbit/elasticsearch-dump
+
+restc 用于可视化展示请求，调试 RESTful 接口。
+挂载 restc 中间件后，访问者无需安装浏览器插件，直接通过浏览器访问接口地址，即可以可视化的方式对该接口发起各种请求。
+https://github.com/ElemeFE/restc
+
+A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
+https://github.com/infinitered/reactotron
+
+《微服务：从设计到部署》
+https://github.com/DocsHome/microservices
+
+WatermelonDB比Redux的优势在于，对于数据记录较大的React应用，能提供更好的性能表现。
+https://github.com/Nozbe/WatermelonDB
+
+Clone to try a simple Electron app
+https://github.com/electron/electron-quick-start
+
+Nativefier 可以将网页直接打包成为真真切切的桌面应用
+https://github.com/jiahaog/nativefier
+
+JSON Schema Based Editor
+https://github.com/json-editor/json-editor
+
+https://github.com/NodeParty-China/Node-Party
+NodeParty 中国』往期记录（slide，照片，预告，视频等） 
+
+Born to build better enterprise frameworks and apps
+https://github.com/eggjs/egg
+
+Antlr4 是一个强大的解析器的生成器，可以用来读取、处理、执行或翻译结构化文本，ANTLR可以从语法上来生成一个可以构建和遍历解析树的解析器
+https://github.com/antlr/antlr4
+
+支持ES7的sql查询https://github.com/iamazy/elasticsearch-sql
+
+一本給初學者的 React 中文入門教學書，由淺入深學習 ReactJS 生態系 (Flux, Redux, React Router, ImmutableJS, React Native, Relay/GraphQL etc.)，打造跨平台應用程式
+https://github.com/kdchang/reactjs101
+
+Framework for writing Linux kernel modules in safe Rust
+https://github.com/fishinabarrel/linux-kernel-module-rust
+
+国内顶尖团队的开源地址
+https://github.com/niezhiyang/open_source_team
+
+Search Guard is an Open Source Elasticsearch plugin that offers encryption, authentication, and authorisation
+https://github.com/floragunncom/search-guard
+
+《第一行代码 第2版》全书源代码
+https://github.com/guolindev/booksource
+
+A GUI frontend in Rust based on web-view
+https://github.com/alexislozano/neutrino
+
+Cayley is an open-source graph inspired by the graph database behind Freebase and Google's Knowledge Graph.
+https://github.com/cayleygraph/cayley
+
+A fully configurable http/https proxy in NodeJS
+https://github.com/alibaba/anyproxy
+
+Rust中文 
+https://github.com/rustlang-cn/rustlang-cn
+
+这个 React UI 库包含超过 40 个为企业应用设计的组件，专注于后端应用的性能，主要是表格和表单这些组件（特别是当数据自动与视图绑定时）
+https://github.com/uxcore/uxcore
+
+恶意软件分析工具
+https://github.com/rshipp/awesome-malware-analysis
+
+Essential Cheat Sheets for deep learning and machine learning researchers 
+https://github.com/kailashahirwar/cheatsheets-ai
+
+构建自己的各种框架(react,vue等)的组件工具
+https://github.com/storybookjs/storybook
+
+AgentWeb is a powerful library based on Android WebView
+https://github.com/Justson/AgentWeb
+
+Eruda 是一个专为手机网页前端设计的调试面板，类似 DevTools 的迷你版，其主要功能包括：捕获 console 日志、检查元素状态、捕获XHR请求、显示本地存储和 Cookie 信息等等。
+https://github.com/liriliri/eruda
+
+React, React Native and Vue UI components for building data-driven apps with Elasticsearch 
+https://github.com/appbaseio/reactivesearch
+
+基于docker的开发者集成环境 （docker，nodejs，php，nginx，mongo，mysql，redis等）
+https://github.com/wallace5303/dnnmmp
+
+React Native Cross-Platform WebView
+https://github.com/react-native-community/react-native-webview
+
+Quill is a modern WYSIWYG editor built for compatibility and extensibility
+https://github.com/quilljs/quill
+
+The best enterprise-grade WYSIWYG editor. Fully customizable with countless features and plugins.
+https://github.com/ckeditor/ckeditor-dev
+
+Embedded C/C++ web server
+https://github.com/civetweb/civetweb
+
+Python composable command line interface toolkit
+https://github.com/pallets/click
+
+A list of IDA Plugins
+https://github.com/onethawt/idaplugins-list
+
+Full featured and highly configurable SFTP server
+https://github.com/drakkan/sftpgo
+
+html5 js 录音 mp3 wav ogg webm amr 格式，支持pc和Android、ios部分浏览器、和Hybrid App（提供Android IOS App源码），微信也是支持的，提供H5版语音通话聊天示例
+https://github.com/xiangyuecn/Recorder
+
+Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps
+https://github.com/gatsbyjs/gatsby
+
+Quicksql——更简单，更安全，更快速的跨数据源统一SQL查询引擎
+https://github.com/Qihoo360/Quicksql
+
+Interactive prompts made simple. Build a prompt like stacking blocks.(一个支持终端输入和菜单选择的 Python 库。可以让使用者在终端上用方向键移动、单选、复选、密码输入等，而且支持定制化格式和颜色。看下面的效果图你就知道它是干什么 )
+https://github.com/Mckinsey666/bullet
+
+Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.(Luigi是管理作业流的工具，可以方便我们监控、管理任务流。) python
+https://github.com/spotify/luigi
+
+架构师的成长之路-博客-导图
+https://github.com/csy512889371/learnDoc
+
+Helping you select an MV* framework - Todo apps for React.js, Ember.js, Angular, and many more 
+https://github.com/tastejs/todomvc
+
+使用react开发小程序https://github.com/remaxjs/remax
+
+A complete daily plan for studying to become a machine learning engineer.
+https://github.com/ZuzooVn/machine-learning-for-software-engineers
+
+Manually curated collection of resources for frontend web developers.
+https://github.com/dypsilon/frontend-dev-bookmarks
+
+Termpage allows you to create neat functional webpages that behave like a terminal(可以创建像终端一样的web页面)
+https://github.com/tautvilas/termpage
+
+elastic common schema: elastic 数据建模的一些最佳实践
+https://github.com/elastic/ecs
+
+Text editor - Notes & ToDo (for Android). Supporting Markdown and todo.txt 
+https://github.com/gsantner/markor
+
+ JavaScript Style Guide, with linter & automatic code fixer(javascript编码规范)
+https://github.com/standard/standard
+
+Wiki  Security  Pulse  Community
+Search gtfobins and lolbas files from your terminal
+https://github.com/mzfr/gtfo
+
+WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.
+https://github.com/Kozea/WeasyPrint
+
+Save HTML pages with ease
+https://github.com/Y2Z/monolith
+
+JDK源码阅读笔记(中文)
+https://github.com/seaswalker/JDK
+
+The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+https://github.com/gchq/CyberChef
+
+JSSDK Demo
+https://github.com/Cocos-BCX/JSSDK-Demo
+
+A curated list of awesome actions to use on GitHub
+https://github.com/sdras/awesome-actions
+
+一个专注于聚合和记录各种SQL注入方法的wiki
+https://github.com/ning1022/SQLInjectionWiki
+
+A React utility belt for function components and higher-order components.
+https://github.com/acdlite/recompose
+
+In-browser code editor
+https://github.com/codemirror/codemirror
+
+Messaging library for Python
+https://github.com/celery/kombu
+
+史上最简单的 IntelliJ IDEA 教程
+https://github.com/guobinhit/intellij-idea-tutorial
+
+ ADB Usage Complete / ADB 用法大全 
+https://github.com/mzlogin/awesome-adb
+
+近日阮一峰老师在 GitHub 上整理了他平时所发现的一些免费技术书籍。
+https://github.com/ruanyf/free-books
+
+Rust bindings for writing safe and fast native Node.js modules. - 
+https://github.com/neon-bindings/neon
+
+The Firebase Command Line Tools
+https://github.com/firebase/firebase-tools
+
+用rust写内核模块
+https://github.com/lizhuohua/linux-kernel-module-rust
+
+This is a keystroke launcher for Windows and macOS
+https://github.com/oliverschwendener/ueli
+
+Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content.
+https://github.com/alvarcarto/url-to-pdf-api
+
+As easy as httpie /aitch-tee-tee-pie/ 🥧 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. 
+https://github.com/jakubroztocil/httpie
+
+Build performant, native and cross-platform desktop applications with native React + powerful CSS like styling
+https://github.com/nodegui/react-nodegui
+
+A fully Go userland with Linux bootloaders! u-root can create a root file system (initramfs) containing a busybox-like set of tools written in Go.
+https://github.com/u-root/u-root
+
+Fastify是一个高度专注于以最少开销和强大的插件架构，为开发人员提供最佳体验的Web框架(nodejs)
+https://github.com/fastify/fastify
+
+Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js
+https://github.com/websockets/ws
+
+react-websocket is a easy-to-use React component for websocket communications.
+https://github.com/mehmetkose/react-websocket
+
+Etherpad: Really real-time collaborative document editing (实时多人协作编辑)
+https://github.com/ether/etherpad-lite
+
+Extend the enterprise security test open source honeypot system , Record hacker attacks. 扩展企业安全测试主动诱导型开源蜜罐框架系统，记录黑客攻击手段
+https://github.com/hacklcx/HFish
+
+Standard Readme Style
+https://github.com/RichardLitt/standard-readme
+
+Web CTF CheatSheet
+https://github.com/w181496/Web-CTF-Cheatsheet
+
+Licia 是一套在开发中实践积累起来的实用 JavaScript 工具库。该库目前拥有超过 300 个模块，包括 Dom 操作，cookie 设置，类创建，模板函数，日期格式化等实用模块，同时配套有打包工具 Eustia 进行定制化，使JS脚本加载量缩减在 10KB 以下，极大优化移动端页面的加载速度。
+https://github.com/liriliri/licia
+
+结巴中文分词(python)
+https://github.com/fxsjy/jieba
+
+今日热榜，一个获取各大热门网站热门头条的聚合网站，使用Go语言编写，多协程异步快速抓取信息，预览
+ https://github.com/tophubs/TopList
+
+HTTP client. Spiritual successor to request(js)
+https://github.com/mikeal/r2
+
+全栈工程师培训材料(阮一峰)
+https://github.com/ruanyf/jstraining
+
+Binee: binary emulation environment
+https://github.com/carbonblack/binee
+
+IPProxyPool代理池项目，提供代理ip
+https://github.com/qiyeboy/IPProxyPool
+
+easy-rsa - Simple shell based CA utility
+https://github.com/OpenVPN/easy-rsa
+
+ 通过 iWeChat 这个项目掌握如何分析一个App，以微信为例(ios)
+https://github.com/lefex/iWeChat
+
+每日收集喜欢的开源项目
+https://github.com/guanguans/favorite-link
+
+Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.(java)
+https://github.com/Netflix/ribbon
+
+《Rust编程之道》随书源码 
+https://github.com/ZhangHanDong/tao-of-rust-codes
+
+JaCoCo - Java Code Coverage Library
+https://github.com/jacoco/jacoco
+
+Nodejs最佳实践列表
+https://github.com/i0natan/nodebestpractices
+
+支付宝推出的安卓应用自动化测试工具。公测版拥有录制回放、性能测试、一机多控三项主要功能，能为测试开发人员节省宝贵时间
+https://github.com/alipay/SoloPi
+
+hub GitHub 官方的命令行客户端
+https://hub.github.com/
+
+gflags是Google的一个开源项目，用于解析程序运行参数(c++)
+https://github.com/gflags/gflags
+
+跨平台编译go
+https://github.com/karalabe/xgo
+
+李宏毅《机器学习》笔记，在线阅读地址：https://datawhalechina.github.io/leeml-notes
+https://github.com/datawhalechina/leeml-notes
+
+Docker Cheat Sheet
+https://github.com/wsargent/docker-cheat-sheet
+
+Converts ANSI escape sequences of a unix (将终端的颜色输出到html)
+https://github.com/theZiz/aha
+
+Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk. (android热升级)
+https://github.com/Tencent/tinker
+
+有不少不错的中文翻译文章，rust的居多
+https://github.com/chinanf-boy?tab=repositories
+
+ripgrep中文翻译
+https://github.com/chinanf-boy/ripgrep-zh
+
+使用docker快速搭建各大漏洞学习平台，目前可以一键搭建12个平台。
+https://github.com/c0ny1/vulstudy
+
+A text editor in less than 1000 LOC with syntax highlight and search.(c语言)
+https://github.com/antirez/kilo
+
+有libuv的例子
+https://github.com/nikhilm/uvbook
+
+有很多libuv异步的例子(貌似太老了，编译不了)
+https://github.com/bodokaiser/libuv-snippets
+
+A modern text indexing library for go
+https://github.com/blevesearch/bleve
+
+A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file
+https://github.com/sqshq/sampler
+
+Command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v.
+https://github.com/clvv/fasd
+
+ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙
+https://github.com/loveshell/ngx_lua_waf
+
+LinDB is a scalable, distributed, high performance, high availability Time Series Database.
+https://github.com/lindb/lindb
+
+Go programming language secure coding practices guide
+https://github.com/OWASP/Go-SCP
+
+Undertow is a Java web server based on non-blocking IO. It consists of a few different parts:
+https://github.com/undertow-io/undertow
+
+extract text from any document. no muss. no fuss.
+https://github.com/deanmalmgren/textract
+
+ An awesome Data Science repository to learn and apply for real world problems.
+https://github.com/bulutyazilim/awesome-datascience
+
+RunC 是一个轻量级的工具，它是用来运行容器的，只用来做这一件事，并且这一件事要做好。我们可以认为它就是个命令行小工具，可以不用通过 docker 引擎，直接运行容器。
+https://github.com/opencontainers/runc
+
+Record, Replay, and Stub HTTP Interactions
+https://github.com/Netflix/pollyjs
+
+JavaScript全栈教程参考源码
+https://github.com/michaelliao/learn-javascript
+
+搜集了很多CVE的poc
+https://github.com/qazbnm456/awesome-cve-poc
+
+xssizer是一款用于轻松检测XSS的工具，并生成可立即使用的PoC。
+https://github.com/noLogicXD/xssizer
+
+SWIG是个帮助使用C或者C++编写的软件能与其它各种高级编程语言进行嵌入联接的开发工具
+https://github.com/swig/swig
+
+Simple JavaScript testing framework for browsers and node.js
+https://github.com/jasmine/jasmine
+
+Grid studio is a web-based spreadsheet application with full integration of the Python programming language
+https://github.com/ricklamers/gridstudio
+
+A next generation HTTP client for Python
+https://github.com/encode/httpx
+
+High-performance MySQL proxy with a GPL license
+https://github.com/sysown/proxysql
+
+A Java API for generating .java source files
+https://github.com/square/javapoet
+
+RePlugin - A flexible, stable, easy-to-use Android Plug-in Framework
+https://github.com/Qihoo360/RePlugin
+
+！A terminal built on web technologies
+https://github.com/zeit/hyper
+
+Cross-platform file system notifications for Go
+https://github.com/fsnotify/fsnotify
+
+Vuetify是一个渐进式的框架，完全根据Material Design规范开发，一共拥有80多个组件，对移动端支持非常好。
+https://github.com/vuetifyjs/vuetify
+
+node-http-proxy is an HTTP programmable proxying library that supports websockets. It is suitable for implementing components such as reverse proxies and load balancers.
+https://github.com/http-party/node-http-proxy
+
+HackBar (Burpsuite Plugin)
+https://github.com/d3vilbug/HackBar
+
+SQLI labs to test error based, Blind boolean based, Time based.
+https://github.com/Audi-1/sqli-labs
+
+python格式化
+https://github.com/psf/black
+
+！ 通过curl快速获取linux命令的常见用法
+https://github.com/chubin/cheat.sh
+
+架构师技术图谱，助你早日成为架构师
+https://github.com/toutiaoio/awesome-architecture
+
+Virtual Environments for Node
+https://github.com/isaacs/nave
+
+a collection of simple demos of Webpack
+https://github.com/ruanyf/webpack-demos
+
+!一个 Chrome 浏览器插件，可以将 GitHub 里面的模块加载语句（比如import xxx from yyy），变成一个链接，点击以后就进入该模块的源码。
+https://github.com/OctoLinker/OctoLinker
+
+mina sshd纯java实现的ssh 客户端和服务端
+https://github.com/apache/mina-sshd
+
+Learn and understand Docker technologies, with real DevOps practice! 
+https://github.com/yeasy/docker_practice
+
+Osmedeus允许您自动运行一系列令人敬畏的工具，以针对目标进行侦察和漏洞扫描
+https://github.com/j3ssie/Osmedeus
+
+The fastest way to build beautiful Electron apps using simple HTML and CSS
+https://github.com/connors/photon
+
+sqlmap测试环境
+https://github.com/sqlmapproject/testenv
+
+Free and open-source GUI for radare2 reverse engineering framework
+https://github.com/radareorg/cutter
+
+A complete native navigation solution for React Native
+https://github.com/wix/react-native-navigation
+
+A simulation data generator
+https://github.com/nuysoft/Mock
+
+A simple and elegant markdown editor, available for Linux, macOS and Windows
+https://github.com/marktext/marktext
+
+upload-labs是一个使用php语言编写的，专门收集渗透测试和CTF中遇到的各种上传漏洞的靶场。旨在帮助大家对上传漏洞有一个全面的了解。目前一共20关，每一关都包含着不同上传方式。
+https://github.com/c0ny1/upload-labs
+
+！VNote是一个更懂程序员和Markdown的笔记
+https://github.com/tamlok/vnote/
+
+！！OmniNotes是一款轻量、简洁、智能易用的开源笔记应用。既能简单记录便签或日程，又可以在笔记里插入附件甚至手绘图片。标签 + 搜索的内容管理方式也方便用户查找笔记
+https://github.com/federicoiosue/Omni-Notes
+
+！由于Csploit是一款Android平台的网络分析和渗透套件，你可以扫描网络中的设备，比如手机、笔记本，并且发现他们的操作系统、服务和开放端口进行更深层次的渗透测试，窃取帐号密码等特点。
+https://github.com/cSploit/android
+https://mp.weixin.qq.com/s/Wkg1ORdaHaFqoDu0XZaD-g
+
+Material design file manager for Android
+https://github.com/TeamAmaze/AmazeFileManager
+
+VirtualApp(以下简称：VA)是一款运行于Android系统的沙盒产品，可以理解为轻量级的“Android虚拟机”。其产品形态为高可扩展，可定制的集成SDK，您可以基于VA或者使用VA定制开发各种看似不可能完成的项目。VA目前被广泛应用于插件化开发、无感知热更新、云控自动化、多开、手游租号、手游手柄免激活、区块链、移动办公安全、军队政府保密、手机模拟信息、脚本自动化、自动化测试等技术领域。
+https://github.com/asLody/VirtualApp/blob/master/CHINESE.md
+
+！A markdown editor for developers on Mac, Windows and Linux.
+https://github.com/BoostIO/Boostnote
+
+Parcel是一个网络应用打包工具，适用于经验不同的开发者.它利用多核处理提供了极快的速度,并且不需要任何配置。相比于webpack，parcel并不需要去预先配置环境，也不用花大量的时间去阅读文档，灵活性强，打包快。
+https://github.com/parcel-bundler/parcel
+
+elasticsearch 中文分词器
+https://github.com/medcl/elasticsearch-analysis-ik
+
+《Flutter实战》电子书(中文)
+https://github.com/flutterchina/flutter-in-action
+
+Simple and complete React DOM testing utilities that encourage good testing practices
+https://github.com/testing-library/react-testing-library
+
+sqlite用web浏览操作
+https://github.com/coleifer/sqlite-web
+
+typescript入门教程
+https://github.com/xcatliu/typescript-tutorial
+
+不需要依赖系统安装git客户端就可以把git的功能嵌入应用的c库里
+https://github.com/libgit2/libgit2
+
+A lightweight, extendable front-end developer tool for mobile web page
+一个轻量、可拓展、针对手机网页的前端开发者调试面板。
+
+CSS tricks for web developers
+https://github.com/l-hammer/You-need-to-know-css
+
+中国独立开发者项目列表 -- 分享大家都在做什么
+https://github.com/1c7/chinese-independent-developer
+
+Swagger UI is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API. 
+https://github.com/swagger-api/swagger-ui
+
+PDF Reader in JavaScript
+https://github.com/mozilla/pdf.js
+
+VS Code client for TabNine
+https://github.com/zxqfl/tabnine-vscode
+https://mp.weixin.qq.com/s/y7MZijv44mVqEWtTzHg4nw
+
+metabase开源BI
+https://github.com/metabase/metabase
+
+!! c语言并发编程库libmill
+https://github.com/sustrik/libmill
+
+c语言并发编程库libdill与libmill类似
+https://github.com/sustrik/libdill
+
+rust netlink
+https://github.com/little-dude/netlink
+
+Chrome 浏览器插件，能够将操作录制成脚本，用于浏览器自动化。
+https://github.com/checkly/puppeteer-recorder
+
+rust异步编程框架
+https://github.com/tokio-rs/tokio
+
+nodejs获取管道stdin的输入
+https://github.com/sindresorhus/get-stdin
+
+pm2 是一个带有负载均衡功能的Node应用的进程管理器.
+https://github.com/Unitech/pm2
+
+A TCP proxy to simulate network and system conditions for chaos and resiliency testing
+https://github.com/Shopify/toxiproxy
+
+一个漂亮的所见即所得(WYSIWYG)富文本编辑器:Froala
+https://github.com/froala/wysiwyg-editor
+
+前端react后端express的例子
+https://github.com/crsandeep/simple-react-full-stack
+
+
+解密java ssl数据
+https://github.com/neykov/extract-ssl-secrets
+
+Decrypts and logs a process's SSL traffic
+https://github.com/google/ssl_logger
+
+构建各种网络协议服务端
+https://github.com/SpiderLabs/Responder
+
+nodejs实现的smb server
+https://github.com/adobe/node-smb-server
+
+将任何非ssl的端口包装成ssl端口
+https://github.com/cesanta/ssl_wrapper
+
+python snmp服务器
+https://github.com/etingof/pysnmp
+
+FakeSMTP is a Free Fake SMTP Server with GUI for testing emails in applications easily. It is written in Java.
+https://github.com/Nilhcem/FakeSMTP
+
+Easy Mock 是一个可视化，并且能快速生成模拟数据的持久化服务。
+https://github.com/easy-mock/easy-mock
+
+Mock an SSH server and all commands it supports
+https://github.com/ncouture/MockSSH
+
+Turn your fzf into a live REPL
+https://github.com/pawelduda/fzf-live-repl
+
+https://github.com/p1v0t/Doctor
+A quick reference for Vim text editor
+
+Overview of ECMAScript 6 features
+https://github.com/lukehoban/es6features
+
+！！分类搜集各种react组件和库
+https://github.com/brillout/awesome-react-components
+
+java运行时动态加载jar包
+https://github.com/kamranzafar/JCL
+
+Creative Coding: Generative Art, Data visualization, Interaction Design, Resources
+https://github.com/terkelg/awesome-creative-coding
+
+A curated collection of useful CSS snippets you can understand in 30 seconds or less
+https://github.com/30-seconds/30-seconds-of-css
+
+
+Elasticsearch索引管理利器
+https://github.com/elastic/curator
+
+使用sql搜索elasticsearch
+https://github.com/NLPchina/elasticsearch-sql/blob/master/README.md
+
+A fast, light-weight proxy for memcached and redis
+https://github.com/twitter/twemproxy
+
+深度学习在代码上的应用
+https://github.com/chnsh/deep-semantic-code-search
+
+OctoSQL使用sql连接多个数据库查询
+https://github.com/cube2222/octosql
+
+
+QuickJS是一个小型并且可嵌入的Javascript引擎，它支持ES2019规范，包括模块，异步生成器和代理器。
+https://github.com/quickjs-zh/QuickJS
+
+
+A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web Applications
+https://github.com/python-security/pyt
+
+
+https://github.com/snoopysecurity/awesome-burp-extensions
+A curated list of amazingly awesome Burp Extensions
+
+后端awesome
+https://github.com/xingshaocheng/architect-awesome
+
+一个 react + redux 的完整项目 和 个人总结
+https://github.com/bailicangdu/react-pxq
+
+一个有趣和棘手的 JavaScript 示例列表。
+https://github.com/denysdovhan/wtfjs
+
+Build terminal user interfaces and dashboards using Rust
+https://github.com/fdehau/tui-rs
+
+一些文章的中文翻译
+https://github.com/HT524/500LineorLess_CN
+
+react学习路标
+https://github.com/the-road-to-learn-react/the-road-to-learn-react
+
+https://github.com/mfornos/awesome-microservices
+
+数据科学指南
+https://github.com/virgili0/Virgilio/blob/master/zh-CN/README.md
+
+A next-generation plugin manager for zsh
+https://github.com/zplug/zplug
+
+机器学习运用在代码分析领域
+https://github.com/tthtlc/awesome-source-analysis
+
+go语言例子
+https://github.com/micro/examples
+
+Host yo' self from your browser, your phone, your toaster. (可以把自己的文件，目录拖上去就变成一个静态web服务了)
+https://github.com/schollz/hostyoself
+
+一个支持无障碍服务的Android平台上的JavaScript IDE，其发展目标是JsBox和Workflow。
+https://github.com/hyb1996/Auto.js
+
+将json数据转化成可读的形式
+https://github.com/M-Porter/jlog
+
+从stdin获取任意数据加上时间戳后以jdon格式输出
+https://github.com/sgreben/tj
+
+数据发送到elasticsearch
+
+数据发送到socket
+https://github.com/pinojs/pino-socket
+
+Insert JSON from stdin into MongoDB
+https://github.com/pinojs/pino-mongodb
+
+后端接口和文档自动化，前端(客户端) 定制返回JSON的数据和结构！
+https://github.com/APIJSON/APIJSON
+
+Fast, Distributed Graph D
+https://github.com/dgraph-io/dgraph
+
+QuickJS is a small and embeddable Javascript engine. It supports the ES2019 specification including modules, asynchronous generators and proxies.(C)
+https://github.com/horhof/quickjs
+
+
+Source code about machine learning and security.
+https://github.com/13o-bbr-bbq/machine_learning_security
+
+
+使用spring boot打造文件文档在线预览项目解决方案，支持doc、docx、ppt、pptx、xls、xlsx、zip、rar、mp4，mp3以及众多类文本如txt、html、xml、java、properties、sql、js、md、json、conf、ini、vue、php、py、bat、gitignore等文件在线预览 
+https://github.com/kekingcn/kkFileView
+
+A React Native wrapper around the Facebook SDKs for Android and iOS. Provides access to Facebook login, sharing, graph requests, app events etc. -
+https://github.com/facebook/react-native-fbsdk
+
+nanomsg library
+https://github.com/nanomsg/nanomsg
+
+Comprehensive Python Cheatsheet
+https://github.com/gto76/python-cheatsheet
+
+flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档
+https://github.com/alibaba/flutter-go
+
+record and replay the web
+https://github.com/rrweb-io/rrweb
+
+q - Run SQL directly on CSV or TSV files 
+https://github.com/harelba/q
+
+
+Curated list of Unix binaries that can be exploited to bypass system security restrictions
+https://github.com/GTFOBins/GTFOBins.github.io
+
+Automerge 是一个用于在 JavaScript 中构建协作应用程序的数据结构库。建 JavaScript 应用程序的常用方法是将应用程序的状态保存在模型对象中，例如 JSON 文档。
+https://github.com/automerge/automerge
+
+本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。
+https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way
+
+Datamash is a command-line program which performs basic
+numeric,textual and statistical operations on input textual data files
+https://github.com/agordon/datamash
+
+读取，操作和编写电子表格数据和样式到XLSX和JSON。(js)
+https://github.com/exceljs/exceljs
+
+Curated list of Python resources for data science.
+https://github.com/r0f1/datascience
+
+Mattermost 是团队协作工具 Slack 的替代品
+https://github.com/mattermost/mattermost-server
+
+九部知识库(前端)
+https://github.com/frontend9/fe9-library
+
+零配置打包工具Parcel
+https://github.com/parcel-bundler/parcel/
+
+redis远程代码执行利用
+https://github.com/Ridter/redis-rce
+
+史上最全的整合第三方登录的工具，https://github.com/zhangyd-c/JustAuth
+
+ Everything awesome about web-application firewalls (WAF).
+https://github.com/0xInfection/Awesome-WAF
+
+srclib is a source code analysis library. It provides standardized tools, interfaces and data formats for generating, representing and querying information about source code in software projects.
+https://github.com/sourcegraph/srclib
+
+Code search and navigation tool
+https://github.com/sourcegraph/sourcegraph
+
+This is a little dashboard that tries to take care of you when you're using your terminal. 
+https://github.com/notwaldorf/tiny-care-terminal
+
+！WTF 是一个基于 Go 的命令行工具，你的个人 Dashboard，专为显示不常用的但非常重要的日常数据而设计
+https://github.com/wtfutil/wtf
+
+Responsive dashboard templates
+https://github.com/keen/dashboards
+
+Tabler：基于 Bootstrap 4 的 HTML 仪表盘 UI 套件
+https://github.com/tabler/tabler
+
+Cutter 是 radare2 逆向工程框架的免费开源图形用户界面。它的目标是打造一个先进的、可定制的、自由和开放源码软件逆向工程平台，同时将用户体验牢记在心。
+https://github.com/radareorg/cutter
+
+DataX 是阿里巴巴集团内被广泛使用的离线数据同步工具/平台，实现包括 MySQL、Oracle、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、DRDS 等各种异构数据源之间高效的数据同步功能。
+https://github.com/alibaba/DataX
+
+Git All the Payloads! A collection of web attack payloads
+https://github.com/foospidy/payloads
+
+独立开发者赚钱经验分享(中文)
+https://github.com/loonggg/DevMoneySharing
+
+awesome-linux-rootkits
+https://github.com/milabs/awesome-linux-rootkits
+
+2018年初整理的一些内网渗透TIPS，后面更新的慢，所以公开出来希望跟小伙伴们一起更新维护~
+https://github.com/Ridter/Intranet_Penetration_Tips
+
+网络安全的机器学习
+https://github.com/jivoi/awesome-ml-for-cybersecurity
+
+BlackEye - 最完整的网络钓鱼工具，具有32个模板+1可自定义
+https://github.com/thelinuxchoice/blackeye
+
+Rust 多种web框架和库的比较
+https://github.com/flosse/rust-web-framework-comparison
+
+Learn regex the easy way(有中文)
+https://github.com/ziishaned/learn-regex
+
+Java Native Access
+https://github.com/java-native-access/jna
+
+Remote multi-server automation tool
+https://github.com/capistrano/capistrano
+
+A browser based code editor
+https://github.com/microsoft/monaco-editor
+
+The official Python client library for Google's discovery based APIs.
+https://github.com/googleapis/google-api-python-client
+
+一款开源的 BI 工具Redash
+https://github.com/getredash/redash
+
+z - jump around
+https://github.com/rupa/z
+
+StatsD 就是一个简单的网络守护进程，基于 Node.js 平台，通过 UDP 或者 TCP 方式侦听各种统计信息，包括计数器和定时器，并发送聚合信息到后端服务，如 Graphite。
+https://github.com/statsd/statsd
+
+The open-source kanban (built with Meteor)
+https://github.com/wekan/wekan
+
+A React and React Native UI components library for Elasticsearch
+https://github.com/appbaseio/reactivesearch
+
+Manage multiple NodeJS versions
+https://github.com/nodenv/nodenv
+
+Free resources for learning Full Stack Web Development
+https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer
+
+Jansson是一个用于解码、编码、操控JSON的C库。其特性为：
+简单直观的API和数据模型
+没有依赖项
+完整的Unicode支持（UTF-8）
+https://github.com/akheron/jansson
+
+SubFinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
+https://github.com/subfinder/subfinder
+
+
+A terminal based graphical activity monitor inspired by gtop and vtop
+https://github.com/cjbassi/gotop
+
+Vim for Visual Studio Code
+https://github.com/gothinkster/node-express-realworld-example-app
+ https://github.com/gothinkster/node-express-rld-example-app
+
+Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file
+https://github.com/LeCoupa/awesome-cheatsheets
+
+33 concepts every JavaScript developer should know.
+https://github.com/leonardomso/33-js-concepts
+
+hunter - 终端下的文件浏览器(Rust)
+https://github.com/rabite0/hunter
+
+利用 Python 进行数据分析 · 第 2 版(译)
+https://github.com/apachecn/pyda-2e-zh
+
+Vue相关开源项目库汇总 
+https://github.com/opendigg/awesome-github-vue
+
+A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware(windows)
+https://github.com/processhacker/processhacker
+
+Share your terminal over the web
+https://github.com/tsl0922/ttyd
+
+云原生全景图谱(各种云服务的技术)
+https://github.com/cncf/landscape
+
+https://github.com/google/material-design-lite
+
+theZoo是一个恶意软件分析的开源项目，目前由Shahak Shalev维护。该项目里面包含了几乎所有版本的恶意软件
+https://github.com/ytisf/theZoo
+
+go语言编程示例
+https://github.com/adonovan/gopl.io
+
+Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS
+https://github.com/kivy/kivy
+
+类似fzf的工具
+https://github.com/lotabout/skim
+
+wasm-pack：用于Rust-generated WebAssembly的构建、测试、发布的一揽子工具集
+https://github.com/rustwasm/wasm-pack
+
+springboot各种例子
+https://github.com/Foreveriss/SpringBoot
+
+junit5 例子
+https://github.com/junit-team/junit5-samples
+
+Netty实践学习案例
+https://github.com/sanshengshui/netty-learning-example
+
+https://github.com/baidu/uid-generator
+UidGenerator是Java实现的, 基于Snowflake算法的唯一ID生成器。
+
+snoopy - 一个可高度配置化的多线程网络包嗅探分析工具(Rust)
+https://github.com/kanishkarj/snoopy
+
+各种路标
+https://github.com/orsanawwad/awesome-roadmaps
+
+Collaborative Collection of C++ Best Practices
+https://github.com/lefticus/cppbestpractices
+
+A curated list to learn about distributed systems
+https://github.com/theanalyst/awesome-distributed-systems
+
+
+A collection of various awesome lists for hackers, pentesters and security researchershttps://github.com/Hack-with-Github/Awesome-Hacking
+
+浏览器访问ssh
+https://github.com/nickola/web-console
+
+Lightweight fuzzy-search, in JavaScript
+https://github.com/krisk/Fuse
+
+Peer-to-peer data in the browser
+https://github.com/peers/peerjs
+
+A starter template for TypeScript and React with a detailed README describing how to use the two together.https://github.com/microsoft/TypeScript-React-Starter
+
+ArangoDB是一个开源的、原生的多模型Nosql数据库，同时支持Doc、Graph、K/V三种存储，它有适用于全部三种数据模型的统一内核和统一数据库查询语言—AQL (ArangoDB Query Language)。
+https://github.com/arangodb/arangodb
+
+Python入门网络爬虫之精华版
+https://github.com/lining0806/PythonSpiderNotes
+
+！收集android各种开源项目
+https://github.com/Trinea/android-open-project
+
+一款全能型的网站漏洞扫描器，借鉴了各位前辈的优秀代码。内置1200+插件可对网站进行一次规模的检测，功能包括但不限于web指纹检测、端口指纹检测、网站结构分析、各种流行的漏洞检测、爬虫以及SQL注入检测、XSS检测等等，w9scan会自动生成精美HTML格式结果报告。
+https://github.com/w-digital-scanner/w9scan
+
+A simple asset discovery engine for cybersecurity. (网络资产发现引擎)
+https://github.com/w-digital-scanner/w12scan
+
+Android terminal and Linux environment - packages repository
+https://github.com/termux/termux-packages
+
+linux-kernel-exploits Linux平台提权漏洞集合
+https://github.com/SecWiki/linux-kernel-exploits
+
+Android相关的安全资源
+https://github.com/ashishb/android-security-awesome
+
+Simdjson：一个超高速的JSON解析工具(C++)
+https://github.com/lemire/simdjson
+
+
+IntelliJ IDEA 简体中文专题教程
+https://github.com/judasn/IntelliJ-IDEA-Tutorial
+
+fasthttp是golang下的一个http框架，顾名思义，与原生的http实现相比，它的特点在于快，按照官网的说法，它的客户端和服务端性能比原生有了十倍的提升。
+https://github.com/valyala/fasthttp
+
+Python爬虫代理IP池(proxy pool)
+https://github.com/jhao104/proxy_pool
+
+AwesomeXSS
+https://github.com/s0md3v/AwesomeXSS
+
+一个轻量级的 JS 模糊搜索引擎
+https://github.com/krisk/Fuse
+
+一个开源服务，帮助用户查看 GitHub 项目 star 数目的历史。它的网站可以免费使用，插件是收费的。
+https://github.com/timqian/star-history
+
+youtube-dl-interactive 具有互动界面的命令行 Youtube 下载器，基于 youtube-dl。
+https://github.com/synox/youtube-dl-interactive
+
+多平台蜜罐
+https://github.com/dtag-dev-sec/tpotce
+
+FoundationDB是“一个能在多集群服务器上存放大规模结构化数据的分布式数据库”。该数据库系统专注于高性能、高可扩展性、和不错的容错能力。 (苹果)
+https://github.com/apple/foundationdb
+
+！Python - 100天从新手到大师
+https://github.com/jackfrued/Python-100-Days
+
+python 100天 (中文)
+https://github.com/ZiniuLu/Python-100-Days
+
+spring boot demo
+https://github.com/xkcoding/spring-boot-demo
+
+Java JsonPath implementation
+https://github.com/json-path/JsonPath
+
+写c++代码的优秀
+https://github.com/isocpp/CppCoreGuidelines
+
+javascript实用工具库
+https://github.com/lodash/lodash
+
+百度网盘不限速下载
+https://github.com/peterq/pan-light
+
+大数据分析发现框架
+https://github.com/metatron-app/metatron-discovery
+
+Node.js 网页应用程序模板
+https://github.com/sahat/hackathon-startershijianhttps://github.com/isocpp/CppCoreGuidelines
+
+Nodejs学习笔记以及经验总结，公众号"程序猿小卡"
+https://github.com/chyingp/nodejs-learning-guide
+
+MySQL 资源大全中文版，分析工具、备份、性能测试、配置、部署、GUI 等
+https://github.com/jobbole/awesome-mysql-cn
+
+！Drools  规则引擎
+https://github.com/kiegroup/drools
+
+各种语言自动化测试相关的收集
+https://github.com/atinfo/awesome-test-automation
+
+内网穿透工具
+https://github.com/ffay/lanproxy
+
+基于web的文件管理平台
+https://github.com/kalcaddle/KodExplorer
+
+
+http request/response parser for c
+https://github.com/nodejs/http-parser
+
+基于 node.js + Mongodb 构建的后台系统
+https://github.com/bailicangdu/node-elm
+
+
+可能是让你受益匪浅的英语进阶指南
+https://github.com/byoungd/English-level-up-tips-for-Chinese
+
+
+后渗透工具, 可用于实现驻留、侦查https://github.com/d4rk007/RedGhost
+
+各种怪异字符串列表，用于测试
+https://github.com/minimaxir/big-list-of-naughty-strings
+
+
+jo 快速命令行创建json对象
+https://github.com/jpmens/jo
+
+Create and view web pages stored entirely in the URL(类似那些在线写前端代码的)
+https://github.com/jstrieb/urlpages
+
+The pytest framework makes it easy to write small tests, yet scales to support complex functional testing
+https://github.com/pytest-dev/pytest
+
+Salt，,一种全新的基础设施管理方式，部署轻松，在几分钟内可运行起来，扩展性好，很容易管理上万台服务器，速度够快，服务器之间秒级通讯
+https://github.com/saltstack/salt
+
+Vim-fork focused on extensibility and usability
+https://github.com/neovim/neovim
+
+为监控而生的数据库连接池。
+https://github.com/alibaba/druid
+
+A solid, high-performance, JDBC connection pool at last(java)
+https://github.com/brettwooldridge/HikariCP
+
+git各种常见问题
+https://github.com/k88hudson/git-flight-rules
+
+Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
+https://github.com/jobbole/awesome-java-cn
+
+Source Code for Go In Action examples
+https://github.com/goinaction/code
+
+Minimalist Go package aimed at creating Console User Interfaces.
+https://github.com/jroimartin/gocui
+
+
+python渗透测试框架，支持扩展
+https://github.com/trustedsec/ptf
+
+
+https://github.com/Manisso/fsociety
+fsociety Hacking Tools Pack – A Penetration Testing Framework
+
+The world's simplest facial recognition api for Python and the command line
+https://github.com/ageitgey/face_recognition
+
+搜索观看下载保存，样样精通—命令行下的 YouTube 播放器 mps-youtube
+https://github.com/mps-youtube/mps-youtube
+
+Minimalist Go package aimed at creating Console User Interfaces.
+https://github.com/jroimartin/gocui
+
+渗透测试awesome
+https://github.com/enaqx/awesome-pentest
+
+API安全checklist
+https://github.com/shieldfy/API-Security-Checklist
+
+bpftrace High-level tracing language for Linux eBPF
+https://github.com/iovisor/bpftrace
+
+
+浏览器查看过滤json数据
+https://github.com/jorilallo/jsonbrowse
+
+
+Rich interactive widgets for terminal-based UIs written in Go
+https://github.com/rivo/tview
+
+A Windows GUI toolkit for the Go Programming Language
+https://github.com/lxn/walk
+
+谷粒-Chrome插件英雄榜
+https://github.com/zhaoolee/ChromeAppHeroes
+
+awesome-go-cn
+https://github.com/yinggaozhen/awesome-go-cn
+
+
+A simple, fast, and fun package for building command line apps in Go
+https://github.com/urfave/cli
+
+html头能干的事情
+https://github.com/joshbuchea/HEAD
+
+一个快速、低开销的 web 框架(nodejs)
+https://github.com/fastify/fastify
+
+一个封装好的 OS 三方库，解决了 Go 使用 OS 标准库错误处理的麻烦。如果没有它，打开一个文件查找一个关键字再统计下数量，你至少会需要 2-3 个异常处理的逻辑。
+https://github.com/bitfield/script
+
+《The Hacker Playbook 3》中文翻译版（渗透测试实战红队第三版）
+https://github.com/Snowming04/The-Hacker-Playbook-3-Translation
+
+发送告警事件
+https://github.com/target/goalert
+
+
+ccls --C/C++/ObjC 语言服务器,支持交叉引用、层次结构、完成和语义突出显示
+https://github.com/MaskRay/ccls
+
+cquery
+c/c++语言服务器
+
+Sysdig 能获取实时的系统数据，也能把信息保存到文件中以供后面分析。Sysdig 有着类似于 tcpdump 的过滤语法，用户可以随意组合自己的过滤逻辑，从茫茫的数据中找到关心的信息。除此之外，用户还可以自己编写 Lua 脚本来自定义分析逻辑，基本上不受任何限制。
+https://github.com/draios/sysdig
+
+chrom插件英雄榜(中文)
+https://zhaoolee.github.io/ChromeAppHeroes/
+
+机器学习100天(中文)
+https://github.com/MLEveryday/100-Days-Of-ML-Code
+
+五分钟学算法https://github.com/MisterBooo/LeetCodeAnimation
+
+
+一个几乎能识别出图片中所有语言的JS库。
+https://github.com/naptha/tesseract.js
+
+
+php设计模式
+https://github.com/domnikl/DesignPatternsPHP
+
+使用 json-server 来创建一个模拟 API
+https://github.com/typicode/json-server
+
+
+用Rust重写了linux的corutils
+https://github.com/uutils/coreutils
+
+DefectDojo是一个开源的应用程序漏洞关联和安全编排工具。https://github.com/DefectDojo/django-DefectDojo
+
+前端进阶文章
+https://github.com/yygmind/blog
+
+收集了渗透测试的一些工具
+https://github.com/infosecn1nja/Red-Teaming-Toolkit
+
+远程桌面管理工具
+https://github.com/mRemoteNG/mRemoteNG
+
+BPF CompilerCollection (BCC)这个工具集包含很多用来观测内核性能的工具，全部使用eBPF，并且提供了python的外部编程能力。
+https://github.com/iovisor/bcc
+
+图标库
+https://github.com/Remix-Design/RemixIcon
+
+一个让输出变得更漂亮的 C++ 库。就像 python 语言的 pprint 库，它对基本类型、字符串、复数、enum 类型、STL 容器等做了输出格式优化，有了缩紧和分行才更容易发现这个世界的美好。
+https://github.com/p-ranav/pprint
+
+android知识 (中文)
+https://github.com/francistao/LearningNotes/blob/master/README.md
+
+
+android ui awesome
+https://github.com/wasabeef/awesome-android-ui
+
+视频编辑
+https://github.com/olive-editor/olive
+
+浏览器实现拖拽
+https://github.com/enyo/dropzone
+
+mocha   js单元测试框架
+https://github.com/mochajs/mocha
+
+Node-notifier系统级 桌面提醒( 右下角弹框 )
+https://github.com/mikaelbr/node-notifier
+
+Agenda是基于 node 的一个轻量级任务调度类库，它的优势在于轻量级、持久化、使用简单。
+https://github.com/agenda/agenda
+
+作为轻量级的本地存储方式，对于构建不依赖服务器的小型项目，用LowDB存储和管理数据是十分理想的选择。在Nodejs, Electron and browser等一些小型项目中经常能看到LowDB的身影。https://github.com/typicode/lowdb
+
+Faker.js 可以在浏览器和 node.js 中生成大量的虚假数据。
+https://github.com/Marak/faker.js
+
+程序员应该访问的网站
+https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+
+收集讨论各种android架构和模式
+https://github.com/googlesamples/android-architecture
+
+go语言设计模式
+https://github.com/tmrts/go-patterns
+
+FlatBuffers 是一个开源的跨平台数据序列化库，可以应用到几乎任何语言（C++, C#, Go, Java, JavaScript, PHP, Python），最开始是 Google 为游戏或者其他对性能要求很高的应用开发的。
+https://github.com/google/flatbuffers
+
+Android实时投屏控制软件 
+https://github.com/barry-ran/QtScrcpy
+
+收集go语言静态扫描工具集https://github.com/dominikh/go-tools
+
+es6例子
+https://github.com/wesbos/es6.io
+
+每个chrome发行版例子
+https://github.com/GoogleChrome/samples
+
+各种python图形库的示例代码
+https://github.com/PySimpleGUI/PySimpleGUI
+
+p2p实现库
+https://github.com/libp2p/go-libp2p
+
+http作为隧道，访问tcp端口 (go)
+https://github.com/jpillora/chisel
+
+多线程下载库，支持多种协议(c++)
+https://github.com/aria2/aria2
+
+yara awesome
+https://github.com/InQuest/awesome-yara
+
+收集每个程序员应该知道的
+https://github.com/mtdvio/every-programmer-should-know
+
+gron让json输出变成扁平可以方便grep和查询差异
+https://github.com/tomnomnom/gron
+
+presto快速分布式大数据sql查询引擎
+https://github.com/prestodb/presto
+
+各种语言方便使用正则的库(各种语言)
+https://github.com/VerbalExpressions
+
+百度云快速下载
+https://github.com/acgotaku/BaiduExporter
+
+js单元测试框架 jest
+https://github.com/facebook/jest
+
+bootstap的material设计
+https://github.com/FezVrasta/bootstrap-material-design
+
+ParaText  C++并行多核文本处理库
+https://github.com/wiseio/paratext
+
+Flutter例子
+https://github.com/flutter/samples
+
+Symphony下一代的社区系统，为未来而构建 (java)
+https://github.com/b3log/symphony
+
+
+android快速弹出提示框
+https://github.com/aritraroy/Flashbar
+
+程序员常用英语库
+https://github.com/Wei-Xia/most-frequent-technology-english-words/blob/master/README.md
+
+不需要js css就能搞定的
+https://github.com/you-dont-need/You-Dont-Need-JavaScript
+
+收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
+https://github.com/chaozh/awesome-blockchain-cn
+
+把nodejs变成可执行程序
+https://github.com/zeit/pkg
+
+
+Vert.x框架基于事件和异步，依托于全异步Java服务器Netty，并扩展了很多其他特性，以其轻量、高性能、支持多语言开发而备受开发者青睐。
+https://github.com/eclipse-vertx/vert.x
+
+Apache Ignite内存数组组织框架是一个高性能、集成和分布式的内存计算和事务平台，用于大规模的数据集处理，比传统的基于磁盘或闪存的技术具有更高的性能，同时他还为应用和不同的数据源之间提供高性能、分布式内存中数据组织管理的功能。
+https://github.com/apache/ignite
+
+收集python设计模式
+https://github.com/faif/python-patterns
+
+kinux常用软件
+https://github.com/luong-komorebi/Awesome-Linux-Software
+
+前端js代理，貌似可以用来做跳板访问其他网页，比如翻墙
+https://github.com/EtherDream/jsproxy
+
+快速搭建各种漏洞环境
+https://github.com/Medicean/VulApps
+
+收集一些shell片段
+https://github.com/alexanderepstein/Bash-Snippets
+
+收集全栈程序员资源
+https://github.com/charlax/professional-programming
+
+如何减小rust二进制文件大小
+https://github.com/johnthagen/min-sized-rust
+
+Toshi 全文搜索引擎(rust)
+https://github.com/toshi-search/Toshi
+
+google开源用rust写的现代编辑器
+https://github.com/xi-editor/xi-editor
+
+分析出敏感信息并发送alert
+https://github.com/pivotal-cf/cred-alert
+
+从文本里分析出手机号
+https://github.com/daviddrysdale/python-phonenumbers
+
+rspamd垃圾邮件过滤系统(可以参考它的字符串过滤机制)
+https://github.com/rspamd/rspamd
+
+一个先进的正则匹配库
+https://github.com/k-takata/Onigmo
+
+upterm基于electron的交互式终端
+https://github.com/railsware/upterm
+
+DownGit这个开源工具可以为任何 GitHub 目录或文件，生成下载链接，即点击下载代码库的任意子目录。
+https://github.com/MinhasKamal/DownGit
+
+
+fd替代find的文件路径搜索工具
+https://github.com/sharkdp/fd
+
+阿里前端技术周刊
+https://github.com/aliyunfe/weekly
+
+windows工具列表
+https://github.com/Awesome-Windows/Awesome
+
+webshell收集
+https://github.com/xl7dev/WebShell
+
+
+命令行文本处理
+https://github.com/learnbyexample/Command-line-text-processing
+
+本项目曾冲到全球第一，干货集锦见本页面最底部，另完整精致的纸质版《编程之法：面试和算法心得》已在京东/当当上销售
+https://github.com/julycoding/The-Art-Of-Programming-By-July
+
+！小马哥技术周报
+https://github.com/mercyblitz/tech-weekly/blob/master/README.md
+
+android上的图表库MPAndroidChart
+https://github.com/PhilJay/MPAndroidChart
+
+
+Influxdb时序数据库
+https://github.com/influxdata/influxdb
+
+前端3D库three.js的使用例子(中文)
+https://github.com/Ovilia/ThreeExample.js
+
+face_recognition是一个强大、简单、易上手的人脸识别开源项目，并且配备了完整的开发文档和应用案例，特别是兼容树莓派系统。
+https://github.com/ageitgey/face_recognition
+
+文件同步
+https://github.com/syncthing/syncthing
+https://github.com/syncthing/syncthing-android
+
+fastlane是一个通过简单命令来完成诸如截图、获取证书、编译、导出安装包、提交iTunesConnect等一系列操作的工具，它同时支持iOS和Android。 你能够通过简单的方式配置流程进行的顺序，并通过非常简单的命令执行其中的一个流程。当然它的简单并不代表功能也简陋，有开源社区的支持，更新迅速且有很多功能能够满足你的需求。
+https://github.com/fastlane/fastlane
+
+
+持续文件自动同步 (go)
+https://github.com/syncthing/syncthing
+
+Deno 下一代nodejs，用go写的
+https://github.com/denoland/deno
+
+很多前端框架真实的例子
+https://github.com/gothinkster/realworld
+
+开源堡垒机
+https://github.com/jumpserver/jumpserver
+
+! 套企业级的 UI 设计语言和 React 实现。
+https://github.com/ant-design/ant-design
+
+https://github.com/electron/electron-api-demos
+
+ruby交互控制台
+https://github.com/pry/pry
+
+方便安全的进行互联网两台电脑之间的文件传输
+https://github.com/schollz/croc
+
+各种公开的数据集
+https://github.com/awesomedata/awesome-public-datasets
+
+react拖拽库
+https://github.com/react-dnd/react-dnd
+
+inlets 把内网暴露到互联网上
+https://github.com/alexellis/inlets
+
+QMUI Android 的设计目的是用于辅助快速搭建一个具备基本设计还原效果的 Android 项目，同时利用自身提供的丰富控件及兼容处理，让开发者能专注于业务需求而无需耗费精力在基础代码的设计上。不管是新项目的创建，或是已有项目的维护，均可使开发效率和项目质量得到大幅度提升。(腾讯)
+https://github.com/Tencent/QMUI_Android
+
+Redmine 是一个开源的、基于Web的项目管理和缺陷跟踪工具。
+https://github.com/redmine/redmine
+
+一个不错的ls替代工具
+https://github.com/ogham/exa
+
+c++方便使用的跨平台写控制台的库
+https://github.com/edenreich/ConsoleLibrary
+
+一个命令升级系统所有的组件(npm,vim等等) rust
+https://github.com/r-darwish/topgrade
+
+
+基于ripgrep搜索更多文件类型的工具
+https://github.com/phiresky/ripgrep-all
+
+从0到1设计各种系统
+https://github.com/donnemartin/system-design-primer
+
+互联网 Java 工程师进阶知识完全扫盲
+https://github.com/doocs/advanced-java
+
+！ 各种面试资料，也包含各种基础知识
+https://github.com/CyC2018/CS-Notes
+https://github.com/xingshaocheng/architect-awesome
+后端架构师技术图谱
+
+互联网公司经典技术架构
+https://github.com/davideuler/architecture.of.internet-product
+
+！！本地搭建各种服务的列表
+https://github.com/Kickball/awesome-selfhosted
+
+masscan号称是最快的互联网端口扫描器，最快可以在六分钟内扫遍互联网。
+https://github.com/robertdavidgraham/masscan
+
+nigixlua扩展
+https://github.com/alexazhou/VeryNginx
+
+面向开发者的各种免费服务
+https://github.com/ripienaar/free-for-dev
+
+下载视频网站的音视频(youtube,B站,优酷等)
+https://github.com/soimort/you-get
+
+同步各种云存储
+https://github.com/ncw/rclone
+
+dotfiles是近距离了解和观察大牛的配置的绝佳机会。github上面有大量开源的，经验积累下来的dotfiles: https://dotfiles.github.io/ 通过学习和fork这些好的dotfiles，你能够有机会不断的丰富自己现有的dotfile，并把它调优到一一种最佳的状态
+
+一些在线写代码的网站
+https://github.com/ymyzk/awesome-playgrounds
+
+机器学习awesome
+https://github.com/josephmisiti/awesome-machine-learning
+
+.NET Core 的运行时实现
+https://github.com/dotnet/coreclr
+
+！开源windows调试器
+https://github.com/x64dbg/x64dbg
+
+使用rsync备份文件
+https://github.com/rsnapshot/rsnapshot
+
+轻量级lua IDE工具
+https://github.com/pkulchenko/ZeroBraneStudio
+
+Dask库可以将计算扩展到多个内核甚至多个机器。某些设置可以在数千台机器上配置 Dask，每台机器都有多个内核。
+https://github.com/dask/dask
+
+免费ss翻墙账号
+https://github.com/gfw-breaker/ssr-accounts/blob/master/README.md
+
+MXNet 是亚马逊（Amazon）选择的深度学习库，并且也许是最优秀的库之一
+https://github.com/apache/incubator-mxnet
+
+mxGraph是一个js绘图组件，适用在网页设计/编辑流程图、图表、网络图和普通图形的web应用程序。
+https://github.com/jgraph/mxgraph
+
+sbt类似于Java 项目开发中像maven、gradle一样的构建工具,low构建scala和java
+https://github.com/sbt/sbt
+
+Minio 是一个基于Apache License v2.0开源协议的对象存储服务。它兼容亚马逊S3云存储服务接口，非常适合于存储大容量非结构化的数据，例如图片、视频、日志文件、备份数据和容器/虚拟机镜像等，而一个对象文件可以是任意大小，从几kb到最大5T不等。
+Minio是一个非常轻量的服务,可以很简单的和其他应用的结合，类似 NodeJS, Redis 或者 MySQL。
+https://github.com/minio/minio
+
+nginx示例
+https://github.com/nginxinc/NGINX-Demos
+
+Kotlin / Native是一种将Kotlin代码编译为本机二进制文件的技术，支持andorid,ios,linux，window,WebAssembly等
+https://github.com/JetBrains/kotlin-native
+
+快速方便构建CSS UI设计
+https://github.com/tachyons-css/tachyons
+
+fpm构建多个平台的包(rpm,deb等)
+https://github.com/jordansissel/fpm
+
+命令行生成的readme.md文件
+https://github.com/kefranabg/readme-md-generator
+
+Darling允许在 Linux 直接运行 macOS 的二进制文件，前提是该应用不使用图形界面。
+https://github.com/darlinghq/darling
+
+github star管理工具
+https://github.com/astralapp/astral
+https://github.com/lvxianchao/the-fucking-github
+https://github.com/zenghongtu/Remu
+
+.NET的示例代码
+https://github.com/dotnet/samples?files=1
+
+openLDAP docker镜像
+https://github.com/osixia/docker-openldap
+
+重磅|Facebook发布AI搜索引擎Faiss：比最先进搜索算法快8.5倍
+https://github.com/facebookresearch/faiss
+
+
+正则表达式获取js,html等文件中的链接
+https://github.com/GerbenJavado/LinkFinder
+
+iris以简单而强大的api而闻名。 除了Iris为您提供的低级访问权限。 Iris同样擅长MVC。 它是唯一一个拥有MVC架构模式丰富支持的Go Web框架，性能成本接近于零。
+https://github.com/kataras/iris
+
+一个软件，满足你所有的截图需求：ShareX
+https://github.com/ShareX/ShareX
+
+
+Tinyhttpd 是J. David Blackstone在1999年写的一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。官
+https://github.com/EZLippi/Tinyhttpd
