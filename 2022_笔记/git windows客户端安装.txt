@@ -1,0 +1,11 @@
+1、下载git并安装
+https://gitforwindows.org/
+
+2、下载tortoisegit并安装，安装过程会指定git的目录;
+安装过程还会指定用户名和账号: gcf0082 13510989573@sina.cn
+https://tortoisegit.org/download/
+
+3、右键目录选择"Git Clone..."下载代码到本地
+
+4、提交代码步骤
+   右键需要修改的文件或目录，选择Git Commit->"master"

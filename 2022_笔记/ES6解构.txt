@@ -1,0 +1,41 @@
+//数组解构：a,b,c被分别赋值
+let [a, b, c] = [1, 2, 3]
+
+//交换变量
+let x = 1;
+let y = 2;
+[x, y] = [y, x]
+
+//对象解构
+let {foo, bar} = {foo: 'tom', bar:'mary'}
+console.log(foo, bar) //tom mary
+
+//解构应用
+let res = {
+  code:0,
+  msg:'success',
+  data:{
+    userInfo: {id:1, name: 'tom', age: 11}
+  }
+}
+let {code, msg, data} = res;
+if (code ===0 && msg === 'success') {
+  console.log(data);
+}
+
+//深层对象解构
+const obj = {
+  name:'张三',
+  agent:20,
+  doing: {
+    morning: '睡觉',
+	evening: '睡觉'
+  }
+}
+const {name, doing:{morning}} = obj
+console.log(name, morning);
+
+//对象解构应用2
+let {log} = console;
+log('xxx');//不用写console.log了
+

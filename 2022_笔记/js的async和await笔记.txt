@@ -1,0 +1,78 @@
+//Promise的链式调用
+fetch('https://...')
+  .then((respose) => response.json())
+  .then((json)=>console.log(json))
+  .catch((error)=>{ //捕获错误
+    console.error(error)
+  })
+  .finally(()=>{
+    //执行清理操作等等
+  });
+  
+//async await的使用  
+async function f() {
+  const response = await fetch('http://...')
+  const json = await response.json();
+  console.log(json)
+}  
+
+//外层调用异步函数的方法
+async function f() { //aync声明的函数是异步函数，它返回一个Promise对象
+  await someAsyncOperation();
+}
+f();
+
+//外层调用异步函数的方法
+(async ()=>{
+  await someAsyncOperation();
+})();
+
+//async await陷阱1: 如下两个await并不会被并行执行
+async function f() {
+  const a = await fetch('http://.../post/1')
+  const b = await fetch('http://.../post/2')
+  //...
+} 
+
+
+//async内部使用多个await的方法，如下的方式，两个await可以并行执行
+async function f() {
+  const promiseA = fetch('http://.../post/1')
+  const promiseB = fetch('http://.../post/2')
+  const [a, b] = await Promise.all([promiseA, promiseB])
+} 
+
+
+//async await陷阱2: 使用forEach并不会等待所有的异步操作才返回
+async function f() {
+  [1, 2, 3].forEach(async (i) => {
+    await someAsyncOperation();
+  })
+  console.log('done')
+} 
+f();
+
+//async await 要等待所有的异步操作返回使用传统的for
+async function f() {
+  for (let i of [1, 2,3]){
+    await someAsyncOperation();
+  }
+  console.log('done');
+} 
+f();
+
+//想要循环中的操作都并发执行的炫酷写法使用for await
+async function f() {
+  const promises = [
+    someAsyncOperation1();
+	someAsyncOperation2();
+	someAsyncOperation3();
+  ];
+  
+  for await (let result of promises) {
+    //...
+  }
+  console.log('done')
+} 
+f();
+

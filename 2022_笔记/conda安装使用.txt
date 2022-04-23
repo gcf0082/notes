@@ -1,0 +1,46 @@
+官网下载
+https://docs.conda.io/en/latest/miniconda.html
+
+运行就可以指定目录安装了
+bash Miniconda3-latest-Linux-x86_64.sh
+
+默认安装到这里
+/root/miniconda3/bin/conda
+
+指定镜像
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+
+查看环境已经安装的软件包
+conda list
+
+安装软件包
+conda install package_name
+
+卸载软件包
+conda uninstall package_name
+
+更新当前的conda版本
+conda update conda
+
+创建环境
+conda create -n myenv  python=3.7
+
+激活环境
+conda activate myenv
+
+删除环境
+conda remove -n myenv --all
+
+安装打包工具
+conda install -c conda-forge conda-pack
+
+打包环境
+conda pack -n myenv
+
+指定包路径打包环境
+conda pack -n myenv -o out_name.tar.gz
+
+重现环境
+mkdir -p myenv2
+tar -xzf myenv.tar.gz -C myenv2
+source my_env/bin/activate

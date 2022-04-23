@@ -1,0 +1,35 @@
+展示表格：
+yakit.AutoInitYakit()
+yakit.EnableTable("子域名表", ["Domain", "IP"])
+data = make(map[string]var)
+data["Domain"] = "www.huawei.com"
+data["IP"] = "2.2.2.2"
+yakit.TableData("子域名表", data)
+
+处理fuzz的模板
+res, err = req.FuzzPostRaw(fingerprintPayload).Exec()
+if err != nil {
+     die(err)
+}
+for result = range res {
+        if result.Response.StatusCode == 404 {
+            continue
+        }
+        header, body = str.SplitHTTPHeadersAndBodyFromPacket(result.ResponseRaw)
+        isJson = str.MatchAllOfRegexp(header, `(?i)Content-Type:\s+application/json`)
+
+       str.MatchAnyOfRegexp(sprint(getTypeName(body)), "Query", "QueryRoot", "query_root")
+       str.MatchAnyOfSubString(body, `<title>Login - MemAdmin`)
+}
+
+格式化字符串
+yakit_output(sprintf("FastJSON Fetch Domain: %v", domain))
+
+二进制的body变成string做比较
+chechIcon1 = fn(rootUrl){
+    u = rootUrl+"?c=4e5e5d7364f443e28fbf0d3ae744a59a"
+    rsp,_ = http.Get(u)
+    rspB,_ = http.dump(rsp)
+    header,body = str.SplitHTTPHeadersAndBodyFromPacket(rspB)
+    return str.Contains(string(body),"IHDR") && (str.Contains(string(body),"PNG") || str.Contains(string(body),"JPEG")) 
+}

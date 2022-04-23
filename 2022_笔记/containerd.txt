@@ -1,0 +1,36 @@
+ctr image ls
+ctr image  pull docker.io/library/nginx:alpine
+
+containerd config default > config.toml
+containerd -c config.toml
+ctr images pull  docker.io/library/nginx:1.21
+ctr images pull  hub-mirror.c.163.com/library/alpine:latest
+ctr container create docker.io/library/nginx:1.21 nginx
+ctr task start -d nginx
+ctr c info nginx
+ctr t exec -t --exec-id 2 nginx bash
+
+nerdctl可以替代ctr，因为他更简单接近docker
+nerdctl run -d -p 80:8081 --name=nginx --restart=always nginx
+
+需要安装
+https://github.com/containernetworking/plugins/releases
+解压后指定export CNI_PATH环境变量为这些可执行文件所在的路径
+
+
+实战：containerd的本地CLI工具ctr使用-20211024
+https://www.mdnice.com/writing/78929e9fe39442fbba982009faf371b1
+
+实战：Containerd高级命令行工具nerdctl安装及使用-20211025
+https://mdnice.com/writing/c57c45c557bf46b0835958134892abc4
+
+https://segmentfault.com/a/1190000023117518
+Docker images国内镜像
+
+端口转发
+socat tcp-listen:443,fork tcp:mirror.ccs.tencentyun.com:443
+
+/etc/hosts设置
+114.132.198.130 mirror.ccs.tencentyun.com
+
+FROM  mirror.ccs.tencentyun.com/multiarch/qemu-user-static:x86_64-aarch64 as qemu

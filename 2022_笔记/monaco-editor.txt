@@ -1,0 +1,2 @@
+让某行居中显示
+editor.revealLineInCenter(lineNum)

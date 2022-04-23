@@ -1,0 +1,39 @@
+下载如下两个文件并解压到同一个目录
+https://download.docker.com/linux/static/stable/x86_64/docker-20.10.9.tgz
+https://download.docker.com/linux/static/stable/x86_64/docker-rootless-extras-20.10.9.tgz
+
+指定PATH环境变量
+export PATH=/home/gcf/temp/docker/docker:/home/gcf/temp/docker/docker-rootless-extras:$PATH
+
+修改镜像
+/etc/docker/daemon.json
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+
+执行
+dockerd
+
+dockerd如下参数可以指定配置文件路径
+--config-file string                      Daemon configuration file (default "/etc/docker/daemon.json")
+
+指定镜像路径
+--data-root string                        Root directory of persistent Docker state (default "/var/lib/docker")
+
+--exec-root string                        Root directory for execution state files (default "/var/run/docker")
+-p, --pidfile string                          Path to use for daemon PID file (default "/var/run/docker.pid")
+
+运行导入的镜像的时候必须带command，否则启动报如下错误
+docker: Error response from daemon: No command specified.
+
+The Ultimate Docker Cheat Sheet
+https://dockerlabs.collabnix.com/docker/cheatsheet/
+
+docker-从入门到实践
+https://yeasy.gitbook.io/docker_practice/
+
+docker notify_on_release和重写devices.allow逃逸方式分析
+https://www.anquanke.com/post/id/256304

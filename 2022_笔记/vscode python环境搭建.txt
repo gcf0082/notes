@@ -1,0 +1,17 @@
+1、下载安装minicoda （安装过程注意选择添加环境变量）
+https://docs.conda.io/en/latest/miniconda.html#windows-installers
+
+2、vscode安装Python插件 和 Python for VSCode插件
+
+3、增加如下目录和文件
+C:\Users\Administrator\pip\pip.ini
+文件内容如下：
+[global]
+trusted-host=mirrors.aliyun.com
+index-url=http://mirrors.aliyun.com/pypi/simple/
+
+4、如果pip无法下载包可以指定代理
+pip install Flask --proxy=127.0.0.1:7890
+
+5、升级包
+pip install -U Flask

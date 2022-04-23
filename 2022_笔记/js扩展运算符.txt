@@ -1,0 +1,45 @@
+//合并两个数组
+let num1 = [1,2,3]
+let num2 = [4,5,6]
+let num = [...num1,...num2]
+
+//拷贝数组对象
+const years = [2018, 2019, 2020, 2021];
+const copyYears = [...years];
+
+//参数传递
+const sum = (num1, num2) => num1 + num2;
+console.log(sum(...[6, 7])); // 13
+console.log(sum(...[6, 7, 8])); // 13
+
+
+//数组去重
+const arrayNumbers = [1,2,2,3];
+const newNumbers = [...new Set(arrayNumbers)];
+console.log(newNumbers); // [ 1, 2, 3]
+
+//打印日志
+const years = [2018, 2019, 2020, 2021];
+console.log(...years); // 2018 2019 2020 2021
+
+//对象合并
+var obj1 = {name: '张三'}
+var obj2 = {age: 18}
+var obj3 = {...obj1, ...obj2}
+
+//字符串改为数组 
+var myArr = [...'hello'] //['h','e','l','l','o']
+
+//ES6的rest参数，用于获取函数多余的参数，形式(...变量名)，
+//把一个分离的参数蓄力整合为一个数组，值是数组
+function func(..args) {
+  console.log(args); // [1,2,3,4]
+}
+func(1,2,3,4)
+
+//rest参数args只能放在最后一个，这种就是不对的：(a,...args,b)
+function func1(a, ..args) {
+  console.log(a) // 1
+  console.log(args); // [2,3,4]
+}
+func1(1,2,3,4)

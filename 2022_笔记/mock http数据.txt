@@ -1,0 +1,10 @@
+A tool for mocking HTTP services (java)
+https://github.com/wiremock/wiremock
+
+
+https://github.com/mock-server/mockserver
+
+https://github.com/mockoon/mockoon
+
+A utility for mocking out the Python Requests library.
+https://github.com/getsentry/responses

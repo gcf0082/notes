@@ -1,0 +1,5 @@
+如下问题的解决办法是： GENERATE_SOURCEMAP=false yarn start
+WARNING in ./node_modules/monaco-editor/esm/vs/base/browser/dompurify/dompurify.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/opt/gcf/test/react/mytest/node_modules/monaco-editor/esm/vs/base/browser/dompurify/purify.es.js.map' file: Error: ENOENT: no such file or directory, open '/opt/gcf/test/react/mytest/node_modules/monaco-editor/esm/vs/base/browser/dompurify/purify.es.js.map'
+ @ ./node_modules/monaco-editor/esm/vs/base/browser/markdownRenderer.js 6:0-54 300:2-19 319:2-19 333:11-29 337:4-24 338:4-24

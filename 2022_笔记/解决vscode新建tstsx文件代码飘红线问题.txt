@@ -1,0 +1,1 @@
+打开vscode的setting，找到validate，把javascript前面的勾选去掉即可。
