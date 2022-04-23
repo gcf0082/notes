@@ -23,5 +23,24 @@ python test.py
 [INFO] Beginning extraction
 [INFO] Chromium extracted to: /root/.local/share/pyppeteer/local-chromium/588429
 
+模拟自动登录家里路由器的例子：
+import time
+import asyncio
+from pyppeteer import launch
+
+async def main():
+    browser = await launch(options={'args': ['--no-sandbox'], 'executablePath':'/root/.local/share/pyppeteer/local-chromium/588429/chrome-linux/chrome'})
+    page = await browser.newPage()
+    await page.setViewport({'width': 2560, 'height': 1440})
+    await page.goto('http://192.168.101.1/html/index.html')
+    time.sleep(2)
+    await page.type('#userpassword', 'xxxxxx') #这里的密码要替换掉
+    await page.click('#loginbtn')
+    time.sleep(2)
+    await page.screenshot({'path': 'login.png'})
+    await browser.close()
+
+asyncio.get_event_loop().run_until_complete(main())
+
 各种网站爬虫自动登录的方法
 https://github.com/Kr1s77/awesome-python-login-model
