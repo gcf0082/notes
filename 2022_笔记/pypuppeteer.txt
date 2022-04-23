@@ -1,0 +1,25 @@
+使用如下命令安装
+pip install pyppeteer
+
+测试代码如下：
+import asyncio
+from pyppeteer import launch
+
+async def main():
+    #注意如果这里是 browser = await launch() 会报错：pyppeteer.errors.BrowserError: Browser closed unexpectedly:
+    browser = await launch(options={'args': ['--no-sandbox']})
+    page = await browser.newPage()
+    await page.goto('https://www.baidu.com')
+    await page.screenshot({'path': 'baidu.png'})
+    await browser.close()
+
+asyncio.get_event_loop().run_until_complete(main())
+
+直接执行会自动下载chrome
+python test.py
+[INFO] Starting Chromium download.
+[INFO] Beginning extraction
+[INFO] Chromium extracted to: /root/.local/share/pyppeteer/local-chromium/588429
+
+各种网站爬虫自动登录的方法
+https://github.com/Kr1s77/awesome-python-login-model

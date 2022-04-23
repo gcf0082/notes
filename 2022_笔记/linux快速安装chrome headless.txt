@@ -1,0 +1,18 @@
+执行如下命令快速安装(在自己的腾讯vps测试通过，但是自己的虚拟机没有通过)
+curl https://intoli.com/install-google-chrome.sh | bash
+
+安装后的默认目录在
+/opt/google
+
+截屏(默认生成的文件名是screenshot.png)
+windows的路径是C:\Program Files (x86)\Google\Chrome\Application\78.0.3904.108
+chrome --headless --disable-gpu --screenshot https://www.baidu.com
+
+交互模式运行
+chrome --headless --disable-gpu --repl --crash-dumps-dir=./tmp --no-sandbox https://www.baidu.com
+
+启动监听
+./chrome --headless --remote-debugging-port=9222 --disable-gpu --remote-debugging-address=0.0.0.0 --no-sandbox
+
+还可以通过docker的方式安装
+docker run -d -p 9222:9222 --cap-add=SYS_ADMIN justinribeiro/chrome-headless
