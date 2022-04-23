@@ -7,6 +7,8 @@ from pyppeteer import launch
 
 async def main():
     #注意如果这里是 browser = await launch() 会报错：pyppeteer.errors.BrowserError: Browser closed unexpectedly:
+    #可以通过executablePath参数指定chrome的路径
+    #browser = await launch(options={'args': ['--no-sandbox'], 'executablePath':'/root/.local/share/pyppeteer/local-chromium/588429/chrome-linux/chrome'})
     browser = await launch(options={'args': ['--no-sandbox']})
     page = await browser.newPage()
     await page.goto('https://www.baidu.com')
