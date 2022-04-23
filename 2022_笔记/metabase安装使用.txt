@@ -1,0 +1,11 @@
+metabase可快速以表格等各种形式用户的数据库信息，并可以定制搜索规则
+
+下载metabase的jar包
+https://metabase.com/start/jar.html
+
+
+运行，默认监听3000端口
+java -jar metabase.jar
+
+浏览器访问localhost:3000 创建管理员账号密码
+连接数据库，对于sqlite可以指定文件路径

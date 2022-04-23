@@ -9,3 +9,4 @@ https://tortoisegit.org/download/
 
 4、提交代码步骤
    右键需要修改的文件或目录，选择Git Commit->"master"
+    右键选择TortoiseGit->push  (首次提交这里会要求登录认真github账号)
