@@ -1,0 +1,41 @@
+# mirrorHTTPFlow 会镜像所有的流量到这里，包括 .js / .css / .jpg 这类一般会被劫持程序过滤的请求
+mirrorHTTPFlow = func(isHttps /*bool*/, url /*string*/, req /*[]byte*/, rsp /*[]byte*/, body /*[]byte*/) {
+    yakit_output("xxx")
+    freq, err = fuzz.HTTPRequest(req)
+    if err != nil {
+        yakit_output("执行失败")
+        continue
+    }     
+
+    for _, param := range freq.GetCommonParams() { 
+       if ! param.IsGetParams() {
+            return;
+        }
+        paramName = param.Name()
+        originValue = param.Value()
+        payloads = [";ixxd", "$(id)", "<script>alert(1)</script>"]
+        for _, payload := range payloads {
+            payload = sprintf("%v%v",originValue[0], payload)
+            yakit_output(payload)
+            fuzzrsp, err := param.fuzz(payload).ExecFirst()
+            if err != nil {
+                yakit_output(sprintf("response negative rsp error: %v", err))
+                continue;
+            }
+            
+            headers, mybody = str.SplitHTTPHeadersAndBodyFromPacket(fuzzrsp.ResponseRaw)
+            if mybody == nil {
+                yakit_output("xxxx")                
+            }
+            yakit_output(headers)
+            yakit_output(string(mybody))
+        }
+        
+    }    
+    
+}
+
+# mirrorFilteredHTTPFlow 劫持到的流量为 MITM 自动过滤出的可能和 "业务" 有关的流量，会自动过滤掉 js / css 等流量
+mirrorFilteredHTTPFlow = func(isHttps /*bool*/, url /*string*/, req /*[]byte*/, rsp /*[]byte*/, body /*[]byte*/) {
+    
+}

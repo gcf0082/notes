@@ -1,0 +1,18 @@
+/*
+
+type palm/common/mutate.(FuzzHTTPRequestParam) struct {
+  Fields(可用字段):
+  StructMethods(结构方法/函数):
+  PtrStructMethods(指针结构方法/函数):
+      func Fuzz(v1 ...interface {}) return(mutate.FuzzHTTPRequestIf)
+      func IsCookieParams() return(bool)
+      func IsGetParams() return(bool)
+      func IsPostParams() return(bool)
+      func Name() return(string)
+      func Position() return(string)
+      func PositionVerbose() return(string)
+      func Repeat(v1: int) return(mutate.FuzzHTTPRequestIf)
+      func Value() return(interface {})
+}
+
+*/
