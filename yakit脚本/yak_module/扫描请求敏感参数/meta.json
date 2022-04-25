@@ -1,0 +1,25 @@
+{
+    "name": "扫描请求敏感参数",
+    "tags": [
+        ""
+    ],
+    "help": "",
+    "author": "",
+    "module_file": "yak_module.yak",
+    "params": [
+        {
+            "name": "target",
+            "verbose": "目标地址",
+            "description": "",
+            "type": "string",
+            "default_value": "",
+            "required": false,
+            "group": "",
+            "extra_setting": ""
+        }
+    ],
+    "document": "document.md",
+    "general_module_verbose": "",
+    "general_module_key": "",
+    "is_general_module": false
+}
