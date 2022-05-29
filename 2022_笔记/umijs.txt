@@ -1,0 +1,23 @@
+入门官方指导
+https://umijs.org/zh-CN/docs/getting-started
+
+mkdir umijs_ui
+cd umijs_ui
+yarn config set registry https://registry.npm.taobao.org/
+yarn create @umijs/umi-app
+yarn
+yarn start
+
+
+部署：
+yarn build
+
+部署后的目录是
+./dist
+
+UmiJS结合antd增加布局菜单
+https://zhuanlan.zhihu.com/p/409610687
+
+
+https://procomponents.ant.design/components/layout
+
