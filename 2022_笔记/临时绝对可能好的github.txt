@@ -1,0 +1,9 @@
+https://github.com/qazbnm456/awesome-web-security
+https://github.com/google/tsunami-security-scanner
+https://github.com/GTFOBins/GTFOBins.github.io
+https://github.com/ehids/ecapture
+https://github.com/FeeiCN/Security-PPT
+https://github.com/Sysinternals/ProcDump-for-Linux
+https://github.com/odedshimon/BruteShark
+https://github.com/Threekiii/Awesome-Redteam
+https://github.com/mitre-attack/attack-navigator  --attack导航，可以替换漏洞星球的attack
