@@ -8,3 +8,6 @@ https://tttang.com/archive/1541/
 
 ByteCodeDL小试牛刀之CHA调用图分析
 https://tttang.com/archive/1510/
+
+benchmark of java static analysis  --用来做静态分析的例子程序
+https://github.com/BytecodeDL/Benchmark
