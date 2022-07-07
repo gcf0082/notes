@@ -29,3 +29,6 @@ public class analysisclass {
         classanalysis();
     }
 }
+
+命令行运行：
+java -cp ./com.ibm.wala.cast-1.5.8.jar;./com.ibm.wala.cast.java-1.5.8.jar;./com.ibm.wala.cast.java.ecj-1.5.8.jar;./com.ibm.wala.cast.js-1.5.8.jar;./com.ibm.wala.cast.js.rhino-1.5.8.jar;./com.ibm.wala.core-1.5.8.jar;./com.ibm.wala.dalvik-1.5.8.jar;./com.ibm.wala.scandroid-1.5.8.jar;./com.ibm.wala.shrike-1.5.8.jar;./WALA-start-master-0.1.jar;./com.ibm.wala.util-1.5.8.jar com.ibm.wala.examples.analysis.dataflow.analysisclass
