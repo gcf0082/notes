@@ -2,6 +2,10 @@
 git clone https://github.com/BytecodeDL/ByteCodeDL
 
 然后用 docker-compose 安装就可以了
+java -jar /soot-fact-generator.jar -i test/Benchmark-1.0-SNAPSHOT.jar  --full -l /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -d tainttest --allow-phantom --generate-jimple
+souffle -I /bytecodedl/logic/ -F . -D ../output /bytecodedl/example/ptaint-example-1.dl
+grep "Demo3" ../output/TaintVar.csv
+
 
 ByteCodeDL原理篇之手把手教你实现污点分析  --这篇文章有入门的讲得比较好
 https://tttang.com/archive/1541/
