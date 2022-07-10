@@ -8,3 +8,31 @@ https://github.com/odedshimon/BruteShark
 https://github.com/Threekiii/Awesome-Redteam
 https://github.com/mitre-attack/attack-navigator  --attack导航，可以替换漏洞星球的attack
 https://github.com/pen4uin/cloud-native-security
+https://github.com/Tencent/CodeAnalysis --可以参考它的静态扫描页面设计部分
+https://github.com/rocky/python-uncompyle6 --应该能反编译各种python版本
+https://github.com/simonw/datasette  --快速以基本定制方法查看数据库
+https://github.com/microsoft/ApplicationInspector  --参考它的供给面汇总方式，我的callgraph会用到
+https://github.com/OWASP-Benchmark/BenchmarkJava --提供了示例代码用于验证静态扫描的效果，也可以作为测试代码
+https://github.com/moparisthebest/static-cur  --静态编译的curl
+https://github.com/Anemone95/taint-benchmark  --评估污点分析
+https://github.com/Fraunhofer-AISEC/codyze  --基于属性图分析java，可以参考
+https://github.com/ASTTeam/SAST   --有不少静态分析的资源可以参考
+https://github.com/JGillam/burp-paramalyzer  --一个burpsuite插件
+https://github.com/gmu-swe/phosphor  --java动态污点分析，可持续关注
+https://github.com/SummerSec/Static-Analysis  --包含比较新的静态分析文章
+https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit  --一些静态分析的文章
+https://github.com/ernw/static-toolbox --静态二进制文件，包含nmap，socat等
+https://github.com/threedr3am/gadgetinspector  --给原始的gadgetinspector增加了中文注释
+https://github.com/RangerNJU/Static-Program-Analysis-Book  --南京大学软件分析的电子书
+https://github.com/xjh22222228/nav  --静态导航网站，可以写自己的工具集导航，可以参考，不过它更多是网上文章的链接
+https://github.com/glmcdona/Process-Dump --dump windows进程进一步分析内存
+https://github.com/INRIA/spoon  --类似javaparser分析.java文件
+https://github.com/ajinabraham/nodejsscan  --nodejs静态扫描器
+https://github.com/ingokegel/jclasslib --java字节码编辑器
+https://github.com/Col-E/Recaf --java字节码编辑器
+https://github.com/USArmyResearchLab/Dshell  --可以理解为wireshark的命令行版（python）
+https://github.com/networkx/networkx  --类似jgraph （python的）
+https://github.com/phpstan/phpstan  --php静态分析工具
+https://github.com/MobSF/Mobile-Security-Framework-MobSF  --移动安全测试框架
+https://github.com/iovisor/bcc  -eBPF的好工具
+https://github.com/gchq/CyberChef  --提供了很多加解密编码的工具

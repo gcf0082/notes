@@ -1,0 +1,12 @@
+命令行执行ps脚本报如下错误：
+PS E:\test\python\flask\allservices\venv\Scripts> .\Activate.ps1
+.\Activate.ps1 : 无法加载文件 E:\test\python\flask\allservices\venv\Scripts\Activate.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about 
+_Execution_Policies。
+所在位置 行:1 字符: 1
++ .\Activate.ps1
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) []，PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+解决办法是：
+先执行
+set-executionpolicy remotesigned
