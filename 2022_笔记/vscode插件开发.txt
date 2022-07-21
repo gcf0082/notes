@@ -38,3 +38,7 @@ D:\github\vscode-java-master\node_modules\vscode-languageclient\lib\common\clien
         return [vscode_1.languages.registerDefinitionProvider(options.documentSelector, provider), provider];
     }
 }
+
+vscode-java 客户端初始化入口：
+D:\github\vscode-java-master\node_modules\vscode-languageclient\lib\common\client.js
+doInitialize(connection, initParams) {
