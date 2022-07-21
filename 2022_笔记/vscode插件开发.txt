@@ -2,3 +2,39 @@
 1、用vscode打开项目目录
 2、点击文件行号前的空白处设置断点
 3、菜单->运行->启动调试  就可以了
+
+vscode-java插件调试的坑：
+1、在launch.json文件中，增加java11的路径配置：
+"env": {
+  "JAVA_HOME":"D:\\software\\jdk\\jdk-17.0.4"
+}
+
+2、从已经装好vscode-java插件的中靠边sever目录到当前项目跟路径，即与dist目录同级
+
+
+vscode-java插件跳转定义的相关实现：
+在src\extension.ts文件中,与provideCodeActions类似重写provideDefinition的实现
+middleware: {
+...
+provideCodeActions
+
+而provideDefinition的实现可以在如下文件中找到
+D:\github\vscode-java-master\node_modules\vscode-languageclient\lib\common\client.js
+    registerLanguageProvider(options) {
+        const provider = {
+            provideDefinition: (document, position, token) => {
+                const client = this._client;
+                const provideDefinition = (document, position, token) => {
+                    return client.sendRequest(vscode_languageserver_protocol_1.DefinitionRequest.type, client.code2ProtocolConverter.asTextDocumentPositionParams(document, position), token).then(client.protocol2CodeConverter.asDefinitionResult, (error) => {
+                        return client.handleFailedRequest(vscode_languageserver_protocol_1.DefinitionRequest.type, token, error, null);
+                    });
+                };
+                const middleware = client.clientOptions.middleware;
+                return middleware.provideDefinition
+                    ? middleware.provideDefinition(document, position, token, provideDefinition) ///<<<<<<<---这里
+                    : provideDefinition(document, position, token);
+            }
+        };
+        return [vscode_1.languages.registerDefinitionProvider(options.documentSelector, provider), provider];
+    }
+}
