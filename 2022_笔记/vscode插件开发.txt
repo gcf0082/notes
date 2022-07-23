@@ -1,5 +1,7 @@
+
+
 调试插件的步骤：
-1、用vscode打开项目目录
+1、用vscode打开项目目录，yarn compile编译
 2、点击文件行号前的空白处设置断点
 3、菜单->运行->启动调试  就可以了
 
@@ -42,3 +44,11 @@ D:\github\vscode-java-master\node_modules\vscode-languageclient\lib\common\clien
 vscode-java 客户端初始化入口：
 D:\github\vscode-java-master\node_modules\vscode-languageclient\lib\common\client.js
 doInitialize(connection, initParams) {
+
+vscode官方例子可以用于我的代码分析的例子：
+comment-sample  --给代码加外部的注释信息
+fsprovider-sample  --实现目录树
+statusbar-sample  --状态栏显示相关信息
+theme-sample  --主题设置
+tree-view-sample --树组件使用
+webview-sample  --webview
