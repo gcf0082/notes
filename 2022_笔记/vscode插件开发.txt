@@ -1,4 +1,6 @@
-
+A component library for building webview-based extensions in Visual Studio Code.
+官方提供了webview可以用的组件
+https://github.com/microsoft/vscode-webview-ui-toolkit
 
 调试插件的步骤：
 1、用vscode打开项目目录，yarn compile编译
@@ -52,3 +54,17 @@ statusbar-sample  --状态栏显示相关信息
 theme-sample  --主题设置
 tree-view-sample --树组件使用
 webview-sample  --webview
+
+vscode插件：
+https://github.com/seunlanlege/vscode-action-buttons  --状态栏增加按钮
+https://github.com/tintinweb/vscode-interactive-graphviz  --可以用来参考调用链
+https://github.com/microsoft/sarif-vscode-extension  --它的webview可以跟react结合
+
+vscode工程数据库
+C:\Users\Administrator\AppData\Roaming\Code\User\workspaceStorage\51a4f02d64a257ba8c2554d3e38545ea\state.vscdb
+
+vscode-java语言服务器相关：
+后台服务端日志：
+C:\Users\Administrator\AppData\Roaming\Code\User\workspaceStorage\51a4f02d64a257ba8c2554d3e38545ea\redhat.java\jdt_ws\.metadata\.log
+客户端日志：
+C:\Users\Administrator\AppData\Roaming\Code\User\workspaceStorage\51a4f02d64a257ba8c2554d3e38545ea\redhat.java\client.log.2022-07-24
