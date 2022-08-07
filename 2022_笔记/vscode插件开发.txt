@@ -1,3 +1,6 @@
+调context.globalState.update函数可以保存数据到vscode的全局数据库中，保存的路径是
+C:\Users\Administrator\AppData\Roaming\Code\User\globalStorage\state.vscdb
+
 ===
 vscode-java 和vscode-languageclient的分析
 
@@ -10,6 +13,8 @@ D:\github\vscode-java-master\node_modules\vscode-languageclient\lib\common\proto
         return new code.CallHierarchyIncomingCall(asCallHierarchyItem(item.from), asRanges(item.fromRanges));
     }
 
+这里也有callhierarchy的例子
+https://github.com/jrieken/demo-callhierarchy/blob/master/src/abcLangSupport.ts
 
 ===
 todo-tree插件分析：
@@ -76,6 +81,37 @@ vscode插件：
 https://github.com/seunlanlege/vscode-action-buttons  --状态栏增加按钮
 https://github.com/tintinweb/vscode-interactive-graphviz  --可以用来参考调用链
 https://github.com/microsoft/sarif-vscode-extension  --它的webview可以跟react结合
+
+https://marketplace.visualstudio.com/items?itemName=rebornix.toggle
+
+看板
+https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-kanban
+
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+多剪贴板
+https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-multiclip
+
+比较一个文件中两个文本的差异
+https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff
+
+方便查看csv文件
+https://github.com/mechatroner/vscode_rainbow_csv#readme
+
+通过ssh远程打开目录
+https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+
+强大的文本处理
+https://marketplace.visualstudio.com/items?itemName=qcz.text-power-tools
+
+rest客户端
+https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+高亮output输出
+https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer
+
+可以选中高亮多个关键字
+https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker
 
 vscode工程数据库
 C:\Users\Administrator\AppData\Roaming\Code\User\workspaceStorage\51a4f02d64a257ba8c2554d3e38545ea\state.vscdb
