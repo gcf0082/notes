@@ -40,6 +40,8 @@ public static List<IPath> getSourcePaths(List<String> sourcePaths, IFolder works
 		}
 		return sourceList;
 	}
+settings.json相关配置项
+java.project.sourcePaths	
 
 ===
 todo-tree插件分析：
