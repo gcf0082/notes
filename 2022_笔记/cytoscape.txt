@@ -1,2 +1,5 @@
-Cytoscape 用户手册
+Cytoscape 用户手 册（中文）
 https://cytoscape.leovan.tech/
+
+官方手册
+https://manual.cytoscape.org/
