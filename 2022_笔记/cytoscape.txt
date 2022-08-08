@@ -3,3 +3,9 @@ https://cytoscape.leovan.tech/
 
 官方手册
 https://manual.cytoscape.org/
+
+可以定义右键菜单跳转外部url，用来做代码跳转。参考官方关于Linkout的介绍
+Edit -> Preferences -> Properties  选 External Links
+
+app商店地址
+https://apps.cytoscape.org/
