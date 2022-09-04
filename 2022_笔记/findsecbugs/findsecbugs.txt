@@ -1,0 +1,14 @@
+com.h3xstream.findsecbugs.injection.AbstractInjectionDetector#checkSink
+
+            if (!finalTaint.isSafe()) {
+                sink.addLine(line);
+                sink.addLines(finalTaint.getAllLocations());
+            }
+
+获取注入函数的直接调用
+com.h3xstream.findsecbugs.injection.BasicInjectionDetector#getInjectionPoint
+
+findsecbugs.bat -low  -output report.html -html D:\github\find-sec-bugs\findsecbugs-samples-java\src\test\java\testcode\command\gcf\testcode\command\gcf
+
+
+findsecbugs.bat -low  -visitors ReDosDetector -output report.html -html D:\github\find-sec-bugs-version-1.12.0\findsecbugs-samples-java\target\test-classes\testcode
