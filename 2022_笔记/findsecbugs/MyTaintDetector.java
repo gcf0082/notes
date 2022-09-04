@@ -13,7 +13,7 @@ import org.apache.bcel.generic.InvokeInstruction;
 
 import java.util.Set;
 
-//获取数据流，但是字符串相加的场景未解决： str = str1 + "xxx";
+//获取数据流，但是字符串相加的场景未解决： str = str1 + "xxx";  --这种场景值在java9编译的程序有问题，java8没有这个问题
 public class MyTaintDetector extends AbstractTaintDetector{
 
     public MyTaintDetector(BugReporter bugReporter) {
