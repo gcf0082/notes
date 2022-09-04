@@ -36,3 +36,8 @@ https://github.com/phpstan/phpstan  --php静态分析工具
 https://github.com/MobSF/Mobile-Security-Framework-MobSF  --移动安全测试框架
 https://github.com/iovisor/bcc  -eBPF的好工具
 https://github.com/gchq/CyberChef  --提供了很多加解密编码的工具
+https://github.com/TomWright/dasel  -- JSON, TOML, YAML, XML and CSV各种类型转换
+https://github.com/ajeetdsouza/zoxide  --方便的目录跳转
+https://github.com/edoardottt/awesome-hacker-search-engines  -各种有用的搜索引擎
+https://github.com/JakWai01/lurk --rust实现的strace替代
+https://github.com/manticoresoftware/manticoresearch/ --比elasticsearch快很多的C++实现的
