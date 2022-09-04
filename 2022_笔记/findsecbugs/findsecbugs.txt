@@ -1,3 +1,6 @@
+findsecbugs插件github项目
+https://github.com/mebigfatguy/fb-contrib
+
 com.h3xstream.findsecbugs.injection.AbstractInjectionDetector#checkSink
 
             if (!finalTaint.isSafe()) {
@@ -7,6 +10,19 @@ com.h3xstream.findsecbugs.injection.AbstractInjectionDetector#checkSink
 
 获取注入函数的直接调用
 com.h3xstream.findsecbugs.injection.BasicInjectionDetector#getInjectionPoint
+
+获取类的常量池
+org.apache.bcel.classfile.JavaClass#getConstantPool
+
+获取常量的内容例子：
+    public void sawOpcode(int seen) {
+        if (seen == Const.INVOKESTATIC && getClassConstantOperand().equals("org/apache/velocity/app/Velocity")
+                && getNameConstantOperand().equals("evaluate")) {
+            OpcodeStack.Item item = stack.getStackItem(0);
+            if(!StackUtils.isConstantString(item)) {
+            }
+        }
+    }
 
 findsecbugs.bat -low  -output report.html -html D:\github\find-sec-bugs\findsecbugs-samples-java\src\test\java\testcode\command\gcf\testcode\command\gcf
 
