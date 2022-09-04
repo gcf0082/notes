@@ -1,0 +1,2 @@
+调试参数
+ -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=50000
