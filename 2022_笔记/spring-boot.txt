@@ -1,3 +1,6 @@
+结合websocket的例子
+https://cloud.tencent.com/developer/article/1830998
+
 配置如下，让spring-boot工程打包成一个能直接运行的大jar包
   <build>
     <plugins>
