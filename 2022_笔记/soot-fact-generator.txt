@@ -1,0 +1,4 @@
+java -jar soot-fact-generator.jar -i shiro-all-1.9.1.jar -l usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar --allow-phantom --full -d shiro_out
+
+cd /bytecodedl/logic
+souffle -F /shiro_out/ -D /tmp/out3 query-example1.dl -j 8
