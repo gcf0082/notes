@@ -75,6 +75,7 @@ public class MyTaintDetector extends AbstractTaintDetector {
         SourceLineAnnotation sourceLine = SourceLineAnnotation.fromVisitedInstruction(classContext, method, handle);
         //checkSink(cpg, invoke, fact, sourceLine, classMethodSignature);
         InjectionPoint injectionPoint = getInjectionPoint(invoke, cpg, handle);
+        int paramIndex = 0;
         for (int offset : injectionPoint.getInjectableArguments()) {
             int priority = getPriorityFromTaintFrame(fact, offset);
             if (priority == Priorities.IGNORE_PRIORITY) {
@@ -97,7 +98,7 @@ public class MyTaintDetector extends AbstractTaintDetector {
                      if (pos == 0) {
                          continue;
                      }
-                    System.out.print(sourceLine.getStartLine()+" "+ pos +" > " + (numArguments-offset) + " ");
+                    System.out.print(sourceLine.getStartLine()+" "+ pos +" > " + (numArguments-paramIndex) + " ");
                     System.out.println(classContext.toString()+"#"+method.getName() + " > " + invoke.getClassName(cpg)+"#"+ invoke.getMethodName(cpg));
                 }
                 //System.out.println(classMethodSignature.getClassName()+"#"+classMethodSignature.getMethodName());
@@ -114,6 +115,7 @@ public class MyTaintDetector extends AbstractTaintDetector {
                 // sink cannot be influenced by other methods calls, so report it immediately
                 //bugReporter.reportBug(injectionSink.generateBugInstance(true));
             }
+            paramIndex++;
         }
     }
 
@@ -294,8 +296,15 @@ public class MyTaintDetector extends AbstractTaintDetector {
              return InjectionPoint.NONE;
          }
         int[] args = new int[num];
+         Type[] types = invoke.getArgumentTypes(cpg);
+         int index =0;
         for (int i = 0; i<num; ++i) {
-            args[i] = i;
+            args[i] = index;
+            if (types[num-1-i].getSignature().equals("D") || types[num-1-i].getSignature().equals("J")) {
+                index = index + 2;
+            } else {
+                index = index+1;
+            }
         }
         return new InjectionPoint(args, "");
      }
