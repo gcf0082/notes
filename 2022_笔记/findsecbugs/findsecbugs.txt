@@ -1,3 +1,9 @@
+如下场景的污点可能笔记麻烦
+org.apache.shiro.session.mgt.AbstractNativeSessionManager 
+ protected Session createExposedSession(Session session, SessionContext context) {
+    return new DelegatingSession(this, new DefaultSessionKey(session.getId()));
+  }
+
 findsecbugs插件github项目
 https://github.com/mebigfatguy/fb-contrib
 
@@ -23,6 +29,9 @@ org.apache.bcel.classfile.JavaClass#getConstantPool
             }
         }
     }
+
+可以在这个函数自动增加外部函数为污点
+com.h3xstream.findsecbugs.taintanalysis.TaintFrameModelingVisitor#getMethodConfig
 
 findsecbugs.bat -low  -output report.html -html D:\github\find-sec-bugs\findsecbugs-samples-java\src\test\java\testcode\command\gcf\testcode\command\gcf
 
