@@ -1,0 +1,2 @@
+一行命令创建项目
+mvn archetype:generate -DgroupId=com.example -DartifactId=my-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
