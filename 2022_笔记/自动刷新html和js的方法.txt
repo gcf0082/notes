@@ -1,0 +1,17 @@
+npm install -g live-server
+
+live-server --port=8080
+
+指定监控的目录
+live-server --open=./public
+
+还可以本地目录创建文件live-server.json再启动
+{
+  "port": 8080,
+  "open": true,
+  "root": "./public"
+}
+
+
+浏览器访问：
+http://localhost:8080
