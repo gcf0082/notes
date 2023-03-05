@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fancytree Example</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.fancytree/2.42.0/skin-win7/ui.fancytree.min.css">
+  <style>
+    #tree {
+      height: 400px;
+      border: 1px solid #ddd;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="tree"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.fancytree/2.42.0/jquery.fancytree-all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fast-json-patch/3.0.0/fast-json-patch.min.js"></script>
+  <script>
+    $(function() {
+      $("#tree").fancytree({
+        extensions: ["glyph"],
+        glyph: {
+          map: {
+            doc: "glyphicon glyphicon-file",
+            docOpen: "glyphicon glyphicon-file",
+            folder: "glyphicon glyphicon-folder-close",
+            folderOpen: "glyphicon glyphicon-folder-open"
+          }
+        }
+      });
+      function addNodesToTree(nodes) {
+        var tree = $("#tree").fancytree("getTree"); // 获取Fancytree对象
+        var rootNode = tree.getRootNode(); // 获取根节点
+        var existingKeys = rootNode.getChildren().map(function(node) { return node.key; }); // 获取已经存在的节点的key数组
+        nodes.forEach(function(nodeData) { // 遍历新节点数组
+          if (existingKeys.indexOf(nodeData.key) === -1) { // 如果该节点不存在于树中
+            var parentKey = nodeData.parent; // 获取该节点的父节点的key
+            var parentNode = (parentKey === "#") ? rootNode : tree.getNodeByKey(parentKey); // 获取该节点的父节点对象
+            var newNode = parentNode.addChildren(nodeData)[0]; // 将该节点添加到父节点下
+            existingKeys.push(newNode.key); // 将新节点的key加入已经存在的节点key数组中
+          } else { // 如果该节点已经存在于树中
+            var node = tree.getNodeByKey(nodeData.key); // 获取该节点对象
+            var patches = jsonpatch.compare(node.toDict(true), nodeData); // 生成JSON Patch操作
+            node.applyPatch(patches); // 将更新应用到该节点上
+          }
+        });
+      }
+      $.ajax({
+        type: "GET",
+        url: "/api/nodes",
+        dataType: "json",
+        success: function(nodes) {
+          addNodesToTree(nodes);
+        },
+        error: function(xhr, textStatus, errorThrown) {
+          console.error("Error getting nodes from server:", errorThrown);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
