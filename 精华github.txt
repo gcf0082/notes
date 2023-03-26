@@ -1,2 +1,56 @@
+Java library for parsing report files from static code analysis.
+https://github.com/tomasbjerre/violations-lib
+
+sqld is a server mode for libSQL
+https://github.com/libsql/sqld
+
+Event Ruler (called Ruler in rest of the doc for brevity) is a Java library that allows matching Rules to Events.
+https://github.com/aws/event-ruler
+
+UI widgets for modern apps. Data table, forms, toolbars, sidebar, tabs, tooltips, popups. All under 120kb (gzipped).
+https://github.com/vitmalina/w2ui
+
+Executes commands in response to file modifications
+https://github.com/watchexec/watchexec
+
+OpenSumi Lite Web sample. OpenSumi 纯前端示例，在线查看 GitHub 仓库代码。
+https://github.com/opensumi/ide-startup-lite
+
+Visualize your JSON data into graphs seamlessly  树形结构展示json
+https://github.com/AykutSarac/jsonvisio.com
+
+JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed
+https://github.com/jsonhero-io/jsonhero-web
+
+Kestra is an infinitely scalable opensource orchestration and scheduling platform, creating, running, scheduling, and monitoring millions of complex pipelines.
+https://github.com/kestra-io/kestra
+
+Query sqlite via http
+https://github.com/proofrock/ws4sqlite
+
+A portable fork of the high-performance regular expression matching library(Hyperscan移植到更多的平台)
+https://github.com/VectorCamp/vectorscan
+
+Command-line tool and terminal JSON viewer
+https://github.com/antonmedv/fx
+
+Minimal templating on steroids
+https://github.com/handlebars-lang/handlebars.js
+ 
+ A lightweight Web IDE UI framework
+https://github.com/DTStack/molecule
+
+Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+https://github.com/johnkerl/miller
+
+EJDB 2 – Embeddable JSON database with XPath-like query language and REST API
+https://github.com/Softmotions/ejdb
+
+An open source multi-tool for exploring and publishing data
+https://github.com/simonw/datasette
+
+50+ mini web projects using HTML, CSS & JS
+https://github.com/bradtraversy/50projects50days
+
 This tool converts the output of popular command-line tools and file-types to JSON. This allows piping of output to tools like jq.
 https://github.com/kellyjonbrazil/jc
