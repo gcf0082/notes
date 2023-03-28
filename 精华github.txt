@@ -1,3 +1,6 @@
+Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework
+https://github.com/bootboxjs/bootbox
+
 Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 https://github.com/bradtraversy/vanillawebprojects
 
