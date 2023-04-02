@@ -1,3 +1,6 @@
+Interactive Tables and Data Grids for JavaScript
+https://github.com/olifolkerd/tabulator
+
 Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework
 https://github.com/bootboxjs/bootbox
 
