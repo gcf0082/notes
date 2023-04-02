@@ -1,3 +1,6 @@
+An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)
+https://github.com/wenzhixin/bootstrap-table
+
 Interactive Tables and Data Grids for JavaScript
 https://github.com/olifolkerd/tabulator
 
