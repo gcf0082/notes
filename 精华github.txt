@@ -1,3 +1,6 @@
+Reorderable drag-and-drop lists for modern browsers and touch devices. No jQuery or framework required
+https://github.com/SortableJS/Sortable
+
 An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)
 https://github.com/wenzhixin/bootstrap-table
 
