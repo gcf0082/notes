@@ -1,3 +1,6 @@
+Selectize is the hybrid of a textbox and <select> box. It's jQuery based, and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.
+https://github.com/selectize/selectize.js
+
 Reorderable drag-and-drop lists for modern browsers and touch devices. No jQuery or framework required
 https://github.com/SortableJS/Sortable
 
