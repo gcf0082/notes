@@ -1,3 +1,6 @@
+jQuery grid plugin
+https://github.com/tonytomov/jqGrid
+
 Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
 https://github.com/select2/select2
 
