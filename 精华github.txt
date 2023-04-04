@@ -1,3 +1,6 @@
+A high-level app and dashboarding solution for Python
+https://github.com/holoviz/panel
+
 High Performance Inter-Thread Messaging Library
 https://github.com/LMAX-Exchange/disruptor
 
