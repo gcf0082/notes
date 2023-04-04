@@ -1,3 +1,6 @@
+High Performance Inter-Thread Messaging Library
+https://github.com/LMAX-Exchange/disruptor
+
 jQuery grid plugin
 https://github.com/tonytomov/jqGrid
 
