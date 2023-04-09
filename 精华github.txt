@@ -1,3 +1,6 @@
+bore is a simple CLI tool for making tunnels to localhost
+https://github.com/ekzhang/bore
+
 Event Ruler is a Java library that allows matching many thousands of Events per second to any number of expressive and sophisticated rules.
 https://github.com/aws/event-ruler
 
