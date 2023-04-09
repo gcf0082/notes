@@ -1,3 +1,6 @@
+Event Ruler is a Java library that allows matching many thousands of Events per second to any number of expressive and sophisticated rules.
+https://github.com/aws/event-ruler
+
 Vert.x is a tool-kit for building reactive applications on the JVM
 https://github.com/eclipse-vertx/vert.x
 
