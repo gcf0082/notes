@@ -1,3 +1,6 @@
+python implementation of jordansissel's grok regular expression library
+https://github.com/garyelephant/pygrok
+
 A minimalist production ready plugin system
 https://github.com/pytest-dev/pluggy
 
