@@ -1,3 +1,6 @@
+a rep for documenting my study, may be from 0 to 0.1
+https://github.com/Y4tacker/JavaSec
+
 python implementation of jordansissel's grok regular expression library
 https://github.com/garyelephant/pygrok
 
