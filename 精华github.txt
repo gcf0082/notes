@@ -1,3 +1,6 @@
+
+https://book.hacktricks.xyz/welcome/readme
+
 Tracetool viewer, client Api for Dotnet, Java, Javasvript, C++ , Python, Delphi
 https://github.com/capslock66/Tracetool
 
