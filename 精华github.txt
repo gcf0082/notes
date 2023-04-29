@@ -1,3 +1,5 @@
+ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+https://github.com/zincsearch/zincsearch
 
 https://book.hacktricks.xyz/welcome/readme
 
