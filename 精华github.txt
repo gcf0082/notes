@@ -1,3 +1,8 @@
+
+
+This extention allow you to copy json path
+https://github.com/MaloPolese/copy-json-path
+
 A programming language exclusively designed for cybersecurity
 https://github.com/yaklang/yaklang
 
