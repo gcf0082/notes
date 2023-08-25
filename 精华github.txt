@@ -1,3 +1,6 @@
+DeepDiff: Deep Difference and search of any Python object/data. DeepHash: Hash of any object based on its contents. Delta: Use deltas to reconstruct objects by adding deltas together.
+https://github.com/seperman/deepdiff
+
 https://github.com/ceccopierangiolieugenio/pyTermTk
 
 基于java的各种代理实现，包括：纯tcp反向代理，http，socks5，内网穿透，私有WebSocket
