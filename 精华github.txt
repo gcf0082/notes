@@ -1,3 +1,6 @@
+Fast regular expression grep for source code with incremental index updates
+https://github.com/zeux/qgrep
+
 DeepDiff: Deep Difference and search of any Python object/data. DeepHash: Hash of any object based on its contents. Delta: Use deltas to reconstruct objects by adding deltas together.
 https://github.com/seperman/deepdiff
 
