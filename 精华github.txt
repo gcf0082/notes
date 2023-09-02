@@ -1,3 +1,18 @@
+bpftrace High-level tracing language for Linux eBPF
+https://github.com/iovisor/bpftrace
+
+yara awesome
+https://github.com/InQuest/awesome-yara
+
+收集python设计模式
+https://github.com/faif/python-patterns
+
+收集一些shell片段
+https://github.com/alexanderepstein/Bash-Snippets
+
+！！本地搭建各种服务的列表
+https://github.com/Kickball/awesome-selfhosted
+
 Java unlimited redefinition of classes at runtime.
 https://github.com/HotswapProjects/HotswapAgent
 
