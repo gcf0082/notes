@@ -1,3 +1,84 @@
+A modern replacement for ps written in Rust
+https://github.com/dalance/procs
+
+Scripts that will make you go WOW(包含很多go,js,python,bash等脚本的有用例子代码)
+https://github.com/HarshCasper/Rotten-Scripts
+
+Alert dashboard for Prometheus Alertmanager
+https://github.com/prymitive/karma
+
+Open-source file manager for web, writte
+https://github.com/Studio-42/elFinder
+
+Command line tool to download and extract data from HTML/XML pages or JSON-APIs, using CSS, XPath 3.0, XQuery 3.0, JSONiq or pattern matching. It can also create new or transformed XML/HTML/JSON documents.
+https://github.com/benibela/xidel可以跨不同sqlite数据库查询
+
+https://simonwillison.net/2021/Feb/21/cross-database-queries/
+https://sqlite-utils.datasette.io
+https://github.com/simonw/sqlite-utils
+
+All the missing SQLite functions
+https://github.com/nalgeon/sqlean
+
+Everything that makes working with databases easier
+https://github.com/mgramin/awesome-db-tools
+
+swiss-army knife for data
+https://github.com/neilotoole/sq
+
+A universal command-line interface for PostgreSQL, MySQL, Oracle Database, SQLite3, Microsoft SQL Server, and many other databases including NoSQL and non-relational databases!
+https://github.com/xo/usql
+
+Build cross-platform desktop apps with JavaScript, HTML, and CSS
+https://github.com/electron/electron
+
+Archivy is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your own personal, searchable and extendable wiki 一个开源的知识库软件，可以自己本地架设，管理个人笔记。
+https://github.com/archivy/archivy
+
+Wtrace [spelled: wɪtreɪs] is a command-line tool for recording trace events from the Operating System or a group of processes. Wtrace may collect, among others, File I/O and Registry operations, TPC/IP connections, and RPC calls. Its purpose is to give you some insights into what is happening in the system.  (windows下的strace）
+https://github.com/lowleveldesign/wtrace
+
+高效学习神器 Anki 安卓客户端。Anki 是一个帮助学习的记忆卡片软件，卡片正面是问题背面是答案，然后根据记忆公式帮你复习和记牢。
+https://github.com/ankidroid/Anki-Android
+
+一个 SSH 中间人服务器，拦截所有 SSH 操作。可以用作"蜜罐"，攻击者自以为登陆了真实服务器，从而让系统记录下他的操作。
+https://github.com/ssh-mitm/ssh-mitm
+
+jnr-ffi is a Java library for loading native libraries without writing JNI code by hand, or using tools such as SWIG.
+https://github.com/jnr/jnr-ffi
+
+Infinitely transfer between every device over pure HTTP with pipes or browsers
+https://github.com/nwtgck/piping-server-rust
+
+Apache Superset is a Data Visualization and Data Exploration Platform
+https://github.com/apache/superset
+
+Command line Java Decompiler
+https://github.com/kwart/jd-cli
+
+一个开源的在线笔记工具，具有强大的知识整理功能。特点是所有数据都储存在你的 GitHub 仓库里面，网站本身不保存用户数据。
+https://github.com/logseq/logseq
+
+CFSSL: Cloudflare's PKI and TLS toolkit
+https://github.com/cloudflare/cfssl
+
+Javascript syntax highlighter
+https://github.com/highlightjs/highlight.js
+
+Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies.
+https://github.com/TomWright/dasel
+
+
+微软推出的浏览器自动化工具，特点是浏览器的控制脚本用 Python 来写。
+Python version of the Playwright testing and automation library.
+https://github.com/microsoft/playwright-python
+
+TagSpaces is an offline, open source, document manager with tagging support
+https://github.com/tagspaces/tagspaces
+
+A terminal spreadsheet multitool for discovering and arranging data
+https://github.com/saulpw/visidata
+
 🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台
 https://github.com/xitu/gold-miner
 
