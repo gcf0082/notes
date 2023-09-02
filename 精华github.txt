@@ -1,5 +1,54 @@
+🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台
+https://github.com/xitu/gold-miner
+
+The corrective bash syntax highlighter
+https://github.com/anordal/shellharden
+
+一个开源的全文搜索软件，可以自己搭建服务，支持汉语搜索。
+https://github.com/meilisearch/MeiliSearch
+
+A tiny (~400 B) & modern library for keybindings.
+https://github.com/jamiebuilds/tinykeys
+
+一个命令行的彩色 diff 工具
+https://github.com/jeffkaufman/icdiff
+
+一个基于 sftp 协议的 fuse 网络文件系统，功能上类似于 sshfs
+https://github.com/RainMark/oxfs
+
+Brython (Browser Python) is an implementation of Python 3 running in the browser
+https://github.com/brython-dev/brython
+
+C++ python bytecode disassembler and decompiler（python反编译和反汇编工具）
+https://github.com/zrax/pycdc
+
+Tree Data Structure Java Library
+https://github.com/Scalified/tree
+
+Analytical Web Apps for Python, R, and Julia. No JavaScript Required.
+一款只用几百行 Python 代码就可以轻易实现数据分析可视化的利器
+https://github.com/plotly/dash
+
+一个让 Python 记录日志变得简单的库(可以高亮)
+https://github.com/Delgan/loguru
+
+The Minimalistic x86/x64 API Hooking Library for Windows
+https://github.com/TsudaKageyu/minhook
+
+Python Cheat Sheet
+https://github.com/crazyguitar/pysheeet
+
 The Diff Match and Patch libraries offer robust algorithms to perform the operations required for synchronizing plain text.
 https://github.com/google/diff-match-patch
+
+This project does not contain any source code or files. I just want to make a list of tools to process pcap files in research of network traffic. 
+https://github.com/caesar0301/awesome-pcaptools
+
+A high-level terminal interface library for node.js.
+https://github.com/chjj/blessed
+
+一个支持 Chrome、Safari、Firefox、Edge 的浏览器自动化工具，即一个自动化脚本对所有浏览器都有效，由 Puppeteer 团队出品。
+https://github.com/microsoft/playwright
 
 A daemon for managing long running shell commands.
 https://github.com/Nukesor/pueue
