@@ -1,3 +1,33 @@
+Java unlimited redefinition of classes at runtime.
+https://github.com/HotswapProjects/HotswapAgent
+
+A Python package for easy multiprocessing, but faster than multiprocessing
+https://github.com/sybrenjansen/mpire
+
+WebSocket REPL for pentesters
+https://github.com/doyensec/wsrepl
+
+Flatten JSON in Python
+https://github.com/amirziai/flatten
+
+Simple http server in Rust
+https://github.com/TheWaWaR/simple-http-server
+
+Simple command line arguments parser for BASH 用来写shell参数程序
+https://github.com/nk412/optparse
+
+Server and tools 参考它的过滤
+https://github.com/hat-open/hat-syslog
+
+10x easier, 🚀 140x lower storage cost, 🚀 high performance, 🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces).
+https://github.com/openobserve/openobserve
+
+Textual is a Rapid Application Development framework for Python. Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and (coming soon) a web browser
+https://github.com/Textualize/textual
+
+JVM Dynamic Attach utility
+https://github.com/jattach/jattach
+
 独立开发产品变现周刊，每周五发布
 https://github.com/ljinkai/weekly
 
