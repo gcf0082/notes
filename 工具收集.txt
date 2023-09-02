@@ -1,3 +1,149 @@
+
+一个终端复用器，类似于 Tmux，使用 Rust 开发的，功能更强大
+https://github.com/zellij-org/zellij
+
+一个go语言对前端更友好的 web 服务器 Caddy，可理解为对前端友好的nginx
+https://github.com/caddyserver/caddy
+
+Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.
+https://github.com/jazzband/tablib
+
+A CAT called tabby ( Code Analysis Tool ) java代码属性图
+https://github.com/wh1t3p1g/tabbyWhen you need a web server in a hurry
+
+
+C 语言编写的单文件 Web 服务器，无需安装，只要编译一下就能使用
+https://github.com/emikulic/darkhttpd
+
+A utility for running arbitrary commands when files change
+https://github.com/eradman/entr
+
+A collection of modern/faster/saner alternatives or complements to common unix commands.
+https://github.com/ibraheemdev/modern-unix
+
+A query and indexing engine for Redis, providing secondary indexing, full-text search, and aggregations.
+https://github.com/RediSearch/RediSearch
+
+The system statistics collection daemon. Please send Pull Requests here
+https://github.com/collectd/collectdOpen source distributed and RESTful search engine
+
+Forkstat is a program that logs process fork(), exec() and exit() activity. It is useful for monitoring system behaviour and to track down rogue processes that are spawning off processes and potentially abusing the system.
+https://github.com/ColinIanKing/forkstat
+
+https://github.com/opensearch-project/OpenSearch
+
+A hierarchical note taking application, featuring rich text and syntax highlighting, storing data in a single XML or SQLite file.
+一个桌面的笔记软件，支持文件夹结构，可以将所有内容保存成一个 SQLite 文件。
+https://github.com/giuspen/cherrytree
+
+一个开源的网页表格，目标是成为低代码的数据库，作为 Excel 和 Airtable 的替代品。可以使用托管的版本，也可以自己架设服务。
+https://gitlab.com/bramw/baserow
+
+Ultimate Plumber - 用于编写带有实时预览的Linux管道的工具
+https://github.com/akavel/up
+
+A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
+https://github.com/gotify/server
+
+Access your terminal from anywhere via the web
+https://github.com/zhaojh329/rtty
+
+A nginx log explorer
+https://github.com/Canop/rhit
+
+All the missing SQLite functions
+https://github.com/nalgeon/sqlite-plus
+
+Logagent is a modern, open-source, light-weight log shipper. It is like Filebeat and Logstash in one, without the JVM memory footprint. It comes with out of the box and extensible log parsing, on-disk buffering, secure transport, and bulk indexing to Elasticsearch, Sematext Logs, and other destinations. Its low memory footprint and low CPU overhead make it suitable for deploying on edge nodes and devices, while its ability to parse and structure logs makes it a great Logstash alternative.
+https://github.com/sematext/logagent-js
+
+Terminal file manager
+https://github.com/gokcehan/lf
+
+an efficient awk-like language
+https://github.com/ezrosent/frawk
+
+A simple, single binary, message queue.(go)
+https://github.com/tomarrell/miniqueue
+
+A new type of shell.
+https://github.com/nushell/nushell
+
+Add handy buttons like beautify, show opened files, save, toggle terminal, etc to the editor menu bar in VSCode. You can also create your own buttons with custom commands. VSCode Marketplace link
+https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension
+
+Optimized JSON for Go 命令行查看格式化json格式
+https://github.com/ohler55/ojg
+
+Dogsheep is a collection of tools for personal analytics using SQLite and Datasette.
+https://dogsheep.github.io/
+
+Command line peer-to-peer data transfer tool based on libp2p.
+https://github.com/dennis-tra/pcp
+
+Yet another HTTPie clone
+https://github.com/ducaale/ht
+
+container-diff: Diff your Docker containers
+https://github.com/GoogleContainerTools/container-diff
+
+混淆jar包
+https://github.com/superblaubeere27/obfuscator
+
+Visual disk-usage analyser for docker images
+https://github.com/treebeardtech/whaler
+
+File organization made for humans
+https://github.com/SeanPedersen/HyperTag
+
+A free and open source code snippets manager for developers.
+https://github.com/antonreshetov/massCode
+
+一个简易版的 SQLite 图数据库，可应用到社交网络、待办清单、CRM、甘特图等领域上。
+https://github.com/dpapathanasiou/simple-graph
+
+Maya 一个简洁小巧的快速启动工具
+https://github.com/25H/Maya
+
+A cd command that learns - easily navigate directories from the command line
+https://github.com/wting/autojump
+
+A local ADB shell for Android
+https://github.com/tytydraco/LADB
+
+Diffware - 文件、目录 Diff 工具，支持多种配置参数 
+https://github.com/airbus-seclab/diffware
+
+Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation and replay
+https://github.com/projectdiscovery/proxify
+
+Package your Node.js project into an executable
+https://github.com/vercel/pkg
+
+一个采用 Go 语言编写的免费、跨平台的文件同步工具。它不需要安装，只需要下载对应系统的压缩包解压后就可以直接运行和使用。拥有命令行、Web 和桌面程序多种操作模式，同时支持内网和互联网的文件同步，可以用来搭建私有网盘。又一个代替付费网盘的选择，如果考虑到昂贵的宽费用。可以把 syncthing 做为局域网下手机、电视和电脑共享文件的开源解决方案
+https://github.com/syncthing/syncthing
+
+.NET debugger and assembly editor
+https://github.com/dnSpy/dnSpy
+
+A self-host cloud disk base on the cloud storage./ 一个基于云存储的网盘系统，用于自建私人网盘或企业网盘。
+https://github.com/saltbo/zpan
+
+Windows右键菜单管理程序
+https://github.com/BluePointLilac/ContextMenuManager
+
+CLI tool to expose data from any database as a serverless web service.
+https://github.com/octoproject/octo-cli
+
+3proxy - tiny free proxy server
+https://github.com/z3APA3A/3proxy
+
+一个解析 HTML 文件的命令行工具，用法类似jq。
+https://github.com/ericchiang/pup
+
+Open Source Document Management System for Digital Archives (Scanned Documents)
+https://github.com/ciur/papermerge
+
 RedHat开源的Debezium是一个将多种数据源实时变更数据捕获，形成数据流输出的开源工具。
 它是一种CDC（Change Data Capture）工具，工作原理类似大家所熟知的Canal, DataBus, Maxwell等，是通过抽取数据库日志来获取变更的。
 https://github.com/debezium/debezium
