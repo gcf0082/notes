@@ -1,3 +1,132 @@
+Simple Linux Panel
+https://github.com/midoks/mdserver-web
+
+OSINT automation for hackers
+https://github.com/blacklanternsecurity/bbot
+
+Static file serving and directory listing
+https://github.com/vercel/serve
+
+JaSoMe (Java Source Metrics) - Object Oriented Metrics analyzer for Java code
+https://github.com/rodhilton/jasome
+
+A fast static web server with TLS (HTTPS), routing, hot reloading, caching, templating, and security in a single-binary you can set up with zero code.
+https://github.com/mufeedvh/binserve
+
+FreeRDP is a free remote desktop protocol library and clients
+https://github.com/FreeRDP/FreeRDP
+
+提供了从实际数据库自动生成数据库结构的最新精确视图，其安装和使用都比较简单，而且支持目前绝大多数的数据库。
+界面还是比较友好的，通过SchemaSpy可以很方便的查看各个table信息，以及各个table之间的关联关系信息
+https://github.com/schemaspy/schemaspy
+
+HFS is a file server offering a virtual file system (vfs). You can easily share a single file instead of the whole folder, or you can rename it, but without touching the real file, just virtually.
+https://github.com/rejetto/hfs
+
+A simple and fast text editor with a ribbon UI 
+https://github.com/stefankueng/BowPad 
+
+Create a CRUD API wrapping your database in seconds
+https://github.com/polterguy/magic 
+
+AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv2 protocol on top of the Python asyncio framework. 用来执行异步ssh
+https://github.com/ronf/asyncssh
+
+GDB frontend made with Dear Imgui
+https://github.com/kyle-sylvestre/Tug
+
+Photo gallery for self-hosted personal servers 搭建个人相册
+https://github.com/photoview/photoview
+
+Beautifier for javascript
+https://github.com/beautify-web/js-beautify
+
+Android Library to make it easy to create an Code editor or IDE that support any languages and themes, with auto complete, auto indenting, snippets and more features
+https://github.com/AmrDeveloper/CodeView
+
+A self-hosted open source photo management service. This is the repository of the backend.
+https://github.com/LibrePhotos/librephotos
+
+a simple zero-configuration command-line http server
+https://github.com/http-party/http-server
+
+Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.﻿ 
+https://github.com/multiprocessio/dsq﻿ ﻿ 
+
+Count your code, quickly
+https://github.com/XAMPPRocky/tokei
+
+jq for binary formats
+https://github.com/wader/fq
+
+java 版本的logstash
+https://github.com/DTStack/jlogstash
+
+类filebeat的轻量级日志采集工具
+https://github.com/DTStack/jfilebeat
+
+Easily query, script, and visualize data from every database, file, and API.
+https://github.com/multiprocessio/datastation
+
+一个极小化的 JSON 服务器，可以在本地快速起一个服务，提供 JSON 数据的 RESTful API。
+https://github.com/rehacktive/caffeine
+
+Structural diff for JSON files
+https://github.com/andreyvit/json-diff
+
+A semantic JSON compare tool
+https://github.com/zgrossbart/jdd
+
+cross-platform, cli app to perform various operations on string
+https://github.com/abhimanyu003/sttr
+
+ldd as a tree with an option to bundle dependencies into a single folder
+https://github.com/haampie/libtree
+
+A modern file tail utility based on Rx.Net which show cases reactive programming and Dynamic Data
+https://github.com/RolandPheasant/TailBlazer
+
+A feature rich terminal UI file transfer and explorer with support for SCP/SFTP/FTP/S3
+https://github.com/veeso/termscp
+
+Build your personal knowledge base with Trilium Notes
+https://github.com/zadam/trilium
+
+A more intuitive version of du in rust
+https://github.com/bootandy/dustWebSocket cat
+
+https://github.com/websockets/wscat
+
+A TUI for viewing and (eventually) editing database files. Only support for SQLite currently. MySQL support will be added soon.
+https://github.com/mathaou/termdbms
+
+A TUI for viewing sqlite databases
+https://github.com/mathaou/sqlite-tui
+
+Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+https://github.com/claudiodangelis/qrcp
+
+Modern watch command. Time machine and pager etc
+https://github.com/sachaos/viddy
+
+A quicker and better cross-platform SSH/Sftp/Shell/Telnet/Serial client.
+https://github.com/kingToolbox/WindTerm
+
+简单强大的多协议双向代理工具 A simple and powerful proxy
+https://github.com/esrrhs/spp
+
+treequery is a CLI for executing Tree-sitter queries on source code files. It uses enry to detect a language and apply the right Tree-sitter parser. The default output includes a list of line number locations where there's a query match, followed by a snippet of the matching code. It will eventually be integrated into askgit.
+
+https://github.com/askgitdev/treequery
+
+这个 Web 软件可以将各种数据库，转为易于操作的智能电子表格，类似于 Airtable
+https://github.com/nocodb/nocodb
+
+mawww's experiment for a better code editor(一个类似 Vim 的文本编辑器，号称更易用、功能更强。)
+https://github.com/mawww/kakoune
+
+F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go!
+https://github.com/ayoisaiah/f2
 
 一个终端复用器，类似于 Tmux，使用 Rust 开发的，功能更强大
 https://github.com/zellij-org/zellij
