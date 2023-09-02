@@ -1,0 +1,41 @@
+trurl is a command line tool for URL parsing and manipulation.
+https://github.com/curl/trurl
+
+A tiling window manager for Windows
+https://github.com/LGUG2Z/komorebi
+
+This extention allow you to copy json path(vscode插件
+https://github.com/MaloPolese/copy-json-path
+
+notepad++开源替代
+https://github.com/dail8859/NotepadNext/
+
+A lightweight, cross-platform file manager with a dual-pane interface
+https://github.com/mucommander/mucommander
+
+Lightweight SQLite editor for Windows
+https://github.com/little-brother/sqlite-gui
+
+搭建文件服务器
+http://iscute.cn/chfs
+
+Feature-rich terminal-based text viewer. It is a so-called terminal pager.
+https://github.com/noborus/ov
+
+A command-line tool to easily kill processes running on a specified port.
+https://github.com/jkfran/killport
+
+Lightweight SQLite editor for Windows
+https://github.com/little-brother/sqlite-gui
+
+搭建文件服务器
+http://iscute.cn/chfs
+
+Feature-rich terminal-based text viewer. It is a so-called terminal pager.
+https://github.com/noborus/ov
+
+一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
+https://github.com/ehang-io/nps
+
+A lightweight, cross-platform file manager with a dual-pane interface
+https://github.com/mucommander/mucommander
