@@ -1,3 +1,51 @@
+
+A simple, fast, and fun package for building command line apps in Go
+https://github.com/urfave/cli
+
+发送告警事件
+https://github.com/target/goalert
+
+Sysdig 能获取实时的系统数据，也能把信息保存到文件中以供后面分析。Sysdig 有着类似于 tcpdump 的过滤语法，用户可以随意组合自己的过滤逻辑，从茫茫的数据中找到关心的信息。除此之外，用户还可以自己编写 Lua 脚本来自定义分析逻辑，基本上不受任何限制。
+https://github.com/draios/sysdig
+
+http作为隧道，访问tcp端口 (go)
+https://github.com/jpillora/chisel
+
+多线程下载库，支持多种协议(c++)
+https://github.com/aria2/aria2
+
+Toshi 全文搜索引擎(rust)
+https://github.com/toshi-search/Toshi
+
+gron让json输出变成扁平可以方便grep和查询差异
+https://github.com/tomnomnom/gron
+
+把nodejs变成可执行程序
+https://github.com/zeit/pkg
+
+从文本里分析出手机号
+https://github.com/daviddrysdale/python-phonenumbers
+
+fd替代find的文件路径搜索工具
+https://github.com/sharkdp/fd
+
+命令行文本处理
+https://github.com/learnbyexample/Command-line-text-processing
+
+Influxdb时序数据库
+https://github.com/influxdata/influxdb
+
+持续文件自动同步 (go)
+https://github.com/syncthing/syncthing
+https://github.com/syncthing/syncthing-android
+
+基于ripgrep搜索更多文件类型的工具
+https://github.com/phiresky/ripgrep-all
+
+TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+masscan号称是最快的互联网端口扫描器，最快可以在六分钟内扫遍互联网。
+https://github.com/robertdavidgraham/masscan
+
 trurl is a command line tool for URL parsing and manipulation.
 https://github.com/curl/trurl
 
