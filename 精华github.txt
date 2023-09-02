@@ -1,3 +1,123 @@
+🔥 A cross-platform build utility based on Lua一个轻量级的跨平台构建工具，可以用它构建 C/C++、Go、Rust 等许多语言的项目
+https://github.com/xmake-io/xmake
+
+整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
+https://github.com/eryajf/Thanks-Mirror
+
+SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.
+https://github.com/seaweedfs/seaweedfs
+
+A neat code differencing tool
+https://github.com/GumTreeDiff/gumtree
+
+Open-source plugins included in the distribution of IntelliJ IDEA Ultimate and other IDEs based on the IntelliJ Platform
+https://github.com/JetBrains/intellij-plugins
+
+内存文件系统(java)
+https://github.com/google/jimfs
+
+前端基础 个人博客 学习笔记
+https://github.com/WindrunnerMax/EveryDay
+
+A lightweight, cloud-native data transfer agent and aggregator 与logstash类似，，golang的单可执行文件
+https://github.com/loggie-io/loggie
+
+bore is a simple CLI tool for making tunnels to localhost
+https://github.com/ekzhang/bore
+
+开源运维平台：面向中小型企业设计的轻量级无Agent的自动化运维平台，整合了主机管理、主机批量执行、主机在线终端、文件在线上传下载、应用发布部署、在线任务计划、配置中心、监控、报警等一系列功能。
+https://github.com/openspug/spug
+
+Notepad2-zufuliu is a light-weight Scintilla-based text editor for Windows with syntax highlighting, code folding, auto-completion and API list for about 80 programming languages/documents, bundled with file browser plugin metapath.
+https://github.com/zufuliu/notepad2
+
+Fancy stream processing made operationally mundane
+https://github.com/benthosdev/benthos
+
+A handy way to handle sh/bash cli parameters.
+https://github.com/sigoden/argc
+
+rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
+https://github.com/phiresky/ripgrep-all
+
+https://github.com/sigoden/argc
+
+Resource collection for messaging and eventing
+https://github.com/clemensv/messaging
+
+150+ Website Templates
+https://github.com/learning-zone/website-templates
+
+ShenYu is High-Performance Java API Gateway.
+https://github.com/apache/incubator-shenyu
+
+A Curated list of Awesome Python Scripts that Automate Stuffs.
+https://github.com/hastagAB/Awesome-Python-Scripts
+
+Lightweight CLI download accelerator-多线程命令行下载
+https://github.com/axel-download-accelerator/axel
+
+Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
+https://github.com/Textualize/textual
+
+Graph Database for Python
+https://github.com/arun1729/cog
+
+Desktop environment in the browser
+https://github.com/DustinBrett/daedalOS
+
+Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+https://github.com/prabhatsharma/zinc
+
+A collection of statically compiled tools like Nmap and Socat.
+https://github.com/ernw/static-toolbox
+
+Ntfy is a simple pub-sub notification service. It allows you to send notifications to your desktop or phone via scripts.
+https://github.com/binwiederhier/ntfy
+
+Write interactive web app in script way.
+https://github.com/pywebio/PyWebIO
+
+Easily test your grok expressions and parse log files from the CLI
+https://github.com/justmiles/grok-cli
+
+the Script to creating CA and Certificates using OpenSSL
+https://github.com/oslook/openssl-certificate
+
+A powerful duplicate file finder and an enhanced fork of 'fdupes'.
+https://github.com/jbruchon/jdupes
+
+A C library that may be linked into a C/C++ program to produce symbolic backtraces
+https://github.com/ianlancetaylor/libbacktrace
+
+Like jq, but for HTML.
+https://github.com/mgdm/htmlq
+
+List of projects that provide terminal user interfaces
+https://github.com/rothgar/awesome-tuis
+
+一个 JS 事件库，允许在多个窗口、多个 iframe 之间共享事件。也就是说，使用它在一个浏览器窗口触发事件，其它窗口也能收到。
+https://github.com/mia1024/cross-context-events
+
+For when you really just want to serve some files over HTTP right now!
+https://github.com/svenstaro/miniserve
+
+DeepfakeHTTP is an HTTP server that uses HTTP dumps as a source for responses
+https://github.com/xnbox/DeepfakeHTTP
+
+A tree-sitter based AST difftool to get meaningful semantic diffs
+https://github.com/afnanenayet/diffsitter
+
+Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services
+一个开源的工作流自动化工具，可以通过图形界面，选择200多种服务，组成一个工作流
+https://github.com/n8n-io/n8n
+
+这个 Web 软件可以将各种数据库，转为易于操作的智能电子表格，类似于 Airtable
+https://github.com/nocodb/nocodb
+
+The lightweight, distributed relational database built on SQLite
+https://github.com/rqlite/rqlite
+
 A modern replacement for ps written in Rust
 https://github.com/dalance/procs
 
