@@ -1,3 +1,26 @@
+Graph Database for Python
+https://github.com/arun1729/cog
+
+Feign makes writing java http clients easier用于java发送http请求
+https://github.com/OpenFeign/feign
+
+Run a command when files change
+https://github.com/cespare/reflex
+
+Executes commands in response to file modifications
+https://github.com/watchexec/watchexec
+
+PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
+https://github.com/PRQL/prql
+
+windows通过sshfs像samba一样使用远程文件系统，过程
+（需要安装sshfs-win-manager）
+https://github.com/billziss-gh/sshfs-win
+https://github.com/evsar3/sshfs-win-manager
+
+Simple API that allows you to easily parse logs and other files
+https://github.com/thekrakken/java-grok
+
 Fast regular expression grep for source code with incremental index updates
 https://github.com/zeux/qgrep
 
