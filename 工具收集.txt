@@ -1,3 +1,157 @@
+RedHat开源的Debezium是一个将多种数据源实时变更数据捕获，形成数据流输出的开源工具。
+它是一种CDC（Change Data Capture）工具，工作原理类似大家所熟知的Canal, DataBus, Maxwell等，是通过抽取数据库日志来获取变更的。
+https://github.com/debezium/debezium
+
+在线云盘
+https://github.com/zhaojun1998/zfile
+
+Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.
+https://github.com/joewalnes/websocketd
+
+BTrace - a safe, dynamic tracing tool for the Java platform
+https://github.com/btraceio/btrace
+
+这是一个号称最快、最省内存，且最灵活的Web全文搜索库，提供多种搜索功能，如多字段搜索、语音转换或模糊匹配等，支持浏览器或Node.js。
+https://github.com/nextapps-de/flexsearch
+
+OpenGrok is a fast and usable source code search and cross reference engine, written in Java 
+https://github.com/oracle/opengrok
+
+CLI tool that can execute SQL queries on CSV, LTSV, JSON and TBLN. Can output to various formats
+https://github.com/noborus/trdsql
+
+A Free HTTP based JSON storage
+https://github.com/vasanthv/jsonbox
+
+goproxy是国人开发的开源代理服务器, 代理协议包括：http,https,websocket,tcp,udp,socks5。支持正向代理、反向代理、透明代理、内网穿透、TCP/UDP端口映射、SSH中转，TLS加密传输，协议转换。软件基于golang编写，遵循GPL开源协议。
+https://github.com/goproxyio/goproxy
+
+Allows you to easily execute SQL against structured text like CSV or TSV.
+https://github.com/dinedal/textql
+
+Share your terminal as a web application
+https://github.com/yudai/gotty
+
+notable  markdown工具，有强大的标签搜索功能
+https://github.com/notable/notable
+
+Diffuse is a tool for diffing APKs, AABs, AARs, and JARs
+https://github.com/JakeWharton/diffuse
+
+photoshop的替代品
+https://github.com/GNOME/gimp
+
+A modern web client for SFTP, S3, FTP, WebDAV, Git, S3, FTPS, Minio, LDAP, Caldav, Carddav, Mysql, Backblaze, ...
+https://github.com/mickael-kerjean/filestash
+
+Executing shell commands via HTTP server
+https://github.com/msoap/shell2http
+
+Find files with SQL-like queries
+https://github.com/jhspetersson/fselect
+
+很多命令行工具
+https://github.com/alebcay/awesome-shell
+
+并发递归搜索和替换工具(rust)
+https://github.com/dalance/amber
+
+
+一个模拟的 SSH 服务器。很多攻击者都是 SSH 登录，你可以把这个软件在22端口启动，真正的 SSH 服务器放在另一个端口。黑客以为攻入了服务器，其实进入的是一个虚拟系统，然后会把他们的行为全部记录下来。
+https://github.com/cowrie/cowrie
+
+可替代elasticsearch的搜索引擎
+https://github.com/valeriansaliou/sonic
+
+Full featured and highly configurable SFTP server
+https://github.com/drakkan/sftpgo
+
+Query CSVs using SQL
+https://github.com/jolmg/cq
+
+Etherpad: Really real-time collaborative document editing (实时多人协作编辑)
+https://github.com/ether/etherpad-lite
+
+A fully Go userland with Linux bootloaders! u-root can create a root file system (initramfs) containing a busybox-like set of tools written in Go.
+https://github.com/u-root/u-root
+
+easy-rsa - Simple shell based CA utility
+https://github.com/OpenVPN/easy-rsa
+
+跨平台编译go
+https://github.com/karalabe/xgo
+
+Converts ANSI escape sequences of a unix (将终端的颜色输出到html)
+https://github.com/theZiz/aha
+
+Command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v.
+https://github.com/clvv/fasd
+
+LinDB is a scalable, distributed, high performance, high availability Time Series Database.
+https://github.com/lindb/lindb
+
+RunC 是一个轻量级的工具，它是用来运行容器的，只用来做这一件事，并且这一件事要做好。我们可以认为它就是个命令行小工具，可以不用通过 docker 引擎，直接运行容器。
+https://github.com/opencontainers/runc
+
+High-performance MySQL proxy with a GPL license
+https://github.com/sysown/proxysql
+
+A Java API for generating .java source files
+https://github.com/square/javapoet
+
+Cross-platform file system notifications for Go
+https://github.com/fsnotify/fsnotify
+
+！A terminal built on web technologies
+https://github.com/zeit/hyper
+
+OmniNotes是一款轻量、简洁、智能易用的开源笔记应用。既能简单记录便签或日程，又可以在笔记里插入附件甚至手绘图片。标签 + 搜索的内容管理方式也方便用户查找笔记
+https://github.com/federicoiosue/Omni-Notes
+
+Osmedeus允许您自动运行一系列令人敬畏的工具，以针对目标进行侦察和漏洞扫描
+https://github.com/j3ssie/Osmedeus
+
+metabase开源BI
+https://github.com/metabase/metabase
+
+使用spring boot打造文件文档在线预览项目解决方案，支持doc、docx、ppt、pptx、xls、xlsx、zip、rar、mp4，mp3以及众多类文本如txt、html、xml、java、properties、sql、js、md、json、conf、ini、vue、php、py、bat、gitignore等文件在线预览 
+https://github.com/kekingcn/kkFileView
+
+从stdin获取任意数据加上时间戳后以jdon格式输出
+https://github.com/sgreben/tj
+
+数据发送到socket
+https://github.com/pinojs/pino-socket
+
+Fast, Distributed Graph D
+https://github.com/dgraph-io/dgraph
+
+Code search and navigation tool
+https://github.com/sourcegraph/sourcegraph
+
+q - Run SQL directly on CSV or TSV files 
+https://github.com/harelba/q
+
+Remote multi-server automation tool
+https://github.com/capistrano/capistrano
+
+一款开源的 BI 工具Redash
+https://github.com/getredash/redash
+
+The open-source kanban (built with Meteor)开源的看板软件
+https://github.com/wekan/wekan
+
+A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware(windows)
+https://github.com/processhacker/processhacker
+
+Share your terminal over the web
+https://github.com/tsl0922/ttyd
+
+Drools  规则引擎
+https://github.com/kiegroup/drools
+
+jo 快速命令行创建json对象
+https://github.com/jpmens/jo
 
 A simple, fast, and fun package for building command line apps in Go
 https://github.com/urfave/cli
