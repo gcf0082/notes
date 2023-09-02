@@ -1,5 +1,19 @@
+独立开发产品变现周刊，每周五发布
+https://github.com/ljinkai/weekly
+
+A natural evolution of Burp Suite's Repeater tool
+https://github.com/CoreyD97/Stepper
+
 Graph Database for Python
 https://github.com/arun1729/cog
+Diff Utils library is an OpenSource library for performing the comparison / diff operations between texts or some kind of data: computing diffs, applying patches, generating unified diffs or parsing them, generating diff output for easy future displaying (like side-by-side view) and so on.
+https://github.com/java-diff-utils/java-diff-utils
+
+ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.
+https://github.com/NickeManarin/ScreenToGif
+
+Dex to Java decompiler
+https://github.com/skylot/jadx
 
 Feign makes writing java http clients easier用于java发送http请求
 https://github.com/OpenFeign/feign
