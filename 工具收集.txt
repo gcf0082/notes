@@ -2,6 +2,27 @@ RedHat开源的Debezium是一个将多种数据源实时变更数据捕获，形
 它是一种CDC（Change Data Capture）工具，工作原理类似大家所熟知的Canal, DataBus, Maxwell等，是通过抽取数据库日志来获取变更的。
 https://github.com/debezium/debezium
 
+NEW ultra fast grep with interactive query UI: search file systems, source code, text, binary files, archives (cpio/tar/pax/zip), compressed files (gz/Z/bz2/lzma/xz/lz4), documents, fuzzy search, and more. A faster, user-friendly replacement for GNU/BSD grep.
+https://github.com/Genivia/ugrep
+
+Wiki.js | A modern, lightweight and powerful wiki app built on Node.js
+https://github.com/Requarks/wiki
+
+Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.（非常不错的web版markdown）
+https://github.com/benweet/stackedit
+
+A list of command line tools for manipulating structured text data
+https://github.com/dbohdan/structured-text-tools
+
+android上安装linux模拟器
+https://github.com/termux/termux-app
+
+通过shell环境变量生成模板
+https://github.com/andreasjansson/envtpl
+
+Powerful Multi-User File Manager(php)
+https://github.com/filegator/filegator
+
 在线云盘
 https://github.com/zhaojun1998/zfile
 
