@@ -1,3 +1,72 @@
+The Diff Match and Patch libraries offer robust algorithms to perform the operations required for synchronizing plain text.
+https://github.com/google/diff-match-patch
+
+A daemon for managing long running shell commands.
+https://github.com/Nukesor/pueue
+
+scrapy is a fast high-level web crawling and web scraping framework,
+https://github.com/scrapy/scrapy
+
+各种字符串相似度算法实现(java)
+https://github.com/tdebatty/java-string-similarity
+
+h2 轻量数据库只有1.5M(java) 
+https://github.com/h2database/h2database
+
+如有需要在内存进行搜索匹配，可以使用cqengine来对java的集合进行高效检索
+https://github.com/npgall/cqengine
+
+A shell parser, formatter, and interpreter. Supports POSIX Shell, Bash, and mksh. Requires Go 1.12 or later.
+https://github.com/mvdan/sh
+
+Headless Chrome Node.js API
+https://github.com/GoogleChrome/puppeteer
+
+SweetAlert2用于替代浏览器默认的弹出对话框，它提供各种参数和方法，支持嵌入图片，背景，HTML标签等，并提供5种内置的情景类，功能非常强大。
+https://github.com/sweetalert2/sweetalert2
+
+Diff Utils library is an OpenSource library for performing the comparison / diff operations between texts or some kind of data: computing diffs, applying patches, generating unified diffs or parsing them, generating diff output for easy future displaying (like side-by-side view) and so on.
+https://github.com/java-diff-utils/java-diff-utils
+
+As easy as httpie /aitch-tee-tee-pie/ 🥧 Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. 
+https://github.com/jakubroztocil/httpie
+
+In-browser code editor
+https://github.com/codemirror/codemirror
+
+每日收集喜欢的开源项目
+https://github.com/guanguans/favorite-link
+
+RunC 是一个轻量级的工具，它是用来运行容器的，只用来做这一件事，并且这一件事要做好。我们可以认为它就是个命令行小工具，可以不用通过 docker 引擎，直接运行容器。
+https://github.com/opencontainers/runc
+
+mina sshd纯java实现的ssh 客户端和服务端
+https://github.com/apache/mina-sshd
+
+sqlite用web浏览操作
+https://github.com/coleifer/sqlite-web
+
+解密java ssl数据
+https://github.com/neykov/extract-ssl-secrets
+
+构建各种网络协议服务端
+https://github.com/lgandx/Responder
+
+使用sql搜索elasticsearch
+https://github.com/NLPchina/elasticsearch-sql
+
+OctoSQL使用sql连接多个数据库查询
+https://github.com/cube2222/octosql
+
+A curated list of amazingly awesome Burp Extensions
+https://github.com/snoopysecurity/awesome-burp-extensions
+
+A browser based code editor
+https://github.com/microsoft/monaco-editor
+
+一款开源的 BI 工具Redash
+https://github.com/getredash/redash
+
 bpftrace High-level tracing language for Linux eBPF
 https://github.com/iovisor/bpftrace
 
@@ -45,6 +114,9 @@ https://github.com/jattach/jattach
 
 独立开发产品变现周刊，每周五发布
 https://github.com/ljinkai/weekly
+
+Java dataframe and visualization library(表格命令行显示)
+https://github.com/jtablesaw/tablesaw
 
 A natural evolution of Burp Suite's Repeater tool
 https://github.com/CoreyD97/Stepper
