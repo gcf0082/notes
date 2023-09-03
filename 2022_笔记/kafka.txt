@@ -1,0 +1,24 @@
+1、下载kafka和zookeeper解压（先装JDK）
+https://kafka.apache.org/downloads
+https://zookeeper.apache.org/releases.html
+
+2、拷贝zoo.cfg
+cp conf/zoo_sample.cfg zoo.cfg
+
+3、禁用zookeeper的adminServer
+zoo.cfg文件增加如下行
+admin.enableServer=false
+
+4、启动zookeeper
+bin/zkServer.sh start
+
+5、启动kafka
+bin/kafka-server-start.sh config/server.properties
+
+6、创建kafka topic
+bin/kafka-topics.sh --create --topic mytopic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+
+7、启动生产者消费者，可以在终端测试发送接收消息了
+bin/kafka-console-producer.sh --topic mytopic --bootstrap-server localhost:9092
+bin/kafka-console-consumer.sh --topic mytopic --bootstrap-server localhost:9092 --from-beginning
+
