@@ -24,4 +24,6 @@ bin/kafka-console-consumer.sh --topic mytopic --bootstrap-server localhost:9092 
 
 8、使用：
 默认kafka消息保存路径： /tmp/kafka-logs
+可以通过修改config/server.properties指定
+log.dirs=./kafka-logs
 
