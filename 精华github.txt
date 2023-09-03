@@ -1,3 +1,6 @@
+Network Analysis in Python
+https://github.com/networkx/networkx
+
 🔥 A cross-platform build utility based on Lua一个轻量级的跨平台构建工具，可以用它构建 C/C++、Go、Rust 等许多语言的项目
 https://github.com/xmake-io/xmake
 
