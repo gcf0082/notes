@@ -1,3 +1,6 @@
+Filter to convert json array data, and plain JSON, to NDJSON (newline delimited JSON)
+https://github.com/draxil/json2nd
+
 Simple Linux Panel
 https://github.com/midoks/mdserver-web
 
