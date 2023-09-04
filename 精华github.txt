@@ -1,3 +1,6 @@
+Confluent REST Proxy for Kafka
+https://github.com/confluentinc/kafka-rest
+
 Network Analysis in Python
 https://github.com/networkx/networkx
 
