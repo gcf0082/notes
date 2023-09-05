@@ -1,3 +1,6 @@
+Impacket is a collection of Python classes for working with network protocols
+https://github.com/fortra/impacket
+
 Confluent REST Proxy for Kafka
 https://github.com/confluentinc/kafka-rest
 
