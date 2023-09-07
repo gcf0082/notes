@@ -1,3 +1,6 @@
+FlatLaf - Swing Look and Feel (with Darcula/IntelliJ themes support)
+https://github.com/JFormDesigner/FlatLaf
+
 Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs.
 https://github.com/joernio/joern
 
