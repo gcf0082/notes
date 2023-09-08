@@ -1,3 +1,6 @@
+https://github.com/wala/WALA
+T.J. Watson Libraries for Analysis, with frontends for Java, Android, and JavaScript, and may common static program analyses
+
 A library to extract Code Property Graphs from C/C++, Java, Golang and Python.
 https://github.com/Fraunhofer-AISEC/cpg
 
