@@ -561,6 +561,7 @@ https://github.com/handlebars-lang/handlebars.js
  
  A lightweight Web IDE UI framework
 https://github.com/DTStack/molecule
+https://github.com/wewoor/vite-molecule-demo
 
 Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
 https://github.com/johnkerl/miller
