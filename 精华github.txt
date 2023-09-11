@@ -1,3 +1,6 @@
+Diff JSON and JSON-like structures in Python
+https://github.com/xlwings/jsondiff
+
 Diff & patch JavaScript objects
 https://github.com/benjamine/jsondiffpatch
 
