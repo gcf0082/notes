@@ -1,3 +1,6 @@
+Structural diff for JSON files
+https://github.com/andreyvit/json-diff
+
 Diff JSON and JSON-like structures in Python
 https://github.com/xlwings/jsondiff
 
