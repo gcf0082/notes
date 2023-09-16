@@ -1,3 +1,6 @@
+Diffuse is a tool for diffing APKs, AABs, AARs, and JARs
+https://github.com/JakeWharton/diffuse
+
 An uber-fast parallelized Java classpath scanner and module scanner.
 https://github.com/classgraph/classgraph
 
