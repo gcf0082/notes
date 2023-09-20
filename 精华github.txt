@@ -1,3 +1,6 @@
+Computing with Python functions.
+https://github.com/joblib/joblib
+
 A flexible json diff framework for minimalist
 https://github.com/eggachecat/jycm
 
