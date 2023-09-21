@@ -1,3 +1,6 @@
+Comparison of two versions of a jar archive
+https://github.com/siom79/japicmp
+
 Java code comparison tool (jar / class)
 https://github.com/GraxCode/cafecompare
 
