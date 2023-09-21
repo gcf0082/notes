@@ -1,3 +1,6 @@
+Java code comparison tool (jar / class)
+https://github.com/GraxCode/cafecompare
+
 A tool for comparing JAR files, including method bodies and Scala 2 pickled signatures
 https://github.com/lightbend-labs/jardiff
 
