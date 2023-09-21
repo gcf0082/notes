@@ -1,3 +1,6 @@
+A tool for comparing JAR files, including method bodies and Scala 2 pickled signatures
+https://github.com/lightbend-labs/jardiff
+
 Computing with Python functions.
 https://github.com/joblib/joblib
 
