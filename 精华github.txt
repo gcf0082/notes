@@ -1,3 +1,6 @@
+The Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security testing and reverse engineering.
+https://github.com/OWASP/owasp-mastg
+
 Comparison of two versions of a jar archive
 https://github.com/siom79/japicmp
 
