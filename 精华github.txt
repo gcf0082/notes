@@ -1,3 +1,6 @@
+Awesome Collection of amazing javascript mini-projects.
+https://github.com/thinkswell/javascript-mini-projects
+
 Vizro is a toolkit for creating modular data visualization applications.
 https://github.com/mckinsey/vizro
 
