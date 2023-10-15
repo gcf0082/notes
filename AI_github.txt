@@ -1,0 +1,8 @@
+最全的中文NLP资源库
+https://github.com/fighting41love/funNL
+
+bloop is a fast code search engine written in Rust.(基于GPT4的代码搜索)
+https://github.com/BloopAI/bloop
+
+人工智能学习路线图
+https://github.com/tangyudi/Ai-Learn
