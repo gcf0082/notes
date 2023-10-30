@@ -1,3 +1,6 @@
+AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2
+https://github.com/apachecn/ailearning
+
 chatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。
 https://github.com/PlexPt/awesome-chatgpt-prompts-zh
 
