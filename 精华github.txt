@@ -1,3 +1,6 @@
+Short code snippets for all your development needs
+https://github.com/Chalarangelo/30-seconds-of-code
+
 A log file highlighter
 https://github.com/bensadeh/tailspin
 
