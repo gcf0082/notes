@@ -1,3 +1,6 @@
+A self-extracting archiving tool for Unix systems, in 100% shell script
+https://github.com/megastep/makeself
+
 Short code snippets for all your development needs
 https://github.com/Chalarangelo/30-seconds-of-code
 
