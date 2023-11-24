@@ -1,3 +1,6 @@
+面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
+https://github.com/datawhalechina/prompt-engineering-for-developers
+
 A self-extracting archiving tool for Unix systems, in 100% shell script
 https://github.com/megastep/makeself
 
