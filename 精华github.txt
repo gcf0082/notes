@@ -1,3 +1,6 @@
+Examples and guides for using the OpenAI API
+https://github.com/openai/openai-cookbook
+
 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
 https://github.com/datawhalechina/prompt-engineering-for-developers
 
