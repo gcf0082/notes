@@ -1,3 +1,6 @@
+Overview and tutorial of the LangChain Library
+https://github.com/gkamradt/langchain-tutorials
+
 Examples and guides for using the OpenAI API
 https://github.com/openai/openai-cookbook
 
