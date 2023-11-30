@@ -1,3 +1,6 @@
+python示例代码
+https://github.com/fluentpython/example-code-2e
+
 A minimal Python package for storing and retrieving text using chunking, embeddings, and vector search
 https://github.com/kagisearch/vectordb
 
