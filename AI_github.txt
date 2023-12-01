@@ -1,3 +1,6 @@
+Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
+https://github.com/mlabonne/llm-course
+
 AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2
 https://github.com/apachecn/ailearning
 
