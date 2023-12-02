@@ -1,0 +1,2 @@
+可能是类似pentest的利用openai自动渗透测试的开源项目
+https://github.com/pentestmuse-ai/PentestMuse
