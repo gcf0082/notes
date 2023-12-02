@@ -1,3 +1,6 @@
+Distribute and run LLMs with a single file.
+https://github.com/Mozilla-Ocho/llamafile
+
 Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 https://github.com/mlabonne/llm-course
 
