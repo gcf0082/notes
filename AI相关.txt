@@ -3,3 +3,7 @@ https://replicate.com/
 训练代码生成的数据集合
 https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1
 https://github.com/deepseek-ai/DeepSeek-Code
+
+通过ai控制web网站
+AI that turns website functionality into python APIs! Control websites through python and AI!
+https://github.com/pywebagent/pywebagent
