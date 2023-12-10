@@ -1,3 +1,6 @@
+Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
+https://github.com/lgandx/Responder
+
 一个简单&强大的Web思维导图
 https://github.com/wanglin2/mind-map
 
