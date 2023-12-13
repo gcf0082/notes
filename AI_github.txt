@@ -1,3 +1,6 @@
+All the projects related to Llama
+https://github.com/amitsangani/Llama-2
+
 Distribute and run LLMs with a single file.
 https://github.com/Mozilla-Ocho/llamafile
 
