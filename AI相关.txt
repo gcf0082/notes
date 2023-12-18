@@ -1,3 +1,6 @@
+AI开源书
+https://book.premai.io/state-of-open-source-ai/index.html
+
 LLM evaluation tools
 https://www.ianww.com/llm-tools
 
