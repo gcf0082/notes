@@ -1,3 +1,6 @@
+A high-throughput and memory-efficient inference and serving engine for LLMs
+https://github.com/vllm-project/vllm
+
 AI-Powered Database Queries 📊. Accurate Text-to-SQL Conversion using RAG
 https://github.com/vanna-ai/vanna
 
