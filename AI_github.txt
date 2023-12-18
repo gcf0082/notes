@@ -1,3 +1,6 @@
+AI-Powered Database Queries 📊. Accurate Text-to-SQL Conversion using RAG
+https://github.com/vanna-ai/vanna
+
 All the projects related to Llama
 https://github.com/amitsangani/Llama-2
 
