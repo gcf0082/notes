@@ -1,3 +1,6 @@
+Ugrep 4.4: an ultra fast, user-friendly, compatible grep. Ugrep combines the best features of other grep, adds new features, and searches fast. Includes a TUI and adds Google-like search, fuzzy search, hexdumps, searches nested archives (zip, tar, pax, cpio), compressed files (gz, Z, bz2, lzma, xz, lz4, zstd, brotli), pdfs, docs, and more
+https://github.com/Genivia/ugrep
+
 A benchmark to evaluate taint analysis
 https://github.com/Anemone95/taint-benchmark
 
