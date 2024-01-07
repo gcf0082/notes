@@ -1,3 +1,6 @@
+🌀 A log file highlighter
+https://github.com/bensadeh/tailspin
+
 Create book from markdown files. Like Gitbook but implemented in Rust
 https://github.com/rust-lang/mdBook
 
