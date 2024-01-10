@@ -1,3 +1,6 @@
+DuckDB is an in-process SQL OLAP Database Management System
+https://github.com/duckdb/duckdb
+
 Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
 https://github.com/multiprocessio/dsq
 
