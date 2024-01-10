@@ -1,3 +1,9 @@
+Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
+https://github.com/multiprocessio/dsq
+
+Open Source realtime backend in 1 file
+https://github.com/pocketbase/pocketbase
+
 🌀 A log file highlighter
 https://github.com/bensadeh/tailspin
 
