@@ -1,3 +1,6 @@
+Finally, a JSONPath implementation for Python that aims to be standard compliant. That's all. Enjoy!
+https://github.com/h2non/jsonpath-ng
+
 Facebook内部使用的版本管理工具，最近开源了。它兼容 Git 协议，可以替代 git 的命令行客户端，用起来更简单和合理。
 https://sapling-scm.com/docs/introduction/getting-started/
 
