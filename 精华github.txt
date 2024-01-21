@@ -1,3 +1,6 @@
+Apache OpenDAL: access data freely.
+https://github.com/apache/opendal
+
 DuckDB is an in-process SQL OLAP Database Management System
 https://github.com/duckdb/duckdb
 
