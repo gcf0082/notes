@@ -1,3 +1,6 @@
+Python CLI utility and library for manipulating SQLite databases
+https://github.com/simonw/sqlite-utils
+
 Apache OpenDAL: access data freely.
 https://github.com/apache/opendal
 
