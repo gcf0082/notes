@@ -1,3 +1,6 @@
+Basic JSON-RPC implementation for your Flask-powered sites
+https://github.com/cenobites/flask-jsonrpc
+
 Python CLI utility and library for manipulating SQLite databases
 https://github.com/simonw/sqlite-utils
 
