@@ -1,3 +1,6 @@
+大模型面试题及答案，大模型八股文
+https://github.com/wdndev/llm_interview_note
+
 Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging SWAR and SIMD on Arm Neon and x86 AVX2 & AVX-512-capable chips to accelerate search, sort, edit dista nces, alignment scores, etc
 https://github.com/ashvardanian/StringZilla
 
