@@ -1,3 +1,6 @@
+Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
+https://github.com/vi/websocat
+
 大模型面试题及答案，大模型八股文
 https://github.com/wdndev/llm_interview_note
 
