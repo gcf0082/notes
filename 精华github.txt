@@ -1,3 +1,6 @@
+Docking Layout Manager for React
+https://github.com/caplin/FlexLayout/tree/master?tab=readme-ov-file
+
 Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
 https://github.com/vi/websocat
 
