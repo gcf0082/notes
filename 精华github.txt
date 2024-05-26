@@ -1,3 +1,6 @@
+jQuery contextMenu plugin & polyfill
+https://github.com/swisnl/jQuery-contextMenu
+
 Collection of Statically linked binaries for Linux. Suited for Forensics
 https://github.com/mosajjal/binary-tools
 
