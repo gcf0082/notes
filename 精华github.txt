@@ -1,3 +1,6 @@
+安卓本地使用vs code编辑器实现方案
+https://github.com/nightmare-space/vscode_for_android
+
 jQuery contextMenu plugin & polyfill
 https://github.com/swisnl/jQuery-contextMenu
 
