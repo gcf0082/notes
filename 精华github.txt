@@ -1,3 +1,7 @@
+
+JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team
+https://github.com/handsontable/handsontable
+
 jQuery contextMenu plugin & polyfill
 https://github.com/swisnl/jQuery-contextMenu
 
