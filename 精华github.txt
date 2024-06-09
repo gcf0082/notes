@@ -1,3 +1,5 @@
+Pretty diff to html javascript library (diff2html)
+https://github.com/rtfpessoa/diff2html
 
 JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team
 https://github.com/handsontable/handsontable
