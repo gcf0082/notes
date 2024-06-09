@@ -1,3 +1,6 @@
+jQuery plugin for displaying JSON data
+https://github.com/abodelot/jquery.json-viewer
+
 Pretty diff to html javascript library (diff2html)
 https://github.com/rtfpessoa/diff2html
 
