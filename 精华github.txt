@@ -1,3 +1,6 @@
+JavaScript keyword highlighting. Mark text with options that fit every application. Also available as jQuery plugin.
+https://github.com/julkue/mark.js
+
 jQuery plugin for displaying JSON data
 https://github.com/abodelot/jquery.json-viewer
 
