@@ -1,3 +1,4 @@
+Build interactive dashboards in minutes
 https://github.com/gridstack/gridstack.js
 
 A javascript library to run SQLite on the web.
