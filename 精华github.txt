@@ -1,3 +1,6 @@
+A web-based tool to view, edit, format, and validate JSON
+https://github.com/josdejong/jsoneditor
+
 Build interactive dashboards in minutes
 https://github.com/gridstack/gridstack.js
 
