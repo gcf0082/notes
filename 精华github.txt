@@ -1,3 +1,6 @@
+A lightweight (~1kb) jQuery plugin that enables expanding and collapsing content
+https://github.com/danielstocks/jQuery-Collapse
+
 The perfect library for adding search, sort, filters and flexibility to tables, lists and various HTML elements. Built to be invisible and work on existing HTML.
 https://github.com/javve/list.js
 
