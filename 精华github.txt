@@ -1,3 +1,6 @@
+java支持类似osquery动态查询信息
+https://github.com/apache/calcite
+
 jQuery Tree Plugin
 https://github.com/zTree/zTree_v3
 
