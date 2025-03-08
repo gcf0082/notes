@@ -1,3 +1,15 @@
+MCP功能测试,编写LLM(支持OpenAI接口风格的大模型)应用程序调用MCP。MCP(模型上下文协议)是Claude开源的一种开放协议，可实现LLM应用程序与外部数据源和工具之间的无缝集成。
+https://github.com/NanGePlus/MCPTest
+
+10 Lessons to Get Started Building AI Agents
+https://github.com/microsoft/ai-agents-for-beginners
+
+Learn Agentic AI using Autogen, CrewAI, LangGraph, and Knowledge Graphs
+https://github.com/panaversity/learn-agentic-ai
+
+This repository will have different projects using AutoGen and Tutorials
+https://github.com/tylerprogramming/ai
+
 A high-throughput and memory-efficient inference and serving engine for LLMs
 https://github.com/vllm-project/vllm
 
