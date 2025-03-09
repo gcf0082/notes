@@ -1,3 +1,6 @@
+KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs. 
+https://github.com/OpenSPG/KAG
+
 This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich
 https://github.com/NirDiamant/RAG_Techniques
 
