@@ -1,3 +1,6 @@
+This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich
+https://github.com/NirDiamant/RAG_Techniques
+
 MCP功能测试,编写LLM(支持OpenAI接口风格的大模型)应用程序调用MCP。MCP(模型上下文协议)是Claude开源的一种开放协议，可实现LLM应用程序与外部数据源和工具之间的无缝集成。
 https://github.com/NanGePlus/MCPTest
 
